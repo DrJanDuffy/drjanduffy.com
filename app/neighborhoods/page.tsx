@@ -5,7 +5,7 @@ import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 export const metadata = {
   title: 'Las Vegas Neighborhoods | failed listing specialist | Dr. Jan Duffy',
   description:
-    'Expert help selling homes that didn't sell in Las Vegas neighborhoods: Summerlin West, The Ridges, Red Rock Country Club, The Summit, and more. 19 day average, 98.7% of asking price.',
+    'Expert help selling homes that didn\'t sell in Las Vegas neighborhoods: Summerlin West, The Ridges, Red Rock Country Club, The Summit, and more. 19 day average, 98.7% of asking price.',
   alternates: {
     canonical: '/neighborhoods',
   },

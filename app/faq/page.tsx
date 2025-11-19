@@ -14,14 +14,14 @@ export default function FAQPage() {
         'Most homes fail to sell due to poor marketing, overpricing, or lack of follow-up. Your previous agent likely used minimal marketing (just MLS posting), didn\'t invest in professional photography, and failed to aggressively follow up on showings. I fix all of these issues.',
     },
     {
-      question: 'How long will it take to sell my HOME THAT DIDN'T SELL?',
+      question: 'How long will it take to sell my HOME THAT DIDN\'T SELL?',
       answer:
-        'My average is 19 days from listing to contract. Most HOMES THAT DIDN'T SELL sell within 2-4 weeks when properly marketed and priced. I continue working until your home sells.',
+        'My average is 19 days from listing to contract. Most HOMES THAT DIDN\'T SELL sell within 2-4 weeks when properly marketed and priced. I continue working until your home sells.',
     },
     {
       question: 'What percentage of asking price can I expect?',
       answer:
-        'I average 98.7% of asking price on HOMES THAT DIDN'T SELL. This is significantly higher than the market average because of my aggressive marketing and negotiation strategies.',
+        'I average 98.7% of asking price on HOMES THAT DIDN\'T SELL. This is significantly higher than the market average because of my aggressive marketing and negotiation strategies.',
     },
     {
       question: 'What makes you different from my previous agent?',

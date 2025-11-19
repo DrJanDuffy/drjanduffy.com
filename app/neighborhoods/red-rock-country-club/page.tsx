@@ -3,9 +3,9 @@ import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 
 export const metadata = {
-  title: 'Red Rock Country Club HOMES THAT DIDN'T SELL | Dr. Jan Duffy - Golf Course Real Estate Expert',
+  title: 'Red Rock Country Club HOMES THAT DIDN\'T SELL | Dr. Jan Duffy - Golf Course Real Estate Expert',
   description:
-    'Expert help selling homes that didn't sell in Red Rock Country Club, Summerlin. Luxury golf course properties. 19 day average, 98.7% of asking price.',
+    'Expert help selling homes that didn\'t sell in Red Rock Country Club, Summerlin. Luxury golf course properties. 19 day average, 98.7% of asking price.',
   alternates: {
     canonical: '/neighborhoods/red-rock-country-club',
   },

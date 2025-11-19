@@ -3,9 +3,9 @@ import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 
 export const metadata = {
-  title: 'Mountains Edge HOMES THAT DIDN'T SELL | Dr. Jan Duffy - Las Vegas Real Estate Expert',
+  title: 'Mountains Edge HOMES THAT DIDN\'T SELL | Dr. Jan Duffy - Las Vegas Real Estate Expert',
   description:
-    'Expert help selling homes that didn't sell in Mountains Edge, Las Vegas. Family-friendly master-planned community properties. 19 day average, 98.7% of asking price.',
+    'Expert help selling homes that didn\'t sell in Mountains Edge, Las Vegas. Family-friendly master-planned community properties. 19 day average, 98.7% of asking price.',
   alternates: {
     canonical: '/neighborhoods/mountains-edge',
   },
