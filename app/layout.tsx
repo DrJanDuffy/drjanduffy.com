@@ -184,7 +184,10 @@ export default function RootLayout({
               telephone: '(702) 500-1064',
               email: 'info@drjanduffy.com',
               url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
-              image: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}/og-image.png`,
+              image: [
+                `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}/og-image.png`,
+                `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}/images/team/las-vegas-real-estate-agent-dr-janet-duffy-headshot.jpg`,
+              ],
               address: {
                 '@type': 'PostalAddress',
                 streetAddress: '1180 North Town Center Drive',
@@ -269,7 +272,10 @@ export default function RootLayout({
               telephone: '(702) 500-1064',
               email: 'info@drjanduffy.com',
               url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
-              image: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}/og-image.png`,
+              image: [
+                `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}/og-image.png`,
+                `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}/images/team/las-vegas-real-estate-agent-dr-janet-duffy-headshot.jpg`,
+              ],
               award: ['Failed Listing Specialist 2026', 'Good Neighbor Award'],
               knowsAbout: ['Real Estate', 'Homes That Didn\'t Sell', 'Failed Listings', 'Unsold Homes', 'Luxury Properties', 'Property Marketing', 'Real Estate Negotiation', 'Summerlin Real Estate', 'Las Vegas Real Estate Market'],
               alumniOf: {

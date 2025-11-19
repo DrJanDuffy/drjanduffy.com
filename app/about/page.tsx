@@ -2,6 +2,7 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import NAPSection from '@/app/components/nap-section'
+import Image from 'next/image'
 
 export const metadata = {
   title: 'About Dr. Janet Duffy | Real Estate Agent in Las Vegas, NV | (702) 500-1064',
@@ -38,6 +39,19 @@ export default function AboutPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-12">
                 ABOUT DR. JAN DUFFY
               </h1>
+
+              {/* Dr. Jan Duffy Photo */}
+              <div className="flex justify-center mb-8">
+                <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary shadow-lg">
+                  <Image
+                    src="/images/team/las-vegas-real-estate-agent-dr-janet-duffy-headshot.jpg"
+                    alt="Dr. Janet Duffy, Las Vegas real estate agent specializing in homes that didn't sell in Summerlin, The Ridges, and Henderson"
+                    fill
+                    className="object-cover"
+                    priority
+                  />
+                </div>
+              </div>
 
               <div className="prose prose-lg max-w-none mb-12">
                 <div className="bg-primary/10 p-8 rounded-lg mb-8">
