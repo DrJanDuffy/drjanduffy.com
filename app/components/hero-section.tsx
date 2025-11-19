@@ -1,9 +1,15 @@
 'use client'
 
+import { useEffect } from 'react'
 import LeadForm from './lead-form'
 import LiveCounter from './live-counter'
+import { trackViewContent } from '@/lib/config/analytics'
 
 export default function HeroSection() {
+  useEffect(() => {
+    trackViewContent('homepage', 0)
+  }, [])
+
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white">
       {/* Split background effect */}

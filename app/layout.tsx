@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://drjanduffy.com'),
   title: 'Your Agent Failed | Dr. Jan Duffy - Expired Listing Expert',
   description:
     'Your house didn\'t fail. Your agent did. Dr. Jan Duffy has sold 47 expired Summerlin listings in 19 days average at 98.7% of asking. Get your failed listing fixed now.',
@@ -77,6 +78,29 @@ export default function RootLayout({
               'https://connect.facebook.net/en_US/fbevents.js');
               fbq('init', '${process.env.NEXT_PUBLIC_FACEBOOK_PIXEL_ID}');
               fbq('track', 'PageView');
+            `}
+          </Script>
+        )}
+        {/* Hotjar */}
+        {process.env.NEXT_PUBLIC_HOTJAR_ID && (
+          <Script id="hotjar" strategy="afterInteractive">
+            {`
+              (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:${process.env.NEXT_PUBLIC_HOTJAR_ID},hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+              })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+            `}
+          </Script>
+        )}
+        {/* CallRail */}
+        {process.env.NEXT_PUBLIC_CALLRAIL_ID && (
+          <Script id="callrail" strategy="afterInteractive">
+            {`
+              (function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src="https://cdn.callrail.com/companies/${process.env.NEXT_PUBLIC_CALLRAIL_ID}/12/swap.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();
             `}
           </Script>
         )}
