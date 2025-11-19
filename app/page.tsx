@@ -9,6 +9,7 @@ import BreadcrumbSchema from './components/breadcrumb-schema'
 import NAPSection from './components/nap-section'
 import GoogleReviews from './components/google-reviews'
 import GoogleMapEmbed from './components/google-map-embed'
+import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata = {
