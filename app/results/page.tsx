@@ -5,7 +5,7 @@ import { TrendingUp, Clock, DollarSign, Home } from 'lucide-react'
 export const metadata = {
   title: 'Results & Statistics | Dr. Jan Duffy',
   description:
-    'Real results from Dr. Jan Duffy: 47 homes that didn't sell - now sold, 19 day average, 98.7% of asking price.',
+    'Real results from Dr. Jan Duffy: 47 homes that didn\'t sell - now sold, 19 day average, 98.7% of asking price.',
 }
 export default function ResultsPage() {
   const stats = [

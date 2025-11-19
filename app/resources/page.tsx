@@ -2,9 +2,9 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import { FileText, Download, BookOpen, Video } from 'lucide-react'
 export const metadata = {
-  title: 'Resources | HOME THAT DIDN'T SELL Resources | Dr. Jan Duffy',
+  title: 'Resources | HOME THAT DIDN\'T SELL Resources | Dr. Jan Duffy',
   description:
-    'Free resources for HOME THAT DIDN'T SELL sellers: guides, reports, calculators, and educational content.',
+    'Free resources for HOME THAT DIDN\'T SELL sellers: guides, reports, calculators, and educational content.',
 }
 export default function ResourcesPage() {
   const resources = [
