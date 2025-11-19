@@ -40,7 +40,7 @@ export default function SellingTipsPage() {
         'Price competitively from day one - don\'t start high and drop',
         'Be available for showings - flexibility wins',
         'Invest in professional media - it pays for itself',
-        'Work with an specialist in homes that didn't sell, not a generalist',
+        'Work with an specialist in homes that didn\'t sell, not a generalist',
         'Set realistic expectations based on market data',
       ],
     },

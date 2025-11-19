@@ -10,7 +10,7 @@ export default function ResourcesPage() {
   const resources = [
     {
       icon: FileText,
-      title: '7 Reasons your home didn't sell',
+      title: '7 Reasons your home didn\'t sell',
       description: 'Free report revealing the 5 fatal mistakes that killed your listing and how to fix them.',
       type: 'Free Report',
       cta: 'Download Now',
