@@ -2,9 +2,9 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import { Check, X } from 'lucide-react'
 export const metadata = {
-  title: 'Why Choose Dr. Jan Duffy | specialist in homes that didn't sell',
+  title: 'Why Choose Dr. Jan Duffy | specialist in homes that didn\'t sell',
   description:
-    'Why choose Dr. Jan Duffy for your HOME THAT DIDN'T SELL? 47 sold, 19 day average, 98.7% of asking, and proven results.',
+    'Why choose Dr. Jan Duffy for your HOME THAT DIDN\'T SELL? 47 sold, 19 day average, 98.7% of asking, and proven results.',
 }
 export default function WhyChooseMePage() {
   const reasons = [
