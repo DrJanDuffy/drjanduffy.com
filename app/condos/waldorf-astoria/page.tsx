@@ -1,18 +1,14 @@
-import StickyHeader from '@/app/components/sticky-header'
-import Navigation from '@/app/components/navigation'
+import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
-
 export const metadata = {
-  title: 'Waldorf Astoria Condos Las Vegas | Expired Listing Expert | Dr. Jan Duffy',
+  title: 'Waldorf Astoria Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
   description:
-    'Expert help selling expired Waldorf Astoria condos in Las Vegas. Luxury brand condos with exclusive amenities. 30-day guarantee or work free.',
+    'Expert help selling expired Waldorf Astoria condos in Las Vegas. Luxury brand condos with exclusive amenities. Proven results and professional marketing.',
 }
-
 export default function WaldorfAstoriaCondosPage() {
   return (
     <>
-      <StickyHeader />
-      <Navigation />
+      <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
@@ -23,10 +19,9 @@ export default function WaldorfAstoriaCondosPage() {
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Waldorf Astoria condos - luxury brand condos with exclusive amenities and sophisticated design
               </p>
-
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Waldorf Astoria is a luxury hotel and condominium building on the Las Vegas Strip that offers sophisticated living with brand recognition, exclusive amenities, and prime location. If your Waldorf Astoria condo listing expired, you're not alone. Waldorf Astoria condos face unique challenges - from marketing brand recognition to highlighting exclusive amenities to buyers who value luxury branding. Most agents don't understand Waldorf Astoria condos. They use generic strategies, and Waldorf Astoria condos expire.
+                  Waldorf Astoria is a luxury hotel and condominium building on the Las Vegas Strip that offers sophisticated living with brand recognition, exclusive amenities, and prime location. If your Waldorf Astoria condo home didn't sell, you're not alone. Waldorf Astoria condos face unique challenges - from marketing brand recognition to highlighting exclusive amenities to buyers who value luxury branding. Most agents don't understand Waldorf Astoria condos. They use generic strategies, and Waldorf Astoria condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Waldorf Astoria condos. I understand the luxury market. I know how to market brand-recognized condos. I know how to attract brand-conscious buyers. I've sold expired condos in Waldorf Astoria and other luxury brand properties. Fast. At top dollar. With zero excuses.
@@ -35,7 +30,6 @@ export default function WaldorfAstoriaCondosPage() {
                   Waldorf Astoria condos require sophisticated marketing. Professional photography highlighting brand recognition. Strategic positioning emphasizing exclusive amenities. Explanation of luxury branding and prime location. Most agents don't understand this. They use generic strategies, and Waldorf Astoria condos expire. I use sophisticated marketing, highlight brand recognition, and attract brand-conscious buyers. Waldorf Astoria condos sell. Fast. At top dollar.
                 </p>
               </div>
-
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Waldorf Astoria Condos Expire</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -54,7 +48,6 @@ export default function WaldorfAstoriaCondosPage() {
                   Waldorf Astoria attracts brand-conscious buyers. High-net-worth individuals. Brand enthusiasts. Luxury lifestyle seekers. Most agents don't know how to target brand-conscious buyers. They use generic advertising, and brand-conscious buyers look elsewhere. I know how to target brand-conscious buyers. I use targeted advertising, exclusive access events, and brand marketing that attracts brand-conscious buyers.
                 </p>
               </div>
-
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Waldorf Astoria Condo Features</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -73,7 +66,6 @@ export default function WaldorfAstoriaCondosPage() {
                   Waldorf Astoria's prime Strip location offers proximity to world-class entertainment, dining, and shopping. Most agents don't emphasize location effectively. I do. I highlight proximity to entertainment, showcase dining options, and emphasize shopping access that attracts location-conscious buyers.
                 </p>
               </div>
-
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">My Waldorf Astoria Condo Marketing Strategy</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -92,23 +84,13 @@ export default function WaldorfAstoriaCondosPage() {
                   Waldorf Astoria attracts brand-conscious buyers. High-net-worth individuals. Brand enthusiasts. Luxury lifestyle seekers. Most agents don't know how to target these buyers. I do. I use targeted advertising, exclusive access events, and brand marketing that attracts brand-conscious buyers.
                 </p>
               </div>
-
-              <div className="bg-primary text-primary-foreground p-8 rounded-lg mb-12 text-center">
-                <h2 className="text-3xl font-black mb-4">30-DAY GUARANTEE</h2>
-                <p className="text-2xl font-bold mb-2">
-                  Sold in 30 Days or I Work Free
-                </p>
-                <p className="text-lg opacity-90">
-                  No excuses. No exceptions. If your Waldorf Astoria condo doesn't sell in 30 days, I continue working at no additional cost until it sells. That's how confident I am in my Waldorf Astoria condo marketing system.
-                </p>
-              </div>
-
+              
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR WALDORF ASTORIA CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Waldorf Astoria condo listing expired, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Waldorf Astoria condo home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="waldorf_astoria_condos" buttonText="GET MY WALDORF ASTORIA CONDO SOLD" />
               </div>
@@ -119,4 +101,3 @@ export default function WaldorfAstoriaCondosPage() {
     </>
   )
 }
-

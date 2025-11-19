@@ -1,16 +1,14 @@
 import BlameAnalyzer from '@/app/components/blame-analyzer'
-import StickyHeader from '@/app/components/sticky-header'
-
+import Header from '@/app/components/header'
 export const metadata = {
   title: 'Blame Analyzer Quiz | Dr. Jan Duffy',
   description:
-    'Take the 60-second assessment to find out why your listing expired. Get your agent score and discover what went wrong.',
+    'Take the 60-second assessment to find out why your home didn't sell. Get your agent score and discover what went wrong.',
 }
-
 export default function BlameAnalyzerPage() {
   return (
     <>
-      <StickyHeader />
+      <Header />
       <div className="min-h-screen bg-gray-50 py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
@@ -29,4 +27,3 @@ export default function BlameAnalyzerPage() {
     </>
   )
 }
-

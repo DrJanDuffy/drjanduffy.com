@@ -9,7 +9,7 @@ export default function StickyHeader() {
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2 text-sm md:text-base">
-            <span className="font-bold">🔥 3 Expired Listings Sold This Week</span>
+            <span className="font-bold">🔥 3 homes that didn't sell - now sold This Week</span>
             <span className="hidden md:inline">|</span>
             <span className="hidden md:inline">19 Day Average</span>
             <span className="hidden md:inline">|</span>

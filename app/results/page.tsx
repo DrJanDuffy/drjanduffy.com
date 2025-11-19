@@ -1,21 +1,18 @@
-import StickyHeader from '@/app/components/sticky-header'
-import Navigation from '@/app/components/navigation'
+import Header from '@/app/components/header'
 import { successStories } from '@/lib/data/success-stories'
 import { formatCurrency } from '@/lib/utils'
 import { TrendingUp, Clock, DollarSign, Home } from 'lucide-react'
-
 export const metadata = {
   title: 'Results & Statistics | Dr. Jan Duffy',
   description:
-    'Real results from Dr. Jan Duffy: 47 expired listings sold, 19 day average, 98.7% of asking price.',
+    'Real results from Dr. Jan Duffy: 47 homes that didn't sell - now sold, 19 day average, 98.7% of asking price.',
 }
-
 export default function ResultsPage() {
   const stats = [
     {
       icon: Home,
       number: '47',
-      label: 'Expired Listings Sold',
+      label: 'homes that didn't sell - now sold',
       description: 'Real results from frustrated sellers',
     },
     {
@@ -37,7 +34,6 @@ export default function ResultsPage() {
       description: 'In Summerlin properties',
     },
   ]
-
   const totalValue = successStories.reduce((sum, story) => sum + story.soldPrice, 0)
   const avgDays = Math.round(
     successStories.reduce((sum, story) => sum + story.daysSold, 0) /
@@ -47,11 +43,9 @@ export default function ResultsPage() {
     successStories.reduce((sum, story) => sum + story.soldPercentage, 0) /
     successStories.length
   ).toFixed(1)
-
   return (
     <>
-      <StickyHeader />
-      <Navigation />
+      <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
@@ -60,9 +54,8 @@ export default function ResultsPage() {
                 REAL RESULTS
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Actual statistics from expired listings sold by Dr. Jan Duffy
+                Actual statistics from homes that didn't sell - now sold by Dr. Jan Duffy
               </p>
-
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
                 {stats.map((stat, index) => {
                   const Icon = stat.icon
@@ -79,7 +72,6 @@ export default function ResultsPage() {
                   )
                 })}
               </div>
-
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-6 text-center">
                   DETAILED STATISTICS
@@ -114,7 +106,6 @@ export default function ResultsPage() {
                   </div>
                 </div>
               </div>
-
               <div className="mb-12">
                 <h2 className="text-3xl font-black mb-6 text-center">
                   INDIVIDUAL RESULTS
@@ -173,7 +164,6 @@ export default function ResultsPage() {
                   ))}
                 </div>
               </div>
-
               <div className="bg-primary text-primary-foreground p-8 rounded-lg text-center">
                 <h2 className="text-3xl font-black mb-4">
                   READY TO GET THESE RESULTS?
@@ -195,4 +185,3 @@ export default function ResultsPage() {
     </>
   )
 }
-

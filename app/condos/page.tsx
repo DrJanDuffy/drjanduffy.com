@@ -1,17 +1,14 @@
-import StickyHeader from '@/app/components/sticky-header'
-import Navigation from '@/app/components/navigation'
+import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
-
 export const metadata = {
-  title: 'Las Vegas Condos | Dr. Jan Duffy - Expired Listing Expert',
+  title: 'Las Vegas Condos | Dr. Jan Duffy - failed listing specialist',
   description:
-    'Expert help selling expired Las Vegas condos. Dr. Jan Duffy has sold 47 expired listings in 19 days average at 98.7% of asking price. Get your condo sold fast.',
+    'Expert help selling expired Las Vegas condos. Dr. Jan Duffy has sold 47 HOMES THAT DIDN'T SELL in 19 days average at 98.7% of asking price. Get your condo sold fast.',
   alternates: {
     canonical: '/condos',
   },
 }
-
 export default function LasVegasCondosPage() {
   return (
     <>
@@ -21,8 +18,7 @@ export default function LasVegasCondosPage() {
           { name: 'Las Vegas Condos', url: '/condos' },
         ]}
       />
-      <StickyHeader />
-      <Navigation />
+      <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
@@ -33,19 +29,17 @@ export default function LasVegasCondosPage() {
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Las Vegas condos fast and at top dollar
               </p>
-
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  If your Las Vegas condo listing expired, you're not alone. Condos face unique challenges in the Las Vegas market - from HOA restrictions to seasonal demand fluctuations to competition from new construction. Many agents don't understand the condo market. They use the same strategies for condos as they do for single-family homes, and the results are predictable: expired listings, frustrated sellers, and lost money.
+                  If your Las Vegas condo home didn't sell, you're not alone. Condos face unique challenges in the Las Vegas market - from HOA restrictions to seasonal demand fluctuations to competition from new construction. Many agents don't understand the condo market. They use the same strategies for condos as they do for single-family homes, and the results are predictable: HOMES THAT DIDN'T SELL, frustrated sellers, and lost money. <a href="/why-expire" className="text-primary font-semibold hover:underline">Learn why homes fail to sell</a> and what your previous agent did wrong.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  I specialize in selling expired condos in Las Vegas. I understand the unique challenges condos face. I know how to market them effectively. I know how to overcome HOA restrictions, seasonal demand issues, and competition from new construction. I've sold expired condos in The Strip, Summerlin, Henderson, and throughout Las Vegas. Fast. At top dollar. With zero excuses.
+                  I specialize in selling expired condos in Las Vegas. I understand the unique challenges condos face. I know how to market them effectively. I know how to overcome HOA restrictions, seasonal demand issues, and competition from new construction. I've sold expired condos in The Strip, Summerlin, Henderson, and throughout Las Vegas. Fast. At top dollar. With zero excuses. See <a href="/services" className="text-primary font-semibold hover:underline">my complete services</a> and learn about <a href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process</a>.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   The Las Vegas condo market is complex. High-rise condos on The Strip compete with luxury resorts. Mid-rise condos in Summerlin compete with new construction. Condo hotels compete with traditional hotels. Each requires a different strategy. Most agents don't understand this. They use a one-size-fits-all approach, and condos expire. I use targeted strategies for each condo type, and condos sell. Fast. At top dollar.
                 </p>
               </div>
-
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Las Vegas Condos Expire</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -64,7 +58,6 @@ export default function LasVegasCondosPage() {
                   Las Vegas has constant new construction. New condos compete with existing condos. New amenities compete with older amenities. New pricing competes with older pricing. Most agents don't know how to position existing condos against new construction. I know how to highlight unique features, emphasize established communities, and position existing condos competitively against new construction.
                 </p>
               </div>
-
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">My Las Vegas Condo Expertise</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -83,7 +76,6 @@ export default function LasVegasCondosPage() {
                   Condo hotels require unique strategies. Buyers need to understand rental programs, hotel management, and investment potential. Most agents don't understand condo hotels. I specialize in marketing condo hotels to investors and second-home buyers who understand the unique value proposition.
                 </p>
               </div>
-
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">The Las Vegas Condo Market Reality</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -95,24 +87,13 @@ export default function LasVegasCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Expired Condo Statistics</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Condos expire at similar rates to single-family homes - 20-30% of listings expire. But condos face additional challenges that make them harder to sell. HOA restrictions. Seasonal demand. Competition from new construction. Most agents don't address these challenges. I do.
+                  Condos expire at similar rates to single-family homes - 20-30% of homes fail to sell. But condos face additional challenges that make them harder to sell. HOA restrictions. Seasonal demand. Competition from new construction. Most agents don't address these challenges. I do.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">The Opportunity</h3>
                 <p className="text-lg text-gray-700">
                   Expired condos represent opportunities. Sellers are frustrated. They've tried once and failed. They're ready to work with an agent who actually understands condos. I understand condos. I know how to market them. I know how to sell them. Fast. At top dollar.
                 </p>
               </div>
-
-              <div className="bg-primary text-primary-foreground p-8 rounded-lg mb-12 text-center">
-                <h2 className="text-3xl font-black mb-4">30-DAY GUARANTEE</h2>
-                <p className="text-2xl font-bold mb-2">
-                  Sold in 30 Days or I Work Free
-                </p>
-                <p className="text-lg opacity-90">
-                  No excuses. No exceptions. If your Las Vegas condo doesn't sell in 30 days, I continue working at no additional cost until it sells. That's how confident I am in my condo marketing system.
-                </p>
-              </div>
-
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4 text-center">
                   EXPLORE LAS VEGAS CONDO CATEGORIES
@@ -159,13 +140,12 @@ export default function LasVegasCondosPage() {
                   </a>
                 </div>
               </div>
-
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR LAS VEGAS CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Las Vegas condo listing expired, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Las Vegas condo home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="las_vegas_condos" buttonText="GET MY CONDO SOLD" />
               </div>
@@ -176,4 +156,3 @@ export default function LasVegasCondosPage() {
     </>
   )
 }
-

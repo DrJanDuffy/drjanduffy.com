@@ -38,7 +38,7 @@ export default function NotFound() {
                 href="/why-expire"
                 className="text-primary hover:underline font-semibold"
               >
-                Why Listings Expire
+                Why homes fail to sell
               </Link>
               <Link
                 href="/tools/cost-calculator"

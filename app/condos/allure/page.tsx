@@ -1,18 +1,14 @@
-import StickyHeader from '@/app/components/sticky-header'
-import Navigation from '@/app/components/navigation'
+import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
-
 export const metadata = {
-  title: 'Allure Condos Las Vegas | Expired Listing Expert | Dr. Jan Duffy',
+  title: 'Allure Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
   description:
-    'Expert help selling expired Allure condos in Las Vegas. Luxury high-rise condos at Allure. 30-day guarantee or work free.',
+    'Expert help selling expired Allure condos in Las Vegas. Luxury high-rise condos at Allure. Proven results and professional marketing.',
 }
-
 export default function AllureCondosPage() {
   return (
     <>
-      <StickyHeader />
-      <Navigation />
+      <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
@@ -23,10 +19,9 @@ export default function AllureCondosPage() {
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Allure condos - luxury high-rise condos that require sophisticated marketing
               </p>
-
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Allure is a luxury high-rise condominium building in Las Vegas that offers sophisticated living with world-class amenities. If your Allure condo listing expired, you're not alone. Allure condos face unique challenges - from strict building restrictions to competition from newer luxury buildings to buyers who expect exclusive amenities. Most agents don't understand Allure condos. They use generic strategies, and Allure condos expire.
+                  Allure is a luxury high-rise condominium building in Las Vegas that offers sophisticated living with world-class amenities. If your Allure condo home didn't sell, you're not alone. Allure condos face unique challenges - from strict building restrictions to competition from newer luxury buildings to buyers who expect exclusive amenities. Most agents don't understand Allure condos. They use generic strategies, and Allure condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Allure condos. I understand the luxury market. I know how to market high-rise condos. I know how to attract high-end buyers. I've sold expired condos in Allure and other luxury buildings. Fast. At top dollar. With zero excuses.
@@ -35,7 +30,6 @@ export default function AllureCondosPage() {
                   Allure condos require sophisticated marketing. Professional photography. Luxury staging. Exclusive access events. High-end advertising. Most agents don't invest in this level of marketing. They use generic strategies, and Allure condos expire. I invest $5,000+ in professional media, luxury staging, and exclusive marketing that attracts high-end buyers. Allure condos sell. Fast. At top dollar.
                 </p>
               </div>
-
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Allure Condos Expire</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -54,7 +48,6 @@ export default function AllureCondosPage() {
                   Allure attracts high-end buyers who expect luxury amenities, exclusive access, and sophisticated marketing. Most agents don't meet these expectations. They use generic marketing, and high-end buyers look elsewhere. I meet these expectations. I use luxury marketing, highlight exclusive amenities, and attract high-end buyers.
                 </p>
               </div>
-
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Allure Condo Features</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -73,7 +66,6 @@ export default function AllureCondosPage() {
                   Allure offers sophisticated design with modern finishes, luxury appliances, and elegant interiors. Most agents don't showcase design effectively. I do. I highlight modern finishes, showcase luxury appliances, and emphasize elegant interiors that attract design-conscious buyers.
                 </p>
               </div>
-
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">My Allure Condo Marketing Strategy</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -92,23 +84,13 @@ export default function AllureCondosPage() {
                   Allure has strict building restrictions. I have relationships with building management. I know how to work within restrictions. I know how to get approvals. Most agents don't have these relationships. They hit restrictions, and Allure condos expire.
                 </p>
               </div>
-
-              <div className="bg-primary text-primary-foreground p-8 rounded-lg mb-12 text-center">
-                <h2 className="text-3xl font-black mb-4">30-DAY GUARANTEE</h2>
-                <p className="text-2xl font-bold mb-2">
-                  Sold in 30 Days or I Work Free
-                </p>
-                <p className="text-lg opacity-90">
-                  No excuses. No exceptions. If your Allure condo doesn't sell in 30 days, I continue working at no additional cost until it sells. That's how confident I am in my Allure condo marketing system.
-                </p>
-              </div>
-
+              
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR ALLURE CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Allure condo listing expired, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Allure condo home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="allure_condos" buttonText="GET MY ALLURE CONDO SOLD" />
               </div>
@@ -119,4 +101,3 @@ export default function AllureCondosPage() {
     </>
   )
 }
-

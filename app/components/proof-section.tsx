@@ -8,7 +8,7 @@ export default function ProofSection() {
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-black text-center mb-4">
-          EXPIRED → SOLD: RECENT WINS
+          DIDN'T SELL → SOLD: RECENT WINS
         </h2>
         <p className="text-xl text-center text-gray-600 mb-12">
           Real results from frustrated sellers who fired their agents
@@ -24,7 +24,7 @@ export default function ProofSection() {
                 <div className="flex justify-between items-start mb-2">
                   <h3 className="text-2xl font-bold">{story.neighborhood}</h3>
                   <span className="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-bold">
-                    EXPIRED: {story.daysExpired} Days
+                    DIDN'T SELL: {story.daysExpired} Days
                   </span>
                 </div>
                 <p className="text-gray-600 text-sm mb-4">
@@ -34,7 +34,7 @@ export default function ProofSection() {
 
               <div className="space-y-3 mb-4">
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Expired:</span>
+                  <span className="text-gray-600">Didn't Sell:</span>
                   <span className="font-bold text-red-600">
                     {story.daysExpired} days
                   </span>

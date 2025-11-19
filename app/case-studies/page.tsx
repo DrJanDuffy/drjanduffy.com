@@ -1,20 +1,16 @@
-import StickyHeader from '@/app/components/sticky-header'
-import Navigation from '@/app/components/navigation'
+import Header from '@/app/components/header'
 import { successStories } from '@/lib/data/success-stories'
 import { formatCurrency } from '@/lib/utils'
 import Link from 'next/link'
-
 export const metadata = {
-  title: 'Case Studies | Expired Listing Case Studies | Dr. Jan Duffy',
+  title: 'Case Studies | HOME THAT DIDN'T SELL Case Studies | Dr. Jan Duffy',
   description:
-    'Detailed case studies of expired listings sold by Dr. Jan Duffy. See how failed listings became successful sales.',
+    'Detailed case studies of homes that didn't sell - now sold by Dr. Jan Duffy. See how failed listings became successful sales.',
 }
-
 export default function CaseStudiesPage() {
   return (
     <>
-      <StickyHeader />
-      <Navigation />
+      <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
@@ -23,9 +19,8 @@ export default function CaseStudiesPage() {
                 DETAILED CASE STUDIES
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                In-depth analysis of how expired listings became successful sales
+                In-depth analysis of how HOMES THAT DIDN'T SELL became successful sales
               </p>
-
               <div className="space-y-12">
                 {successStories.map((story) => (
                   <div
@@ -45,19 +40,17 @@ export default function CaseStudiesPage() {
                         </span>
                       </div>
                     </div>
-
                     <div className="grid md:grid-cols-2 gap-8 mb-6">
                       <div className="bg-gray-50 p-6 rounded-lg">
                         <h3 className="text-xl font-bold mb-4">The Problem</h3>
                         <ul className="space-y-2 text-gray-700">
-                          <li>• Listing expired after {story.daysExpired} days</li>
+                          <li>• home didn't sell after {story.daysExpired} days</li>
                           <li>• Previous agent: {story.previousAgent}</li>
                           <li>• Zero offers during listing period</li>
                           <li>• Stigma from expired status</li>
                           <li>• Seller frustration and lost time</li>
                         </ul>
                       </div>
-
                       <div className="bg-green-50 p-6 rounded-lg">
                         <h3 className="text-xl font-bold mb-4">The Solution</h3>
                         <ul className="space-y-2 text-gray-700">
@@ -69,7 +62,6 @@ export default function CaseStudiesPage() {
                         </ul>
                       </div>
                     </div>
-
                     <div className="bg-primary text-primary-foreground p-6 rounded-lg mb-6">
                       <h3 className="text-2xl font-black mb-4 text-center">THE RESULTS</h3>
                       <div className="grid md:grid-cols-4 gap-4 text-center">
@@ -95,7 +87,6 @@ export default function CaseStudiesPage() {
                         </div>
                       </div>
                     </div>
-
                     {story.testimonial && (
                       <div className="border-t pt-6">
                         <h3 className="text-xl font-bold mb-3">Client Testimonial</h3>
@@ -107,7 +98,6 @@ export default function CaseStudiesPage() {
                   </div>
                 ))}
               </div>
-
               <div className="mt-12 text-center">
                 <Link
                   href="/success-stories"
@@ -123,4 +113,3 @@ export default function CaseStudiesPage() {
     </>
   )
 }
-

@@ -19,7 +19,7 @@ export default function LiveCounter() {
     <div className="inline-flex items-center gap-2 bg-red-100 border-2 border-red-500 rounded-lg px-4 py-2">
       <span className="text-red-600 font-bold text-lg">{count}</span>
       <span className="text-red-800 font-semibold">
-        Expired Listings Sold This Week
+        homes that didn't sell - now sold This Week
       </span>
     </div>
   )

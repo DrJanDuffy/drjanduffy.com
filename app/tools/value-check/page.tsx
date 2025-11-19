@@ -1,13 +1,11 @@
 'use client'
-
 import { useState } from 'react'
 import { calculateHomeValue, type ValueCheckResult } from '@/lib/utils/calculations'
 import { formatCurrency } from '@/lib/utils'
 import { trackValueCheck } from '@/lib/config/analytics'
 import { Button } from '@/components/ui/button'
 import LeadForm from '@/app/components/lead-form'
-import StickyHeader from '@/app/components/sticky-header'
-
+import Header from '@/app/components/header'
 export default function ValueCheckPage() {
   const [address, setAddress] = useState('')
   const [originalListPrice, setOriginalListPrice] = useState('')
@@ -15,26 +13,22 @@ export default function ValueCheckPage() {
   const [priceDrops, setPriceDrops] = useState('')
   const [result, setResult] = useState<ValueCheckResult | null>(null)
   const [showForm, setShowForm] = useState(false)
-
   const handleCalculate = () => {
     if (!originalListPrice || !daysOnMarket) return
-
     const calculation = calculateHomeValue({
       originalListPrice: Number(originalListPrice),
       daysOnMarket: Number(daysOnMarket),
       priceDrops: Number(priceDrops) || 0,
       address,
     })
-
     setResult(calculation)
     trackValueCheck(address)
     setShowForm(true)
   }
-
   if (showForm && result) {
     return (
       <>
-        <StickyHeader />
+        <Header />
         <div className="min-h-screen bg-gray-50 py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto">
@@ -77,7 +71,6 @@ export default function ValueCheckPage() {
                   )}
                 </div>
               </div>
-
               <div className="bg-white rounded-lg shadow-xl p-8 border-2 border-gray-200">
                 <h3 className="text-2xl font-black mb-4 text-center">
                   GET DETAILED ANALYSIS
@@ -93,10 +86,9 @@ export default function ValueCheckPage() {
       </>
     )
   }
-
   return (
     <>
-      <StickyHeader />
+      <Header />
       <div className="min-h-screen bg-gray-50 py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
@@ -108,7 +100,6 @@ export default function ValueCheckPage() {
                 (Not the Fantasy Number)
               </p>
             </div>
-
             <div className="bg-white rounded-lg shadow-xl p-8 border-2 border-gray-200">
               <div className="space-y-4 mb-6">
                 <div>
@@ -123,7 +114,6 @@ export default function ValueCheckPage() {
                     className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-primary focus:outline-none"
                   />
                 </div>
-
                 <div>
                   <label className="block text-sm font-semibold mb-2">
                     Original List Price *
@@ -137,7 +127,6 @@ export default function ValueCheckPage() {
                     className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-primary focus:outline-none"
                   />
                 </div>
-
                 <div>
                   <label className="block text-sm font-semibold mb-2">
                     Days on Market *
@@ -151,7 +140,6 @@ export default function ValueCheckPage() {
                     className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-primary focus:outline-none"
                   />
                 </div>
-
                 <div>
                   <label className="block text-sm font-semibold mb-2">
                     Number of Price Drops
@@ -165,7 +153,6 @@ export default function ValueCheckPage() {
                   />
                 </div>
               </div>
-
               <Button
                 onClick={handleCalculate}
                 disabled={!originalListPrice || !daysOnMarket}
@@ -180,4 +167,3 @@ export default function ValueCheckPage() {
     </>
   )
 }
-

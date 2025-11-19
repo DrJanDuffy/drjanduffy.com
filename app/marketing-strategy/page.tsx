@@ -1,13 +1,10 @@
-import StickyHeader from '@/app/components/sticky-header'
-import Navigation from '@/app/components/navigation'
+import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
-
 export const metadata = {
   title: 'Marketing Strategy | 97-Point System | Dr. Jan Duffy',
   description:
-    'Learn about Dr. Jan Duffy\'s 97-point marketing system that sells expired listings in 19 days average.',
+    'Learn about Dr. Jan Duffy\'s 97-point marketing system that sells homes that didn't sell in 19 days average.',
 }
-
 export default function MarketingStrategyPage() {
   const strategies = [
     {
@@ -77,11 +74,9 @@ export default function MarketingStrategyPage() {
       ],
     },
   ]
-
   return (
     <>
-      <StickyHeader />
-      <Navigation />
+      <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
@@ -90,9 +85,8 @@ export default function MarketingStrategyPage() {
                 THE 97-POINT MARKETING SYSTEM
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Comprehensive marketing strategy that sells expired listings fast
+                Comprehensive marketing strategy that sells homes that didn't sell fast
               </p>
-
               <div className="grid md:grid-cols-2 gap-8 mb-12">
                 {strategies.map((strategy, index) => (
                   <div
@@ -113,7 +107,6 @@ export default function MarketingStrategyPage() {
                   </div>
                 ))}
               </div>
-
               <div className="bg-primary text-primary-foreground p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4 text-center">
                   WHY 97 POINTS MATTERS
@@ -130,7 +123,6 @@ export default function MarketingStrategyPage() {
                   </p>
                 </div>
               </div>
-
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                 <h2 className="text-2xl font-black mb-4 text-center">
                   READY FOR REAL MARKETING?
@@ -144,4 +136,3 @@ export default function MarketingStrategyPage() {
     </>
   )
 }
-

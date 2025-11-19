@@ -1,21 +1,17 @@
-import StickyHeader from '@/app/components/sticky-header'
-import Navigation from '@/app/components/navigation'
+import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
-
 export const metadata = {
-  title: 'Vdara Condos Las Vegas | Expired Listing Expert | Dr. Jan Duffy',
+  title: 'Vdara Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
   description:
-    'Expert help selling expired Vdara condos in Las Vegas. Luxury non-gaming condos with Aria access. 30-day guarantee or work free.',
+    'Expert help selling expired Vdara condos in Las Vegas. Luxury non-gaming condos with Aria access. Proven results and professional marketing.',
   alternates: {
     canonical: '/condos/vdara',
   },
 }
-
 export default function VdaraCondosPage() {
   return (
     <>
-      <StickyHeader />
-      <Navigation />
+      <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
@@ -26,10 +22,9 @@ export default function VdaraCondosPage() {
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Vdara condos - luxury non-gaming condos with Aria access and sophisticated design
               </p>
-
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Vdara is a luxury non-gaming condominium and hotel building in CityCenter on the Las Vegas Strip that offers sophisticated living with Aria access and world-class amenities. If your Vdara condo listing expired, you're not alone. Vdara condos face unique challenges - from explaining non-gaming appeal to marketing Aria access to buyers who value sophisticated design. Most agents don't understand Vdara condos. They use generic strategies, and Vdara condos expire.
+                  Vdara is a luxury non-gaming condominium and hotel building in CityCenter on the Las Vegas Strip that offers sophisticated living with Aria access and world-class amenities. If your Vdara condo home didn't sell, you're not alone. Vdara condos face unique challenges - from explaining non-gaming appeal to marketing Aria access to buyers who value sophisticated design. Most agents don't understand Vdara condos. They use generic strategies, and Vdara condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Vdara condos. I understand the luxury market. I know how to market non-gaming condos. I know how to attract sophisticated buyers. I've sold expired condos in Vdara and other luxury non-gaming properties. Fast. At top dollar. With zero excuses.
@@ -38,7 +33,6 @@ export default function VdaraCondosPage() {
                   Vdara condos require sophisticated marketing. Professional photography highlighting non-gaming appeal. Strategic positioning emphasizing Aria access. Explanation of sophisticated design and exclusive amenities. Most agents don't understand this. They use generic strategies, and Vdara condos expire. I use sophisticated marketing, highlight Aria access, and attract sophisticated buyers. Vdara condos sell. Fast. At top dollar.
                 </p>
               </div>
-
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Vdara Condos Expire</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -57,7 +51,6 @@ export default function VdaraCondosPage() {
                   Vdara offers sophisticated design. Modern finishes. Contemporary interiors. Elegant spaces. Most agents don't highlight sophisticated design effectively. They don't showcase modern finishes. They don't emphasize contemporary interiors. They don't highlight elegant spaces. I highlight sophisticated design effectively. I showcase modern finishes, emphasize contemporary interiors, and highlight elegant spaces that attract design-conscious buyers.
                 </p>
               </div>
-
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Vdara Condo Features</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -76,7 +69,6 @@ export default function VdaraCondosPage() {
                   Vdara offers world-class amenities including spa, fitness center, pool, and concierge services. Most agents don't showcase amenities effectively. I do. I showcase spa, emphasize fitness center, highlight pool, and showcase concierge services that attract amenity-conscious buyers.
                 </p>
               </div>
-
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">My Vdara Condo Marketing Strategy</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -95,23 +87,13 @@ export default function VdaraCondosPage() {
                   Vdara attracts sophisticated buyers. Non-gaming enthusiasts. Design-conscious buyers. Luxury lifestyle seekers. Most agents don't know how to target these buyers. I do. I use targeted advertising, exclusive access events, and sophisticated marketing that attracts sophisticated buyers.
                 </p>
               </div>
-
-              <div className="bg-primary text-primary-foreground p-8 rounded-lg mb-12 text-center">
-                <h2 className="text-3xl font-black mb-4">30-DAY GUARANTEE</h2>
-                <p className="text-2xl font-bold mb-2">
-                  Sold in 30 Days or I Work Free
-                </p>
-                <p className="text-lg opacity-90">
-                  No excuses. No exceptions. If your Vdara condo doesn't sell in 30 days, I continue working at no additional cost until it sells. That's how confident I am in my Vdara condo marketing system.
-                </p>
-              </div>
-
+              
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR VDARA CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Vdara condo listing expired, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Vdara condo home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="vdara_condos" buttonText="GET MY VDARA CONDO SOLD" />
               </div>
@@ -122,4 +104,3 @@ export default function VdaraCondosPage() {
     </>
   )
 }
-

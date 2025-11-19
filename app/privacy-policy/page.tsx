@@ -1,16 +1,12 @@
-import StickyHeader from '@/app/components/sticky-header'
-import Navigation from '@/app/components/navigation'
-
+import Header from '@/app/components/header'
 export const metadata = {
   title: 'Privacy Policy | Dr. Jan Duffy',
   description: 'Privacy policy for Dr. Janet Duffy real estate website.',
 }
-
 export default function PrivacyPolicyPage() {
   return (
     <>
-      <StickyHeader />
-      <Navigation />
+      <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
@@ -18,7 +14,6 @@ export default function PrivacyPolicyPage() {
               <h1 className="text-4xl md:text-5xl font-black mb-8">
                 Privacy Policy
               </h1>
-
               <div className="space-y-8">
                 <div>
                   <h2 className="text-2xl font-bold mb-4">Information We Collect</h2>
@@ -28,11 +23,10 @@ export default function PrivacyPolicyPage() {
                   <ul>
                     <li>Name, email address, and phone number</li>
                     <li>Property address (if provided)</li>
-                    <li>Information about your expired listing</li>
+                    <li>Information about your HOME THAT DIDN'T SELL</li>
                     <li>Any other information you choose to provide</li>
                   </ul>
                 </div>
-
                 <div>
                   <h2 className="text-2xl font-bold mb-4">How We Use Your Information</h2>
                   <p>We use the information we collect to:</p>
@@ -43,7 +37,6 @@ export default function PrivacyPolicyPage() {
                     <li>Comply with legal obligations</li>
                   </ul>
                 </div>
-
                 <div>
                   <h2 className="text-2xl font-bold mb-4">Information Sharing</h2>
                   <p>
@@ -55,7 +48,6 @@ export default function PrivacyPolicyPage() {
                     <li>With your explicit consent</li>
                   </ul>
                 </div>
-
                 <div>
                   <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
                   <p>
@@ -69,7 +61,6 @@ export default function PrivacyPolicyPage() {
                     Email: <a href="mailto:drjan@drjanduffy.com" className="text-primary">drjan@drjanduffy.com</a>
                   </p>
                 </div>
-
                 <div>
                   <p className="text-sm text-gray-600">
                     Last updated: November 2025
@@ -83,4 +74,3 @@ export default function PrivacyPolicyPage() {
     </>
   )
 }
-

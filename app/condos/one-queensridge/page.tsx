@@ -1,18 +1,14 @@
-import StickyHeader from '@/app/components/sticky-header'
-import Navigation from '@/app/components/navigation'
+import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
-
 export const metadata = {
-  title: 'One Queensridge Place Condos | Expired Listing Expert | Dr. Jan Duffy',
+  title: 'One Queensridge Place Condos | failed listing specialist | Dr. Jan Duffy',
   description:
-    'Expert help selling expired One Queensridge Place condos in Las Vegas. Luxury high-rise condos with resort access. 30-day guarantee or work free.',
+    'Expert help selling expired One Queensridge Place condos in Las Vegas. Luxury high-rise condos with resort access. Proven results and professional marketing.',
 }
-
 export default function OneQueensridgeCondosPage() {
   return (
     <>
-      <StickyHeader />
-      <Navigation />
+      <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
@@ -23,10 +19,9 @@ export default function OneQueensridgeCondosPage() {
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired One Queensridge Place condos - luxury high-rise condos with resort access and exclusive amenities
               </p>
-
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  One Queensridge Place is a luxury high-rise condominium building in Las Vegas that offers sophisticated living with resort access, exclusive amenities, and prime location. If your One Queensridge Place condo listing expired, you're not alone. One Queensridge Place condos face unique challenges - from marketing resort access to highlighting exclusive amenities to buyers who expect luxury living. Most agents don't understand One Queensridge Place condos. They use generic strategies, and One Queensridge Place condos expire.
+                  One Queensridge Place is a luxury high-rise condominium building in Las Vegas that offers sophisticated living with resort access, exclusive amenities, and prime location. If your One Queensridge Place condo home didn't sell, you're not alone. One Queensridge Place condos face unique challenges - from marketing resort access to highlighting exclusive amenities to buyers who expect luxury living. Most agents don't understand One Queensridge Place condos. They use generic strategies, and One Queensridge Place condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired One Queensridge Place condos. I understand the luxury market. I know how to market high-rise condos with resort access. I know how to attract luxury lifestyle seekers. I've sold expired condos in One Queensridge Place and other luxury resort-access properties. Fast. At top dollar. With zero excuses.
@@ -35,7 +30,6 @@ export default function OneQueensridgeCondosPage() {
                   One Queensridge Place condos require sophisticated marketing. Professional photography highlighting resort access. Strategic positioning emphasizing exclusive amenities. Explanation of luxury living and resort benefits. Most agents don't understand this. They use generic strategies, and One Queensridge Place condos expire. I use sophisticated marketing, highlight resort access, and attract luxury lifestyle seekers. One Queensridge Place condos sell. Fast. At top dollar.
                 </p>
               </div>
-
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why One Queensridge Place Condos Expire</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -54,7 +48,6 @@ export default function OneQueensridgeCondosPage() {
                   One Queensridge Place attracts luxury lifestyle seekers. High-net-worth individuals. Second-home buyers. Resort enthusiasts. Most agents don't know how to position luxury lifestyle effectively. They use generic positioning, and luxury lifestyle seekers look elsewhere. I know how to position luxury lifestyle effectively. I emphasize resort access, highlight exclusive amenities, and showcase luxury lifestyle appeal that attracts luxury-conscious buyers.
                 </p>
               </div>
-
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">One Queensridge Place Condo Features</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -73,7 +66,6 @@ export default function OneQueensridgeCondosPage() {
                   One Queensridge Place's prime location offers proximity to world-class entertainment, dining, and shopping. Most agents don't emphasize location effectively. I do. I highlight proximity to entertainment, showcase dining options, and emphasize shopping access that attracts location-conscious buyers.
                 </p>
               </div>
-
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">My One Queensridge Place Condo Marketing Strategy</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -92,23 +84,13 @@ export default function OneQueensridgeCondosPage() {
                   One Queensridge Place attracts luxury lifestyle seekers. High-net-worth individuals. Second-home buyers. Resort enthusiasts. Most agents don't know how to target these buyers. I do. I use targeted advertising, exclusive access events, and luxury marketing that attracts luxury-conscious buyers.
                 </p>
               </div>
-
-              <div className="bg-primary text-primary-foreground p-8 rounded-lg mb-12 text-center">
-                <h2 className="text-3xl font-black mb-4">30-DAY GUARANTEE</h2>
-                <p className="text-2xl font-bold mb-2">
-                  Sold in 30 Days or I Work Free
-                </p>
-                <p className="text-lg opacity-90">
-                  No excuses. No exceptions. If your One Queensridge Place condo doesn't sell in 30 days, I continue working at no additional cost until it sells. That's how confident I am in my One Queensridge Place condo marketing system.
-                </p>
-              </div>
-
+              
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR ONE QUEENSRIDGE PLACE CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your One Queensridge Place condo listing expired, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your One Queensridge Place condo home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="one_queensridge_condos" buttonText="GET MY ONE QUEENSRIDGE PLACE CONDO SOLD" />
               </div>
@@ -119,4 +101,3 @@ export default function OneQueensridgeCondosPage() {
     </>
   )
 }
-

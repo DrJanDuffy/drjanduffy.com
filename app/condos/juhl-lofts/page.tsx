@@ -1,18 +1,14 @@
-import StickyHeader from '@/app/components/sticky-header'
-import Navigation from '@/app/components/navigation'
+import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
-
 export const metadata = {
-  title: 'Juhl Lofts Las Vegas | Expired Listing Expert | Dr. Jan Duffy',
+  title: 'Juhl Lofts Las Vegas | failed listing specialist | Dr. Jan Duffy',
   description:
-    'Expert help selling expired Juhl Lofts in Las Vegas. Urban lofts with modern design. 30-day guarantee or work free.',
+    'Expert help selling expired Juhl Lofts in Las Vegas. Urban lofts with modern design. Proven results and professional marketing.',
 }
-
 export default function JuhlLoftsPage() {
   return (
     <>
-      <StickyHeader />
-      <Navigation />
+      <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
@@ -23,10 +19,9 @@ export default function JuhlLoftsPage() {
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Juhl Lofts - urban lofts with modern design and downtown location
               </p>
-
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Juhl Lofts is an urban loft building in downtown Las Vegas that offers sophisticated living with modern design, downtown location, and contemporary amenities. If your Juhl Lofts listing expired, you're not alone. Juhl Lofts face unique challenges - from marketing urban lifestyle to highlighting modern design to buyers who value downtown living. Most agents don't understand Juhl Lofts. They use generic strategies, and Juhl Lofts expire.
+                  Juhl Lofts is an urban loft building in downtown Las Vegas that offers sophisticated living with modern design, downtown location, and contemporary amenities. If your Juhl Lofts home didn't sell, you're not alone. Juhl Lofts face unique challenges - from marketing urban lifestyle to highlighting modern design to buyers who value downtown living. Most agents don't understand Juhl Lofts. They use generic strategies, and Juhl Lofts expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Juhl Lofts. I understand the urban market. I know how to market downtown lofts. I know how to attract urban lifestyle seekers. I've sold expired lofts in Juhl and other downtown properties. Fast. At top dollar. With zero excuses.
@@ -35,7 +30,6 @@ export default function JuhlLoftsPage() {
                   Juhl Lofts require urban-focused marketing. Professional photography highlighting modern design. Strategic positioning emphasizing downtown location. Explanation of urban lifestyle and contemporary amenities. Most agents don't understand this. They use generic strategies, and Juhl Lofts expire. I use urban-focused marketing, highlight modern design, and attract urban lifestyle seekers. Juhl Lofts sell. Fast. At top dollar.
                 </p>
               </div>
-
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Juhl Lofts Expire</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -54,7 +48,6 @@ export default function JuhlLoftsPage() {
                   Juhl Lofts attract downtown living enthusiasts. Young professionals. Urban lifestyle seekers. Downtown enthusiasts. Most agents don't know how to market to downtown living enthusiasts. They use suburban marketing, and downtown living enthusiasts look elsewhere. I know how to market to downtown living enthusiasts. I emphasize urban location, highlight downtown amenities, and showcase downtown living appeal that attracts urban-conscious buyers.
                 </p>
               </div>
-
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Juhl Lofts Features</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -73,7 +66,6 @@ export default function JuhlLoftsPage() {
                   Juhl Lofts offer contemporary amenities including fitness center, rooftop access, and urban features. Most agents don't showcase amenities effectively. I do. I showcase fitness center, emphasize rooftop access, and highlight urban features that attract amenity-conscious buyers.
                 </p>
               </div>
-
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">My Juhl Lofts Marketing Strategy</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -92,23 +84,13 @@ export default function JuhlLoftsPage() {
                   Juhl Lofts attract urban lifestyle seekers. Young professionals. Urban enthusiasts. Downtown living seekers. Most agents don't know how to target these buyers. I do. I use targeted advertising, urban-focused marketing, and downtown positioning that attracts urban-conscious buyers.
                 </p>
               </div>
-
-              <div className="bg-primary text-primary-foreground p-8 rounded-lg mb-12 text-center">
-                <h2 className="text-3xl font-black mb-4">30-DAY GUARANTEE</h2>
-                <p className="text-2xl font-bold mb-2">
-                  Sold in 30 Days or I Work Free
-                </p>
-                <p className="text-lg opacity-90">
-                  No excuses. No exceptions. If your Juhl Lofts listing doesn't sell in 30 days, I continue working at no additional cost until it sells. That's how confident I am in my Juhl Lofts marketing system.
-                </p>
-              </div>
-
+              
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR JUHL LOFTS?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Juhl Lofts listing expired, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Juhl Lofts home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="juhl_lofts" buttonText="GET MY JUHL LOFTS SOLD" />
               </div>
@@ -119,4 +101,3 @@ export default function JuhlLoftsPage() {
     </>
   )
 }
-

@@ -1,18 +1,25 @@
-import StickyHeader from '@/app/components/sticky-header'
-import Navigation from '@/app/components/navigation'
+import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
-
+import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 export const metadata = {
   title: 'Mid-Rise Condos & Lofts Las Vegas | Dr. Jan Duffy',
   description:
-    'Expert help selling expired mid-rise condos and lofts in Las Vegas. Urban living and modern design. 30-day guarantee.',
+    'Expert help selling expired mid-rise condos and lofts in Las Vegas. Urban living and modern design. Proven results and professional marketing.',
+  alternates: {
+    canonical: '/condos/mid-rise',
+  },
 }
-
 export default function MidRiseCondosPage() {
   return (
     <>
-      <StickyHeader />
-      <Navigation />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Las Vegas Condos', url: '/condos' },
+          { name: 'Mid-Rise Condos & Lofts', url: '/condos/mid-rise' },
+        ]}
+      />
+      <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
@@ -23,10 +30,9 @@ export default function MidRiseCondosPage() {
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired mid-rise condos and lofts - urban living with modern design and community amenities
               </p>
-
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Las Vegas mid-rise condos and lofts offer urban living with modern design, community amenities, and value positioning. If your mid-rise condo or loft listing expired, you're not alone. Mid-rise condos face unique challenges - from competition with new construction to HOA restrictions to buyers who value community and modern design. Most agents don't understand mid-rise condos. They use generic strategies, and mid-rise condos expire.
+                  Las Vegas mid-rise condos and lofts offer urban living with modern design, community amenities, and value positioning. If your mid-rise condo or loft home didn't sell, you're not alone. Mid-rise condos face unique challenges - from competition with new construction to HOA restrictions to buyers who value community and modern design. Most agents don't understand mid-rise condos. They use generic strategies, and mid-rise condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired mid-rise condos and lofts. I understand the mid-rise market. I know how to market modern design and community amenities. I know how to attract urban lifestyle seekers. I've sold expired mid-rise condos and lofts throughout Las Vegas. Fast. At top dollar. With zero excuses.
@@ -35,7 +41,6 @@ export default function MidRiseCondosPage() {
                   Mid-rise condos require community-focused marketing. Professional photography highlighting modern design. Strategic positioning emphasizing value and community. Emphasis on urban lifestyle and convenience. Most agents don't understand this. They use generic strategies, and mid-rise condos expire. I use community-focused marketing, highlight modern design, and attract urban lifestyle seekers. Mid-rise condos sell. Fast. At top dollar.
                 </p>
               </div>
-
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Mid-Rise Condos Expire</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -54,7 +59,6 @@ export default function MidRiseCondosPage() {
                   Mid-rise condos attract urban lifestyle seekers. Young professionals. Empty nesters. Urban enthusiasts. Most agents don't know how to market to urban lifestyle seekers. They use suburban marketing, and urban lifestyle seekers look elsewhere. I know how to market to urban lifestyle seekers. I emphasize urban location, highlight convenience, and showcase urban lifestyle appeal that attracts urban-conscious buyers.
                 </p>
               </div>
-
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">My Mid-Rise Condo Expertise</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -73,7 +77,6 @@ export default function MidRiseCondosPage() {
                   Mid-rise condos attract urban lifestyle seekers. I position mid-rise condos by emphasizing urban location, highlighting convenience, and showcasing urban lifestyle appeal. Most agents don't do this. They use generic positioning, and mid-rise condos expire.
                 </p>
               </div>
-
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">Popular Mid-Rise Condo Buildings</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -88,23 +91,13 @@ export default function MidRiseCondosPage() {
                   Las Vegas has many mid-rise communities offering community amenities and value positioning. I've sold expired mid-rise condos by emphasizing community amenities, highlighting value, and attracting community-conscious buyers.
                 </p>
               </div>
-
-              <div className="bg-primary text-primary-foreground p-8 rounded-lg mb-12 text-center">
-                <h2 className="text-3xl font-black mb-4">30-DAY GUARANTEE</h2>
-                <p className="text-2xl font-bold mb-2">
-                  Sold in 30 Days or I Work Free
-                </p>
-                <p className="text-lg opacity-90">
-                  No excuses. No exceptions. If your mid-rise condo or loft doesn't sell in 30 days, I continue working at no additional cost until it sells. That's how confident I am in my mid-rise condo marketing system.
-                </p>
-              </div>
-
+              
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR MID-RISE CONDO OR LOFT?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your mid-rise condo or loft listing expired, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your mid-rise condo or loft home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="mid_rise_condos" buttonText="GET MY MID-RISE CONDO SOLD" />
               </div>
@@ -115,4 +108,3 @@ export default function MidRiseCondosPage() {
     </>
   )
 }
-

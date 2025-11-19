@@ -1,26 +1,23 @@
-import StickyHeader from '@/app/components/sticky-header'
-import Navigation from '@/app/components/navigation'
+import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import { FileText, Download, BookOpen, Video } from 'lucide-react'
-
 export const metadata = {
-  title: 'Resources | Expired Listing Resources | Dr. Jan Duffy',
+  title: 'Resources | HOME THAT DIDN'T SELL Resources | Dr. Jan Duffy',
   description:
-    'Free resources for expired listing sellers: guides, reports, calculators, and educational content.',
+    'Free resources for HOME THAT DIDN'T SELL sellers: guides, reports, calculators, and educational content.',
 }
-
 export default function ResourcesPage() {
   const resources = [
     {
       icon: FileText,
-      title: '7 Reasons Your Listing Expired',
+      title: '7 Reasons your home didn't sell',
       description: 'Free report revealing the 5 fatal mistakes that killed your listing and how to fix them.',
       type: 'Free Report',
       cta: 'Download Now',
     },
     {
       icon: Download,
-      title: 'Expired Listing Cost Calculator',
+      title: 'cost when your home won't sell Calculator',
       description: 'Calculate exactly how much money you\'re losing every day your listing sits expired.',
       type: 'Interactive Tool',
       cta: 'Calculate Now',
@@ -29,7 +26,7 @@ export default function ResourcesPage() {
     {
       icon: BookOpen,
       title: 'The 30-Day Sale Plan',
-      description: 'Complete week-by-week breakdown of how to sell your expired listing in 30 days or less.',
+      description: 'Complete week-by-week breakdown of how to sell your HOME THAT DIDN'T SELL in 30 days or less.',
       type: 'Guide',
       cta: 'View Plan',
       link: '/30-day-plan',
@@ -45,24 +42,22 @@ export default function ResourcesPage() {
     {
       icon: FileText,
       title: 'Market Analysis Report',
-      description: 'Current Las Vegas market conditions and what it means for expired listings.',
+      description: 'Current Las Vegas market conditions and what it means for HOMES THAT DIDN'T SELL.',
       type: 'Market Report',
       cta: 'Get Report',
     },
     {
       icon: Download,
       title: 'Agent Performance Quiz',
-      description: '60-second assessment to find out why your listing expired and what your agent did wrong.',
+      description: '60-second assessment to find out why your home didn't sell and what your agent did wrong.',
       type: 'Interactive Quiz',
       cta: 'Take Quiz',
       link: '/tools/blame-analyzer',
     },
   ]
-
   return (
     <>
-      <StickyHeader />
-      <Navigation />
+      <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
@@ -71,9 +66,8 @@ export default function ResourcesPage() {
                 FREE RESOURCES
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Tools, guides, and reports to help you understand and fix your expired listing
+                Tools, guides, and reports to help you understand and fix your HOME THAT DIDN'T SELL
               </p>
-
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
                 {resources.map((resource, index) => {
                   const Icon = resource.icon
@@ -108,7 +102,6 @@ export default function ResourcesPage() {
                   )
                 })}
               </div>
-
               <div className="bg-primary text-primary-foreground p-8 rounded-lg text-center mb-12">
                 <h2 className="text-3xl font-black mb-4">NEED PERSONALIZED HELP?</h2>
                 <p className="text-xl mb-4">
@@ -121,13 +114,12 @@ export default function ResourcesPage() {
                   (702) 500-1064
                 </a>
               </div>
-
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                 <h2 className="text-2xl font-black mb-4 text-center">
                   GET YOUR FREE REPORT
                 </h2>
                 <p className="text-center text-gray-600 mb-6">
-                  "7 Reasons Your Listing Expired (And How to Fix Them in 30 Days)"
+                  "7 Reasons your home didn't sell (And How to Fix Them in 30 Days)"
                 </p>
                 <LeadForm source="resources_page" buttonText="GET FREE REPORT" />
               </div>
@@ -138,4 +130,3 @@ export default function ResourcesPage() {
     </>
   )
 }
-

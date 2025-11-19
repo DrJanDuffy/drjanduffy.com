@@ -1,21 +1,17 @@
-import StickyHeader from '@/app/components/sticky-header'
-import Navigation from '@/app/components/navigation'
+import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
-
 export const metadata = {
-  title: 'Panorama Towers Condos Las Vegas | Expired Listing Expert | Dr. Jan Duffy',
+  title: 'Panorama Towers Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
   description:
-    'Expert help selling expired Panorama Towers condos in Las Vegas. Luxury high-rise condos with Strip views. 30-day guarantee or work free.',
+    'Expert help selling expired Panorama Towers condos in Las Vegas. Luxury high-rise condos with Strip views. Proven results and professional marketing.',
   alternates: {
     canonical: '/condos/panorama-towers',
   },
 }
-
 export default function PanoramaTowersCondosPage() {
   return (
     <>
-      <StickyHeader />
-      <Navigation />
+      <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
@@ -26,10 +22,9 @@ export default function PanoramaTowersCondosPage() {
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Panorama Towers condos - luxury high-rise condos with Strip views and world-class amenities
               </p>
-
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Panorama Towers is a luxury high-rise condominium building in Las Vegas that offers sophisticated living with Strip views, world-class amenities, and prime location. If your Panorama Towers condo listing expired, you're not alone. Panorama Towers condos face unique challenges - from marketing Strip views to highlighting world-class amenities to buyers who expect luxury living. Most agents don't understand Panorama Towers condos. They use generic strategies, and Panorama Towers condos expire.
+                  Panorama Towers is a luxury high-rise condominium building in Las Vegas that offers sophisticated living with Strip views, world-class amenities, and prime location. If your Panorama Towers condo home didn't sell, you're not alone. Panorama Towers condos face unique challenges - from marketing Strip views to highlighting world-class amenities to buyers who expect luxury living. Most agents don't understand Panorama Towers condos. They use generic strategies, and Panorama Towers condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Panorama Towers condos. I understand the luxury market. I know how to market high-rise condos with Strip views. I know how to attract luxury lifestyle seekers. I've sold expired condos in Panorama Towers and other luxury Strip-view properties. Fast. At top dollar. With zero excuses.
@@ -38,7 +33,6 @@ export default function PanoramaTowersCondosPage() {
                   Panorama Towers condos require sophisticated marketing. Professional photography highlighting Strip views. Strategic positioning emphasizing world-class amenities. Explanation of luxury living and prime location. Most agents don't understand this. They use generic strategies, and Panorama Towers condos expire. I use sophisticated marketing, highlight Strip views, and attract luxury lifestyle seekers. Panorama Towers condos sell. Fast. At top dollar.
                 </p>
               </div>
-
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Panorama Towers Condos Expire</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -57,7 +51,6 @@ export default function PanoramaTowersCondosPage() {
                   Panorama Towers attracts luxury lifestyle seekers. High-net-worth individuals. Second-home buyers. Strip enthusiasts. Most agents don't know how to position luxury lifestyle effectively. They use generic positioning, and luxury lifestyle seekers look elsewhere. I know how to position luxury lifestyle effectively. I emphasize Strip views, highlight world-class amenities, and showcase luxury lifestyle appeal that attracts luxury-conscious buyers.
                 </p>
               </div>
-
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Panorama Towers Condo Features</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -76,7 +69,6 @@ export default function PanoramaTowersCondosPage() {
                   Panorama Towers's prime location offers proximity to world-class entertainment, dining, and shopping. Most agents don't emphasize location effectively. I do. I highlight proximity to entertainment, showcase dining options, and emphasize shopping access that attracts location-conscious buyers.
                 </p>
               </div>
-
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">My Panorama Towers Condo Marketing Strategy</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -95,23 +87,13 @@ export default function PanoramaTowersCondosPage() {
                   Panorama Towers attracts luxury lifestyle seekers. High-net-worth individuals. Second-home buyers. Strip enthusiasts. Most agents don't know how to target these buyers. I do. I use targeted advertising, exclusive access events, and luxury marketing that attracts luxury-conscious buyers.
                 </p>
               </div>
-
-              <div className="bg-primary text-primary-foreground p-8 rounded-lg mb-12 text-center">
-                <h2 className="text-3xl font-black mb-4">30-DAY GUARANTEE</h2>
-                <p className="text-2xl font-bold mb-2">
-                  Sold in 30 Days or I Work Free
-                </p>
-                <p className="text-lg opacity-90">
-                  No excuses. No exceptions. If your Panorama Towers condo doesn't sell in 30 days, I continue working at no additional cost until it sells. That's how confident I am in my Panorama Towers condo marketing system.
-                </p>
-              </div>
-
+              
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR PANORAMA TOWERS CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Panorama Towers condo listing expired, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Panorama Towers condo home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="panorama_towers_condos" buttonText="GET MY PANORAMA TOWERS CONDO SOLD" />
               </div>
@@ -122,4 +104,3 @@ export default function PanoramaTowersCondosPage() {
     </>
   )
 }
-

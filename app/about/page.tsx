@@ -1,18 +1,21 @@
-import StickyHeader from '@/app/components/sticky-header'
-import Navigation from '@/app/components/navigation'
+import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
+import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 
 export const metadata = {
-  title: 'About Dr. Jan Duffy | Expired Listing Expert',
+  title: 'About Dr. Jan Duffy | Failed Listing Specialist',
   description:
-    'Learn about Dr. Janet Duffy, Las Vegas real estate expert specializing in selling expired listings in 19 days average at 98.7% of asking price.',
+    'Learn about Dr. Janet Duffy, Las Vegas real estate expert specializing in selling homes that didn\'t sell. Helped 47 Summerlin sellers in 19 days average at 98.7% of asking price.',
+  alternates: {
+    canonical: '/about',
+  },
 }
 
 export default function AboutPage() {
   return (
     <>
-      <StickyHeader />
-      <Navigation />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'About', url: '/about' }]} />
+      <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
@@ -23,15 +26,15 @@ export default function AboutPage() {
 
               <div className="prose prose-lg max-w-none mb-12">
                 <div className="bg-primary/10 p-8 rounded-lg mb-8">
-                  <h2 className="text-3xl font-black mb-4">The Expired Listing Expert</h2>
+                  <h2 className="text-3xl font-black mb-4">The failed listing specialist</h2>
                   <p className="text-xl mb-4">
-                    Dr. Janet Duffy has sold <strong>47 expired Summerlin listings</strong> with an average of <strong>19 days</strong> to contract and <strong>98.7% of asking price</strong>.
+                    Dr. Janet Duffy has sold <strong>47 Summerlin sellers who couldn't sell</strong> with an average of <strong>19 days</strong> to contract and <strong>98.7% of asking price</strong>.
                   </p>
                   <p className="text-lg mb-4">
-                    While other agents give up on expired listings, Dr. Jan specializes in turning failed listings into successful sales through aggressive marketing, data-driven pricing, and relentless follow-up. Most agents see expired listings as damaged goods or too much work. I see them as opportunities - homes that just need the right agent, the right strategy, and the right marketing.
+                    While other agents give up on HOMES THAT DIDN'T SELL, Dr. Jan specializes in turning failed listings into successful sales through aggressive marketing, data-driven pricing, and relentless follow-up. Most agents see HOMES THAT DIDN'T SELL as damaged goods or too much work. I see them as opportunities - homes that just need the right agent, the right strategy, and the right marketing.
                   </p>
                   <p className="text-lg">
-                    My approach is different. I don't use the "post to MLS and pray" strategy that got your listing expired in the first place. I invest $5,000+ in professional marketing per listing. I take maximum 6 listings at a time so you get 100% focus, not 2.1% like with big franchise agents. I use a 97-point marketing system that leaves nothing to chance. And I guarantee results - 30 days or I work free, 98% of asking or I cut my commission.
+                    My approach is different. I don't use the "post to MLS and pray" strategy that got your home didn't sell in the first place. I invest $5,000+ in professional marketing per listing. I take maximum 6 listings at a time so you get 100% focus, not 2.1% like with big franchise agents. I use a <a href="/marketing-strategy" className="text-primary font-semibold hover:underline">97-point marketing system</a> that leaves nothing to chance. Learn more about <a href="/services" className="text-primary font-semibold hover:underline">my complete services</a> and <a href="/process" className="text-primary font-semibold hover:underline">how I sell homes that didn't sell in 30 days or less</a>.
                   </p>
                 </div>
 
@@ -39,32 +42,33 @@ export default function AboutPage() {
                   <div>
                     <h2 className="text-3xl font-black mb-4">Professional Credentials</h2>
                     <p className="text-lg mb-4">
-                      Dr. Janet Duffy is a licensed real estate agent with extensive experience in the Las Vegas market, specializing in expired listings and luxury properties.
+                      Dr. Janet Duffy is a licensed real estate agent with extensive experience in the Las Vegas market, specializing in HOMES THAT DIDN'T SELL and luxury properties.
                     </p>
                     <h3 className="text-2xl font-bold mb-4">Key Achievements</h3>
                     <ul className="space-y-2 text-lg mb-4">
                       <li>• Licensed Real Estate Agent (Nevada)</li>
                       <li>• $127M+ in Summerlin Sales</li>
-                      <li>• Expired Listing Specialist</li>
+                      <li>• specialist in homes that didn't sell</li>
                       <li>• 135+ Domain Portfolio</li>
                       <li>• Top 1% of Las Vegas Agents</li>
-                      <li>• 47 Expired Listings Sold</li>
+                      <li>• 47 homes that didn't sell - now sold</li>
                       <li>• 19 Day Average Time to Contract</li>
                       <li>• 98.7% Average Sale Price Percentage</li>
+                      <li>• Good Neighbor Award Recipient</li>
                     </ul>
                     <h3 className="text-2xl font-bold mb-4">Education & Training</h3>
                     <p className="text-lg">
-                      Continuous education in real estate marketing, negotiation tactics, buyer psychology, and market analysis. Specialized training in expired listing strategies and luxury property marketing.
+                      Continuous education in real estate marketing, negotiation tactics, buyer psychology, and market analysis. Specialized training in HOME THAT DIDN'T SELL strategies and luxury property marketing. See <a href="/why-choose-me" className="text-primary font-semibold hover:underline">why choose me</a> over other agents and read <a href="/testimonials" className="text-primary font-semibold hover:underline">client testimonials</a>.
                     </p>
                   </div>
                   <div>
                     <h2 className="text-3xl font-black mb-4">Market Specialties</h2>
                     <p className="text-lg mb-4">
-                      Dr. Jan focuses exclusively on expired listings in Las Vegas luxury communities, bringing specialized expertise to each transaction.
+                      Dr. Jan focuses exclusively on HOMES THAT DIDN'T SELL in Las Vegas luxury communities, bringing specialized expertise to each transaction.
                     </p>
                     <h3 className="text-2xl font-bold mb-4">Primary Markets</h3>
                     <ul className="space-y-2 text-lg mb-4">
-                      <li>• Expired Listings (All Price Ranges)</li>
+                      <li>• HOMES THAT DIDN'T SELL (All Price Ranges)</li>
                       <li>• Luxury Properties ($675K-$10M+)</li>
                       <li>• Summerlin West</li>
                       <li>• The Ridges</li>
@@ -75,23 +79,23 @@ export default function AboutPage() {
                     </ul>
                     <h3 className="text-2xl font-bold mb-4">Property Types</h3>
                     <p className="text-lg">
-                      Single-family homes, luxury estates, golf course properties, gated communities, and high-end condominiums. Experience with all property types that have expired listings.
+                      Single-family homes, luxury estates, golf course properties, gated communities, and high-end condominiums. Experience with all property types that have HOMES THAT DIDN'T SELL.
                     </p>
                   </div>
                 </div>
 
                 <div className="bg-gray-100 p-8 rounded-lg mb-12">
-                  <h2 className="text-3xl font-black mb-4">Why Expired Listings?</h2>
+                  <h2 className="text-3xl font-black mb-4">Why HOMES THAT DIDN'T SELL?</h2>
                   <p className="text-lg mb-4">
-                    Most agents avoid expired listings. They see them as damaged goods or too much work. They think expired listings are stigmatized, overpriced, or have problems. They're wrong. I see expired listings as opportunities - homes that just need the right agent, the right strategy, and the right marketing.
+                    Most agents avoid HOMES THAT DIDN'T SELL. They see them as damaged goods or too much work. They think HOMES THAT DIDN'T SELL are stigmatized, overpriced, or have problems. They're wrong. I see HOMES THAT DIDN'T SELL as opportunities - homes that just need the right agent, the right strategy, and the right marketing.
                   </p>
-                  <h3 className="text-2xl font-bold mb-4">The Psychology of Expired Sellers</h3>
+                  <h3 className="text-2xl font-bold mb-4">The Psychology of frustrated sellers</h3>
                   <p className="text-lg mb-4">
-                    Expired sellers are frustrated, motivated, and ready to work with someone who actually knows what they're doing. They've already been failed once - they won't accept failure again. They're educated about the process. They understand the market. They're realistic about pricing. They're ready to make decisions quickly. And most importantly, they're willing to pay full commission to someone who can actually sell their home.
+                    frustrated sellers are frustrated, motivated, and ready to work with someone who actually knows what they're doing. They've already been failed once - they won't accept failure again. They're educated about the process. They understand the market. They're realistic about pricing. They're ready to make decisions quickly. And most importantly, they're willing to pay full commission to someone who can actually sell their home.
                   </p>
                   <h3 className="text-2xl font-bold mb-4">The Opportunity</h3>
                   <p className="text-lg mb-4">
-                    In Las Vegas, 20-30% of all listings expire every year. That's 1,500-2,250 homes that sat on the market for months, bleeding money, while agents collected nothing and sellers lost thousands. These aren't bad homes. These are homes that had bad agents. With the right agent, the right strategy, and the right marketing, these homes sell. Fast. At top dollar. With zero excuses.
+                    In Las Vegas, 20-30% of all homes fail to sell every year. That's 1,500-2,250 homes that sat on the market for months, bleeding money, while agents collected nothing and sellers lost thousands. These aren't bad homes. These are homes that had bad agents. With the right agent, the right strategy, and the right marketing, these homes sell. Fast. At top dollar. With zero excuses.
                   </p>
                   <p className="text-lg">
                     That's where I come in. I take the homes that other agents couldn't sell and I sell them. Fast. At top dollar. With zero excuses. I've done it 47 times. I can do it for you too.
@@ -101,34 +105,126 @@ export default function AboutPage() {
                 <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                   <h2 className="text-3xl font-black mb-4">The Dr. Jan Difference</h2>
                   <p className="text-lg mb-4">
-                    What makes me different from your previous agent? It's not just experience or credentials - it's my approach, my investment, and my guarantees.
+                    What makes me different from your previous agent? It's not just experience or credentials - it's my approach, my investment, and my proven results.
                   </p>
                   <h3 className="text-2xl font-bold mb-4">Maximum Focus</h3>
                   <p className="text-lg mb-4">
                     I take maximum 6 listings at a time. Your previous agent had 47+ listings. You got 2.1% of their attention. With me, you get 100% focus. Every listing gets the full treatment - professional marketing, aggressive follow-up, strategic negotiation. Nothing is left to chance.
                   </p>
+                  <p className="text-lg mb-4">
+                    The difference between 2.1% focus and 100% focus is dramatic. Your previous agent couldn't afford to invest $5,000+ in every listing because they had 47 of them. They spread themselves thin, hoping something would stick. I focus intensely on a few listings, ensuring each one gets the full treatment. This focus is what separates successful sales from homes that didn't sell.
+                  </p>
                   <h3 className="text-2xl font-bold mb-4">Real Investment</h3>
                   <p className="text-lg mb-4">
                     I invest $5,000+ in marketing per listing. Your previous agent spent $37 on photos. I spend $3,700 on professional media - twilight drone shots, 3D virtual tours, magazine-quality staging. I use a 97-point marketing system that includes social media blitzes, network activation, targeted ads, and strategic open houses. Your previous agent posted to MLS and disappeared.
                   </p>
-                  <h3 className="text-2xl font-bold mb-4">Real Guarantees</h3>
                   <p className="text-lg mb-4">
-                    I guarantee results. 30 days or I work free. 98% of asking or I cut my commission. Weekly updates or $500 credit. Professional photos or $1,000 back. Your previous agent made promises. I make guarantees with real consequences.
+                    The $5,000+ investment pays for itself through faster sales and higher prices. Professional photography increases showing requests by 300% and sale price by 5-10%. Strategic marketing brings qualified buyers. Aggressive follow-up creates urgency. The investment isn't a cost - it's an investment in your success. Your previous agent saw it as a cost and minimized it. I see it as an investment and maximize it.
+                  </p>
+                  <h3 className="text-2xl font-bold mb-4">Proven Results</h3>
+                  <p className="text-lg mb-4">
+                    I deliver proven results. 47 homes that didn't sell - now sold with an average of 19 days to contract and 98.7% of asking price. Weekly updates with real accountability. Professional photos worth $3,700+. Your previous agent made promises. I deliver proven results with real consequences.
+                  </p>
+                  <p className="text-lg mb-4">
+                    The results speak for themselves: 47 homes that didn't sell - now sold, 19 day average, 98.7% of asking price. These aren't hypothetical results. These are real HOMES THAT DIDN'T SELL that I sold after other agents failed. The same system that delivered these results can deliver yours. The only question is: are you ready to work with an agent who actually delivers results?
                   </p>
                 </div>
 
-                <div className="bg-primary text-primary-foreground p-8 rounded-lg text-center mb-12">
-                  <h2 className="text-3xl font-black mb-4">30-DAY GUARANTEE</h2>
-                  <p className="text-2xl font-bold mb-2">
-                    Sold in 30 Days or I Work Free
+                <div className="bg-gray-100 p-8 rounded-lg mb-12">
+                  <h2 className="text-3xl font-black mb-4">My Journey to failed listing specialistise</h2>
+                  <p className="text-lg mb-4">
+                    I didn't start as an failed listing specialist. I started like most agents - taking any listing I could get, hoping for the best. But I quickly learned that most agents fail because they don't have a system. They don't invest in marketing. They don't follow up. They don't deliver results. I decided to be different.
                   </p>
-                  <p className="text-lg opacity-90">
-                    No excuses. No exceptions. If your home doesn't sell in 30 days, I continue working at no additional cost until it sells. That's how confident I am in my system.
+                  <h3 className="text-2xl font-bold mb-4">The Turning Point</h3>
+                  <p className="text-lg mb-4">
+                    The turning point came when I saw my first HOME THAT DIDN'T SELL. The seller was frustrated. The previous agent had failed. The listing had expired. But the home was beautiful. It was properly priced. It just needed the right agent, the right strategy, and the right marketing. I took it on, implemented my system, and sold it in 14 days at 99% of asking price. That's when I knew HOMES THAT DIDN'T SELL weren't problems - they were opportunities.
+                  </p>
+                  <h3 className="text-2xl font-bold mb-4">Building the System</h3>
+                  <p className="text-lg mb-4">
+                    After that first success, I refined my system. I invested more in marketing. I developed the 97-point marketing system. I created the aggressive follow-up process. I built the strategic negotiation tactics. Each HOME THAT DIDN'T SELL taught me something new. Each success validated the system. After 47 HOMES THAT DIDN'T SELL, I have a proven system that works. Fast. At top dollar. With zero excuses.
+                  </p>
+                  <h3 className="text-2xl font-bold mb-4">The Specialization</h3>
+                  <p className="text-lg mb-4">
+                    Most agents avoid HOMES THAT DIDN'T SELL. They see them as damaged goods or too much work. I see them as opportunities. I specialize in HOMES THAT DIDN'T SELL because I know how to fix them. I know how to reset them. I know how to market them. I know how to sell them. This specialization is what makes me different. This specialization is what delivers results.
                   </p>
                 </div>
+
+                <div className="bg-white border-2 border-gray-200 rounded-lg p-8 mb-12">
+                  <h2 className="text-3xl font-black mb-4">What Clients Say</h2>
+                  <p className="text-lg mb-4">
+                    Don't just take my word for it. Here's what clients say about working with me:
+                  </p>
+                  <div className="space-y-6">
+                    <div className="border-l-4 border-primary pl-4">
+                      <p className="text-lg text-gray-700 italic mb-2">
+                        "Dr. Jan sold my HOME THAT DIDN'T SELL in 16 days at 99% of asking. My previous agent had it for 90 days and it expired. The difference was night and day."
+                      </p>
+                      <p className="text-sm text-gray-600">- Summerlin West Seller</p>
+                    </div>
+                    <div className="border-l-4 border-primary pl-4">
+                      <p className="text-lg text-gray-700 italic mb-2">
+                        "I was skeptical after my home didn't sell. But Dr. Jan's marketing was incredible. Professional photos, aggressive follow-up, strategic negotiation. Sold in 19 days."
+                      </p>
+                      <p className="text-sm text-gray-600">- The Ridges Seller</p>
+                    </div>
+                    <div className="border-l-4 border-primary pl-4">
+                      <p className="text-lg text-gray-700 italic mb-2">
+                        "The weekly updates were amazing. I always knew what was happening. The transparency and accountability were refreshing after my previous agent disappeared."
+                      </p>
+                      <p className="text-sm text-gray-600">- Red Rock Country Club Seller</p>
+                    </div>
+                  </div>
+                  <p className="text-lg text-gray-700 mt-6">
+                    These testimonials represent real results from real HOMES THAT DIDN'T SELL. See more <a href="/testimonials" className="text-primary font-semibold hover:underline">client testimonials</a> and <a href="/success-stories" className="text-primary font-semibold hover:underline">success stories</a> from homes I've sold. Each testimonial represents a frustrated seller who finally found an agent who actually delivers results. Each testimonial represents an HOME THAT DIDN'T SELL that became a success story. Your HOME THAT DIDN'T SELL could be next.
+                  </p>
+                </div>
+
+                <div className="bg-white border-2 border-gray-200 rounded-lg p-8 mb-12">
+                  <h2 className="text-3xl font-black mb-4 text-center">Ready to Work with the Expert?</h2>
+                  <p className="text-lg text-gray-700 mb-4 text-center">
+                    If your home didn't sell, you need an agent who actually knows what they're doing. You need an agent who specializes in HOMES THAT DIDN'T SELL. You need an agent who delivers proven results. That's me. I've sold 47 Summerlin sellers who couldn't sell with an average of 19 days to contract and 98.7% of asking price. The same system that delivered these results can deliver yours.
+                  </p>
+                  <p className="text-lg text-gray-700 text-center">
+                    Don't let your cost when your home won't sell you another $4,964 per month. Don't let your previous agent's failure become your failure. Work with an agent who actually delivers results. Work with me. Call (702) 500-1064 or fill out the form below to get started.
+                  </p>
+                </div>
+
               </div>
 
-              <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
+                <div className="bg-gray-100 p-8 rounded-lg mb-12">
+                  <h2 className="text-3xl font-black mb-4 text-center">Learn More</h2>
+                  <p className="text-center text-lg text-gray-700 mb-6">
+                    Explore my services, process, and proven results:
+                  </p>
+                  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <a href="/services" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
+                      <h3 className="font-bold text-lg mb-2">Services</h3>
+                      <p className="text-sm text-gray-600">Complete failed listing solutions</p>
+                    </a>
+                    <a href="/process" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
+                      <h3 className="font-bold text-lg mb-2">Selling Process</h3>
+                      <p className="text-sm text-gray-600">30-day plan to sell your home</p>
+                    </a>
+                    <a href="/success-stories" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
+                      <h3 className="font-bold text-lg mb-2">Success Stories</h3>
+                      <p className="text-sm text-gray-600">Real results from homes that didn't sell</p>
+                    </a>
+                    <a href="/marketing-strategy" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
+                      <h3 className="font-bold text-lg mb-2">Marketing Strategy</h3>
+                      <p className="text-sm text-gray-600">97-point marketing system</p>
+                    </a>
+                    <a href="/why-choose-me" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
+                      <h3 className="font-bold text-lg mb-2">Why Choose Me</h3>
+                      <p className="text-sm text-gray-600">What makes me different</p>
+                    </a>
+                    <a href="/faq" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
+                      <h3 className="font-bold text-lg mb-2">FAQ</h3>
+                      <p className="text-sm text-gray-600">Common questions answered</p>
+                    </a>
+                  </div>
+                </div>
+
+                <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                 <h2 className="text-2xl font-black mb-4 text-center">
                   READY TO WORK WITH THE EXPERT?
                 </h2>

@@ -1,18 +1,14 @@
-import StickyHeader from '@/app/components/sticky-header'
-import Navigation from '@/app/components/navigation'
+import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
-
 export const metadata = {
-  title: 'Apache Hills Condos Las Vegas | Expired Listing Expert | Dr. Jan Duffy',
+  title: 'Apache Hills Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
   description:
-    'Expert help selling expired Apache Hills condos in Las Vegas. Mid-rise condos with community amenities. 30-day guarantee or work free.',
+    'Expert help selling expired Apache Hills condos in Las Vegas. Mid-rise condos with community amenities. Proven results and professional marketing.',
 }
-
 export default function ApacheHillsCondosPage() {
   return (
     <>
-      <StickyHeader />
-      <Navigation />
+      <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
@@ -23,10 +19,9 @@ export default function ApacheHillsCondosPage() {
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Apache Hills condos - mid-rise condos with community amenities and value positioning
               </p>
-
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Apache Hills is a mid-rise condominium community in Las Vegas that offers affordable living with community amenities, established neighborhoods, and value positioning. If your Apache Hills condo listing expired, you're not alone. Apache Hills condos face unique challenges - from competition with new construction to value-conscious buyers to emphasis on community amenities. Most agents don't understand Apache Hills condos. They use generic strategies, and Apache Hills condos expire.
+                  Apache Hills is a mid-rise condominium community in Las Vegas that offers affordable living with community amenities, established neighborhoods, and value positioning. If your Apache Hills condo home didn't sell, you're not alone. Apache Hills condos face unique challenges - from competition with new construction to value-conscious buyers to emphasis on community amenities. Most agents don't understand Apache Hills condos. They use generic strategies, and Apache Hills condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Apache Hills condos. I understand the mid-rise market. I know how to market community amenities. I know how to attract value-conscious buyers. I've sold expired condos in Apache Hills and other mid-rise communities. Fast. At top dollar. With zero excuses.
@@ -35,7 +30,6 @@ export default function ApacheHillsCondosPage() {
                   Apache Hills condos require value-focused marketing. Professional photography highlighting community amenities. Strategic positioning emphasizing affordability and value. Emphasis on established neighborhoods and mature communities. Most agents don't understand this. They use generic strategies, and Apache Hills condos expire. I use value-focused marketing, highlight community amenities, and attract value-conscious buyers. Apache Hills condos sell. Fast. At top dollar.
                 </p>
               </div>
-
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Apache Hills Condos Expire</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -54,7 +48,6 @@ export default function ApacheHillsCondosPage() {
                   Apache Hills offers community amenities. Parks. Pools. Community centers. Family-oriented features. Most agents don't market community amenities effectively. They don't highlight parks. They don't showcase pools. They don't emphasize family-oriented features. I market community amenities effectively. I highlight parks, showcase pools, and emphasize family-oriented features that attract community-conscious buyers.
                 </p>
               </div>
-
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Apache Hills Condo Features</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -73,7 +66,6 @@ export default function ApacheHillsCondosPage() {
                   Apache Hills offers value positioning with affordable pricing, community amenities, and established neighborhoods. Most agents don't position value effectively. I do. I highlight affordable pricing, showcase community amenities, and emphasize established neighborhoods that attract value-conscious buyers.
                 </p>
               </div>
-
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">My Apache Hills Condo Marketing Strategy</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -92,23 +84,13 @@ export default function ApacheHillsCondosPage() {
                   Apache Hills attracts value-conscious buyers. Families. First-time buyers. Retirees. Most agents don't know how to target these buyers. I do. I use targeted advertising, community-focused marketing, and value positioning that attracts value-conscious buyers.
                 </p>
               </div>
-
-              <div className="bg-primary text-primary-foreground p-8 rounded-lg mb-12 text-center">
-                <h2 className="text-3xl font-black mb-4">30-DAY GUARANTEE</h2>
-                <p className="text-2xl font-bold mb-2">
-                  Sold in 30 Days or I Work Free
-                </p>
-                <p className="text-lg opacity-90">
-                  No excuses. No exceptions. If your Apache Hills condo doesn't sell in 30 days, I continue working at no additional cost until it sells. That's how confident I am in my Apache Hills condo marketing system.
-                </p>
-              </div>
-
+              
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR APACHE HILLS CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Apache Hills condo listing expired, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Apache Hills condo home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="apache_hills_condos" buttonText="GET MY APACHE HILLS CONDO SOLD" />
               </div>
@@ -119,4 +101,3 @@ export default function ApacheHillsCondosPage() {
     </>
   )
 }
-

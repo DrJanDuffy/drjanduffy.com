@@ -1,18 +1,14 @@
-import StickyHeader from '@/app/components/sticky-header'
-import Navigation from '@/app/components/navigation'
+import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
-
 export const metadata = {
-  title: 'Trump International Condos Las Vegas | Expired Listing Expert | Dr. Jan Duffy',
+  title: 'Trump International Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
   description:
-    'Expert help selling expired Trump International condos in Las Vegas. Luxury high-rise condos with brand recognition. 30-day guarantee or work free.',
+    'Expert help selling expired Trump International condos in Las Vegas. Luxury high-rise condos with brand recognition. Proven results and professional marketing.',
 }
-
 export default function TrumpInternationalCondosPage() {
   return (
     <>
-      <StickyHeader />
-      <Navigation />
+      <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
@@ -23,10 +19,9 @@ export default function TrumpInternationalCondosPage() {
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Trump International condos - luxury high-rise condos with brand recognition and exclusive amenities
               </p>
-
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Trump International is a luxury high-rise condominium and hotel building on the Las Vegas Strip that offers sophisticated living with brand recognition, exclusive amenities, and prime location. If your Trump International condo listing expired, you're not alone. Trump International condos face unique challenges - from marketing brand recognition to highlighting exclusive amenities to buyers who value luxury branding. Most agents don't understand Trump International condos. They use generic strategies, and Trump International condos expire.
+                  Trump International is a luxury high-rise condominium and hotel building on the Las Vegas Strip that offers sophisticated living with brand recognition, exclusive amenities, and prime location. If your Trump International condo home didn't sell, you're not alone. Trump International condos face unique challenges - from marketing brand recognition to highlighting exclusive amenities to buyers who value luxury branding. Most agents don't understand Trump International condos. They use generic strategies, and Trump International condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Trump International condos. I understand the luxury market. I know how to market brand-recognized condos. I know how to attract brand-conscious buyers. I've sold expired condos in Trump International and other luxury brand properties. Fast. At top dollar. With zero excuses.
@@ -35,7 +30,6 @@ export default function TrumpInternationalCondosPage() {
                   Trump International condos require sophisticated marketing. Professional photography highlighting brand recognition. Strategic positioning emphasizing exclusive amenities. Explanation of luxury branding and prime location. Most agents don't understand this. They use generic strategies, and Trump International condos expire. I use sophisticated marketing, highlight brand recognition, and attract brand-conscious buyers. Trump International condos sell. Fast. At top dollar.
                 </p>
               </div>
-
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Trump International Condos Expire</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -54,7 +48,6 @@ export default function TrumpInternationalCondosPage() {
                   Trump International attracts brand-conscious buyers. High-net-worth individuals. Brand enthusiasts. Luxury lifestyle seekers. Most agents don't know how to target brand-conscious buyers. They use generic advertising, and brand-conscious buyers look elsewhere. I know how to target brand-conscious buyers. I use targeted advertising, exclusive access events, and brand marketing that attracts brand-conscious buyers.
                 </p>
               </div>
-
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Trump International Condo Features</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -73,7 +66,6 @@ export default function TrumpInternationalCondosPage() {
                   Trump International's prime Strip location offers proximity to world-class entertainment, dining, and shopping. Most agents don't emphasize location effectively. I do. I highlight proximity to entertainment, showcase dining options, and emphasize shopping access that attracts location-conscious buyers.
                 </p>
               </div>
-
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">My Trump International Condo Marketing Strategy</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -92,23 +84,13 @@ export default function TrumpInternationalCondosPage() {
                   Trump International attracts brand-conscious buyers. High-net-worth individuals. Brand enthusiasts. Luxury lifestyle seekers. Most agents don't know how to target these buyers. I do. I use targeted advertising, exclusive access events, and brand marketing that attracts brand-conscious buyers.
                 </p>
               </div>
-
-              <div className="bg-primary text-primary-foreground p-8 rounded-lg mb-12 text-center">
-                <h2 className="text-3xl font-black mb-4">30-DAY GUARANTEE</h2>
-                <p className="text-2xl font-bold mb-2">
-                  Sold in 30 Days or I Work Free
-                </p>
-                <p className="text-lg opacity-90">
-                  No excuses. No exceptions. If your Trump International condo doesn't sell in 30 days, I continue working at no additional cost until it sells. That's how confident I am in my Trump International condo marketing system.
-                </p>
-              </div>
-
+              
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR TRUMP INTERNATIONAL CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Trump International condo listing expired, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Trump International condo home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="trump_international_condos" buttonText="GET MY TRUMP INTERNATIONAL CONDO SOLD" />
               </div>
@@ -119,4 +101,3 @@ export default function TrumpInternationalCondosPage() {
     </>
   )
 }
-

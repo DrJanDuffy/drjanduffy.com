@@ -1,18 +1,14 @@
-import StickyHeader from '@/app/components/sticky-header'
-import Navigation from '@/app/components/navigation'
+import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
-
 export const metadata = {
   title: 'Condo Hotels Las Vegas | Dr. Jan Duffy',
   description:
-    'Expert help selling expired condo hotels in Las Vegas. Investment properties with rental programs. 30-day guarantee.',
+    'Expert help selling expired condo hotels in Las Vegas. Investment properties with rental programs. Proven results and professional marketing.',
 }
-
 export default function CondoHotelsPage() {
   return (
     <>
-      <StickyHeader />
-      <Navigation />
+      <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
@@ -23,10 +19,9 @@ export default function CondoHotelsPage() {
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired condo hotels - investment properties with rental programs and hotel management
               </p>
-
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Las Vegas condo hotels are unique investment properties that combine ownership with hotel rental programs. If your condo hotel listing expired, you're not alone. Condo hotels face unique challenges - from explaining rental programs to marketing to investors to buyers who need to understand hotel management. Most agents don't understand condo hotels. They use generic strategies, and condo hotels expire.
+                  Las Vegas condo hotels are unique investment properties that combine ownership with hotel rental programs. If your condo hotel home didn't sell, you're not alone. Condo hotels face unique challenges - from explaining rental programs to marketing to investors to buyers who need to understand hotel management. Most agents don't understand condo hotels. They use generic strategies, and condo hotels expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired condo hotels. I understand the investment market. I know how to market rental programs. I know how to attract investors and second-home buyers. I've sold expired condo hotels throughout Las Vegas. Fast. At top dollar. With zero excuses.
@@ -35,7 +30,6 @@ export default function CondoHotelsPage() {
                   Condo hotels require investment-focused marketing. Professional photography highlighting hotel amenities. Strategic positioning emphasizing rental income potential. Explanation of rental programs and hotel management. Most agents don't understand this. They use generic strategies, and condo hotels expire. I use investment-focused marketing, highlight rental programs, and attract investors and second-home buyers. Condo hotels sell. Fast. At top dollar.
                 </p>
               </div>
-
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Condo Hotels Expire</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -54,7 +48,6 @@ export default function CondoHotelsPage() {
                   Condo hotels offer hotel amenities. Pools. Restaurants. Concierge. Room service. Most agents don't market hotel amenities effectively. They don't highlight pools. They don't showcase restaurants. They don't emphasize concierge services. I market hotel amenities effectively. I highlight pools, showcase restaurants, and emphasize concierge services that attract amenity-conscious buyers.
                 </p>
               </div>
-
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">My Condo Hotel Expertise</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -73,7 +66,6 @@ export default function CondoHotelsPage() {
                   Condo hotels attract investors. I have a network of investors seeking rental properties. I use this network to market condo hotels effectively. Most agents don't have this network. They use generic advertising, and condo hotels expire.
                 </p>
               </div>
-
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">Popular Condo Hotel Buildings</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -88,23 +80,13 @@ export default function CondoHotelsPage() {
                   Downtown condo hotels offer urban location, value positioning, and investment appeal. I've sold expired downtown condo hotels by emphasizing urban location, highlighting value, and showcasing investment appeal.
                 </p>
               </div>
-
-              <div className="bg-primary text-primary-foreground p-8 rounded-lg mb-12 text-center">
-                <h2 className="text-3xl font-black mb-4">30-DAY GUARANTEE</h2>
-                <p className="text-2xl font-bold mb-2">
-                  Sold in 30 Days or I Work Free
-                </p>
-                <p className="text-lg opacity-90">
-                  No excuses. No exceptions. If your condo hotel doesn't sell in 30 days, I continue working at no additional cost until it sells. That's how confident I am in my condo hotel marketing system.
-                </p>
-              </div>
-
+              
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR CONDO HOTEL?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Las Vegas condo hotel listing expired, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Las Vegas condo hotel home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="condo_hotels" buttonText="GET MY CONDO HOTEL SOLD" />
               </div>
@@ -115,4 +97,3 @@ export default function CondoHotelsPage() {
     </>
   )
 }
-

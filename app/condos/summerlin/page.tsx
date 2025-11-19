@@ -1,18 +1,25 @@
-import StickyHeader from '@/app/components/sticky-header'
-import Navigation from '@/app/components/navigation'
+import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
-
+import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 export const metadata = {
   title: 'Summerlin Condos | Dr. Jan Duffy',
   description:
-    'Expert help selling expired Summerlin condos. Mid-rise condos and townhomes in Summerlin. 30-day guarantee or work free.',
+    'Expert help selling expired Summerlin condos. Mid-rise condos and townhomes in Summerlin. Proven results and professional marketing.',
+  alternates: {
+    canonical: '/condos/summerlin',
+  },
 }
-
 export default function SummerlinCondosPage() {
   return (
     <>
-      <StickyHeader />
-      <Navigation />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Las Vegas Condos', url: '/condos' },
+          { name: 'Summerlin Condos', url: '/condos/summerlin' },
+        ]}
+      />
+      <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
@@ -23,10 +30,9 @@ export default function SummerlinCondosPage() {
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Summerlin condos - mid-rise condos and townhomes in Las Vegas's premier master-planned community
               </p>
-
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Summerlin is Las Vegas's premier master-planned community, offering mid-rise condos, townhomes, and luxury properties in a sophisticated setting. If your Summerlin condo listing expired, you're not alone. Summerlin condos face unique challenges - from competition with new construction to HOA restrictions to buyers who value community amenities. Most agents don't understand Summerlin condos. They use generic strategies, and Summerlin condos expire.
+                  Summerlin is Las Vegas's premier master-planned community, offering mid-rise condos, townhomes, and luxury properties in a sophisticated setting. If your Summerlin condo home didn't sell, you're not alone. Summerlin condos face unique challenges - from competition with new construction to HOA restrictions to buyers who value community amenities. Most agents don't understand Summerlin condos. They use generic strategies, and Summerlin condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Summerlin condos. I understand the Summerlin market. I know how to market mid-rise condos and townhomes. I know how to attract community-conscious buyers. I've sold expired condos in Summerlin West, The Ridges, and throughout Summerlin. Fast. At top dollar. With zero excuses.
@@ -35,7 +41,6 @@ export default function SummerlinCondosPage() {
                   Summerlin condos require community-focused marketing. Professional photography highlighting community amenities. Strategic positioning against new construction. Emphasis on established neighborhoods and mature landscaping. Most agents don't understand this. They use generic strategies, and Summerlin condos expire. I use community-focused marketing, highlight amenities, and attract community-conscious buyers. Summerlin condos sell. Fast. At top dollar.
                 </p>
               </div>
-
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Summerlin Condos Expire</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -54,7 +59,6 @@ export default function SummerlinCondosPage() {
                   Summerlin offers community amenities. Parks. Trails. Golf courses. Community centers. Most agents don't market community amenities effectively. They don't highlight parks. They don't showcase trails. They don't emphasize golf access. I market community amenities effectively. I highlight parks, showcase trails, and emphasize golf access that attracts community-conscious buyers.
                 </p>
               </div>
-
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">My Summerlin Condo Expertise</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -73,7 +77,6 @@ export default function SummerlinCondosPage() {
                   Summerlin offers community amenities. Parks. Trails. Golf courses. Community centers. I highlight these amenities effectively. I showcase parks, emphasize trails, and highlight golf access that attracts community-conscious buyers. Most agents don't do this. They use generic marketing, and Summerlin condos expire.
                 </p>
               </div>
-
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">Popular Summerlin Condo Areas</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -92,23 +95,13 @@ export default function SummerlinCondosPage() {
                   Red Rock Country Club offers luxury condos with golf course access, exclusive amenities, and prime location. I've sold expired Red Rock CC condos by showcasing golf course access, highlighting amenities, and attracting golf-conscious buyers.
                 </p>
               </div>
-
-              <div className="bg-primary text-primary-foreground p-8 rounded-lg mb-12 text-center">
-                <h2 className="text-3xl font-black mb-4">30-DAY GUARANTEE</h2>
-                <p className="text-2xl font-bold mb-2">
-                  Sold in 30 Days or I Work Free
-                </p>
-                <p className="text-lg opacity-90">
-                  No excuses. No exceptions. If your Summerlin condo doesn't sell in 30 days, I continue working at no additional cost until it sells. That's how confident I am in my Summerlin condo marketing system.
-                </p>
-              </div>
-
+              
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR SUMMERLIN CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Summerlin condo listing expired, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Summerlin condo home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="summerlin_condos" buttonText="GET MY SUMMERLIN CONDO SOLD" />
               </div>
@@ -119,4 +112,3 @@ export default function SummerlinCondosPage() {
     </>
   )
 }
-

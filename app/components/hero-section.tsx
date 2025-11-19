@@ -16,14 +16,14 @@ export default function HeroSection() {
       <div className="absolute inset-0 grid grid-cols-2">
         <div className="bg-red-900/20 flex items-center justify-center">
           <div className="text-center p-8">
-            <div className="text-6xl font-black mb-4">EXPIRED</div>
+            <div className="text-6xl font-black mb-4">DIDN'T SELL</div>
             <div className="text-2xl opacity-75">63 Days</div>
           </div>
         </div>
         <div className="bg-green-900/20 flex items-center justify-center">
           <div className="text-center p-8">
             <div className="text-6xl font-black mb-4">SOLD</div>
-            <div className="text-2xl opacity-75">14 Days</div>
+            <div className="text-2xl opacity-75">19 Days</div>
           </div>
         </div>
       </div>
@@ -49,21 +49,25 @@ export default function HeroSection() {
 
           <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 md:p-12 border-2 border-white/20">
             <div className="text-center mb-8">
-              <p className="text-2xl md:text-3xl font-bold mb-4">
-                I've Sold 47 Expired Summerlin Listings
+              <p className="text-xl md:text-2xl mb-4 font-semibold">
+                Your house won't sell? I specialize in selling homes other agents couldn't. 47 previously unsold homes sold - average 19 days to contract, 98.7% of asking price.
+              </p>
+              <p className="text-lg md:text-xl mb-4 font-semibold">
+                Summerlin West luxury specialist: The Ridges, The Summit, Red Rock Country Club, and newer villages.
               </p>
               <div className="flex flex-wrap justify-center gap-4 mb-6 text-lg">
-                <span className="font-semibold">19 Day Average</span>
-                <span>|</span>
-                <span className="font-semibold">98.7% of Asking</span>
+                <a href="tel:7025001064" className="font-bold hover:underline">Call 702-500-1064</a>
               </div>
+              <p className="text-sm md:text-base text-gray-300 mb-4">
+                Dr. Jan Duffy | Berkshire Hathaway HomeServices | License #S.0197614.LLC
+              </p>
               <LiveCounter />
             </div>
 
             <div className="max-w-md mx-auto">
               <LeadForm
                 source="hero"
-                buttonText="GET MY FAILED LISTING FIXED"
+                buttonText="GET HELP SELLING MY HOME"
               />
             </div>
           </div>

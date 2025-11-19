@@ -1,18 +1,14 @@
-import StickyHeader from '@/app/components/sticky-header'
-import Navigation from '@/app/components/navigation'
+import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
-
 export const metadata = {
   title: 'Market Analysis | Las Vegas Real Estate Market | Dr. Jan Duffy',
   description:
-    'Current Las Vegas real estate market analysis: inventory, pricing trends, and what it means for expired listings.',
+    'Current Las Vegas real estate market analysis: inventory, pricing trends, and what it means for HOMES THAT DIDN'T SELL.',
 }
-
 export default function MarketAnalysisPage() {
   return (
     <>
-      <StickyHeader />
-      <Navigation />
+      <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
@@ -21,9 +17,8 @@ export default function MarketAnalysisPage() {
                 LAS VEGAS MARKET ANALYSIS
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Current market conditions and what they mean for expired listings
+                Current market conditions and what they mean for HOMES THAT DIDN'T SELL
               </p>
-
               <div className="space-y-8 mb-12">
                 <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                   <h2 className="text-3xl font-black mb-4">Current Market Conditions</h2>
@@ -46,15 +41,14 @@ export default function MarketAnalysisPage() {
                     </div>
                   </div>
                 </div>
-
                 <div className="bg-red-50 border-2 border-red-200 rounded-lg p-8">
                   <h2 className="text-2xl font-black mb-4 text-red-800">
-                    What This Means for Expired Listings
+                    What This Means for HOMES THAT DIDN'T SELL
                   </h2>
                   <ul className="space-y-3 text-lg">
                     <li className="flex items-start gap-3">
                       <span className="text-red-600 font-bold">•</span>
-                      <span><strong>1,500-2,250 listings will expire</strong> - Massive opportunity</span>
+                      <span><strong>1,500-2,250 listings will fail to sell</strong> - Massive opportunity</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <span className="text-red-600 font-bold">•</span>
@@ -66,14 +60,13 @@ export default function MarketAnalysisPage() {
                     </li>
                     <li className="flex items-start gap-3">
                       <span className="text-red-600 font-bold">•</span>
-                      <span><strong>Stigma risk</strong> - Expired listings need aggressive reset</span>
+                      <span><strong>Stigma risk</strong> - HOMES THAT DIDN'T SELL need aggressive reset</span>
                     </li>
                   </ul>
                 </div>
-
                 <div className="bg-green-50 border-2 border-green-200 rounded-lg p-8">
                   <h2 className="text-2xl font-black mb-4 text-green-800">
-                    Why Expired Listings Can Still Sell Fast
+                    Why HOMES THAT DIDN'T SELL Can Still Sell Fast
                   </h2>
                   <ul className="space-y-3 text-lg">
                     <li className="flex items-start gap-3">
@@ -94,7 +87,6 @@ export default function MarketAnalysisPage() {
                     </li>
                   </ul>
                 </div>
-
                 <div className="bg-primary text-primary-foreground p-8 rounded-lg">
                   <h2 className="text-3xl font-black mb-4 text-center">
                     MY RESULTS IN THIS MARKET
@@ -110,12 +102,11 @@ export default function MarketAnalysisPage() {
                     </div>
                     <div>
                       <p className="text-4xl font-black mb-2">47</p>
-                      <p className="text-lg">Expired Listings Sold</p>
+                      <p className="text-lg">homes that didn't sell - now sold</p>
                     </div>
                   </div>
                 </div>
               </div>
-
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                 <h2 className="text-2xl font-black mb-4 text-center">
                   GET YOUR MARKET ANALYSIS
@@ -129,4 +120,3 @@ export default function MarketAnalysisPage() {
     </>
   )
 }
-

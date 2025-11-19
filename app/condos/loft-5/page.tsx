@@ -1,18 +1,14 @@
-import StickyHeader from '@/app/components/sticky-header'
-import Navigation from '@/app/components/navigation'
+import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
-
 export const metadata = {
-  title: 'Loft 5 Las Vegas | Expired Listing Expert | Dr. Jan Duffy',
+  title: 'Loft 5 Las Vegas | failed listing specialist | Dr. Jan Duffy',
   description:
-    'Expert help selling expired Loft 5 in Las Vegas. Urban lofts with modern design. 30-day guarantee or work free.',
+    'Expert help selling expired Loft 5 in Las Vegas. Urban lofts with modern design. Proven results and professional marketing.',
 }
-
 export default function Loft5Page() {
   return (
     <>
-      <StickyHeader />
-      <Navigation />
+      <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
@@ -23,10 +19,9 @@ export default function Loft5Page() {
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Loft 5 - urban lofts with modern design and contemporary amenities
               </p>
-
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Loft 5 is an urban loft building in Las Vegas that offers sophisticated living with modern design, contemporary amenities, and urban location. If your Loft 5 listing expired, you're not alone. Loft 5 face unique challenges - from marketing urban lifestyle to highlighting modern design to buyers who value contemporary living. Most agents don't understand Loft 5. They use generic strategies, and Loft 5 expire.
+                  Loft 5 is an urban loft building in Las Vegas that offers sophisticated living with modern design, contemporary amenities, and urban location. If your Loft 5 home didn't sell, you're not alone. Loft 5 face unique challenges - from marketing urban lifestyle to highlighting modern design to buyers who value contemporary living. Most agents don't understand Loft 5. They use generic strategies, and Loft 5 expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Loft 5. I understand the urban market. I know how to market urban lofts. I know how to attract urban lifestyle seekers. I've sold expired lofts in Loft 5 and other urban properties. Fast. At top dollar. With zero excuses.
@@ -35,7 +30,6 @@ export default function Loft5Page() {
                   Loft 5 require urban-focused marketing. Professional photography highlighting modern design. Strategic positioning emphasizing contemporary amenities. Explanation of urban lifestyle and modern living. Most agents don't understand this. They use generic strategies, and Loft 5 expire. I use urban-focused marketing, highlight modern design, and attract urban lifestyle seekers. Loft 5 sell. Fast. At top dollar.
                 </p>
               </div>
-
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Loft 5 Expire</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -54,7 +48,6 @@ export default function Loft5Page() {
                   Loft 5 attract contemporary living enthusiasts. Young professionals. Design-conscious buyers. Urban lifestyle seekers. Most agents don't know how to market to contemporary living enthusiasts. They use traditional marketing, and contemporary living enthusiasts look elsewhere. I know how to market to contemporary living enthusiasts. I emphasize modern design, highlight urban location, and showcase contemporary living appeal that attracts modern-conscious buyers.
                 </p>
               </div>
-
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Loft 5 Features</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -73,7 +66,6 @@ export default function Loft5Page() {
                   Loft 5 offer contemporary amenities including fitness center, rooftop access, and urban features. Most agents don't showcase amenities effectively. I do. I showcase fitness center, emphasize rooftop access, and highlight urban features that attract amenity-conscious buyers.
                 </p>
               </div>
-
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">My Loft 5 Marketing Strategy</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -92,23 +84,13 @@ export default function Loft5Page() {
                   Loft 5 attract urban lifestyle seekers. Young professionals. Urban enthusiasts. Contemporary living seekers. Most agents don't know how to target these buyers. I do. I use targeted advertising, urban-focused marketing, and contemporary positioning that attracts urban-conscious buyers.
                 </p>
               </div>
-
-              <div className="bg-primary text-primary-foreground p-8 rounded-lg mb-12 text-center">
-                <h2 className="text-3xl font-black mb-4">30-DAY GUARANTEE</h2>
-                <p className="text-2xl font-bold mb-2">
-                  Sold in 30 Days or I Work Free
-                </p>
-                <p className="text-lg opacity-90">
-                  No excuses. No exceptions. If your Loft 5 listing doesn't sell in 30 days, I continue working at no additional cost until it sells. That's how confident I am in my Loft 5 marketing system.
-                </p>
-              </div>
-
+              
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR LOFT 5?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Loft 5 listing expired, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Loft 5 home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="loft_5" buttonText="GET MY LOFT 5 SOLD" />
               </div>
@@ -119,4 +101,3 @@ export default function Loft5Page() {
     </>
   )
 }
-

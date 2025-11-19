@@ -1,18 +1,25 @@
-import StickyHeader from '@/app/components/sticky-header'
-import Navigation from '@/app/components/navigation'
+import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
-
+import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 export const metadata = {
   title: 'High Rise Condos Las Vegas | Dr. Jan Duffy',
   description:
-    'Expert help selling expired high-rise condos in Las Vegas. Luxury high-rise condos require sophisticated marketing. 30-day guarantee.',
+    'Expert help selling expired high-rise condos in Las Vegas. Luxury high-rise condos require sophisticated marketing. Proven results and professional marketing.',
+  alternates: {
+    canonical: '/condos/high-rise',
+  },
 }
-
 export default function HighRiseCondosPage() {
   return (
     <>
-      <StickyHeader />
-      <Navigation />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Las Vegas Condos', url: '/condos' },
+          { name: 'High Rise Condos', url: '/condos/high-rise' },
+        ]}
+      />
+      <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
@@ -23,7 +30,6 @@ export default function HighRiseCondosPage() {
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired high-rise condos - luxury condos that require sophisticated marketing
               </p>
-
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
                   Las Vegas high-rise condos are luxury properties that require sophisticated marketing. They compete with world-class resorts. They attract high-end buyers. They require professional photography, luxury staging, and exclusive marketing. Most agents don't understand high-rise condos. They use generic strategies, and high-rise condos expire.
@@ -35,7 +41,6 @@ export default function HighRiseCondosPage() {
                   High-rise condos face unique challenges. Competition from luxury resorts. High HOA fees. Strict building restrictions. Buyers who expect luxury amenities and exclusive access. Most agents don't address these challenges. They use generic strategies, and high-rise condos expire. I address these challenges. I use luxury marketing strategies, highlight exclusive amenities, and attract high-end buyers. High-rise condos sell. Fast. At top dollar.
                 </p>
               </div>
-
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why High-Rise Condos Expire</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -54,7 +59,6 @@ export default function HighRiseCondosPage() {
                   High-rise condos have strict building restrictions. Limited open houses. Restricted photography. Complex approval processes. Most agents don't know how to work within these restrictions. They try to market high-rise condos like regular condos, hit restrictions, and give up. I know how to market high-rise condos effectively within building restrictions. I use digital marketing, exclusive access events, and targeted advertising that doesn't violate building rules.
                 </p>
               </div>
-
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">My High-Rise Condo Expertise</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -73,7 +77,6 @@ export default function HighRiseCondosPage() {
                   High-rise condos have strict building restrictions. I have relationships with building management. I know how to work within restrictions. I know how to get approvals. Most agents don't have these relationships. They hit restrictions, and high-rise condos expire.
                 </p>
               </div>
-
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">Popular High-Rise Condo Buildings</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -92,23 +95,13 @@ export default function HighRiseCondosPage() {
                   The Ogden offers luxury high-rise condos with downtown location, modern design, and exclusive amenities. I've sold expired Ogden condos by showcasing downtown location, highlighting modern design, and attracting urban lifestyle seekers.
                 </p>
               </div>
-
-              <div className="bg-primary text-primary-foreground p-8 rounded-lg mb-12 text-center">
-                <h2 className="text-3xl font-black mb-4">30-DAY GUARANTEE</h2>
-                <p className="text-2xl font-bold mb-2">
-                  Sold in 30 Days or I Work Free
-                </p>
-                <p className="text-lg opacity-90">
-                  No excuses. No exceptions. If your high-rise condo doesn't sell in 30 days, I continue working at no additional cost until it sells. That's how confident I am in my high-rise condo marketing system.
-                </p>
-              </div>
-
+              
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR HIGH-RISE CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Las Vegas high-rise condo listing expired, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Las Vegas high-rise condo home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="high_rise_condos" buttonText="GET MY HIGH-RISE CONDO SOLD" />
               </div>
@@ -119,4 +112,3 @@ export default function HighRiseCondosPage() {
     </>
   )
 }
-

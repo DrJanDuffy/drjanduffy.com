@@ -1,18 +1,14 @@
-import StickyHeader from '@/app/components/sticky-header'
-import Navigation from '@/app/components/navigation'
+import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
-
 export const metadata = {
-  title: 'The Martin Condos Las Vegas | Expired Listing Expert | Dr. Jan Duffy',
+  title: 'The Martin Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
   description:
-    'Expert help selling expired Martin condos in Las Vegas. Luxury high-rise condos with modern design. 30-day guarantee or work free.',
+    'Expert help selling expired Martin condos in Las Vegas. Luxury high-rise condos with modern design. Proven results and professional marketing.',
 }
-
 export default function TheMartinCondosPage() {
   return (
     <>
-      <StickyHeader />
-      <Navigation />
+      <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
@@ -23,10 +19,9 @@ export default function TheMartinCondosPage() {
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Martin condos - luxury high-rise condos with modern design and exclusive amenities
               </p>
-
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  The Martin is a luxury high-rise condominium building in Las Vegas that offers sophisticated living with modern design, exclusive amenities, and prime location. If your Martin condo listing expired, you're not alone. Martin condos face unique challenges - from marketing modern design to highlighting exclusive amenities to buyers who expect luxury living. Most agents don't understand Martin condos. They use generic strategies, and Martin condos expire.
+                  The Martin is a luxury high-rise condominium building in Las Vegas that offers sophisticated living with modern design, exclusive amenities, and prime location. If your Martin condo home didn't sell, you're not alone. Martin condos face unique challenges - from marketing modern design to highlighting exclusive amenities to buyers who expect luxury living. Most agents don't understand Martin condos. They use generic strategies, and Martin condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Martin condos. I understand the luxury market. I know how to market high-rise condos with modern design. I know how to attract luxury lifestyle seekers. I've sold expired condos in The Martin and other luxury modern properties. Fast. At top dollar. With zero excuses.
@@ -35,7 +30,6 @@ export default function TheMartinCondosPage() {
                   Martin condos require sophisticated marketing. Professional photography highlighting modern design. Strategic positioning emphasizing exclusive amenities. Explanation of luxury living and prime location. Most agents don't understand this. They use generic strategies, and Martin condos expire. I use sophisticated marketing, highlight modern design, and attract luxury lifestyle seekers. Martin condos sell. Fast. At top dollar.
                 </p>
               </div>
-
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Martin Condos Expire</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -54,7 +48,6 @@ export default function TheMartinCondosPage() {
                   Martin attracts luxury lifestyle seekers. High-net-worth individuals. Second-home buyers. Modern design enthusiasts. Most agents don't know how to position luxury lifestyle effectively. They use generic positioning, and luxury lifestyle seekers look elsewhere. I know how to position luxury lifestyle effectively. I emphasize modern design, highlight exclusive amenities, and showcase luxury lifestyle appeal that attracts luxury-conscious buyers.
                 </p>
               </div>
-
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Martin Condo Features</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -73,7 +66,6 @@ export default function TheMartinCondosPage() {
                   Martin's prime location offers proximity to world-class entertainment, dining, and shopping. Most agents don't emphasize location effectively. I do. I highlight proximity to entertainment, showcase dining options, and emphasize shopping access that attracts location-conscious buyers.
                 </p>
               </div>
-
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">My Martin Condo Marketing Strategy</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -92,23 +84,13 @@ export default function TheMartinCondosPage() {
                   Martin attracts luxury lifestyle seekers. High-net-worth individuals. Second-home buyers. Modern design enthusiasts. Most agents don't know how to target these buyers. I do. I use targeted advertising, exclusive access events, and luxury marketing that attracts luxury-conscious buyers.
                 </p>
               </div>
-
-              <div className="bg-primary text-primary-foreground p-8 rounded-lg mb-12 text-center">
-                <h2 className="text-3xl font-black mb-4">30-DAY GUARANTEE</h2>
-                <p className="text-2xl font-bold mb-2">
-                  Sold in 30 Days or I Work Free
-                </p>
-                <p className="text-lg opacity-90">
-                  No excuses. No exceptions. If your Martin condo doesn't sell in 30 days, I continue working at no additional cost until it sells. That's how confident I am in my Martin condo marketing system.
-                </p>
-              </div>
-
+              
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR MARTIN CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Martin condo listing expired, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Martin condo home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="martin_condos" buttonText="GET MY MARTIN CONDO SOLD" />
               </div>
@@ -119,4 +101,3 @@ export default function TheMartinCondosPage() {
     </>
   )
 }
-

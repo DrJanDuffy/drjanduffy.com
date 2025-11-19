@@ -1,18 +1,15 @@
-import StickyHeader from '@/app/components/sticky-header'
-import Navigation from '@/app/components/navigation'
+import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import RelatedCondoLinks from '@/app/components/related-condo-links'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
-
 export const metadata = {
-  title: 'Cosmopolitan Condos Las Vegas | Expired Listing Expert | Dr. Jan Duffy',
+  title: 'Cosmopolitan Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
   description:
-    'Expert help selling expired Cosmopolitan condos in Las Vegas. Luxury Strip condos at The Cosmopolitan. 30-day guarantee or work free.',
+    'Expert help selling expired Cosmopolitan condos in Las Vegas. Luxury Strip condos at The Cosmopolitan. Proven results and professional marketing.',
   alternates: {
     canonical: '/condos/cosmopolitan',
   },
 }
-
 export default function CosmopolitanCondosPage() {
   return (
     <>
@@ -24,8 +21,7 @@ export default function CosmopolitanCondosPage() {
           { name: 'Cosmopolitan Condos', url: '/condos/cosmopolitan' },
         ]}
       />
-      <StickyHeader />
-      <Navigation />
+      <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
@@ -36,10 +32,9 @@ export default function CosmopolitanCondosPage() {
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Cosmopolitan condos - luxury Strip condos with resort access and world-class amenities
               </p>
-
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  The Cosmopolitan is a luxury resort and condominium building on the Las Vegas Strip that offers sophisticated living with world-class amenities and resort access. If your Cosmopolitan condo listing expired, you're not alone. Cosmopolitan condos face unique challenges - from competition with luxury resorts to strict building restrictions to buyers who expect exclusive access. Most agents don't understand Cosmopolitan condos. They use generic strategies, and Cosmopolitan condos expire.
+                  The Cosmopolitan is a luxury resort and condominium building on the Las Vegas Strip that offers sophisticated living with world-class amenities and resort access. If your Cosmopolitan condo home didn't sell, you're not alone. Cosmopolitan condos face unique challenges - from competition with luxury resorts to strict building restrictions to buyers who expect exclusive access. Most agents don't understand Cosmopolitan condos. They use generic strategies, and Cosmopolitan condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Cosmopolitan condos. I understand the luxury market. I know how to market Strip condos. I know how to attract high-end buyers. I've sold expired condos in The Cosmopolitan and other luxury Strip properties. Fast. At top dollar. With zero excuses.
@@ -48,7 +43,6 @@ export default function CosmopolitanCondosPage() {
                   Cosmopolitan condos require sophisticated marketing. Professional photography. Luxury staging. Exclusive access events. High-end advertising. Most agents don't invest in this level of marketing. They use generic strategies, and Cosmopolitan condos expire. I invest $5,000+ in professional media, luxury staging, and exclusive marketing that attracts high-end buyers. Cosmopolitan condos sell. Fast. At top dollar.
                 </p>
               </div>
-
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Cosmopolitan Condos Expire</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -67,7 +61,6 @@ export default function CosmopolitanCondosPage() {
                   The Cosmopolitan has strict building restrictions. Limited open houses. Restricted photography. Complex approval processes. Most agents don't know how to work within these restrictions. They try to market Cosmopolitan condos like regular condos, hit restrictions, and give up. I know how to market Cosmopolitan condos effectively within building restrictions. I use digital marketing, exclusive access events, and targeted advertising that doesn't violate building rules.
                 </p>
               </div>
-
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Cosmopolitan Condo Features</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -86,7 +79,6 @@ export default function CosmopolitanCondosPage() {
                   The Cosmopolitan offers world-class amenities including concierge services, fitness centers, spa access, and exclusive events. Most agents don't showcase amenities effectively. I do. I showcase concierge services, emphasize fitness centers, highlight spa access, and showcase exclusive events that attract amenity-conscious buyers.
                 </p>
               </div>
-
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">My Cosmopolitan Condo Marketing Strategy</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -105,25 +97,13 @@ export default function CosmopolitanCondosPage() {
                   Cosmopolitan attracts high-end buyers. Investors. Second-home buyers. Luxury lifestyle seekers. Most agents don't know how to target these buyers. I do. I use targeted advertising, exclusive access events, and luxury marketing that attracts high-end buyers.
                 </p>
               </div>
-
-              <div className="bg-primary text-primary-foreground p-8 rounded-lg mb-12 text-center">
-                <h2 className="text-3xl font-black mb-4">30-DAY GUARANTEE</h2>
-                <p className="text-2xl font-bold mb-2">
-                  Sold in 30 Days or I Work Free
-                </p>
-                <p className="text-lg opacity-90">
-                  No excuses. No exceptions. If your Cosmopolitan condo doesn't sell in 30 days, I continue working at no additional cost until it sells. That's how confident I am in my Cosmopolitan condo marketing system.
-                </p>
-              </div>
-
               <RelatedCondoLinks currentBuilding="/condos/cosmopolitan" category="luxury" />
-
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR COSMOPOLITAN CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Cosmopolitan condo listing expired, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Cosmopolitan condo home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="cosmopolitan_condos" buttonText="GET MY COSMOPOLITAN CONDO SOLD" />
               </div>
@@ -134,4 +114,3 @@ export default function CosmopolitanCondosPage() {
     </>
   )
 }
-

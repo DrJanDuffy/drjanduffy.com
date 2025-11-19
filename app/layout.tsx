@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import Script from 'next/script'
 import { ThemeProvider } from 'next-themes'
+import Footer from './components/footer'
 import './globals.css'
 
 const geistSans = Geist({
@@ -16,28 +17,30 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'),
-  title: 'Your Agent Failed | Dr. Jan Duffy - Expired Listing Expert',
+  title: 'Sell Your House Fast Las Vegas | Summerlin Real Estate Specialist',
   description:
-    'Your house didn\'t fail. Your agent did. Dr. Jan Duffy has sold 47 expired Summerlin listings in 19 days average at 98.7% of asking. Get your failed listing fixed now.',
+    'Las Vegas real estate specialist for homes that won\'t sell. 500+ families served, $127M+ in sales. Summerlin luxury expert. Free consultation: 702-500-1064',
   keywords: [
-    'expired listing las vegas',
-    'summerlin expired homes',
+    'home that didn\'t sell las vegas',
     'house won\'t sell vegas',
+    'couldn\'t sell my house',
     'fire my real estate agent',
     'failed listing help',
-    'expired MLS vegas',
+    'unsold home las vegas',
+    'home that failed to sell',
+    're-list my home las vegas',
   ],
   openGraph: {
-    title: 'Your Agent Failed | Dr. Jan Duffy - Expired Listing Expert',
+    title: 'Couldn\'t Sell Your Las Vegas Home? | Dr. Jan Duffy - I Sell Homes That Didn\'t Sell',
     description:
-      'Your house didn\'t fail. Your agent did. Dr. Jan Duffy has sold 47 expired Summerlin listings in 19 days average at 98.7% of asking.',
+      'Your home didn\'t sell? I\'ve helped 47 Summerlin sellers who couldn\'t sell with their previous agent. Average 19 days to contract, 98.7% of asking.',
     images: ['/og-image.png'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Your Agent Failed | Dr. Jan Duffy',
+    title: 'Couldn\'t Sell Your Home? | Dr. Jan Duffy',
     description:
-      'Your house didn\'t fail. Your agent did. Get your expired listing sold in 30 days or less.',
+      'Your house didn\'t sell? Get your home sold in 30 days or less with proven results.',
     images: ['/og-image.png'],
   },
 }
@@ -104,30 +107,152 @@ export default function RootLayout({
             `}
           </Script>
         )}
-        {/* Schema Markup */}
+        {/* Schema Markup - Multiple Schemas */}
         <Script
           id="schema-markup"
           type="application/ld+json"
           strategy="afterInteractive"
         >
-          {JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'RealEstateAgent',
-            name: 'Dr. Janet Duffy',
-            telephone: '(702) 500-1064',
-            specialty: 'Expired Listings',
-            areaServed: {
-              '@type': 'City',
-              name: 'Summerlin West',
+          {JSON.stringify([
+            {
+              '@context': 'https://schema.org',
+              '@type': 'RealEstateAgent',
+              '@id': `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}#agent`,
+              name: 'Dr. Janet Duffy',
+              alternateName: 'Dr. Jan Duffy',
+              description: 'Las Vegas real estate expert specializing in homes that didn\'t sell. Helped 47 Summerlin sellers who couldn\'t sell with their previous agent - 19 day average and 98.7% of asking price.',
+              telephone: '(702) 500-1064',
+              email: 'info@drjanduffy.com',
+              url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
+              image: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}/og-image.png`,
+              specialty: ['Homes That Didn\'t Sell', 'Failed Listing Specialist', 'Unsold Home Expert', 'Luxury Real Estate', 'Summerlin Real Estate'],
+              areaServed: [
+                {
+                  '@type': 'City',
+                  name: 'Las Vegas',
+                  containedIn: {
+                    '@type': 'State',
+                    name: 'Nevada',
+                  },
+                },
+                {
+                  '@type': 'City',
+                  name: 'Summerlin West',
+                },
+                {
+                  '@type': 'City',
+                  name: 'Henderson',
+                },
+              ],
+              aggregateRating: {
+                '@type': 'AggregateRating',
+                ratingValue: '5',
+                reviewCount: '47',
+                bestRating: '5',
+                worstRating: '1',
+              },
+              priceRange: '$400K-$10M+',
+              award: ['Failed Listing Specialist 2025', 'Good Neighbor Award'],
+              knowsAbout: ['Real Estate', 'Homes That Didn\'t Sell', 'Failed Listings', 'Unsold Homes', 'Re-listing Service', 'Luxury Properties', 'Property Marketing', 'Real Estate Negotiation'],
+              memberOf: {
+                '@type': 'Organization',
+                name: 'Nevada Real Estate Division',
+              },
             },
-            aggregateRating: {
-              '@type': 'AggregateRating',
-              ratingValue: '5',
-              reviewCount: '47',
+            {
+              '@context': 'https://schema.org',
+              '@type': 'LocalBusiness',
+              '@id': `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}#business`,
+              name: 'Dr. Janet Duffy Real Estate',
+              alternateName: 'Dr. Jan Duffy - Failed Listing Specialist',
+              description: 'Las Vegas real estate agent specializing in homes that didn\'t sell and luxury properties in Summerlin, The Ridges, and surrounding areas.',
+              telephone: '(702) 500-1064',
+              email: 'info@drjanduffy.com',
+              url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
+              image: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}/og-image.png`,
+              address: {
+                '@type': 'PostalAddress',
+                streetAddress: '1180 North Town Center Drive',
+                addressLocality: 'Las Vegas',
+                addressRegion: 'NV',
+                postalCode: '89144',
+                addressCountry: 'US',
+              },
+              geo: {
+                '@type': 'GeoCoordinates',
+                latitude: '36.1579',
+                longitude: '-115.3030',
+              },
+              priceRange: '$400K-$10M+',
+              areaServed: {
+                '@type': 'City',
+                name: 'Las Vegas',
+              },
+              aggregateRating: {
+                '@type': 'AggregateRating',
+                ratingValue: '5',
+                reviewCount: '47',
+                bestRating: '5',
+                worstRating: '1',
+              },
             },
-            priceRange: '$400K-$10M+',
-            award: 'Expired Listing Expert 2025',
-          })}
+            {
+              '@context': 'https://schema.org',
+              '@type': 'Person',
+              '@id': `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}#person`,
+              name: 'Dr. Janet Duffy',
+              alternateName: 'Dr. Jan Duffy',
+              jobTitle: 'Real Estate Agent',
+              worksFor: {
+                '@type': 'Organization',
+                name: 'Dr. Janet Duffy Real Estate',
+              },
+              telephone: '(702) 500-1064',
+              email: 'info@drjanduffy.com',
+              url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
+              image: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}/og-image.png`,
+              award: ['Failed Listing Specialist 2025', 'Good Neighbor Award'],
+              knowsAbout: ['Real Estate', 'Homes That Didn\'t Sell', 'Failed Listings', 'Unsold Homes', 'Luxury Properties', 'Property Marketing'],
+            },
+            {
+              '@context': 'https://schema.org',
+              '@type': 'Organization',
+              '@id': `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}#organization`,
+              name: 'Dr. Janet Duffy Real Estate',
+              alternateName: 'Dr. Jan Duffy - Failed Listing Specialist',
+              url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
+              logo: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}/og-image.png`,
+              contactPoint: {
+                '@type': 'ContactPoint',
+                telephone: '(702) 500-1064',
+                contactType: 'Customer Service',
+                areaServed: 'US',
+                availableLanguage: 'English',
+              },
+              sameAs: [
+                process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
+              ],
+            },
+            {
+              '@context': 'https://schema.org',
+              '@type': 'WebSite',
+              '@id': `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}#website`,
+              name: 'Dr. Janet Duffy - Failed Listing Specialist',
+              url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
+              description: 'Las Vegas real estate expert specializing in homes that didn\'t sell. Helped 47 Summerlin sellers who couldn\'t sell with their previous agent - 19 day average and 98.7% of asking price.',
+              publisher: {
+                '@id': `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}#organization`,
+              },
+              potentialAction: {
+                '@type': 'SearchAction',
+                target: {
+                  '@type': 'EntryPoint',
+                  urlTemplate: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}/search?q={search_term_string}`,
+                },
+                'query-input': 'required name=search_term_string',
+              },
+            },
+          ])}
         </Script>
         <ThemeProvider
           attribute="class"
@@ -136,7 +261,12 @@ export default function RootLayout({
           disableTransitionOnChange
           storageKey="theme"
         >
-          {children}
+          <div className="flex flex-col min-h-screen">
+            <main className="flex-grow">
+              {children}
+            </main>
+            <Footer />
+          </div>
         </ThemeProvider>
       </body>
     </html>

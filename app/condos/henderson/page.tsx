@@ -1,18 +1,25 @@
-import StickyHeader from '@/app/components/sticky-header'
-import Navigation from '@/app/components/navigation'
+import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
-
+import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 export const metadata = {
   title: 'Henderson Condos | Dr. Jan Duffy',
   description:
-    'Expert help selling expired Henderson condos. Mid-rise condos and townhomes in Henderson. 30-day guarantee or work free.',
+    'Expert help selling expired Henderson condos. Mid-rise condos and townhomes in Henderson. Proven results and professional marketing.',
+  alternates: {
+    canonical: '/condos/henderson',
+  },
 }
-
 export default function HendersonCondosPage() {
   return (
     <>
-      <StickyHeader />
-      <Navigation />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Las Vegas Condos', url: '/condos' },
+          { name: 'Henderson Condos', url: '/condos/henderson' },
+        ]}
+      />
+      <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
@@ -23,10 +30,9 @@ export default function HendersonCondosPage() {
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Henderson condos - mid-rise condos and townhomes in Las Vegas's family-friendly community
               </p>
-
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Henderson is Las Vegas's family-friendly community, offering mid-rise condos, townhomes, and affordable properties in a suburban setting. If your Henderson condo listing expired, you're not alone. Henderson condos face unique challenges - from competition with new construction to value-conscious buyers to emphasis on family-friendly amenities. Most agents don't understand Henderson condos. They use generic strategies, and Henderson condos expire.
+                  Henderson is Las Vegas's family-friendly community, offering mid-rise condos, townhomes, and affordable properties in a suburban setting. If your Henderson condo home didn't sell, you're not alone. Henderson condos face unique challenges - from competition with new construction to value-conscious buyers to emphasis on family-friendly amenities. Most agents don't understand Henderson condos. They use generic strategies, and Henderson condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Henderson condos. I understand the Henderson market. I know how to market mid-rise condos and townhomes. I know how to attract value-conscious buyers. I've sold expired condos in Green Valley, Anthem, and throughout Henderson. Fast. At top dollar. With zero excuses.
@@ -35,7 +41,6 @@ export default function HendersonCondosPage() {
                   Henderson condos require value-focused marketing. Professional photography highlighting family-friendly features. Strategic positioning emphasizing affordability and value. Emphasis on established neighborhoods and mature communities. Most agents don't understand this. They use generic strategies, and Henderson condos expire. I use value-focused marketing, highlight family-friendly features, and attract value-conscious buyers. Henderson condos sell. Fast. At top dollar.
                 </p>
               </div>
-
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Henderson Condos Expire</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -54,7 +59,6 @@ export default function HendersonCondosPage() {
                   Henderson offers family-friendly amenities. Parks. Schools. Community centers. Family-oriented features. Most agents don't market family-friendly amenities effectively. They don't highlight parks. They don't showcase schools. They don't emphasize family-oriented features. I market family-friendly amenities effectively. I highlight parks, showcase schools, and emphasize family-oriented features that attract family-conscious buyers.
                 </p>
               </div>
-
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">My Henderson Condo Expertise</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -73,7 +77,6 @@ export default function HendersonCondosPage() {
                   Henderson offers family-friendly features. Parks. Schools. Community centers. Family-oriented amenities. I highlight these features effectively. I showcase parks, emphasize schools, and highlight family-oriented amenities that attract family-conscious buyers. Most agents don't do this. They use generic marketing, and Henderson condos expire.
                 </p>
               </div>
-
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">Popular Henderson Condo Areas</h2>
                 <p className="text-lg text-gray-700 mb-4">
@@ -92,23 +95,13 @@ export default function HendersonCondosPage() {
                   MacDonald Ranch offers mid-rise condos and townhomes with established neighborhoods, mature landscaping, and proven value. I've sold expired MacDonald Ranch condos by showcasing established neighborhoods, highlighting mature landscaping, and attracting value-conscious buyers.
                 </p>
               </div>
-
-              <div className="bg-primary text-primary-foreground p-8 rounded-lg mb-12 text-center">
-                <h2 className="text-3xl font-black mb-4">30-DAY GUARANTEE</h2>
-                <p className="text-2xl font-bold mb-2">
-                  Sold in 30 Days or I Work Free
-                </p>
-                <p className="text-lg opacity-90">
-                  No excuses. No exceptions. If your Henderson condo doesn't sell in 30 days, I continue working at no additional cost until it sells. That's how confident I am in my Henderson condo marketing system.
-                </p>
-              </div>
-
+              
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR HENDERSON CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Henderson condo listing expired, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Henderson condo home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="henderson_condos" buttonText="GET MY HENDERSON CONDO SOLD" />
               </div>
@@ -119,4 +112,3 @@ export default function HendersonCondosPage() {
     </>
   )
 }
-
