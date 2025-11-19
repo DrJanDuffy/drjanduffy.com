@@ -5,7 +5,7 @@ import { Check, X } from 'lucide-react'
 export const metadata = {
   title: 'Your Agent vs Me | Dr. Jan Duffy',
   description:
-    'Side-by-side comparison of what your previous agent did vs. what Dr. Jan Duffy does to sell homes that didn't sell.',
+    'Side-by-side comparison of what your previous agent did vs. what Dr. Jan Duffy does to sell homes that didn\'t sell.',
   alternates: {
     canonical: '/comparison',
   },

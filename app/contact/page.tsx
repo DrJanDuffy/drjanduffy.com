@@ -4,7 +4,7 @@ import { Phone, Mail, MapPin } from 'lucide-react'
 export const metadata = {
   title: 'Contact Dr. Jan Duffy | (702) 500-1064',
   description:
-    'Contact Dr. Janet Duffy to discuss your HOME THAT DIDN'T SELL. Call (702) 500-1064 or fill out the form for immediate response.',
+    'Contact Dr. Janet Duffy to discuss your HOME THAT DIDN\'T SELL. Call (702) 500-1064 or fill out the form for immediate response.',
 }
 export default function ContactPage() {
   return (

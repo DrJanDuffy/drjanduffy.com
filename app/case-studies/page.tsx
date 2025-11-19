@@ -3,9 +3,9 @@ import { successStories } from '@/lib/data/success-stories'
 import { formatCurrency } from '@/lib/utils'
 import Link from 'next/link'
 export const metadata = {
-  title: 'Case Studies | HOME THAT DIDN'T SELL Case Studies | Dr. Jan Duffy',
+  title: 'Case Studies | HOME THAT DIDN\'T SELL Case Studies | Dr. Jan Duffy',
   description:
-    'Detailed case studies of homes that didn't sell - now sold by Dr. Jan Duffy. See how failed listings became successful sales.',
+    'Detailed case studies of homes that didn\'t sell - now sold by Dr. Jan Duffy. See how failed listings became successful sales.',
 }
 export default function CaseStudiesPage() {
   return (

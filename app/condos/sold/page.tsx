@@ -3,7 +3,7 @@ import LeadForm from '@/app/components/lead-form'
 export const metadata = {
   title: 'Condos Sold in Las Vegas | Dr. Jan Duffy',
   description:
-    'See condos sold by Dr. Jan Duffy. homes that didn't sell - now sold fast and at top dollar. Proven results.',
+    'See condos sold by Dr. Jan Duffy. homes that didn\'t sell - now sold fast and at top dollar. Proven results.',
 }
 export default function CondosSoldPage() {
   return (
