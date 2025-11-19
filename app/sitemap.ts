@@ -459,6 +459,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.7,
     },
+    {
+      url: `${baseUrl}/neighborhoods/del-webb-north-ranch`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.7,
+    },
     // SEO Landing Pages
     {
       url: `${baseUrl}/sell-house-fast-las-vegas`,
