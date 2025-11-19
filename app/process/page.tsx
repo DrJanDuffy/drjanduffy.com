@@ -269,6 +269,40 @@ export default function ProcessPage() {
                   </div>
                 </div>
               </div>
+              <div className="bg-primary/5 border-2 border-primary/20 rounded-lg p-8 mb-8">
+                <h2 className="text-3xl font-black mb-4 text-center">Proven Process by a Proven Expert</h2>
+                <p className="text-lg text-gray-700 mb-6 text-center">
+                  This 5-step process was developed by Dr. Janet Duffy, a licensed real estate agent with over a decade of experience selling luxury homes and a track record of solving complex real estate challenges. Dr. Jan has successfully used this exact process to sell 47 homes that other agents couldn't sell.
+                </p>
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div>
+                    <h3 className="text-xl font-bold mb-3">Why Dr. Jan's Process Works</h3>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• ✓ Proven results: 47 failed homes now sold</li>
+                      <li>• ✓ Expert execution: 10+ years experience</li>
+                      <li>• ✓ Strategic reset: Professional photography & staging</li>
+                      <li>• ✓ Maximum exposure: 97-point marketing system</li>
+                      <li>• ✓ Aggressive negotiation: 98.7% asking price average</li>
+                      <li>• ✓ Complete management: Timeline enforcement</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-3">Real Results from This Process</h3>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• 47 homes that didn't sell - now sold</li>
+                      <li>• 19 day average to contract</li>
+                      <li>• 98.7% of asking price average</li>
+                      <li>• $127M+ in total sales volume</li>
+                      <li>• 500+ families served</li>
+                      <li>• Top 1% of Las Vegas agents</li>
+                    </ul>
+                  </div>
+                </div>
+                <p className="text-lg text-gray-700 mt-6 text-center">
+                  This process isn't theoretical. It's battle-tested and proven. The same steps that have sold 47 homes that other agents couldn't sell can sell yours. The only question is: are you ready to work with an agent who has a proven process and proven results?
+                </p>
+              </div>
+
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                 <h2 className="text-2xl font-black mb-4 text-center">
                   READY TO START THE PROCESS?

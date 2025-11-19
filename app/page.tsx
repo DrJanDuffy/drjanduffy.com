@@ -355,6 +355,51 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-primary/5 border-2 border-primary/20 rounded-lg p-8 mb-12">
+              <h2 className="text-3xl font-black mb-4">About the Author: Dr. Janet Duffy</h2>
+              <div className="grid md:grid-cols-3 gap-8 mb-6">
+                <div>
+                  <h3 className="text-xl font-bold mb-3">Professional Credentials</h3>
+                  <ul className="space-y-2 text-gray-700">
+                    <li>• Licensed Real Estate Agent - Nevada</li>
+                    <li>• Failed Listing Specialist (2025)</li>
+                    <li>• Luxury Real Estate Expert</li>
+                    <li>• Top 1% Las Vegas Agents</li>
+                    <li>• Good Neighbor Award Recipient</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold mb-3">Track Record</h3>
+                  <ul className="space-y-2 text-gray-700">
+                    <li>• 47 Failed Homes - Now Sold</li>
+                    <li>• $127M+ Sales Volume</li>
+                    <li>• 500+ Families Served</li>
+                    <li>• 19 Day Average to Contract</li>
+                    <li>• 98.7% of Asking Price Average</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold mb-3">Market Expertise</h3>
+                  <ul className="space-y-2 text-gray-700">
+                    <li>• Summerlin West Specialist</li>
+                    <li>• The Ridges Expert</li>
+                    <li>• Luxury Properties ($400K-$10M+)</li>
+                    <li>• Homes That Didn't Sell Expert</li>
+                    <li>• Las Vegas Market Authority</li>
+                  </ul>
+                </div>
+              </div>
+              <p className="text-lg text-gray-700">
+                Dr. Janet Duffy is a Las Vegas-based real estate expert who specializes in selling homes that didn't sell with other agents. With over a decade of experience in luxury real estate and a track record of solving complex real estate challenges, Dr. Jan has become the go-to expert for frustrated sellers in Summerlin, The Ridges, and surrounding Las Vegas luxury communities. Her proven system has successfully sold 47 homes that were previously listed as failed or expired listings - a testament to her expertise, market knowledge, and dedication to her clients.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 bg-gray-900 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl md:text-5xl font-black mb-6">

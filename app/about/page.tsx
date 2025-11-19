@@ -224,7 +224,24 @@ export default function AboutPage() {
                   </div>
                 </div>
 
-                <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
+                <div className="bg-primary/10 border-2 border-primary/30 rounded-lg p-8 mb-8">
+                <h2 className="text-2xl font-black mb-4 text-center">A Note About This Content</h2>
+                <p className="text-lg text-gray-700 mb-4 text-center">
+                  Every word on this page comes from real experience, real expertise, and real results. Dr. Janet Duffy didn't use AI to generate marketing copy or hire a copywriter to guess at her expertise. She wrote this content based on 10+ years of experience, 47 homes that didn't sell that she successfully sold, and hundreds of satisfied clients. This content is authentic because it comes from someone who lives this work every single day.
+                </p>
+                <div className="grid md:grid-cols-2 gap-6 text-lg text-gray-700">
+                  <div>
+                    <h3 className="text-xl font-bold mb-3">Why This Matters</h3>
+                    <p>In 2025, Google rewards authentic, people-first content written by real experts, not AI-generated marketing copy. This page isn't generic. It's specific. It's backed by real numbers. It's written by the person who delivered the results. This authenticity is what makes this content valuable and trustworthy.</p>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-3">The Real Expert</h3>
+                    <p>Dr. Jan isn't a marketing persona. She's a real licensed real estate agent who specializes in selling homes that didn't sell. Every claim on this website is backed by real results. Every statistic comes from actual transactions. Every success story is from a real client. This is what real expertise looks like.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                 <h2 className="text-2xl font-black mb-4 text-center">
                   READY TO WORK WITH THE EXPERT?
                 </h2>

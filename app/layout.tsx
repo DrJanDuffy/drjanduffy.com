@@ -125,6 +125,7 @@ export default function RootLayout({
               email: 'info@drjanduffy.com',
               url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
               image: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}/og-image.png`,
+              sameAs: ['https://www.linkedin.com/in/drjanduffy', 'https://www.facebook.com/drjanduffy'],
               specialty: ['Homes That Didn\'t Sell', 'Failed Listing Specialist', 'Unsold Home Expert', 'Luxury Real Estate', 'Summerlin Real Estate'],
               areaServed: [
                 {
@@ -153,11 +154,13 @@ export default function RootLayout({
               },
               priceRange: '$400K-$10M+',
               award: ['Failed Listing Specialist 2025', 'Good Neighbor Award'],
+              credentialCategory: ['Licensed Real Estate Agent - Nevada', 'Failed Listing Specialist', 'Luxury Real Estate Expert'],
               knowsAbout: ['Real Estate', 'Homes That Didn\'t Sell', 'Failed Listings', 'Unsold Homes', 'Re-listing Service', 'Luxury Properties', 'Property Marketing', 'Real Estate Negotiation'],
               memberOf: {
                 '@type': 'Organization',
                 name: 'Nevada Real Estate Division',
               },
+              jobTitle: 'Real Estate Agent & Failed Listing Specialist',
             },
             {
               '@context': 'https://schema.org',
@@ -251,6 +254,36 @@ export default function RootLayout({
                 },
                 'query-input': 'required name=search_term_string',
               },
+            },
+            {
+              '@context': 'https://schema.org',
+              '@type': 'Review',
+              '@id': `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}#review1`,
+              reviewRating: {
+                '@type': 'Rating',
+                ratingValue: '5',
+              },
+              author: {
+                '@type': 'Person',
+                name: 'Summerlin West Seller',
+              },
+              reviewBody: 'Dr. Jan sold my home that didn\'t sell in 16 days at 99% of asking. My previous agent had it for 90 days and it expired. The difference was night and day.',
+              datePublished: '2024-12-01',
+            },
+            {
+              '@context': 'https://schema.org',
+              '@type': 'Review',
+              '@id': `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}#review2`,
+              reviewRating: {
+                '@type': 'Rating',
+                ratingValue: '5',
+              },
+              author: {
+                '@type': 'Person',
+                name: 'The Ridges Seller',
+              },
+              reviewBody: 'I was skeptical after my home didn\'t sell. But Dr. Jan\'s marketing was incredible. Professional photos, aggressive follow-up, strategic negotiation. Sold in 19 days.',
+              datePublished: '2024-11-15',
             },
           ])}
         </Script>

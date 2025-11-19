@@ -152,6 +152,45 @@ export default function FAQPage() {
                   </div>
                 </div>
               </div>
+              <div className="bg-primary/5 border-2 border-primary/20 rounded-lg p-8 mb-8">
+                <h2 className="text-3xl font-black mb-4 text-center">About These Answers: Real Expertise Behind Real Results</h2>
+                <p className="text-lg text-gray-700 mb-6 text-center">
+                  The financial and real estate advice in these FAQs comes from Dr. Janet Duffy, a licensed Nevada real estate agent with over a decade of experience in luxury home sales and expertise in solving complex real estate challenges. These aren't generic answers - they're backed by real experience selling real homes.
+                </p>
+                <div className="grid md:grid-cols-3 gap-6">
+                  <div className="bg-white rounded-lg p-4">
+                    <h3 className="text-lg font-bold mb-3">Expertise</h3>
+                    <ul className="space-y-2 text-sm text-gray-700">
+                      <li>• Licensed Real Estate Agent</li>
+                      <li>• 10+ Years Experience</li>
+                      <li>• Luxury Home Specialist</li>
+                      <li>• Failed Listing Expert</li>
+                      <li>• Negotiation Master</li>
+                    </ul>
+                  </div>
+                  <div className="bg-white rounded-lg p-4">
+                    <h3 className="text-lg font-bold mb-3">Authority</h3>
+                    <ul className="space-y-2 text-sm text-gray-700">
+                      <li>• 47 Failed Homes Sold</li>
+                      <li>• $127M+ Sales Volume</li>
+                      <li>• 500+ Clients Served</li>
+                      <li>• Top 1% of Agents</li>
+                      <li>• Award Recipient</li>
+                    </ul>
+                  </div>
+                  <div className="bg-white rounded-lg p-4">
+                    <h3 className="text-lg font-bold mb-3">Trustworthiness</h3>
+                    <ul className="space-y-2 text-sm text-gray-700">
+                      <li>• Licensed & Regulated</li>
+                      <li>• Transparent Results</li>
+                      <li>• Direct Communication</li>
+                      <li>• Real Accountability</li>
+                      <li>• Client Testimonials</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                 <h2 className="text-2xl font-black mb-4 text-center">
                   READY TO GET ANSWERS?

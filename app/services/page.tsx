@@ -295,6 +295,35 @@ export default function ServicesPage() {
                 </div>
               </div>
 
+              <div className="bg-primary/5 border-2 border-primary/20 rounded-lg p-8 mb-8">
+                <h2 className="text-3xl font-black mb-4 text-center">About the Service Provider: Dr. Janet Duffy</h2>
+                <p className="text-lg text-gray-700 mb-6 text-center">
+                  These comprehensive services are provided by Dr. Janet Duffy, a licensed real estate agent with 10+ years of experience selling luxury homes in Las Vegas and a proven track record of solving complex real estate challenges.
+                </p>
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div>
+                    <h3 className="text-xl font-bold mb-3">Professional Expertise</h3>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• Licensed Real Estate Agent - Nevada</li>
+                      <li>• Failed Listing Specialist (2025)</li>
+                      <li>• 10+ Years Luxury Real Estate Experience</li>
+                      <li>• 47 Failed Homes Successfully Sold</li>
+                      <li>• $127M+ in Sales Volume</li>
+                      <li>• 98.7% Average Sale Price</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-3">Why This Matters</h3>
+                    <p className="text-gray-700 mb-3">
+                      Expert real estate services require expertise, experience, and accountability. Dr. Jan brings all three. Her proven system of $5,000+ marketing investment per listing has successfully sold 47 homes that other agents couldn't sell. Her aggressive follow-up system generates 98.7% of asking price average. Her dedication to maximum focus (maximum 6 listings at a time) ensures each client receives personalized, professional service.
+                    </p>
+                    <p className="text-gray-700">
+                      This isn't just marketing speak - these are results backed by real homes, real sellers, and real outcomes. When you hire Dr. Jan, you're hiring someone who specializes in solving the exact problem you're facing.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                 <h2 className="text-2xl font-black mb-4 text-center">
                   READY FOR COMPLETE SERVICE?
