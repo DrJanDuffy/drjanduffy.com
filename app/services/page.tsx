@@ -2,6 +2,7 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import ServiceSchema from '@/app/components/service-schema'
+import NAPSection from '@/app/components/nap-section'
 import { Camera, Home, TrendingUp, Users, FileText, Phone } from 'lucide-react'
 export const metadata = {
   title: 'Real Estate Services in Las Vegas, NV | Dr. Janet Duffy | (702) 500-1064',
