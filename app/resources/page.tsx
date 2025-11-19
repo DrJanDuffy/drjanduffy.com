@@ -26,7 +26,7 @@ export default function ResourcesPage() {
     {
       icon: BookOpen,
       title: 'The 30-Day Sale Plan',
-      description: 'Complete week-by-week breakdown of how to sell your HOME THAT DIDN'T SELL in 30 days or less.',
+      description: 'Complete week-by-week breakdown of how to sell your HOME THAT DIDN\'T SELL in 30 days or less.',
       type: 'Guide',
       cta: 'View Plan',
       link: '/30-day-plan',
