@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { Phone, Mail, MapPin, Clock } from 'lucide-react'
 import GoogleBusinessLink from './google-business-link'
 
@@ -199,16 +200,17 @@ export default function Footer() {
             </div>
             <div className="flex flex-col items-center gap-2">
               {/* Berkshire Hathaway HomeServices Logo */}
-              <div className="flex items-center justify-center h-8">
-                {/* Logo will be displayed here - add berkshire-hathaway-logo.png to public folder */}
-                <img 
+              <div className="flex items-center justify-center max-w-[200px]">
+                <Image 
                   src="/berkshire-hathaway-logo.png" 
-                  alt="Berkshire Hathaway HomeServices" 
-                  className="h-8 w-auto object-contain"
-                  style={{ display: 'block' }}
+                  alt="Berkshire Hathaway HomeServices Las Vegas Real Estate" 
+                  width={200}
+                  height={40}
+                  className="h-auto w-full max-h-10 object-contain"
+                  style={{ maxWidth: '200px', height: 'auto' }}
                 />
               </div>
-              <p className="text-xs text-gray-400 text-center">
+              <p className="text-xs text-gray-400 text-center max-w-[200px]">
                 Berkshire Hathaway HomeServices
               </p>
             </div>
