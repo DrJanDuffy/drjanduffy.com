@@ -2,9 +2,9 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 export const metadata = {
-  title: 'Why Homes Don\'t Sell | Dr. Jan Duffy',
+  title: 'Why Homes Do Not Sell | Dr. Jan Duffy',
   description:
-    'Data-driven analysis of why homes don\'t sell. Common agent failures and how to avoid them.',
+    'Data-driven analysis of why homes do not sell. Common agent failures and how to avoid them.',
   alternates: {
     canonical: '/why-expire',
   },
