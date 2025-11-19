@@ -2,9 +2,9 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import { Lightbulb, AlertCircle, CheckCircle } from 'lucide-react'
 export const metadata = {
-  title: 'Selling Tips | HOME THAT DIDN'T SELL Tips | Dr. Jan Duffy',
+  title: 'Selling Tips | HOME THAT DIDN\'T SELL Tips | Dr. Jan Duffy',
   description:
-    'Expert tips for selling homes that didn't sell: pricing, staging, marketing, and negotiation strategies.',
+    'Expert tips for selling homes that didn\'t sell: pricing, staging, marketing, and negotiation strategies.',
 }
 export default function SellingTipsPage() {
   const tips = [
