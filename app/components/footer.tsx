@@ -1,5 +1,6 @@
 import Link from 'next/link'
-import { Phone, Mail, MapPin } from 'lucide-react'
+import { Phone, Mail, MapPin, Clock } from 'lucide-react'
+import GoogleBusinessLink from './google-business-link'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -33,6 +34,17 @@ export default function Footer() {
               <div className="flex items-start gap-2 text-sm">
                 <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
                 <span>1180 North Town Center Drive<br />Las Vegas, NV 89144<br />Serving Summerlin, The Ridges & Surrounding Areas</span>
+              </div>
+              <div className="flex items-start gap-2 text-sm mt-3">
+                <Clock className="w-4 h-4 mt-1 flex-shrink-0" />
+                <div>
+                  <div className="font-semibold mb-1">Business Hours:</div>
+                  <div>Mon-Sun: 8:00 AM - 8:00 PM</div>
+                  <div className="text-xs text-gray-500 mt-1">Available 7 days a week</div>
+                </div>
+              </div>
+              <div className="mt-3">
+                <GoogleBusinessLink variant="text" />
               </div>
             </div>
             <div className="mt-4 pt-4 border-t border-gray-800">

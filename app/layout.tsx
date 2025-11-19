@@ -199,10 +199,36 @@ export default function RootLayout({
                 longitude: '-115.3030',
               },
               priceRange: '$400K-$10M+',
-              areaServed: {
-                '@type': 'City',
-                name: 'Las Vegas',
-              },
+              areaServed: [
+                {
+                  '@type': 'City',
+                  name: 'Las Vegas',
+                },
+                {
+                  '@type': 'City',
+                  name: 'Summerlin',
+                },
+                {
+                  '@type': 'City',
+                  name: 'Henderson',
+                },
+                {
+                  '@type': 'City',
+                  name: 'The Ridges',
+                },
+                {
+                  '@type': 'City',
+                  name: 'Red Rock Country Club',
+                },
+              ],
+              openingHoursSpecification: [
+                {
+                  '@type': 'OpeningHoursSpecification',
+                  dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+                  opens: '08:00',
+                  closes: '20:00',
+                },
+              ],
               aggregateRating: {
                 '@type': 'AggregateRating',
                 ratingValue: '5',
@@ -210,6 +236,9 @@ export default function RootLayout({
                 bestRating: '5',
                 worstRating: '1',
               },
+              servesCuisine: undefined,
+              paymentAccepted: 'Cash, Check, Credit Card',
+              currenciesAccepted: 'USD',
             },
             {
               '@context': 'https://schema.org',

@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
-import { Phone, Mail, MapPin } from 'lucide-react'
+import GoogleBusinessLink from '@/app/components/google-business-link'
+import { Phone, Mail, MapPin, Clock } from 'lucide-react'
 export const metadata = {
   title: 'Contact Dr. Jan Duffy | (702) 500-1064',
   description:
@@ -65,8 +66,26 @@ export default function ContactPage() {
                   </p>
                 </div>
               </div>
-              <div className="bg-gray-100 p-8 rounded-lg mb-12">
-                <h2 className="text-3xl font-black mb-4 text-center">Service Area</h2>
+              <div className="grid md:grid-cols-2 gap-8 mb-12">
+                <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
+                  <Clock className="w-8 h-8 mb-4 text-primary" />
+                  <h2 className="text-3xl font-black mb-4">Business Hours</h2>
+                  <div className="space-y-3 text-lg">
+                    <div className="flex justify-between">
+                      <span className="font-semibold">Monday - Sunday:</span>
+                      <span>8:00 AM - 8:00 PM</span>
+                    </div>
+                    <div className="pt-3 border-t">
+                      <p className="text-sm text-gray-600 mb-2">Available 7 days a week for consultations</p>
+                      <p className="text-sm text-gray-600">Emergency calls accepted outside business hours</p>
+                    </div>
+                    <div className="pt-4">
+                      <GoogleBusinessLink variant="button" />
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-gray-100 p-8 rounded-lg">
+                  <h2 className="text-3xl font-black mb-4 text-center">Service Area</h2>
                 <div className="grid md:grid-cols-2 gap-6 mb-6">
                   <div>
                     <MapPin className="w-8 h-8 mb-4 text-primary" />
@@ -90,9 +109,10 @@ export default function ContactPage() {
                     </ul>
                   </div>
                 </div>
-                <p className="text-lg text-gray-700">
-                  I specialize in HOMES THAT DIDN\'T SELL throughout Las Vegas, with particular expertise in Summerlin West, The Ridges, Red Rock Country Club, and other luxury communities. If your home didn\'t sell anywhere in the Las Vegas area, I can help. Distance doesn't matter - results do.
-                </p>
+                  <p className="text-lg text-gray-700">
+                    I specialize in HOMES THAT DIDN\'T SELL throughout Las Vegas, with particular expertise in Summerlin West, The Ridges, Red Rock Country Club, and other luxury communities. If your home didn\'t sell anywhere in the Las Vegas area, I can help. Distance doesn't matter - results do.
+                  </p>
+                </div>
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4 text-center">Why Contact Me Now?</h2>
