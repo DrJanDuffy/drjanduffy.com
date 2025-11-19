@@ -21,7 +21,7 @@ export default function TownhomesPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Las Vegas townhomes offer space, value, and community living in a single-family home alternative. If your townhome home DIDN\'T sell, you're not alone. Townhomes face unique challenges - from competition with single-family homes to HOA restrictions to buyers who value space and affordability. Most agents do not understand townhomes. They use generic strategies, and townhomes expire.
+                  Las Vegas townhomes offer space, value, and community living in a single-family home alternative. If your townhome home DID NOT sell, you're not alone. Townhomes face unique challenges - from competition with single-family homes to HOA restrictions to buyers who value space and affordability. Most agents do not understand townhomes. They use generic strategies, and townhomes expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired townhomes. I understand the townhome market. I know how to market space and value. I know how to attract buyers seeking single-family home alternatives. I've sold expired townhomes throughout Las Vegas. Fast. At top dollar. With zero excuses.
@@ -86,7 +86,7 @@ export default function TownhomesPage() {
                   READY TO SELL YOUR TOWNHOME?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Las Vegas townhome home DIDN\'T sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Las Vegas townhome home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="townhomes" buttonText="GET MY TOWNHOME SOLD" />
               </div>

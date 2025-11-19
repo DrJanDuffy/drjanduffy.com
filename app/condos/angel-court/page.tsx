@@ -21,7 +21,7 @@ export default function AngelCourtCondosPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Angel Court is a mid-rise condominium community in Las Vegas that offers affordable living with community amenities, established neighborhoods, and value positioning. If your Angel Court condo home DIDN\'T sell, you're not alone. Angel Court condos face unique challenges - from competition with new construction to value-conscious buyers to emphasis on community amenities. Most agents do not understand Angel Court condos. They use generic strategies, and Angel Court condos expire.
+                  Angel Court is a mid-rise condominium community in Las Vegas that offers affordable living with community amenities, established neighborhoods, and value positioning. If your Angel Court condo home DID NOT sell, you're not alone. Angel Court condos face unique challenges - from competition with new construction to value-conscious buyers to emphasis on community amenities. Most agents do not understand Angel Court condos. They use generic strategies, and Angel Court condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Angel Court condos. I understand the mid-rise market. I know how to market community amenities. I know how to attract value-conscious buyers. I've sold expired condos in Angel Court and other mid-rise communities. Fast. At top dollar. With zero excuses.
@@ -90,7 +90,7 @@ export default function AngelCourtCondosPage() {
                   READY TO SELL YOUR ANGEL COURT CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Angel Court condo home DIDN\'T sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Angel Court condo home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="angel_court_condos" buttonText="GET MY ANGEL COURT CONDO SOLD" />
               </div>

@@ -7,7 +7,7 @@ import Image from 'next/image'
 export const metadata = {
   title: 'About Dr. Janet Duffy | Real Estate Agent in Las Vegas, NV | (702) 500-1064',
   description:
-    'Learn about Dr. Janet Duffy, Las Vegas real estate expert specializing in selling homes that didn\'t sell. Serving Summerlin, The Ridges, and Henderson. Helped 47 Summerlin sellers in 19 days average at 98.7% of asking price. Call (702) 500-1064.',
+    'Learn about Dr. Janet Duffy, Las Vegas real estate expert specializing in selling homes that did not sell. Serving Summerlin, The Ridges, and Henderson. Helped 47 Summerlin sellers in 19 days average at 98.7% of asking price. Call (702) 500-1064.',
   alternates: {
     canonical: 'https://www.drjanduffy.com/about',
   },
@@ -18,12 +18,12 @@ export const metadata = {
     locale: 'en_US',
     url: 'https://www.drjanduffy.com/about',
     title: 'About Dr. Janet Duffy | Real Estate Agent in Las Vegas, NV',
-    description: 'Learn about Dr. Janet Duffy, Las Vegas real estate expert specializing in selling homes that didn\'t sell. Serving Summerlin, The Ridges, and Henderson.',
+    description: 'Learn about Dr. Janet Duffy, Las Vegas real estate expert specializing in selling homes that did not sell. Serving Summerlin, The Ridges, and Henderson.',
   },
   twitter: {
     card: 'summary',
     title: 'About Dr. Janet Duffy | Real Estate Agent in Las Vegas, NV',
-    description: 'Las Vegas real estate expert specializing in selling homes that didn\'t sell. Serving Summerlin, The Ridges, and Henderson.',
+    description: 'Las Vegas real estate expert specializing in selling homes that did not sell. Serving Summerlin, The Ridges, and Henderson.',
   },
 }
 
@@ -57,13 +57,13 @@ export default function AboutPage() {
                 <div className="bg-primary/10 p-8 rounded-lg mb-8">
                   <h2 className="text-3xl font-black mb-4">The failed listing specialist</h2>
                   <p className="text-xl mb-4">
-                    Dr. Janet Duffy has sold <strong>47 Summerlin sellers who couldn\'t sell</strong> with an average of <strong>19 days</strong> to contract and <strong>98.7% of asking price</strong>.
+                    Dr. Janet Duffy has sold <strong>47 Summerlin sellers who could not sell</strong> with an average of <strong>19 days</strong> to contract and <strong>98.7% of asking price</strong>.
                   </p>
                   <p className="text-lg mb-4">
-                    While other agents give up on HOMES THAT DIDN\'T SELL, Dr. Jan specializes in turning failed listings into successful sales through aggressive marketing, data-driven pricing, and relentless follow-up. Most agents see HOMES THAT didn\'t SELL as damaged goods or too much work. I see them as opportunities - homes that just need the right agent, the right strategy, and the right marketing.
+                    While other agents give up on HOMES THAT DID NOT SELL, Dr. Jan specializes in turning failed listings into successful sales through aggressive marketing, data-driven pricing, and relentless follow-up. Most agents see HOMES THAT DID NOT SELL as damaged goods or too much work. I see them as opportunities - homes that just need the right agent, the right strategy, and the right marketing.
                   </p>
                   <p className="text-lg">
-                    My approach is different. I do not use the "post to MLS and pray" strategy that got your home DIDN\'T sell in the first place. I invest $5,000+ in professional marketing per listing. I take maximum 6 listings at a time so you get 100% focus, not 2.1% like with big franchise agents. I use a <a href="/marketing-strategy" className="text-primary font-semibold hover:underline">97-point marketing system</a> that leaves nothing to chance. Learn more about <a href="/services" className="text-primary font-semibold hover:underline">my complete services</a> and <a href="/process" className="text-primary font-semibold hover:underline">how I sell homes that didn\'t sell in 30 days or less</a>.
+                    My approach is different. I do not use the "post to MLS and pray" strategy that got your home DID NOT sell in the first place. I invest $5,000+ in professional marketing per listing. I take maximum 6 listings at a time so you get 100% focus, not 2.1% like with big franchise agents. I use a <a href="/marketing-strategy" className="text-primary font-semibold hover:underline">97-point marketing system</a> that leaves nothing to chance. Learn more about <a href="/services" className="text-primary font-semibold hover:underline">my complete services</a> and <a href="/process" className="text-primary font-semibold hover:underline">how I sell homes that DID NOT sell in 30 days or less</a>.
                   </p>
                 </div>
 
@@ -71,33 +71,33 @@ export default function AboutPage() {
                   <div>
                     <h2 className="text-3xl font-black mb-4">Professional Credentials</h2>
                     <p className="text-lg mb-4">
-                      Dr. Janet Duffy is a licensed real estate agent with extensive experience in the Las Vegas market, specializing in HOMES That Didn\'t SELL and luxury properties.
+                      Dr. Janet Duffy is a licensed real estate agent with extensive experience in the Las Vegas market, specializing in HOMES That DID NOT SELL and luxury properties.
                     </p>
                     <h3 className="text-2xl font-bold mb-4">Key Achievements</h3>
                     <ul className="space-y-2 text-lg mb-4">
                       <li>• Licensed Real Estate Agent (Nevada)</li>
                       <li>• $127M+ in Summerlin Sales</li>
-                      <li>• specialist in homes that DIDN\'T sell</li>
+                      <li>• specialist in homes that DID NOT sell</li>
                       <li>• 135+ Domain Portfolio</li>
                       <li>• Top 1% of Las Vegas Agents</li>
-                      <li>• 47 homes that didn\'t sell - now sold</li>
+                      <li>• 47 homes that DID NOT sell - now sold</li>
                       <li>• 19 Day Average Time to Contract</li>
                       <li>• 98.7% Average Sale Price Percentage</li>
                       <li>• Good Neighbor Award Recipient</li>
                     </ul>
                     <h3 className="text-2xl font-bold mb-4">Education & Training</h3>
                     <p className="text-lg">
-                      Continuous education in real estate marketing, negotiation tactics, buyer psychology, and market analysis. Specialized training in HOME That Didn\'t SELL strategies and luxury property marketing. See <a href="/why-choose-me" className="text-primary font-semibold hover:underline">why choose me</a> over other agents and read <a href="/testimonials" className="text-primary font-semibold hover:underline">client testimonials</a>.
+                      Continuous education in real estate marketing, negotiation tactics, buyer psychology, and market analysis. Specialized training in HOME That DID NOT SELL strategies and luxury property marketing. See <a href="/why-choose-me" className="text-primary font-semibold hover:underline">why choose me</a> over other agents and read <a href="/testimonials" className="text-primary font-semibold hover:underline">client testimonials</a>.
                     </p>
                   </div>
                   <div>
                     <h2 className="text-3xl font-black mb-4">Market Specialties</h2>
                     <p className="text-lg mb-4">
-                      Dr. Jan focuses exclusively on HOMES THAT DIDN\'T SELL in Las Vegas luxury communities, bringing specialized expertise to each transaction.
+                      Dr. Jan focuses exclusively on HOMES THAT DID NOT SELL in Las Vegas luxury communities, bringing specialized expertise to each transaction.
                     </p>
                     <h3 className="text-2xl font-bold mb-4">Primary Markets</h3>
                     <ul className="space-y-2 text-lg mb-4">
-                      <li>• HOMES THAT didn\'t SELL (All Price Ranges)</li>
+                      <li>• HOMES THAT DID NOT SELL (All Price Ranges)</li>
                       <li>• Luxury Properties ($675K-$10M+)</li>
                       <li>• Summerlin West</li>
                       <li>• The Ridges</li>
@@ -108,73 +108,73 @@ export default function AboutPage() {
                     </ul>
                     <h3 className="text-2xl font-bold mb-4">Property Types</h3>
                     <p className="text-lg">
-                      Single-family homes, luxury estates, golf course properties, gated communities, and high-end condominiums. Experience with all property types that have HOMES That Didn\'t SELL.
+                      Single-family homes, luxury estates, golf course properties, gated communities, and high-end condominiums. Experience with all property types that have HOMES That DID NOT SELL.
                     </p>
                   </div>
                 </div>
 
                 <div className="bg-gray-100 p-8 rounded-lg mb-12">
-                  <h2 className="text-3xl font-black mb-4">Why HOMES THAT DIDN\'T SELL?</h2>
+                  <h2 className="text-3xl font-black mb-4">Why HOMES THAT DID NOT SELL?</h2>
                   <p className="text-lg mb-4">
-                    Most agents avoid HOMES THAT didn\'t SELL. They see them as damaged goods or too much work. They think HOMES That Didn\'t SELL are stigmatized, overpriced, or have problems. They're wrong. I see HOMES THAT DIDN\'T SELL as opportunities - homes that just need the right agent, the right strategy, and the right marketing.
+                    Most agents avoid HOMES THAT DID NOT SELL. They see them as damaged goods or too much work. They think HOMES That DID NOT SELL are stigmatized, overpriced, or have problems. they are wrong. I see HOMES THAT DID NOT SELL as opportunities - homes that just need the right agent, the right strategy, and the right marketing.
                   </p>
                   <h3 className="text-2xl font-bold mb-4">The Psychology of frustrated sellers</h3>
                   <p className="text-lg mb-4">
-                    frustrated sellers are frustrated, motivated, and ready to work with someone who actually knows what they're doing. They've already been failed once - they won\'t accept failure again. They're educated about the process. They understand the market. They're realistic about pricing. They're ready to make decisions quickly. And most importantly, they're willing to pay full commission to someone who can actually sell their home.
+                    frustrated sellers are frustrated, motivated, and ready to work with someone who actually knows what they are doing. They've already been failed once - they will not accept failure again. they are educated about the process. They understand the market. they are realistic about pricing. they are ready to make decisions quickly. And most importantly, they are willing to pay full commission to someone who can actually sell their home.
                   </p>
                   <h3 className="text-2xl font-bold mb-4">The Opportunity</h3>
                   <p className="text-lg mb-4">
-                    In Las Vegas, 20-30% of all homes fail to sell every year. That's 1,500-2,250 homes that sat on the market for months, bleeding money, while agents collected nothing and sellers lost thousands. These are not bad homes. These are homes that had bad agents. With the right agent, the right strategy, and the right marketing, these homes sell. Fast. At top dollar. With zero excuses.
+                    In Las Vegas, 20-30% of all homes fail to sell every year. That is 1,500-2,250 homes that sat on the market for months, bleeding money, while agents collected nothing and sellers lost thousands. These are not bad homes. These are homes that had bad agents. With the right agent, the right strategy, and the right marketing, these homes sell. Fast. At top dollar. With zero excuses.
                   </p>
                   <p className="text-lg">
-                    That's where I come in. I take the homes that other agents couldn\'t sell and I sell them. Fast. At top dollar. With zero excuses. I've done it 47 times. I can do it for you too.
+                    That is where I come in. I take the homes that other agents could not sell and I sell them. Fast. At top dollar. With zero excuses. I have done it 47 times. I can do it for you too.
                   </p>
                 </div>
 
                 <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                   <h2 className="text-3xl font-black mb-4">The Dr. Jan Difference</h2>
                   <p className="text-lg mb-4">
-                    What makes me different from your previous agent? It's not just experience or credentials - it's my approach, my investment, and my proven results.
+                    What makes me different from your previous agent? it is not just experience or credentials - it is my approach, my investment, and my proven results.
                   </p>
                   <h3 className="text-2xl font-bold mb-4">Maximum Focus</h3>
                   <p className="text-lg mb-4">
                     I take maximum 6 listings at a time. Your previous agent had 47+ listings. You got 2.1% of their attention. With me, you get 100% focus. Every listing gets the full treatment - professional marketing, aggressive follow-up, strategic negotiation. Nothing is left to chance.
                   </p>
                   <p className="text-lg mb-4">
-                    The difference between 2.1% focus and 100% focus is dramatic. Your previous agent couldn\'t afford to invest $5,000+ in every listing because they had 47 of them. They spread themselves thin, hoping something would stick. I focus intensely on a few listings, ensuring each one gets the full treatment. This focus is what separates successful sales from homes that DIDN\'T sell.
+                    The difference between 2.1% focus and 100% focus is dramatic. Your previous agent could not afford to invest $5,000+ in every listing because they had 47 of them. They spread themselves thin, hoping something would stick. I focus intensely on a few listings, ensuring each one gets the full treatment. This focus is what separates successful sales from homes that DID NOT sell.
                   </p>
                   <h3 className="text-2xl font-bold mb-4">Real Investment</h3>
                   <p className="text-lg mb-4">
                     I invest $5,000+ in marketing per listing. Your previous agent spent $37 on photos. I spend $3,700 on professional media - twilight drone shots, 3D virtual tours, magazine-quality staging. I use a 97-point marketing system that includes social media blitzes, network activation, targeted ads, and strategic open houses. Your previous agent posted to MLS and disappeared.
                   </p>
                   <p className="text-lg mb-4">
-                    The $5,000+ investment pays for itself through faster sales and higher prices. Professional photography increases showing requests by 300% and sale price by 5-10%. Strategic marketing brings qualified buyers. Aggressive follow-up creates urgency. The investment is not a cost - it's an investment in your success. Your previous agent saw it as a cost and minimized it. I see it as an investment and maximize it.
+                    The $5,000+ investment pays for itself through faster sales and higher prices. Professional photography increases showing requests by 300% and sale price by 5-10%. Strategic marketing brings qualified buyers. Aggressive follow-up creates urgency. The investment is not a cost - it is an investment in your success. Your previous agent saw it as a cost and minimized it. I see it as an investment and maximize it.
                   </p>
                   <h3 className="text-2xl font-bold mb-4">Proven Results</h3>
                   <p className="text-lg mb-4">
-                    I deliver proven results. 47 homes that DIDN\'T sell - now sold with an average of 19 days to contract and 98.7% of asking price. Weekly updates with real accountability. Professional photos worth $3,700+. Your previous agent made promises. I deliver proven results with real consequences.
+                    I deliver proven results. 47 homes that DID NOT sell - now sold with an average of 19 days to contract and 98.7% of asking price. Weekly updates with real accountability. Professional photos worth $3,700+. Your previous agent made promises. I deliver proven results with real consequences.
                   </p>
                   <p className="text-lg mb-4">
-                    The results speak for themselves: 47 homes that didn\'t sell - now sold, 19 day average, 98.7% of asking price. These are not hypothetical results. These are real HOMES THAT DIDN\'T SELL that I sold after other agents failed. The same system that delivered these results can deliver yours. The only question is: are you ready to work with an agent who actually delivers results?
+                    The results speak for themselves: 47 homes that DID NOT sell - now sold, 19 day average, 98.7% of asking price. These are not hypothetical results. These are real HOMES THAT DID NOT SELL that I sold after other agents failed. The same system that delivered these results can deliver yours. The only question is: are you ready to work with an agent who actually delivers results?
                   </p>
                 </div>
 
                 <div className="bg-gray-100 p-8 rounded-lg mb-12">
                   <h2 className="text-3xl font-black mb-4">My Journey to failed listing specialistise</h2>
                   <p className="text-lg mb-4">
-                    I didn\'t start as an failed listing specialist. I started like most agents - taking any listing I could get, hoping for the best. But I quickly learned that most agents fail because they do not have a system. They do not invest in marketing. They do not follow up. They do not deliver results. I decided to be different.
+                    I DID NOT start as an failed listing specialist. I started like most agents - taking any listing I could get, hoping for the best. But I quickly learned that most agents fail because they do not have a system. They do not invest in marketing. They do not follow up. They do not deliver results. I decided to be different.
                   </p>
                   <h3 className="text-2xl font-bold mb-4">The Turning Point</h3>
                   <p className="text-lg mb-4">
-                    The turning point came when I saw my first HOME THAT DIDN\'T SELL. The seller was frustrated. The previous agent had failed. The listing had expired. But the home was beautiful. It was properly priced. It just needed the right agent, the right strategy, and the right marketing. I took it on, implemented my system, and sold it in 14 days at 99% of asking price. That's when I knew HOMES THAT didn\'t SELL were not problems - they were opportunities.
+                    The turning point came when I saw my first HOME THAT DID NOT SELL. The seller was frustrated. The previous agent had failed. The listing had expired. But the home was beautiful. It was properly priced. It just needed the right agent, the right strategy, and the right marketing. I took it on, implemented my system, and sold it in 14 days at 99% of asking price. That is when I knew HOMES THAT DID NOT SELL were not problems - they were opportunities.
                   </p>
                   <h3 className="text-2xl font-bold mb-4">Building the System</h3>
                   <p className="text-lg mb-4">
-                    After that first success, I refined my system. I invested more in marketing. I developed the 97-point marketing system. I created the aggressive follow-up process. I built the strategic negotiation tactics. Each HOME THAT DIDN\'T SELL taught me something new. Each success validated the system. After 47 HOMES THAT didn\'t SELL, I have a proven system that works. Fast. At top dollar. With zero excuses.
+                    After that first success, I refined my system. I invested more in marketing. I developed the 97-point marketing system. I created the aggressive follow-up process. I built the strategic negotiation tactics. Each HOME THAT DID NOT SELL taught me something new. Each success validated the system. After 47 HOMES THAT DID NOT SELL, I have a proven system that works. Fast. At top dollar. With zero excuses.
                   </p>
                   <h3 className="text-2xl font-bold mb-4">The Specialization</h3>
                   <p className="text-lg mb-4">
-                    Most agents avoid HOMES That Didn\'t SELL. They see them as damaged goods or too much work. I see them as opportunities. I specialize in HOMES THAT DIDN\'T SELL because I know how to fix them. I know how to reset them. I know how to market them. I know how to sell them. This specialization is what makes me different. This specialization is what delivers results.
+                    Most agents avoid HOMES That DID NOT SELL. They see them as damaged goods or too much work. I see them as opportunities. I specialize in HOMES THAT DID NOT SELL because I know how to fix them. I know how to reset them. I know how to market them. I know how to sell them. This specialization is what makes me different. This specialization is what delivers results.
                   </p>
                 </div>
 
@@ -186,13 +186,13 @@ export default function AboutPage() {
                   <div className="space-y-6">
                     <div className="border-l-4 border-primary pl-4">
                       <p className="text-lg text-gray-700 italic mb-2">
-                        "Dr. Jan sold my HOME THAT DIDN\'T SELL in 16 days at 99% of asking. My previous agent had it for 90 days and it expired. The difference was night and day."
+                        "Dr. Jan sold my HOME THAT DID NOT SELL in 16 days at 99% of asking. My previous agent had it for 90 days and it expired. The difference was night and day."
                       </p>
                       <p className="text-sm text-gray-600">- Summerlin West Seller</p>
                     </div>
                     <div className="border-l-4 border-primary pl-4">
                       <p className="text-lg text-gray-700 italic mb-2">
-                        "I was skeptical after my home didn\'t sell. But Dr. Jan's marketing was incredible. Professional photos, aggressive follow-up, strategic negotiation. Sold in 19 days."
+                        "I was skeptical after my home DID NOT sell. But Dr. Jan's marketing was incredible. Professional photos, aggressive follow-up, strategic negotiation. Sold in 19 days."
                       </p>
                       <p className="text-sm text-gray-600">- The Ridges Seller</p>
                     </div>
@@ -204,17 +204,17 @@ export default function AboutPage() {
                     </div>
                   </div>
                   <p className="text-lg text-gray-700 mt-6">
-                    These testimonials represent real results from real HOMES THAT DIDN\'T SELL. See more <a href="/testimonials" className="text-primary font-semibold hover:underline">client testimonials</a> and <a href="/success-stories" className="text-primary font-semibold hover:underline">success stories</a> from homes I've sold. Each testimonial represents a frustrated seller who finally found an agent who actually delivers results. Each testimonial represents an HOME THAT didn\'t SELL that became a success story. Your HOME THAT DIDN\'T SELL could be next.
+                    These testimonials represent real results from real HOMES THAT DID NOT SELL. See more <a href="/testimonials" className="text-primary font-semibold hover:underline">client testimonials</a> and <a href="/success-stories" className="text-primary font-semibold hover:underline">success stories</a> from homes I have sold. Each testimonial represents a frustrated seller who finally found an agent who actually delivers results. Each testimonial represents an HOME THAT DID NOT SELL that became a success story. Your HOME THAT DID NOT SELL could be next.
                   </p>
                 </div>
 
                 <div className="bg-white border-2 border-gray-200 rounded-lg p-8 mb-12">
                   <h2 className="text-3xl font-black mb-4 text-center">Ready to Work with the Expert?</h2>
                   <p className="text-lg text-gray-700 mb-4 text-center">
-                    If your home did not sell, you need an agent who actually knows what they're doing. You need an agent who specializes in HOMES THAT DIDN\'T SELL. You need an agent who delivers proven results. That's me. I've sold 47 Summerlin sellers who couldn\'t sell with an average of 19 days to contract and 98.7% of asking price. The same system that delivered these results can deliver yours.
+                    If your home did not sell, you need an agent who actually knows what they are doing. You need an agent who specializes in HOMES THAT DID NOT SELL. You need an agent who delivers proven results. That is me. I have sold 47 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. The same system that delivered these results can deliver yours.
                   </p>
                   <p className="text-lg text-gray-700 text-center">
-                    do not let your cost when your home won\'t sell you another $4,964 per month. do not let your previous agent's failure become your failure. Work with an agent who actually delivers results. Work with me. Call (702) 500-1064 or fill out the form below to get started.
+                    do not let your cost when your home will not sell you another $4,964 per month. do not let your previous agent's failure become your failure. Work with an agent who actually delivers results. Work with me. Call (702) 500-1064 or fill out the form below to get started.
                   </p>
                 </div>
 

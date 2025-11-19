@@ -3,9 +3,9 @@ import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 
 export const metadata = {
-  title: 'The Summit HOMES THAT DIDN\'T SELL | Dr. Jan Duffy - Luxury Real Estate Expert',
+  title: 'The Summit HOMES THAT DID NOT SELL | Dr. Jan Duffy - Luxury Real Estate Expert',
   description:
-    'Expert help selling homes that didn\'t sell in The Summit, Las Vegas. Luxury gated community properties. 19 day average, 98.7% of asking price.',
+    'Expert help selling homes that DID NOT sell in The Summit, Las Vegas. Luxury gated community properties. 19 day average, 98.7% of asking price.',
   alternates: {
     canonical: '/neighborhoods/the-summit',
   },
@@ -27,15 +27,15 @@ export default function TheSummitPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                THE SUMMIT HOMES THAT DIDN\'T SELL
+                THE SUMMIT HOMES THAT DID NOT SELL
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Expert help selling homes that didn\'t sell in The Summit - Las Vegas's premier gated luxury community
+                Expert help selling homes that DID NOT sell in The Summit - Las Vegas's premier gated luxury community
               </p>
 
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  If your Summit home DIDN\'T sell, you're dealing with one of Las Vegas's most prestigious gated communities. The Summit offers luxury estates, gated security, and sophisticated living at the highest level. Even in this premier community, homes fail to sell when agents do not understand gated community marketing. I've sold homes that DIDN\'T sell in The Summit and throughout Las Vegas luxury communities. I understand gated community marketing. I know how to attract security-conscious buyers. I can sell your expired Summit listing. Fast. At top dollar. With zero excuses.
+                  If your Summit home DID NOT sell, you're dealing with one of Las Vegas's most prestigious gated communities. The Summit offers luxury estates, gated security, and sophisticated living at the highest level. Even in this premier community, homes fail to sell when agents do not understand gated community marketing. I've sold homes that DID NOT sell in The Summit and throughout Las Vegas luxury communities. I understand gated community marketing. I know how to attract security-conscious buyers. I can sell your expired Summit listing. Fast. At top dollar. With zero excuses.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   The Summit is Las Vegas's premier gated luxury community, offering luxury estates with gated security, exclusive amenities, and sophisticated living. Properties range from $900K to $8M+, attracting buyers who value security, exclusivity, and quality. Most agents do not understand The Summit buyer. They use generic marketing, and Summit homes fail to sell. I understand The Summit buyer. I use gated community marketing strategies, highlight security features, and attract security-conscious buyers. Summit listings sell. Fast. At top dollar.
@@ -67,7 +67,7 @@ export default function TheSummitPage() {
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">My Summit Expertise</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  I've sold homes that DIDN\'T sell in The Summit and understand the unique challenges of marketing gated community properties. I know how to attract security-conscious buyers. I know how to showcase security features. I know how to sell Summit properties.
+                  I've sold homes that DID NOT sell in The Summit and understand the unique challenges of marketing gated community properties. I know how to attract security-conscious buyers. I know how to showcase security features. I know how to sell Summit properties.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Gated Community Marketing</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -103,13 +103,13 @@ export default function TheSummitPage() {
               </div>
 
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
-                <h2 className="text-3xl font-black mb-4">The Summit HOME THAT DIDN\'T SELL Opportunity</h2>
+                <h2 className="text-3xl font-black mb-4">The Summit HOME THAT DID NOT SELL Opportunity</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  HOMES THAT didn\'t SELL in The Summit represent significant opportunities. Sellers are frustrated. They've tried once and failed. They're ready to work with an agent who actually understands gated community marketing. I understand gated community marketing. I know how to market Summit properties. I know how to attract security-conscious buyers.
+                  HOMES THAT DID NOT SELL in The Summit represent significant opportunities. Sellers are frustrated. They've tried once and failed. They're ready to work with an agent who actually understands gated community marketing. I understand gated community marketing. I know how to market Summit properties. I know how to attract security-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Complete Gated Community Reset</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Expired Summit listings need a complete gated community reset. New professional photography showcasing security features and exclusive amenities. Strategic positioning emphasizing security and privacy benefits. Fresh MLS listing with optimized gated community description. Strategic pricing positioning. Aggressive marketing targeting security-conscious buyers. Most agents do not do this. I do. I provide complete gated community reset services that transform HOMES THAT DIDN\'T SELL into attractive opportunities.
+                  Expired Summit listings need a complete gated community reset. New professional photography showcasing security features and exclusive amenities. Strategic positioning emphasizing security and privacy benefits. Fresh MLS listing with optimized gated community description. Strategic pricing positioning. Aggressive marketing targeting security-conscious buyers. Most agents do not do this. I do. I provide complete gated community reset services that transform HOMES THAT DID NOT SELL into attractive opportunities.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Gated Community Marketing System</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -117,7 +117,7 @@ export default function TheSummitPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Proven Results</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  I've sold 47 Summerlin sellers who couldn\'t sell with an average of 19 days to contract and 98.7% of asking price. These are not hypothetical results. These are real HOMES THAT DIDN\'T SELL that I sold after other agents failed. I can do the same for your Summit listing. Fast. At top dollar. With zero excuses.
+                  I've sold 47 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. These are not hypothetical results. These are real HOMES THAT DID NOT SELL that I sold after other agents failed. I can do the same for your Summit listing. Fast. At top dollar. With zero excuses.
                 </p>
               </div>
 
@@ -126,7 +126,7 @@ export default function TheSummitPage() {
                   READY TO SELL YOUR SUMMIT LISTING?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Summit home didn\'t sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Summit home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="the_summit_neighborhood" buttonText="GET MY LISTING SOLD" />
               </div>

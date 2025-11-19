@@ -37,7 +37,7 @@ export default function TestimonialsPage() {
       name: 'Lisa K.',
       neighborhood: 'Summerlin West',
       rating: 5,
-      text: 'Dr. Jan\'s marketing is incredible. Professional photos, virtual tours, aggressive follow-up. Everything our last agent didn\'t do.',
+      text: 'Dr. Jan\'s marketing is incredible. Professional photos, virtual tours, aggressive follow-up. Everything our last agent DID NOT do.',
     },
   ]
   return (
@@ -54,14 +54,14 @@ export default function TestimonialsPage() {
             </p>
             <div className="max-w-4xl mx-auto mb-12 prose prose-lg">
               <p className="text-lg text-gray-700 mb-6">
-                These are not generic testimonials from happy clients. These are real reviews from frustrated sellers whose homes fail to selld, who fired their previous agents, and who hired me to fix the mess. Every single one of these testimonials comes from an HOME THAT DIDN\'T SELL that I sold after other agents failed.
+                These are not generic testimonials from happy clients. These are real reviews from frustrated sellers whose homes fail to selld, who fired their previous agents, and who hired me to fix the mess. Every single one of these testimonials comes from an HOME THAT DID NOT SELL that I sold after other agents failed.
               </p>
               <p className="text-lg text-gray-700 mb-6">
-                The common thread in every testimonial? Previous agent failed. home didn\'t sell. Seller frustrated. Then they called me. I reset the listing, implemented my 97-point marketing system, and sold it. Fast. At top dollar. With zero excuses. The testimonials below tell the story better than I ever could.
+                The common thread in every testimonial? Previous agent failed. home DID NOT sell. Seller frustrated. Then they called me. I reset the listing, implemented my 97-point marketing system, and sold it. Fast. At top dollar. With zero excuses. The testimonials below tell the story better than I ever could.
               </p>
               <h2 className="text-3xl font-black mb-4 mt-8">Why These Testimonials Matter</h2>
               <p className="text-lg text-gray-700 mb-4">
-                Most agents show you testimonials from their best-case scenarios - luxury homes in perfect condition that sold quickly. I show you testimonials from homes That Didn\'t sell. Homes that other agents couldn\'t sell. Homes that sat on the market for 60, 90, 120+ days. Then I show you what my clients say after I sold them in 14-31 days at 97-99% of asking price.
+                Most agents show you testimonials from their best-case scenarios - luxury homes in perfect condition that sold quickly. I show you testimonials from homes That DID NOT sell. Homes that other agents could not sell. Homes that sat on the market for 60, 90, 120+ days. Then I show you what my clients say after I sold them in 14-31 days at 97-99% of asking price.
               </p>
               <h3 className="text-2xl font-bold mb-3">The Real Story</h3>
               <p className="text-lg text-gray-700">
@@ -76,7 +76,7 @@ export default function TestimonialsPage() {
                   ))}
                 </div>
                 <p className="text-3xl font-bold">4.9/5 Average Rating</p>
-                <p className="text-lg text-gray-600 mt-2">Based on 47+ HOME THAT DIDN\'T SELL sales</p>
+                <p className="text-lg text-gray-600 mt-2">Based on 47+ HOME THAT DID NOT SELL sales</p>
               </div>
               <div className="grid md:grid-cols-2 gap-8 mb-12">
                 {successStories.map((story) => (
@@ -130,11 +130,11 @@ export default function TestimonialsPage() {
                 <div className="bg-gray-100 p-8 rounded-lg mb-8">
                   <h3 className="text-2xl font-black mb-4">The Common Themes</h3>
                   <p className="text-lg text-gray-700 mb-4">
-                    Every testimonial shares common themes: Previous agent didn\'t answer the phone. Previous agent did not provide updates. Previous agent DIDN\'T invest in marketing. Previous agent got them expired. Then they called me. I answered the phone. I provided weekly updates. I invested $5,000+ in marketing. I sold their home. Fast. At top dollar.
+                    Every testimonial shares common themes: Previous agent DID NOT answer the phone. Previous agent did not provide updates. Previous agent DID NOT invest in marketing. Previous agent got them expired. Then they called me. I answered the phone. I provided weekly updates. I invested $5,000+ in marketing. I sold their home. Fast. At top dollar.
                   </p>
                   <h3 className="text-2xl font-black mb-4 mt-6">The Results</h3>
                   <p className="text-lg text-gray-700 mb-4">
-                    The results speak for themselves: 47 homes that didn\'t sell - now sold, 19 day average, 98.7% of asking price. But the testimonials tell the real story - the story of frustrated sellers who finally found an agent who actually delivers. The story of HOMES That Didn\'t SELL that became success stories. The story of agents who failed and an agent who succeeded.
+                    The results speak for themselves: 47 homes that DID NOT sell - now sold, 19 day average, 98.7% of asking price. But the testimonials tell the real story - the story of frustrated sellers who finally found an agent who actually delivers. The story of HOMES That DID NOT SELL that became success stories. The story of agents who failed and an agent who succeeded.
                   </p>
                   <h3 className="text-2xl font-black mb-4 mt-6">Your Testimonial Could Be Next</h3>
                   <p className="text-lg text-gray-700">

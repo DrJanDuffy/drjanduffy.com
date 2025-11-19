@@ -19,11 +19,11 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'),
   title: 'Sell Your House Fast Las Vegas | Summerlin Real Estate Specialist',
   description:
-    'Las Vegas real estate specialist for homes that won\'t sell. 500+ families served, $127M+ in sales. Summerlin luxury expert. Free consultation: 702-500-1064',
+    'Las Vegas real estate specialist for homes that will not sell. 500+ families served, $127M+ in sales. Summerlin luxury expert. Free consultation: 702-500-1064',
   keywords: [
-    'home that didn\'t sell las vegas',
-    'house won\'t sell vegas',
-    'couldn\'t sell my house',
+    'home that DID NOT sell las vegas',
+    'house will not sell vegas',
+    'could not sell my house',
     'fire my real estate agent',
     'failed listing help',
     'unsold home las vegas',
@@ -31,16 +31,16 @@ export const metadata: Metadata = {
     're-list my home las vegas',
   ],
   openGraph: {
-    title: 'Couldn\'t Sell Your Las Vegas Home? | Dr. Jan Duffy - I Sell Homes That Didn\'t Sell',
+    title: 'could not Sell Your Las Vegas Home? | Dr. Jan Duffy - I Sell Homes That DID NOT Sell',
     description:
-      'Your home didn\'t sell? I\'ve helped 47 Summerlin sellers who couldn\'t sell with their previous agent. Average 19 days to contract, 98.7% of asking.',
+      'Your home DID NOT sell? I\'ve helped 47 Summerlin sellers who could not sell with their previous agent. Average 19 days to contract, 98.7% of asking.',
     images: ['/og-image.png'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Couldn\'t Sell Your Home? | Dr. Jan Duffy',
+    title: 'could not Sell Your Home? | Dr. Jan Duffy',
     description:
-      'Your house didn\'t sell? Get your home sold in 30 days or less with proven results.',
+      'Your house DID NOT sell? Get your home sold in 30 days or less with proven results.',
     images: ['/og-image.png'],
   },
 }
@@ -120,12 +120,12 @@ export default function RootLayout({
               '@id': `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}#agent`,
               name: 'Dr. Janet Duffy',
               alternateName: 'Dr. Jan Duffy',
-              description: 'Las Vegas real estate expert specializing in homes that didn\'t sell. Helped 47 Summerlin sellers who couldn\'t sell with their previous agent - 19 day average and 98.7% of asking price.',
+              description: 'Las Vegas real estate expert specializing in homes that DID NOT sell. Helped 47 Summerlin sellers who could not sell with their previous agent - 19 day average and 98.7% of asking price.',
               telephone: '(702) 500-1064',
               email: 'info@drjanduffy.com',
               url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
               image: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}/og-image.png`,
-              specialty: ['Homes That Didn\'t Sell', 'Failed Listing Specialist', 'Unsold Home Expert', 'Luxury Real Estate', 'Summerlin Real Estate'],
+              specialty: ['Homes That DID NOT Sell', 'Failed Listing Specialist', 'Unsold Home Expert', 'Luxury Real Estate', 'Summerlin Real Estate'],
               areaServed: [
                 {
                   '@type': 'City',
@@ -153,7 +153,7 @@ export default function RootLayout({
               },
               priceRange: '$400K-$10M+',
               award: ['Failed Listing Specialist 2026', 'Good Neighbor Award'],
-              knowsAbout: ['Real Estate', 'Homes That Didn\'t Sell', 'Failed Listings', 'Unsold Homes', 'Re-listing Service', 'Luxury Properties', 'Property Marketing', 'Real Estate Negotiation'],
+              knowsAbout: ['Real Estate', 'Homes That DID NOT Sell', 'Failed Listings', 'Unsold Homes', 'Re-listing Service', 'Luxury Properties', 'Property Marketing', 'Real Estate Negotiation'],
               memberOf: [
                 {
                   '@type': 'Organization',
@@ -180,7 +180,7 @@ export default function RootLayout({
               '@id': `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}#business`,
               name: 'Dr. Janet Duffy Real Estate',
               alternateName: 'Dr. Jan Duffy - Failed Listing Specialist',
-              description: 'Las Vegas real estate agent specializing in homes that didn\'t sell and luxury properties in Summerlin, The Ridges, and surrounding areas.',
+              description: 'Las Vegas real estate agent specializing in homes that DID NOT sell and luxury properties in Summerlin, The Ridges, and surrounding areas.',
               telephone: '(702) 500-1064',
               email: 'info@drjanduffy.com',
               url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
@@ -255,7 +255,7 @@ export default function RootLayout({
               name: 'Dr. Janet Duffy',
               alternateName: 'Dr. Jan Duffy',
               jobTitle: 'Real Estate Agent',
-              description: 'Las Vegas real estate expert with extensive experience helping sellers whose homes didn\'t sell. Specializes in luxury properties in Summerlin, The Ridges, and surrounding areas. 500+ families served, $127M+ in sales volume.',
+              description: 'Las Vegas real estate expert with extensive experience helping sellers whose homes DID NOT sell. Specializes in luxury properties in Summerlin, The Ridges, and surrounding areas. 500+ families served, $127M+ in sales volume.',
               worksFor: {
                 '@type': 'Organization',
                 name: 'Berkshire Hathaway HomeServices',
@@ -274,7 +274,7 @@ export default function RootLayout({
               url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
               image: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}/images/team/las-vegas-real-estate-agent-dr-janet-duffy-headshot.jpg`,
               award: ['Failed Listing Specialist 2026', 'Good Neighbor Award'],
-              knowsAbout: ['Real Estate', 'Homes That Didn\'t Sell', 'Failed Listings', 'Unsold Homes', 'Luxury Properties', 'Property Marketing', 'Real Estate Negotiation', 'Summerlin Real Estate', 'Las Vegas Real Estate Market'],
+              knowsAbout: ['Real Estate', 'Homes That DID NOT Sell', 'Failed Listings', 'Unsold Homes', 'Luxury Properties', 'Property Marketing', 'Real Estate Negotiation', 'Summerlin Real Estate', 'Las Vegas Real Estate Market'],
               alumniOf: {
                 '@type': 'EducationalOrganization',
                 name: 'University',
@@ -308,7 +308,7 @@ export default function RootLayout({
               '@id': `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}#website`,
               name: 'Dr. Janet Duffy - Failed Listing Specialist',
               url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
-              description: 'Las Vegas real estate expert specializing in homes that didn\'t sell. Helped 47 Summerlin sellers who couldn\'t sell with their previous agent - 19 day average and 98.7% of asking price.',
+              description: 'Las Vegas real estate expert specializing in homes that DID NOT sell. Helped 47 Summerlin sellers who could not sell with their previous agent - 19 day average and 98.7% of asking price.',
               publisher: {
                 '@id': `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}#organization`,
               },

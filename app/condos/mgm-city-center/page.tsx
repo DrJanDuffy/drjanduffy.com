@@ -21,7 +21,7 @@ export default function MGMCityCenterCondosPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  MGM City Center is a luxury mixed-use development on the Las Vegas Strip that offers sophisticated living with modern design, CityCenter access, and world-class amenities. If your MGM City Center condo home DIDN\'T sell, you're not alone. MGM City Center condos face unique challenges - from marketing CityCenter access to highlighting modern design to buyers who value contemporary living. Most agents do not understand MGM City Center condos. They use generic strategies, and MGM City Center condos expire.
+                  MGM City Center is a luxury mixed-use development on the Las Vegas Strip that offers sophisticated living with modern design, CityCenter access, and world-class amenities. If your MGM City Center condo home DID NOT sell, you're not alone. MGM City Center condos face unique challenges - from marketing CityCenter access to highlighting modern design to buyers who value contemporary living. Most agents do not understand MGM City Center condos. They use generic strategies, and MGM City Center condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired MGM City Center condos. I understand the luxury market. I know how to market CityCenter condos. I know how to attract modern design enthusiasts. I've sold expired condos in MGM City Center and other CityCenter properties. Fast. At top dollar. With zero excuses.
@@ -90,7 +90,7 @@ export default function MGMCityCenterCondosPage() {
                   READY TO SELL YOUR MGM CITY CENTER CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your MGM City Center condo home DIDN\'T sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your MGM City Center condo home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="mgm_city_center_condos" buttonText="GET MY MGM CITY CENTER CONDO SOLD" />
               </div>

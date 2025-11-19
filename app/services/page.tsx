@@ -7,7 +7,7 @@ import { Camera, Home, TrendingUp, Users, FileText, Phone } from 'lucide-react'
 export const metadata = {
   title: 'Real Estate Services in Las Vegas, NV | Dr. Janet Duffy | (702) 500-1064',
   description:
-    'Complete real estate services for homes that didn\'t sell in Las Vegas, Summerlin, and Henderson. Professional photography, staging, marketing, negotiation, and closing management. Call (702) 500-1064.',
+    'Complete real estate services for homes that DID NOT sell in Las Vegas, Summerlin, and Henderson. Professional photography, staging, marketing, negotiation, and closing management. Call (702) 500-1064.',
   alternates: {
     canonical: 'https://www.drjanduffy.com/services',
   },
@@ -18,12 +18,12 @@ export const metadata = {
     locale: 'en_US',
     url: 'https://www.drjanduffy.com/services',
     title: 'Real Estate Services in Las Vegas, NV | Dr. Janet Duffy',
-    description: 'Complete real estate services for homes that didn\'t sell in Las Vegas, Summerlin, and Henderson. Professional photography, staging, marketing, negotiation, and closing management.',
+    description: 'Complete real estate services for homes that DID NOT sell in Las Vegas, Summerlin, and Henderson. Professional photography, staging, marketing, negotiation, and closing management.',
   },
   twitter: {
     card: 'summary',
     title: 'Real Estate Services in Las Vegas, NV | Dr. Janet Duffy',
-    description: 'Complete real estate services for homes that didn\'t sell in Las Vegas, Summerlin, and Henderson.',
+    description: 'Complete real estate services for homes that DID NOT sell in Las Vegas, Summerlin, and Henderson.',
   },
 }
 import Link from 'next/link'
@@ -106,8 +106,8 @@ export default function ServicesPage() {
     <>
       <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Services', url: '/services' }]} />
       <ServiceSchema
-        serviceName="HOME THAT DIDN\'T SELL Real Estate Services"
-        description="Complete services for HOMES THAT didn\'t SELL including professional photography, staging, marketing, negotiation, and closing management. $5,000+ investment per listing."
+        serviceName="HOME THAT DID NOT SELL Real Estate Services"
+        description="Complete services for HOMES THAT DID NOT SELL including professional photography, staging, marketing, negotiation, and closing management. $5,000+ investment per listing."
         areaServed={['Las Vegas', 'Summerlin', 'Henderson']}
       />
       <Header />
@@ -119,14 +119,14 @@ export default function ServicesPage() {
                 COMPLETE SERVICES
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Everything needed to sell your HOME THAT DIDN\'T SELL fast and at top dollar
+                Everything needed to sell your HOME THAT DID NOT SELL fast and at top dollar
               </p>
               <div className="max-w-4xl mx-auto mb-12 prose prose-lg">
                 <p className="text-lg text-gray-700 mb-6 text-center">
                   I invest $5,000+ in professional marketing per listing - 50x more than the average agent. This comprehensive service package includes professional photography, staging, complete MLS reset, aggressive marketing, and strategic negotiation. See <Link href="/process" className="text-primary font-semibold hover:underline">my 30-day selling process</Link> and learn about <Link href="/marketing-strategy" className="text-primary font-semibold hover:underline">my 97-point marketing system</Link>.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Your previous agent failed you because they didn\'t provide complete services. They took iPhone photos, posted to MLS, held maybe one open house, and disappeared. That's not service. That's negligence. I provide complete services that transform HOMES THAT DIDN\'T SELL into successful sales. Every service is designed to overcome stigma of unsold homes, maximize exposure, and attract qualified buyers.
+                  Your previous agent failed you because they DID NOT provide complete services. They took iPhone photos, posted to MLS, held maybe one open house, and disappeared. That's not service. That's negligence. I provide complete services that transform HOMES THAT DID NOT SELL into successful sales. Every service is designed to overcome stigma of unsold homes, maximize exposure, and attract qualified buyers.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   The difference between my services and your previous agent's services is dramatic. They spent $100. I spend $5,000+. They used minimal marketing. I use a 97-point marketing system. They had zero follow-up. I have aggressive follow-up. They made promises. I deliver proven results. The result? They got you expired. I get you sold. Fast. At top dollar. With zero excuses.
@@ -184,10 +184,10 @@ export default function ServicesPage() {
                   <div>
                     <h3 className="text-2xl font-black mb-4">Professional Photography & Staging ($3,700 Investment)</h3>
                     <p className="text-lg text-gray-700 mb-4">
-                      Your previous agent used iPhone photos. I use professional photography worth $3,700. The difference is dramatic. Professional photos increase showing requests by 300% and sale price by 5-10%. Twilight drone shots showcase your property at its best. 3D virtual tours allow buyers to tour your home 24/7. Magazine-quality staging makes your home look like it belongs in a design magazine. This is not optional. This is essential. HOMES THAT DIDN\'T SELL need professional media to overcome stigma and attract qualified buyers.
+                      Your previous agent used iPhone photos. I use professional photography worth $3,700. The difference is dramatic. Professional photos increase showing requests by 300% and sale price by 5-10%. Twilight drone shots showcase your property at its best. 3D virtual tours allow buyers to tour your home 24/7. Magazine-quality staging makes your home look like it belongs in a design magazine. This is not optional. This is essential. HOMES THAT DID NOT SELL need professional media to overcome stigma and attract qualified buyers.
                     </p>
                     <p className="text-lg text-gray-700 mb-4">
-                      The professional media package includes staging consultation, twilight drone photography, 3D virtual tours, high-resolution interior photography, and aerial property shots. Every photo is professionally edited. Every room is staged to perfection. Every detail is optimized to showcase your home's best features. This is what $3,700 buys you. This is what your previous agent didn\'t provide. This is why your home DIDN\'T sell.
+                      The professional media package includes staging consultation, twilight drone photography, 3D virtual tours, high-resolution interior photography, and aerial property shots. Every photo is professionally edited. Every room is staged to perfection. Every detail is optimized to showcase your home's best features. This is what $3,700 buys you. This is what your previous agent DID NOT provide. This is why your home DID NOT sell.
                     </p>
                   </div>
                   <div>
@@ -196,7 +196,7 @@ export default function ServicesPage() {
                       Your previous agent posted to MLS with a generic description and iPhone photos. I create a fresh MLS listing with optimized description, professional photos, and strategic pricing. The MLS reset eliminates stigma of unsold homes. Buyers see a beautiful, properly priced home with professional marketing. They do not see "expired." They see "opportunity."
                     </p>
                     <p className="text-lg text-gray-700 mb-4">
-                      The MLS reset includes fresh listing, optimized property description highlighting unique features, strategic pricing analysis based on market data, market positioning to attract qualified buyers, and stigma elimination strategy to overcome HOME THAT didn\'t SELL perception. This complete reset transforms your HOME THAT DIDN\'T SELL into an attractive opportunity that buyers want to see.
+                      The MLS reset includes fresh listing, optimized property description highlighting unique features, strategic pricing analysis based on market data, market positioning to attract qualified buyers, and stigma elimination strategy to overcome HOME THAT DID NOT SELL perception. This complete reset transforms your HOME THAT DID NOT SELL into an attractive opportunity that buyers want to see.
                     </p>
                   </div>
                   <div>
@@ -232,7 +232,7 @@ export default function ServicesPage() {
                       Your previous agent disappeared after listing your home. I provide weekly detailed reports with real accountability. Weekly detailed reports show showing activity, buyer feedback, market conditions, and strategy adjustments. Real-time updates keep you informed of all activity. Direct phone access ensures you can reach me when needed. Email communication provides written updates. Text message updates provide instant notifications.
                     </p>
                     <p className="text-lg text-gray-700 mb-4">
-                      The weekly communication includes weekly detailed reports with showing activity and buyer feedback, real-time updates on all marketing activities, direct phone access for immediate questions, email communication for written updates, and text message updates for instant notifications. This communication ensures you're always informed and I'm always accountable. This is transparency. This is accountability. This is what your previous agent DIDN\'T provide.
+                      The weekly communication includes weekly detailed reports with showing activity and buyer feedback, real-time updates on all marketing activities, direct phone access for immediate questions, email communication for written updates, and text message updates for instant notifications. This communication ensures you're always informed and I'm always accountable. This is transparency. This is accountability. This is what your previous agent DID NOT provide.
                     </p>
                   </div>
                 </div>
@@ -240,7 +240,7 @@ export default function ServicesPage() {
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4 text-center">Related Resources</h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  Learn more about how I sell homes that didn\'t sell:
+                  Learn more about how I sell homes that DID NOT sell:
                 </p>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                   <Link href="/process" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
@@ -253,7 +253,7 @@ export default function ServicesPage() {
                   </Link>
                   <Link href="/success-stories" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
                     <h3 className="font-bold text-lg mb-2">Success Stories</h3>
-                    <p className="text-sm text-gray-600">Real results from homes That Didn\'t sell</p>
+                    <p className="text-sm text-gray-600">Real results from homes That DID NOT sell</p>
                   </Link>
                   <Link href="/about" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
                     <h3 className="font-bold text-lg mb-2">About Dr. Jan</h3>
@@ -285,7 +285,7 @@ export default function ServicesPage() {
                       <li>• No social media marketing</li>
                       <li>• No network activation</li>
                       <li>• No targeted advertising</li>
-                      <li>• Result: HOME THAT DIDN\'T SELL</li>
+                      <li>• Result: HOME THAT DID NOT SELL</li>
                     </ul>
                     <p className="text-lg text-gray-700 mt-4">
                       Your previous agent's minimal services cost you thousands. The $100 investment was not enough to sell your home. The lack of marketing made your home invisible. The zero follow-up lost opportunities. This is what minimal services get you: an HOME THAT did not SELL.

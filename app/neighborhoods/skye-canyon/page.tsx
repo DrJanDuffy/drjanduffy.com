@@ -3,9 +3,9 @@ import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 
 export const metadata = {
-  title: 'Skye Canyon HOMES THAT DIDN\'T SELL | Dr. Jan Duffy - Las Vegas Real Estate Expert',
+  title: 'Skye Canyon HOMES THAT DID NOT SELL | Dr. Jan Duffy - Las Vegas Real Estate Expert',
   description:
-    'Expert help selling homes that didn\'t sell in Skye Canyon, Las Vegas. New master-planned community properties. 19 day average, 98.7% of asking price.',
+    'Expert help selling homes that DID NOT sell in Skye Canyon, Las Vegas. New master-planned community properties. 19 day average, 98.7% of asking price.',
   alternates: {
     canonical: '/neighborhoods/skye-canyon',
   },
@@ -27,15 +27,15 @@ export default function SkyeCanyonPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                SKYE CANYON HOMES THAT DIDN\'T SELL
+                SKYE CANYON HOMES THAT DID NOT SELL
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Expert help selling homes that didn\'t sell in Skye Canyon - Las Vegas's newest master-planned community
+                Expert help selling homes that DID NOT sell in Skye Canyon - Las Vegas's newest master-planned community
               </p>
 
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  If your Skye Canyon home DIDN\'T sell, you're dealing with one of Las Vegas's newest master-planned communities. Skye Canyon offers modern properties with new construction amenities, family-friendly features, and contemporary living. Even in this new community, homes fail to sell when agents do not understand new construction marketing. I've sold homes that DIDN\'T sell in Skye Canyon and throughout Las Vegas. I understand new construction marketing. I know how to attract modern buyers. I can sell your expired Skye Canyon listing. Fast. At top dollar. With zero excuses.
+                  If your Skye Canyon home DID NOT sell, you're dealing with one of Las Vegas's newest master-planned communities. Skye Canyon offers modern properties with new construction amenities, family-friendly features, and contemporary living. Even in this new community, homes fail to sell when agents do not understand new construction marketing. I've sold homes that DID NOT sell in Skye Canyon and throughout Las Vegas. I understand new construction marketing. I know how to attract modern buyers. I can sell your expired Skye Canyon listing. Fast. At top dollar. With zero excuses.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   Skye Canyon is Las Vegas's newest master-planned community, offering modern properties with new construction amenities, family-friendly features, and contemporary living. Properties range from $500K to $2M+, attracting buyers who value new construction, modern amenities, and contemporary design. Most agents do not understand the Skye Canyon buyer. They use generic marketing, and Skye Canyon homes fail to sell. I understand the Skye Canyon buyer. I use new construction marketing strategies, highlight modern amenities, and attract modern buyers. Skye Canyon listings sell. Fast. At top dollar.
@@ -67,7 +67,7 @@ export default function SkyeCanyonPage() {
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">My Skye Canyon Expertise</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  I've sold homes that DIDN\'T sell in Skye Canyon and understand the unique challenges of marketing new construction community properties. I know how to attract modern buyers. I know how to showcase modern features. I know how to sell Skye Canyon properties.
+                  I've sold homes that DID NOT sell in Skye Canyon and understand the unique challenges of marketing new construction community properties. I know how to attract modern buyers. I know how to showcase modern features. I know how to sell Skye Canyon properties.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">New Construction Marketing</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -103,13 +103,13 @@ export default function SkyeCanyonPage() {
               </div>
 
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
-                <h2 className="text-3xl font-black mb-4">The Skye Canyon HOME THAT DIDN\'T SELL Opportunity</h2>
+                <h2 className="text-3xl font-black mb-4">The Skye Canyon HOME THAT DID NOT SELL Opportunity</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  HOMES THAT didn\'t SELL in Skye Canyon represent significant opportunities. Sellers are frustrated. They've tried once and failed. They're ready to work with an agent who actually understands new construction marketing. I understand new construction marketing. I know how to market Skye Canyon properties. I know how to attract modern buyers.
+                  HOMES THAT DID NOT SELL in Skye Canyon represent significant opportunities. Sellers are frustrated. They've tried once and failed. They're ready to work with an agent who actually understands new construction marketing. I understand new construction marketing. I know how to market Skye Canyon properties. I know how to attract modern buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Complete New Construction Reset</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Expired Skye Canyon listings need a complete new construction reset. New professional photography showcasing modern design and new construction features. Strategic positioning emphasizing new construction benefits. Fresh MLS listing with optimized new construction description. Strategic pricing positioning. Aggressive marketing targeting modern buyers. Most agents do not do this. I do. I provide complete new construction reset services that transform HOMES THAT DIDN\'T SELL into attractive opportunities.
+                  Expired Skye Canyon listings need a complete new construction reset. New professional photography showcasing modern design and new construction features. Strategic positioning emphasizing new construction benefits. Fresh MLS listing with optimized new construction description. Strategic pricing positioning. Aggressive marketing targeting modern buyers. Most agents do not do this. I do. I provide complete new construction reset services that transform HOMES THAT DID NOT SELL into attractive opportunities.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">New Construction Marketing System</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -117,7 +117,7 @@ export default function SkyeCanyonPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Proven Results</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  I've sold 47 Summerlin sellers who couldn\'t sell with an average of 19 days to contract and 98.7% of asking price. These are not hypothetical results. These are real HOMES THAT DIDN\'T SELL that I sold after other agents failed. I can do the same for your Skye Canyon listing. Fast. At top dollar. With zero excuses.
+                  I've sold 47 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. These are not hypothetical results. These are real HOMES THAT DID NOT SELL that I sold after other agents failed. I can do the same for your Skye Canyon listing. Fast. At top dollar. With zero excuses.
                 </p>
               </div>
 
@@ -126,7 +126,7 @@ export default function SkyeCanyonPage() {
                   READY TO SELL YOUR SKYE CANYON LISTING?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Skye Canyon home didn\'t sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Skye Canyon home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="skye_canyon_neighborhood" buttonText="GET MY LISTING SOLD" />
               </div>

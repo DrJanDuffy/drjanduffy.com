@@ -20,13 +20,13 @@ export default function GoogleReviews({ reviews, showSchema = true }: GoogleRevi
     {
       author: 'Summerlin West Seller',
       rating: 5,
-      text: 'Dr. Jan sold my home that didn\'t sell in 16 days at 99% of asking. My previous agent had it for 90 days and it expired. The difference was night and day.',
+      text: 'Dr. Jan sold my home that DID NOT sell in 16 days at 99% of asking. My previous agent had it for 90 days and it expired. The difference was night and day.',
       date: '2025-01-15',
     },
     {
       author: 'The Ridges Seller',
       rating: 5,
-      text: 'I was skeptical after my home didn\'t sell. But Dr. Jan\'s marketing was incredible. Professional photos, aggressive follow-up, strategic negotiation. Sold in 19 days.',
+      text: 'I was skeptical after my home DID NOT sell. But Dr. Jan\'s marketing was incredible. Professional photos, aggressive follow-up, strategic negotiation. Sold in 19 days.',
       date: '2025-01-10',
     },
     {

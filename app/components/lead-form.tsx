@@ -74,7 +74,7 @@ export default function LeadForm({
           Thank You!
         </h3>
         <p className="text-green-700">
-          We'll contact you within 24 hours to discuss your HOME THAT DIDN\'T SELL.
+          We'll contact you within 24 hours to discuss your HOME THAT DID NOT SELL.
         </p>
       </div>
     )

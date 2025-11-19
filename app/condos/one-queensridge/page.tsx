@@ -21,7 +21,7 @@ export default function OneQueensridgeCondosPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  One Queensridge Place is a luxury high-rise condominium building in Las Vegas that offers sophisticated living with resort access, exclusive amenities, and prime location. If your One Queensridge Place condo home DIDN\'T sell, you're not alone. One Queensridge Place condos face unique challenges - from marketing resort access to highlighting exclusive amenities to buyers who expect luxury living. Most agents do not understand One Queensridge Place condos. They use generic strategies, and One Queensridge Place condos expire.
+                  One Queensridge Place is a luxury high-rise condominium building in Las Vegas that offers sophisticated living with resort access, exclusive amenities, and prime location. If your One Queensridge Place condo home DID NOT sell, you're not alone. One Queensridge Place condos face unique challenges - from marketing resort access to highlighting exclusive amenities to buyers who expect luxury living. Most agents do not understand One Queensridge Place condos. They use generic strategies, and One Queensridge Place condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired One Queensridge Place condos. I understand the luxury market. I know how to market high-rise condos with resort access. I know how to attract luxury lifestyle seekers. I've sold expired condos in One Queensridge Place and other luxury resort-access properties. Fast. At top dollar. With zero excuses.
@@ -90,7 +90,7 @@ export default function OneQueensridgeCondosPage() {
                   READY TO SELL YOUR ONE QUEENSRIDGE PLACE CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your One Queensridge Place condo home DIDN\'T sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your One Queensridge Place condo home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="one_queensridge_condos" buttonText="GET MY ONE QUEENSRIDGE PLACE CONDO SOLD" />
               </div>

@@ -6,7 +6,7 @@ import Link from 'next/link'
 export const metadata = {
   title: 'Find New Real Estate Agent Las Vegas | When Your Agent Can\'t Sell',
   description:
-    'Looking for a new real estate agent in Las Vegas? Specialist in selling homes other agents couldn\'t. 500+ families served. Call 702-500-1064',
+    'Looking for a new real estate agent in Las Vegas? Specialist in selling homes other agents could not. 500+ families served. Call 702-500-1064',
   alternates: {
     canonical: 'https://www.drjanduffy.com/find-new-real-estate-agent-las-vegas',
   },
@@ -17,12 +17,12 @@ export const metadata = {
     locale: 'en_US',
     url: 'https://www.drjanduffy.com/find-new-real-estate-agent-las-vegas',
     title: 'Find New Real Estate Agent Las Vegas | When Your Agent Can\'t Sell',
-    description: 'Looking for a new real estate agent in Las Vegas? Specialist in selling homes other agents couldn\'t.',
+    description: 'Looking for a new real estate agent in Las Vegas? Specialist in selling homes other agents could not.',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Find New Real Estate Agent Las Vegas',
-    description: 'Specialist in selling homes other agents couldn\'t. 500+ families served.',
+    description: 'Specialist in selling homes other agents could not. 500+ families served.',
   },
 }
 
@@ -42,15 +42,15 @@ export default function FindNewAgentPage() {
                 Looking for a New Real Estate Agent in Las Vegas?
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                You trusted an agent. They DIDN\'T deliver. Now what? Here's how to find a real estate agent who actually sells homes.
+                You trusted an agent. They DID NOT deliver. Now what? Here's how to find a real estate agent who actually sells homes.
               </p>
 
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  You trusted an agent. They didn\'t deliver. Your listing expired. Your home DIDN\'T sell. You're frustrated, angry, and losing money every day. The average unsold home costs sellers $4,964 per month in holding costs. That's $116 per day. Every day you wait is money down the drain.
+                  You trusted an agent. They DID NOT deliver. Your listing expired. Your home DID NOT sell. You're frustrated, angry, and losing money every day. The average unsold home costs sellers $4,964 per month in holding costs. That's $116 per day. Every day you wait is money down the drain.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  But here's the truth: not all agents are created equal. Some agents actually sell homes. Others just collect listings and hope something sticks. You need to find an agent who actually delivers results. I specialize in selling homes other agents couldn\'t. 500+ families served. $127M+ in sales. 47 homes that DIDN\'T sell with other agents - now sold. See <Link href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</Link> and learn about <Link href="/comparison" className="text-primary font-semibold hover:underline">how I'm different from your previous agent</Link>.
+                  But here's the truth: not all agents are created equal. Some agents actually sell homes. Others just collect listings and hope something sticks. You need to find an agent who actually delivers results. I specialize in selling homes other agents could not. 500+ families served. $127M+ in sales. 47 homes that DID NOT sell with other agents - now sold. See <Link href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</Link> and learn about <Link href="/comparison" className="text-primary font-semibold hover:underline">how I'm different from your previous agent</Link>.
                 </p>
               </div>
             </div>
@@ -176,7 +176,7 @@ export default function FindNewAgentPage() {
                 <div className="bg-white border-2 border-gray-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4">2. What's your average days on market?</h3>
                   <p className="text-lg text-gray-700">
-                    Speed matters. For homes that DIDN\'T sell with other agents, I average 19 days to contract. For properly priced and marketed homes, the average is 30-45 days. This is what a proven system gets you.
+                    Speed matters. For homes that DID NOT sell with other agents, I average 19 days to contract. For properly priced and marketed homes, the average is 30-45 days. This is what a proven system gets you.
                   </p>
                 </div>
 
@@ -217,11 +217,11 @@ export default function FindNewAgentPage() {
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Look for Specialization</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Not all agents are good at everything. Some specialize in first-time buyers. Some specialize in luxury homes. Some specialize in homes that DIDN\'T sell. I specialize in homes that didn\'t sell with other agents. This specialization is what delivers results. 47 homes That Didn\'t sell - now sold. 19 day average. 98.7% of asking price.
+                  Not all agents are good at everything. Some specialize in first-time buyers. Some specialize in luxury homes. Some specialize in homes that DID NOT sell. I specialize in homes that DID NOT sell with other agents. This specialization is what delivers results. 47 homes That DID NOT sell - now sold. 19 day average. 98.7% of asking price.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Check Their Track Record</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Ask for specific results. How many homes sold? Average days on market? Average sale price percentage? I've sold 47 homes that DIDN\'T sell with other agents. Average 19 days to contract. 98.7% of asking price. $127M+ in total sales. 500+ families served. These are real results, not promises.
+                  Ask for specific results. How many homes sold? Average days on market? Average sale price percentage? I've sold 47 homes that DID NOT sell with other agents. Average 19 days to contract. 98.7% of asking price. $127M+ in total sales. 500+ families served. These are real results, not promises.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Ask About Their System</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -229,11 +229,11 @@ export default function FindNewAgentPage() {
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Verify Their Investment</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Ask about their marketing investment. How much do they spend per listing? What do they spend it on? I invest $5,000+ per listing: $3,700 on professional media, plus marketing, staging, and follow-up. This investment is what gets homes sold. Your previous agent spent $100. That's why your home DIDN\'T sell.
+                  Ask about their marketing investment. How much do they spend per listing? What do they spend it on? I invest $5,000+ per listing: $3,700 on professional media, plus marketing, staging, and follow-up. This investment is what gets homes sold. Your previous agent spent $100. That's why your home DID NOT sell.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Read Testimonials</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Read testimonials from real clients. Do they mention specific results? Communication? Marketing? I have testimonials from 47 sellers who couldn\'t sell with their previous agent. They mention specific results, communication, and marketing. See <Link href="/testimonials" className="text-primary font-semibold hover:underline">real client testimonials</Link>.
+                  Read testimonials from real clients. Do they mention specific results? Communication? Marketing? I have testimonials from 47 sellers who could not sell with their previous agent. They mention specific results, communication, and marketing. See <Link href="/testimonials" className="text-primary font-semibold hover:underline">real client testimonials</Link>.
                 </p>
               </div>
             </div>
@@ -254,7 +254,7 @@ export default function FindNewAgentPage() {
                     <ul className="space-y-2 text-gray-700">
                       <li>• 500+ families served</li>
                       <li>• $127M+ in total sales</li>
-                      <li>• 47 homes that DIDN\'T sell - now sold</li>
+                      <li>• 47 homes that DID NOT sell - now sold</li>
                       <li>• 19 day average to contract</li>
                       <li>• 98.7% of asking price average</li>
                     </ul>
@@ -271,7 +271,7 @@ export default function FindNewAgentPage() {
                   </div>
                 </div>
                 <p className="text-lg text-gray-700 mt-6 text-center">
-                  These credentials are for credibility. But what matters is results. 47 homes that didn\'t sell with other agents - now sold. That's what you need.
+                  These credentials are for credibility. But what matters is results. 47 homes that DID NOT sell with other agents - now sold. That's what you need.
                 </p>
               </div>
             </div>

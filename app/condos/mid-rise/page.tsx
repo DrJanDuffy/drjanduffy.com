@@ -32,7 +32,7 @@ export default function MidRiseCondosPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Las Vegas mid-rise condos and lofts offer urban living with modern design, community amenities, and value positioning. If your mid-rise condo or loft home DIDN\'T sell, you're not alone. Mid-rise condos face unique challenges - from competition with new construction to HOA restrictions to buyers who value community and modern design. Most agents do not understand mid-rise condos. They use generic strategies, and mid-rise condos expire.
+                  Las Vegas mid-rise condos and lofts offer urban living with modern design, community amenities, and value positioning. If your mid-rise condo or loft home DID NOT sell, you're not alone. Mid-rise condos face unique challenges - from competition with new construction to HOA restrictions to buyers who value community and modern design. Most agents do not understand mid-rise condos. They use generic strategies, and mid-rise condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired mid-rise condos and lofts. I understand the mid-rise market. I know how to market modern design and community amenities. I know how to attract urban lifestyle seekers. I've sold expired mid-rise condos and lofts throughout Las Vegas. Fast. At top dollar. With zero excuses.
@@ -97,7 +97,7 @@ export default function MidRiseCondosPage() {
                   READY TO SELL YOUR MID-RISE CONDO OR LOFT?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your mid-rise condo or loft home DIDN\'T sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your mid-rise condo or loft home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="mid_rise_condos" buttonText="GET MY MID-RISE CONDO SOLD" />
               </div>

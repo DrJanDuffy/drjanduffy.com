@@ -14,7 +14,7 @@ export default function Header() {
   const mainNavItems = [
     { href: '/', label: 'Home' },
     { href: '/sell-house-fast-las-vegas', label: 'Sell Your Home' },
-    { href: '/home-wont-sell-las-vegas', label: 'Home Won\'t Sell?' },
+    { href: '/home-wont-sell-las-vegas', label: 'Home will not Sell?' },
     { href: '/summerlin-real-estate-agent', label: 'Summerlin Agent' },
     { href: '/neighborhoods', label: 'Neighborhoods' },
     { href: '/blog', label: 'Blog' },
@@ -61,7 +61,7 @@ export default function Header() {
       <div className="bg-primary text-primary-foreground text-sm py-2">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-center gap-4 flex-wrap">
-            <span className="font-bold">🔥 47 homes that DIDN\'T sell - now sold</span>
+            <span className="font-bold">🔥 47 homes that DID NOT sell - now sold</span>
             <span className="hidden md:inline">|</span>
             <span className="hidden md:inline">19 Day Average</span>
             <span className="hidden md:inline">|</span>

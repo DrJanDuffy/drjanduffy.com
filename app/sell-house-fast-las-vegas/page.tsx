@@ -6,7 +6,7 @@ import Link from 'next/link'
 export const metadata = {
   title: 'Sell Your House Fast Las Vegas | 19 Day Average | Free Consultation',
   description:
-    'Need to sell your house fast in Las Vegas? Specialized service for homes that won\'t sell. 500+ families helped. Summerlin expert. Free consultation: 702-500-1064',
+    'Need to sell your house fast in Las Vegas? Specialized service for homes that will not sell. 500+ families helped. Summerlin expert. Free consultation: 702-500-1064',
   alternates: {
     canonical: 'https://www.drjanduffy.com/sell-house-fast-las-vegas',
   },
@@ -17,12 +17,12 @@ export const metadata = {
     locale: 'en_US',
     url: 'https://www.drjanduffy.com/sell-house-fast-las-vegas',
     title: 'Sell Your House Fast Las Vegas | 19 Day Average | Free Consultation',
-    description: 'Need to sell your house fast in Las Vegas? Specialized service for homes that won\'t sell. 500+ families helped.',
+    description: 'Need to sell your house fast in Las Vegas? Specialized service for homes that will not sell. 500+ families helped.',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Sell Your House Fast Las Vegas',
-    description: 'Specialized service for homes that won\'t sell. 500+ families helped. Summerlin expert.',
+    description: 'Specialized service for homes that will not sell. 500+ families helped. Summerlin expert.',
   },
 }
 
@@ -42,7 +42,7 @@ export default function SellHouseFastPage() {
                 Sell Your House Fast in Las Vegas
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Specialized service for homes that won\'t sell. 47 previously unsold homes sold - average 19 days to contract, 98.7% of asking price.
+                Specialized service for homes that will not sell. 47 previously unsold homes sold - average 19 days to contract, 98.7% of asking price.
               </p>
 
               <div className="prose prose-lg max-w-none mb-12">
@@ -50,7 +50,7 @@ export default function SellHouseFastPage() {
                   Need to sell your house fast in Las Vegas? You're not alone. Every year, thousands of Las Vegas homeowners face the same challenge: their house will not sell, and they're losing money every day it sits on the market. The average unsold home costs sellers $4,964 per month in holding costs. That's $116 per day. Every day you wait is money down the drain.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  I specialize in selling homes fast - even homes that DIDN\'T sell with other agents. I've helped 47 Summerlin sellers who couldn\'t sell with their previous agent. Average 19 days to contract. 98.7% of asking price. These are not hypothetical results. These are real homes that I sold after other agents failed. See <Link href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</Link> and learn about <Link href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process</Link>.
+                  I specialize in selling homes fast - even homes that DID NOT sell with other agents. I've helped 47 Summerlin sellers who could not sell with their previous agent. Average 19 days to contract. 98.7% of asking price. These are not hypothetical results. These are real homes that I sold after other agents failed. See <Link href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</Link> and learn about <Link href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process</Link>.
                 </p>
               </div>
             </div>
@@ -73,7 +73,7 @@ export default function SellHouseFastPage() {
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">2. Poor Photography</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Your previous agent used iPhone photos. Dark rooms, cluttered spaces, unprofessional staging. Buyers scroll through hundreds of listings online. If your photos do not grab them immediately, they move on. I invest $3,700 in professional media - twilight drone shots, 3D virtual tours, magazine-quality staging. Professional photography increases showing requests by 300% and sale price by 5-10%. This is what $3,700 buys you. This is what your previous agent DIDN\'T provide.
+                  Your previous agent used iPhone photos. Dark rooms, cluttered spaces, unprofessional staging. Buyers scroll through hundreds of listings online. If your photos do not grab them immediately, they move on. I invest $3,700 in professional media - twilight drone shots, 3D virtual tours, magazine-quality staging. Professional photography increases showing requests by 300% and sale price by 5-10%. This is what $3,700 buys you. This is what your previous agent DID NOT provide.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">3. Weak Marketing Strategy</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -85,7 +85,7 @@ export default function SellHouseFastPage() {
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">5. Part-Time Effort</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Your previous agent had 47+ listings. You got 2.1% of their attention. They couldn\'t afford to invest $5,000+ in every listing. They spread themselves thin, hoping something would stick. I take maximum 6 listings at a time. You get 100% focus. Every home gets the full treatment - professional marketing, aggressive follow-up, strategic negotiation. Nothing is left to chance.
+                  Your previous agent had 47+ listings. You got 2.1% of their attention. They could not afford to invest $5,000+ in every listing. They spread themselves thin, hoping something would stick. I take maximum 6 listings at a time. You get 100% focus. Every home gets the full treatment - professional marketing, aggressive follow-up, strategic negotiation. Nothing is left to chance.
                 </p>
               </div>
             </div>
@@ -104,7 +104,7 @@ export default function SellHouseFastPage() {
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Week 1: Complete Marketing Reset</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  The first week is all about reset. Professional photography and staging ($3,700 investment). 3D virtual tour creation. Market analysis and strategic pricing. Fresh MLS listing with optimized description. Social media marketing blitz launch. This complete reset eliminates the stigma of unsold homes. Buyers see a beautiful, properly priced home with professional marketing. They do not see "DIDN\'T sell." They see "opportunity."
+                  The first week is all about reset. Professional photography and staging ($3,700 investment). 3D virtual tour creation. Market analysis and strategic pricing. Fresh MLS listing with optimized description. Social media marketing blitz launch. This complete reset eliminates the stigma of unsold homes. Buyers see a beautiful, properly priced home with professional marketing. They do not see "DID NOT sell." They see "opportunity."
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Week 2: Maximum Exposure</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -152,7 +152,7 @@ export default function SellHouseFastPage() {
                   </p>
                 </div>
                 <p className="text-lg text-gray-700">
-                  The pattern is clear: homes that DIDN\'T sell with other agents sell fast with the right strategy. See more <Link href="/success-stories" className="text-primary font-semibold hover:underline">success stories</Link> from homes I've sold.
+                  The pattern is clear: homes that DID NOT sell with other agents sell fast with the right strategy. See more <Link href="/success-stories" className="text-primary font-semibold hover:underline">success stories</Link> from homes I've sold.
                 </p>
               </div>
             </div>

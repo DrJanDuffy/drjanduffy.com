@@ -21,7 +21,7 @@ export default function Loft5Page() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Loft 5 is an urban loft building in Las Vegas that offers sophisticated living with modern design, contemporary amenities, and urban location. If your Loft 5 home DIDN\'T sell, you're not alone. Loft 5 face unique challenges - from marketing urban lifestyle to highlighting modern design to buyers who value contemporary living. Most agents do not understand Loft 5. They use generic strategies, and Loft 5 expire.
+                  Loft 5 is an urban loft building in Las Vegas that offers sophisticated living with modern design, contemporary amenities, and urban location. If your Loft 5 home DID NOT sell, you're not alone. Loft 5 face unique challenges - from marketing urban lifestyle to highlighting modern design to buyers who value contemporary living. Most agents do not understand Loft 5. They use generic strategies, and Loft 5 expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Loft 5. I understand the urban market. I know how to market urban lofts. I know how to attract urban lifestyle seekers. I've sold expired lofts in Loft 5 and other urban properties. Fast. At top dollar. With zero excuses.
@@ -90,7 +90,7 @@ export default function Loft5Page() {
                   READY TO SELL YOUR LOFT 5?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Loft 5 home DIDN\'T sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Loft 5 home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="loft_5" buttonText="GET MY LOFT 5 SOLD" />
               </div>

@@ -15,7 +15,7 @@ export default function Footer() {
             <h3 className="text-white font-black text-xl mb-4">Dr. Janet Duffy</h3>
             <p className="text-sm mb-4">
               Las Vegas Real Estate Expert<br />
-              Specializing in HOMES THAT DIDN\'T SELL
+              Specializing in HOMES THAT DID NOT SELL
             </p>
             <div className="space-y-3">
               <a

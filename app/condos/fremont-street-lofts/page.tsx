@@ -21,7 +21,7 @@ export default function FremontStreetLoftsPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Fremont Street Lofts is an urban loft building in downtown Las Vegas that offers sophisticated living with modern design, downtown location, and contemporary amenities. If your Fremont Street Lofts home DIDN\'T sell, you're not alone. Fremont Street Lofts face unique challenges - from marketing urban lifestyle to highlighting downtown location to buyers who value contemporary living. Most agents do not understand Fremont Street Lofts. They use generic strategies, and Fremont Street Lofts expire.
+                  Fremont Street Lofts is an urban loft building in downtown Las Vegas that offers sophisticated living with modern design, downtown location, and contemporary amenities. If your Fremont Street Lofts home DID NOT sell, you're not alone. Fremont Street Lofts face unique challenges - from marketing urban lifestyle to highlighting downtown location to buyers who value contemporary living. Most agents do not understand Fremont Street Lofts. They use generic strategies, and Fremont Street Lofts expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Fremont Street Lofts. I understand the urban market. I know how to market downtown lofts. I know how to attract urban lifestyle seekers. I've sold expired lofts in Fremont Street and other downtown properties. Fast. At top dollar. With zero excuses.
@@ -90,7 +90,7 @@ export default function FremontStreetLoftsPage() {
                   READY TO SELL YOUR FREMONT STREET LOFTS?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Fremont Street Lofts home DIDN\'T sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Fremont Street Lofts home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="fremont_street_lofts" buttonText="GET MY FREMONT STREET LOFTS SOLD" />
               </div>

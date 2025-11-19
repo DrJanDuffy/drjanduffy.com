@@ -24,7 +24,7 @@ export default function GBPPostsWidget({
   const defaultPosts: GBPPost[] = posts || [
     {
       title: 'New Year, New Opportunities for Sellers',
-      description: 'January 2026 is the perfect time to reset your home that didn\'t sell. Spring buyers are already looking, and we\'re here to help you get top dollar.',
+      description: 'January 2026 is the perfect time to reset your home that DID NOT sell. Spring buyers are already looking, and we\'re here to help you get top dollar.',
       date: '2026-01-15',
       type: 'update',
     },
@@ -35,8 +35,8 @@ export default function GBPPostsWidget({
       type: 'offer',
     },
     {
-      title: '47 Homes That Didn\'t Sell - Now Sold',
-      description: 'We\'ve helped 47 Summerlin sellers who couldn\'t sell with their previous agent. Average 19 days to contract, 98.7% of asking price.',
+      title: '47 Homes That DID NOT Sell - Now Sold',
+      description: 'We\'ve helped 47 Summerlin sellers who could not sell with their previous agent. Average 19 days to contract, 98.7% of asking price.',
       date: '2026-01-05',
       type: 'update',
     },

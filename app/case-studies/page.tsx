@@ -3,9 +3,9 @@ import { successStories } from '@/lib/data/success-stories'
 import { formatCurrency } from '@/lib/utils'
 import Link from 'next/link'
 export const metadata = {
-  title: 'Case Studies | HOME THAT DIDN\'T SELL Case Studies | Dr. Jan Duffy',
+  title: 'Case Studies | HOME THAT DID NOT SELL Case Studies | Dr. Jan Duffy',
   description:
-    'Detailed case studies of homes that didn\'t sell - now sold by Dr. Jan Duffy. See how failed listings became successful sales.',
+    'Detailed case studies of homes that DID NOT sell - now sold by Dr. Jan Duffy. See how failed listings became successful sales.',
 }
 export default function CaseStudiesPage() {
   return (
@@ -19,7 +19,7 @@ export default function CaseStudiesPage() {
                 DETAILED CASE STUDIES
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                In-depth analysis of how HOMES THAT DIDN\'T SELL became successful sales
+                In-depth analysis of how HOMES THAT DID NOT SELL became successful sales
               </p>
               <div className="space-y-12">
                 {successStories.map((story) => (

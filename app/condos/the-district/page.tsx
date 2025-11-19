@@ -21,7 +21,7 @@ export default function TheDistrictCondosPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  The District at Green Valley is a mid-rise condominium community in Henderson that offers affordable living with community amenities, established neighborhoods, and value positioning. If your District at Green Valley condo home DIDN\'T sell, you're not alone. District condos face unique challenges - from competition with new construction to value-conscious buyers to emphasis on community amenities. Most agents do not understand District condos. They use generic strategies, and District condos expire.
+                  The District at Green Valley is a mid-rise condominium community in Henderson that offers affordable living with community amenities, established neighborhoods, and value positioning. If your District at Green Valley condo home DID NOT sell, you're not alone. District condos face unique challenges - from competition with new construction to value-conscious buyers to emphasis on community amenities. Most agents do not understand District condos. They use generic strategies, and District condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired District at Green Valley condos. I understand the Henderson market. I know how to market mid-rise condos. I know how to attract value-conscious buyers. I've sold expired condos in The District and other Green Valley communities. Fast. At top dollar. With zero excuses.
@@ -90,7 +90,7 @@ export default function TheDistrictCondosPage() {
                   READY TO SELL YOUR DISTRICT CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your District at Green Valley condo home DIDN\'T sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your District at Green Valley condo home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="district_condos" buttonText="GET MY DISTRICT CONDO SOLD" />
               </div>

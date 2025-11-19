@@ -2,21 +2,21 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import { Check, X } from 'lucide-react'
 export const metadata = {
-  title: 'Why Choose Dr. Jan Duffy | specialist in homes that didn\'t sell',
+  title: 'Why Choose Dr. Jan Duffy | specialist in homes that DID NOT sell',
   description:
-    'Why choose Dr. Jan Duffy for your HOME THAT DIDN\'T SELL? 47 sold, 19 day average, 98.7% of asking, and proven results.',
+    'Why choose Dr. Jan Duffy for your HOME THAT DID NOT SELL? 47 sold, 19 day average, 98.7% of asking, and proven results.',
 }
 export default function WhyChooseMePage() {
   const reasons = [
     {
       title: 'Proven Track Record',
-      description: '47 homes that didn\'t sell - now sold with 19 day average and 98.7% of asking price.',
+      description: '47 homes that DID NOT sell - now sold with 19 day average and 98.7% of asking price.',
       proof: 'Real results, not promises',
     },
     {
-      title: 'specialist in homes that DIDN\'T sell',
-      description: 'I don\'t dabble in HOMES THAT DIDN\'T SELL - I specialize in them. This is all I do.',
-      proof: '100% focus on HOMES THAT DIDN\'T SELL',
+      title: 'specialist in homes that DID NOT sell',
+      description: 'I don\'t dabble in HOMES THAT DID NOT SELL - I specialize in them. This is all I do.',
+      proof: '100% focus on HOMES THAT DID NOT SELL',
     },
     {
       title: 'Maximum 6 Listings',
@@ -30,7 +30,7 @@ export default function WhyChooseMePage() {
     },
     {
       title: 'Proven Results',
-      description: '47 homes that DIDN\'T sell - now sold with 19 day average and 98.7% of asking price. Weekly updates with real accountability.',
+      description: '47 homes that DID NOT sell - now sold with 19 day average and 98.7% of asking price. Weekly updates with real accountability.',
       proof: 'Accountability, not excuses',
     },
     {
@@ -82,7 +82,7 @@ export default function WhyChooseMePage() {
                 WHY CHOOSE DR. JAN DUFFY?
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                The specialist in homes that DIDN\'T sell who actually delivers results
+                The specialist in homes that DID NOT sell who actually delivers results
               </p>
               <div className="grid md:grid-cols-2 gap-8 mb-12">
                 {reasons.map((reason, index) => (
@@ -136,7 +136,7 @@ export default function WhyChooseMePage() {
               <div className="bg-primary text-primary-foreground p-8 rounded-lg text-center mb-12">
                 <h2 className="text-3xl font-black mb-4">THE BOTTOM LINE</h2>
                 <p className="text-2xl font-bold mb-2">
-                  Your previous agent failed. I won\'t.
+                  Your previous agent failed. I will not.
                 </p>
                 <p className="text-xl">
                   47 homes that did not sell - now sold. 19 day average. 98.7% of asking.

@@ -3,7 +3,7 @@ import LeadForm from '@/app/components/lead-form'
 export const metadata = {
   title: 'Condos Sold in Las Vegas | Dr. Jan Duffy',
   description:
-    'See condos sold by Dr. Jan Duffy. homes that didn\'t sell - now sold fast and at top dollar. Proven results.',
+    'See condos sold by Dr. Jan Duffy. homes that DID NOT sell - now sold fast and at top dollar. Proven results.',
 }
 export default function CondosSoldPage() {
   return (
@@ -24,10 +24,10 @@ export default function CondosSoldPage() {
                   These are not hypothetical success stories or marketing fluff. These are real expired condo listings that I sold after other agents failed. Every single one of these condos sat on the market for months, bleeding money, while previous agents collected nothing and sellers lost thousands. Then they called me. I reset the listing, implemented my 97-point marketing system, and sold them. Fast. At top dollar. With zero excuses.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  The numbers do not lie. I've sold 47 HOMES THAT DIDN\'T SELL in Las Vegas with an average of 19 days to contract and 98.7% of asking price. Many of these were condos - from luxury high-rises on The Strip to mid-rise condos in Summerlin to townhomes in Henderson. That's not a coincidence. That's not luck. That's a proven system that works for condos.
+                  The numbers do not lie. I've sold 47 HOMES THAT DID NOT SELL in Las Vegas with an average of 19 days to contract and 98.7% of asking price. Many of these were condos - from luxury high-rises on The Strip to mid-rise condos in Summerlin to townhomes in Henderson. That's not a coincidence. That's not luck. That's a proven system that works for condos.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  When you see these sold condos, you're seeing what's possible when you work with an agent who actually understands condos. Most agents show you their best-case scenarios - luxury condos in perfect condition that sold quickly. I show you expired condos. Condos that other agents couldn\'t sell. Condos that sat on the market for 60, 90, 120+ days. Then I show you how I sold them in 14-31 days at 97-99% of asking price.
+                  When you see these sold condos, you're seeing what's possible when you work with an agent who actually understands condos. Most agents show you their best-case scenarios - luxury condos in perfect condition that sold quickly. I show you expired condos. Condos that other agents could not sell. Condos that sat on the market for 60, 90, 120+ days. Then I show you how I sold them in 14-31 days at 97-99% of asking price.
                 </p>
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
@@ -37,11 +37,11 @@ export default function CondosSoldPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">The Common Thread</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Every single one of these sold condos shares the same pattern: Previous agent used minimal marketing (just MLS posting), DIDN\'T invest in professional photography, held maybe one open house, and disappeared. Then I came in, reset everything, implemented my 97-point marketing system, and sold the condo. Fast. At top dollar. The difference is not the condo. The difference is the agent.
+                  Every single one of these sold condos shares the same pattern: Previous agent used minimal marketing (just MLS posting), DID NOT invest in professional photography, held maybe one open house, and disappeared. Then I came in, reset everything, implemented my 97-point marketing system, and sold the condo. Fast. At top dollar. The difference is not the condo. The difference is the agent.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Condo-Specific Challenges Overcome</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  These sold condos faced condo-specific challenges. HOA restrictions. Competition from new construction. Seasonal demand fluctuations. Buyers who didn\'t understand condos. Most agents do not address these challenges. I do. I overcome HOA restrictions with digital marketing. I position existing condos competitively against new construction. I adjust strategies for seasonal demand. I educate buyers about condo value. That's why these condos sold.
+                  These sold condos faced condo-specific challenges. HOA restrictions. Competition from new construction. Seasonal demand fluctuations. Buyers who DID NOT understand condos. Most agents do not address these challenges. I do. I overcome HOA restrictions with digital marketing. I position existing condos competitively against new construction. I adjust strategies for seasonal demand. I educate buyers about condo value. That's why these condos sold.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">

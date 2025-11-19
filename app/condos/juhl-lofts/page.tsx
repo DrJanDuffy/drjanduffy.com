@@ -21,7 +21,7 @@ export default function JuhlLoftsPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Juhl Lofts is an urban loft building in downtown Las Vegas that offers sophisticated living with modern design, downtown location, and contemporary amenities. If your Juhl Lofts home DIDN\'T sell, you're not alone. Juhl Lofts face unique challenges - from marketing urban lifestyle to highlighting modern design to buyers who value downtown living. Most agents do not understand Juhl Lofts. They use generic strategies, and Juhl Lofts expire.
+                  Juhl Lofts is an urban loft building in downtown Las Vegas that offers sophisticated living with modern design, downtown location, and contemporary amenities. If your Juhl Lofts home DID NOT sell, you're not alone. Juhl Lofts face unique challenges - from marketing urban lifestyle to highlighting modern design to buyers who value downtown living. Most agents do not understand Juhl Lofts. They use generic strategies, and Juhl Lofts expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Juhl Lofts. I understand the urban market. I know how to market downtown lofts. I know how to attract urban lifestyle seekers. I've sold expired lofts in Juhl and other downtown properties. Fast. At top dollar. With zero excuses.
@@ -90,7 +90,7 @@ export default function JuhlLoftsPage() {
                   READY TO SELL YOUR JUHL LOFTS?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Juhl Lofts home DIDN\'T sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Juhl Lofts home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="juhl_lofts" buttonText="GET MY JUHL LOFTS SOLD" />
               </div>

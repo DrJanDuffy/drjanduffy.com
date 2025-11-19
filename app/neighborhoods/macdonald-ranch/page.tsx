@@ -3,9 +3,9 @@ import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 
 export const metadata = {
-  title: 'MacDonald Ranch HOMES THAT DIDN\'T SELL | Dr. Jan Duffy - Henderson Real Estate Expert',
+  title: 'MacDonald Ranch HOMES THAT DID NOT SELL | Dr. Jan Duffy - Henderson Real Estate Expert',
   description:
-    'Expert help selling homes that didn\'t sell in MacDonald Ranch, Henderson. Established community properties. 19 day average, 98.7% of asking price.',
+    'Expert help selling homes that DID NOT sell in MacDonald Ranch, Henderson. Established community properties. 19 day average, 98.7% of asking price.',
   alternates: {
     canonical: '/neighborhoods/macdonald-ranch',
   },
@@ -27,15 +27,15 @@ export default function MacDonaldRanchPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                MACDONALD RANCH HOMES THAT DIDN\'T SELL
+                MACDONALD RANCH HOMES THAT DID NOT SELL
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Expert help selling homes that didn\'t sell in MacDonald Ranch - Henderson's established luxury community
+                Expert help selling homes that DID NOT sell in MacDonald Ranch - Henderson's established luxury community
               </p>
 
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  If your MacDonald Ranch home DIDN\'T sell, you're dealing with one of Henderson's most established luxury communities. MacDonald Ranch offers luxury properties with mature landscaping, established neighborhoods, and proven value. Even in this well-established community, homes fail to sell when agents do not understand established community marketing. I've sold homes that DIDN\'T sell in MacDonald Ranch and throughout Henderson. I understand established community marketing. I know how to attract value-conscious buyers. I can sell your expired MacDonald Ranch listing. Fast. At top dollar. With zero excuses.
+                  If your MacDonald Ranch home DID NOT sell, you're dealing with one of Henderson's most established luxury communities. MacDonald Ranch offers luxury properties with mature landscaping, established neighborhoods, and proven value. Even in this well-established community, homes fail to sell when agents do not understand established community marketing. I've sold homes that DID NOT sell in MacDonald Ranch and throughout Henderson. I understand established community marketing. I know how to attract value-conscious buyers. I can sell your expired MacDonald Ranch listing. Fast. At top dollar. With zero excuses.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   MacDonald Ranch is Henderson's established luxury community, offering luxury properties with mature landscaping, established neighborhoods, and proven value. Properties range from $600K to $3M+, attracting buyers who value established communities, mature landscaping, and proven value. Most agents do not understand the MacDonald Ranch buyer. They use generic marketing, and MacDonald Ranch homes fail to sell. I understand the MacDonald Ranch buyer. I use established community marketing strategies, highlight mature landscaping, and attract value-conscious buyers. MacDonald Ranch listings sell. Fast. At top dollar.
@@ -67,7 +67,7 @@ export default function MacDonaldRanchPage() {
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">My MacDonald Ranch Expertise</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  I've sold homes that DIDN\'T sell in MacDonald Ranch and understand the unique challenges of marketing established community properties. I know how to attract value-conscious buyers. I know how to showcase mature landscaping. I know how to sell MacDonald Ranch properties.
+                  I've sold homes that DID NOT sell in MacDonald Ranch and understand the unique challenges of marketing established community properties. I know how to attract value-conscious buyers. I know how to showcase mature landscaping. I know how to sell MacDonald Ranch properties.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Established Community Marketing</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -103,13 +103,13 @@ export default function MacDonaldRanchPage() {
               </div>
 
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
-                <h2 className="text-3xl font-black mb-4">The MacDonald Ranch HOME THAT DIDN\'T SELL Opportunity</h2>
+                <h2 className="text-3xl font-black mb-4">The MacDonald Ranch HOME THAT DID NOT SELL Opportunity</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  HOMES THAT didn\'t SELL in MacDonald Ranch represent significant opportunities. Sellers are frustrated. They've tried once and failed. They're ready to work with an agent who actually understands established community marketing. I understand established community marketing. I know how to market MacDonald Ranch properties. I know how to attract value-conscious buyers.
+                  HOMES THAT DID NOT SELL in MacDonald Ranch represent significant opportunities. Sellers are frustrated. They've tried once and failed. They're ready to work with an agent who actually understands established community marketing. I understand established community marketing. I know how to market MacDonald Ranch properties. I know how to attract value-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Complete Established Community Reset</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Expired MacDonald Ranch listings need a complete established community reset. New professional photography showcasing mature landscaping and established neighborhoods. Strategic positioning emphasizing proven value. Fresh MLS listing with optimized established community description. Strategic pricing positioning. Aggressive marketing targeting value-conscious buyers. Most agents do not do this. I do. I provide complete established community reset services that transform HOMES THAT DIDN\'T SELL into attractive opportunities.
+                  Expired MacDonald Ranch listings need a complete established community reset. New professional photography showcasing mature landscaping and established neighborhoods. Strategic positioning emphasizing proven value. Fresh MLS listing with optimized established community description. Strategic pricing positioning. Aggressive marketing targeting value-conscious buyers. Most agents do not do this. I do. I provide complete established community reset services that transform HOMES THAT DID NOT SELL into attractive opportunities.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Established Community Marketing System</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -117,7 +117,7 @@ export default function MacDonaldRanchPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Proven Results</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  I've sold 47 Summerlin sellers who couldn\'t sell with an average of 19 days to contract and 98.7% of asking price. These are not hypothetical results. These are real HOMES THAT DIDN\'T SELL that I sold after other agents failed. I can do the same for your MacDonald Ranch listing. Fast. At top dollar. With zero excuses.
+                  I've sold 47 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. These are not hypothetical results. These are real HOMES THAT DID NOT SELL that I sold after other agents failed. I can do the same for your MacDonald Ranch listing. Fast. At top dollar. With zero excuses.
                 </p>
               </div>
 
@@ -126,7 +126,7 @@ export default function MacDonaldRanchPage() {
                   READY TO SELL YOUR MACDONALD RANCH LISTING?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your MacDonald Ranch home didn\'t sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your MacDonald Ranch home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="macdonald_ranch_neighborhood" buttonText="GET MY LISTING SOLD" />
               </div>

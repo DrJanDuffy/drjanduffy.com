@@ -252,7 +252,7 @@ export default function SummerlinAgentPage() {
                   <div className="bg-white border-2 border-gray-200 rounded-lg p-6">
                     <h3 className="text-xl font-black mb-3">The Summit Condo - $850K</h3>
                     <p className="text-gray-700">
-                      Sold in 16 days at 99.2% of asking. High-rise condo that DIDN\'T sell with previous agent. Professional photography showcasing Strip views, targeted marketing to second-home buyers, strategic pricing.
+                      Sold in 16 days at 99.2% of asking. High-rise condo that DID NOT sell with previous agent. Professional photography showcasing Strip views, targeted marketing to second-home buyers, strategic pricing.
                     </p>
                   </div>
                 </div>

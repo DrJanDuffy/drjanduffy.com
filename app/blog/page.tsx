@@ -29,7 +29,7 @@ export const metadata = {
 const blogPosts = [
   {
     slug: 'why-house-wont-sell-las-vegas',
-    title: 'Why Your House Won\'t Sell in Las Vegas: 7 Common Mistakes',
+    title: 'Why Your House will not Sell in Las Vegas: 7 Common Mistakes',
     excerpt: 'Data-driven analysis of why homes don\'t sell in Las Vegas. Common agent failures and how to avoid them.',
     date: '2026-01-15',
     category: 'Selling Tips',

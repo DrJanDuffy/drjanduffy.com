@@ -5,7 +5,7 @@ import { Check } from 'lucide-react'
 export const metadata = {
   title: 'The Selling Process | Dr. Jan Duffy',
   description:
-    'Learn how Dr. Jan Duffy sells homes that didn\'t sell in 30 days or less. Step-by-step process from listing to closing.',
+    'Learn how Dr. Jan Duffy sells homes that DID NOT sell in 30 days or less. Step-by-step process from listing to closing.',
   alternates: {
     canonical: '/process',
   },
@@ -55,16 +55,16 @@ export default function ProcessPage() {
                 THE SELLING PROCESS
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                How I sell homes that DIDN\'T sell in 30 days or less
+                How I sell homes that DID NOT sell in 30 days or less
               </p>
               <div className="max-w-4xl mx-auto mb-12 prose prose-lg">
                 <p className="text-lg text-gray-700 mb-4 text-center">
-                  This proven process has sold 47 Summerlin sellers who couldn\'t sell with an average of 19 days to contract and 98.7% of asking price. Each step is designed to overcome stigma of unsold homes, maximize exposure, and attract qualified buyers. Learn about <a href="/services" className="text-primary font-semibold hover:underline">my complete services</a> and see <a href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</a> from homes I've sold.
+                  This proven process has sold 47 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. Each step is designed to overcome stigma of unsold homes, maximize exposure, and attract qualified buyers. Learn about <a href="/services" className="text-primary font-semibold hover:underline">my complete services</a> and see <a href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</a> from homes I've sold.
                 </p>
               </div>
               <div className="max-w-4xl mx-auto mb-12 prose prose-lg">
                 <p className="text-lg text-gray-700 mb-6">
-                  your home DIDN\'T sell because your previous agent didn\'t have a process. They posted to MLS, held maybe one open house, and hoped for the best. That's not a process. That's incompetence. I have a proven 5-step process that sells homes that DIDN\'T sell. Fast. At top dollar. With zero excuses.
+                  your home DID NOT sell because your previous agent DID NOT have a process. They posted to MLS, held maybe one open house, and hoped for the best. That's not a process. That's incompetence. I have a proven 5-step process that sells homes that DID NOT sell. Fast. At top dollar. With zero excuses.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   The selling process is broken down into five clear steps, each with specific deliverables and timelines. Step 1 is initial consultation. Step 2 is strategic reset. Step 3 is aggressive marketing launch. Step 4 is active negotiation. Step 5 is closing and escrow. Every step has measurable outcomes. Every step moves you closer to SOLD.
@@ -75,7 +75,7 @@ export default function ProcessPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">The Dr. Jan Process</h3>
                 <p className="text-lg text-gray-700">
-                  My process is proven. I've used it to sell 47 Summerlin sellers who couldn\'t sell with an average of 19 days to contract and 98.7% of asking price. The same process can sell yours. The only question is: are you ready to work with an agent who actually has a process?
+                  My process is proven. I've used it to sell 47 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. The same process can sell yours. The only question is: are you ready to work with an agent who actually has a process?
                 </p>
               </div>
               <div className="space-y-8 mb-12">
@@ -104,7 +104,7 @@ export default function ProcessPage() {
               <div className="bg-primary text-primary-foreground p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4 text-center">WHAT'S INCLUDED</h2>
                 <p className="text-lg mb-6 text-center opacity-90">
-                  Every step of the process includes comprehensive services designed to sell your HOME THAT DIDN\'T SELL fast and at top dollar. Here's what you get:
+                  Every step of the process includes comprehensive services designed to sell your HOME THAT DID NOT SELL fast and at top dollar. Here's what you get:
                 </p>
                 <div className="grid md:grid-cols-2 gap-4 mb-6">
                   {[
@@ -139,14 +139,14 @@ export default function ProcessPage() {
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Step 1: Initial Consultation (Day 1)</h3>
                     <p className="text-lg text-gray-700 mb-4">
-                      The process starts with a free consultation. I analyze why your home DIDN\'T sell and what needs to change. No BS, just honest assessment. I'll tell you exactly what your previous agent did wrong, what I'll do differently, and how quickly I can sell your home. This consultation is free, with no obligation and no pressure.
+                      The process starts with a free consultation. I analyze why your home DID NOT sell and what needs to change. No BS, just honest assessment. I'll tell you exactly what your previous agent did wrong, what I'll do differently, and how quickly I can sell your home. This consultation is free, with no obligation and no pressure.
                     </p>
                     <p className="text-lg text-gray-700 mb-4">
-                      During the consultation, I review your HOME THAT DIDN\'T SELL history, analyze market conditions, assess your home's condition, and identify what went wrong. I'll explain why your home DIDN\'T sell - was it poor marketing? Overpricing? Lack of follow-up? I'll be honest about what needs to change. Then I'll explain my process, show you proven results, and answer all your questions. This consultation is your opportunity to understand what went wrong and what I'll do differently.
+                      During the consultation, I review your HOME THAT DID NOT SELL history, analyze market conditions, assess your home's condition, and identify what went wrong. I'll explain why your home DID NOT sell - was it poor marketing? Overpricing? Lack of follow-up? I'll be honest about what needs to change. Then I'll explain my process, show you proven results, and answer all your questions. This consultation is your opportunity to understand what went wrong and what I'll do differently.
                     </p>
                     <h4 className="text-xl font-bold mb-2">What You Get</h4>
                     <ul className="space-y-2 text-gray-700">
-                      <li>• Free analysis of why your home DIDN\'T sell</li>
+                      <li>• Free analysis of why your home DID NOT sell</li>
                       <li>• Honest assessment of what needs to change</li>
                       <li>• Clear explanation of my process and proven results</li>
                       <li>• Real answers, not sales pitches</li>
@@ -160,7 +160,7 @@ export default function ProcessPage() {
                       Once you decide to work with me, we immediately begin the strategic reset. Professional photography and staging. 3D virtual tour creation. Market analysis and pricing strategy. Fresh MLS listing with optimized description. Social media marketing blitz launch. This is when we eliminate the stigma of "expired" by making your home look brand new.
                     </p>
                     <p className="text-lg text-gray-700 mb-4">
-                      The strategic reset is critical. This is where we transform your HOME THAT didn\'t SELL into an attractive opportunity. Professional photography showcases your home at its best. Staging makes it look like it belongs in a design magazine. 3D virtual tours allow buyers to tour 24/7. Market analysis ensures proper pricing. Fresh MLS listing eliminates expired stigma. Social media blitz creates immediate buzz. This complete reset is what separates my system from your previous agent's "hope and pray" approach.
+                      The strategic reset is critical. This is where we transform your HOME THAT DID NOT SELL into an attractive opportunity. Professional photography showcases your home at its best. Staging makes it look like it belongs in a design magazine. 3D virtual tours allow buyers to tour 24/7. Market analysis ensures proper pricing. Fresh MLS listing eliminates expired stigma. Social media blitz creates immediate buzz. This complete reset is what separates my system from your previous agent's "hope and pray" approach.
                     </p>
                     <h4 className="text-xl font-bold mb-2">What You Get</h4>
                     <ul className="space-y-2 text-gray-700">
@@ -240,7 +240,7 @@ export default function ProcessPage() {
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4 text-center">Why This Process Works</h2>
                 <p className="text-lg text-gray-700 mb-6 text-center">
-                  This process has sold 47 Summerlin sellers who couldn\'t sell with an average of 19 days to contract and 98.7% of asking price. Here's why it works:
+                  This process has sold 47 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. Here's why it works:
                 </p>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>

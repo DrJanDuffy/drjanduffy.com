@@ -24,7 +24,7 @@ export default function VdaraCondosPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Vdara is a luxury non-gaming condominium and hotel building in CityCenter on the Las Vegas Strip that offers sophisticated living with Aria access and world-class amenities. If your Vdara condo home DIDN\'T sell, you're not alone. Vdara condos face unique challenges - from explaining non-gaming appeal to marketing Aria access to buyers who value sophisticated design. Most agents do not understand Vdara condos. They use generic strategies, and Vdara condos expire.
+                  Vdara is a luxury non-gaming condominium and hotel building in CityCenter on the Las Vegas Strip that offers sophisticated living with Aria access and world-class amenities. If your Vdara condo home DID NOT sell, you're not alone. Vdara condos face unique challenges - from explaining non-gaming appeal to marketing Aria access to buyers who value sophisticated design. Most agents do not understand Vdara condos. They use generic strategies, and Vdara condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Vdara condos. I understand the luxury market. I know how to market non-gaming condos. I know how to attract sophisticated buyers. I've sold expired condos in Vdara and other luxury non-gaming properties. Fast. At top dollar. With zero excuses.
@@ -93,7 +93,7 @@ export default function VdaraCondosPage() {
                   READY TO SELL YOUR VDARA CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Vdara condo home DIDN\'T sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Vdara condo home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="vdara_condos" buttonText="GET MY VDARA CONDO SOLD" />
               </div>

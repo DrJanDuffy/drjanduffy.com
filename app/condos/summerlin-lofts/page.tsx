@@ -21,7 +21,7 @@ export default function SummerlinLoftsPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Summerlin Lofts, also known as C2 Lofts, is an urban loft building in Summerlin that offers sophisticated living with modern design, community amenities, and prime Summerlin location. If your Summerlin Lofts home DIDN\'T sell, you're not alone. Summerlin Lofts face unique challenges - from marketing urban lifestyle to highlighting modern design to buyers who value community living. Most agents do not understand Summerlin Lofts. They use generic strategies, and Summerlin Lofts expire.
+                  Summerlin Lofts, also known as C2 Lofts, is an urban loft building in Summerlin that offers sophisticated living with modern design, community amenities, and prime Summerlin location. If your Summerlin Lofts home DID NOT sell, you're not alone. Summerlin Lofts face unique challenges - from marketing urban lifestyle to highlighting modern design to buyers who value community living. Most agents do not understand Summerlin Lofts. They use generic strategies, and Summerlin Lofts expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Summerlin Lofts. I understand the Summerlin market. I know how to market urban lofts. I know how to attract urban lifestyle seekers. I've sold expired lofts in Summerlin and other urban properties. Fast. At top dollar. With zero excuses.
@@ -90,7 +90,7 @@ export default function SummerlinLoftsPage() {
                   READY TO SELL YOUR SUMMERLIN LOFTS?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Summerlin Lofts home DIDN\'T sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Summerlin Lofts home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="summerlin_lofts" buttonText="GET MY SUMMERLIN LOFTS SOLD" />
               </div>

@@ -3,9 +3,9 @@ import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 
 export const metadata = {
-  title: 'The Ridges HOMES THAT DIDN\'T SELL | Dr. Jan Duffy - Luxury Real Estate Expert',
+  title: 'The Ridges HOMES THAT DID NOT SELL | Dr. Jan Duffy - Luxury Real Estate Expert',
   description:
-    'Expert help selling homes that didn\'t sell in The Ridges, Summerlin. Luxury golf course properties and estates. 19 day average, 98.7% of asking price.',
+    'Expert help selling homes that DID NOT sell in The Ridges, Summerlin. Luxury golf course properties and estates. 19 day average, 98.7% of asking price.',
   alternates: {
     canonical: '/neighborhoods/the-ridges',
   },
@@ -27,15 +27,15 @@ export default function TheRidgesPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                THE RIDGES HOMES THAT DIDN\'T SELL
+                THE RIDGES HOMES THAT DID NOT SELL
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Expert help selling homes that didn\'t sell in The Ridges - Summerlin's most exclusive luxury community
+                Expert help selling homes that DID NOT sell in The Ridges - Summerlin's most exclusive luxury community
               </p>
 
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  If your Ridges home DIDN\'T sell, you're dealing with one of Las Vegas's most exclusive luxury communities. The Ridges offers luxury estates, golf course properties, and sophisticated living at the highest level. Even in this prestigious community, homes fail to sell when agents do not understand luxury marketing. I've sold homes that DIDN\'T sell in The Ridges and throughout Summerlin. I understand luxury marketing. I know how to attract high-end buyers. I can sell your expired Ridges listing. Fast. At top dollar. With zero excuses.
+                  If your Ridges home DID NOT sell, you're dealing with one of Las Vegas's most exclusive luxury communities. The Ridges offers luxury estates, golf course properties, and sophisticated living at the highest level. Even in this prestigious community, homes fail to sell when agents do not understand luxury marketing. I've sold homes that DID NOT sell in The Ridges and throughout Summerlin. I understand luxury marketing. I know how to attract high-end buyers. I can sell your expired Ridges listing. Fast. At top dollar. With zero excuses.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   The Ridges is Summerlin's most exclusive community, offering luxury estates with golf course access, mountain views, and world-class amenities. Properties range from $1M to $10M+, attracting buyers who value exclusivity, quality, and sophisticated living. Most agents do not understand The Ridges buyer. They use generic marketing, and Ridges homes fail to sell. I understand The Ridges buyer. I use luxury marketing strategies, highlight exclusive amenities, and attract sophisticated buyers. Ridges listings sell. Fast. At top dollar.
@@ -67,7 +67,7 @@ export default function TheRidgesPage() {
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">My Ridges Expertise</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  I've sold homes that DIDN\'T sell in The Ridges and understand the unique challenges of marketing ultra-luxury properties. I know how to attract high-end buyers. I know how to showcase luxury features. I know how to sell Ridges properties.
+                  I've sold homes that DID NOT sell in The Ridges and understand the unique challenges of marketing ultra-luxury properties. I know how to attract high-end buyers. I know how to showcase luxury features. I know how to sell Ridges properties.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Ultra-Luxury Marketing</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -103,13 +103,13 @@ export default function TheRidgesPage() {
               </div>
 
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
-                <h2 className="text-3xl font-black mb-4">The Ridges HOME THAT DIDN\'T SELL Opportunity</h2>
+                <h2 className="text-3xl font-black mb-4">The Ridges HOME THAT DID NOT SELL Opportunity</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  HOMES THAT didn\'t SELL in The Ridges represent significant opportunities. Sellers are frustrated. They've tried once and failed. They're ready to work with an agent who actually understands ultra-luxury marketing. I understand ultra-luxury marketing. I know how to market Ridges properties. I know how to attract high-end buyers.
+                  HOMES THAT DID NOT SELL in The Ridges represent significant opportunities. Sellers are frustrated. They've tried once and failed. They're ready to work with an agent who actually understands ultra-luxury marketing. I understand ultra-luxury marketing. I know how to market Ridges properties. I know how to attract high-end buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Complete Ultra-Luxury Reset</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Expired Ridges listings need a complete ultra-luxury reset. New magazine-quality photography showcasing luxury features. Designer staging highlighting sophisticated design. Fresh MLS listing with optimized description. Strategic pricing positioning. Aggressive marketing targeting ultra-luxury buyers. Most agents do not do this. I do. I provide complete ultra-luxury reset services that transform HOMES THAT DIDN\'T SELL into attractive opportunities.
+                  Expired Ridges listings need a complete ultra-luxury reset. New magazine-quality photography showcasing luxury features. Designer staging highlighting sophisticated design. Fresh MLS listing with optimized description. Strategic pricing positioning. Aggressive marketing targeting ultra-luxury buyers. Most agents do not do this. I do. I provide complete ultra-luxury reset services that transform HOMES THAT DID NOT SELL into attractive opportunities.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Ultra-Luxury Marketing System</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -117,7 +117,7 @@ export default function TheRidgesPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Proven Results</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  I've sold 47 Summerlin sellers who couldn\'t sell with an average of 19 days to contract and 98.7% of asking price. These are not hypothetical results. These are real HOMES THAT DIDN\'T SELL that I sold after other agents failed. I can do the same for your Ridges listing. Fast. At top dollar. With zero excuses.
+                  I've sold 47 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. These are not hypothetical results. These are real HOMES THAT DID NOT SELL that I sold after other agents failed. I can do the same for your Ridges listing. Fast. At top dollar. With zero excuses.
                 </p>
               </div>
 
@@ -126,7 +126,7 @@ export default function TheRidgesPage() {
                   READY TO SELL YOUR RIDGES LISTING?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Ridges home didn\'t sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Ridges home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="the_ridges_neighborhood" buttonText="GET MY LISTING SOLD" />
               </div>

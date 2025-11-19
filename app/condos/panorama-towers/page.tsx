@@ -24,7 +24,7 @@ export default function PanoramaTowersCondosPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Panorama Towers is a luxury high-rise condominium building in Las Vegas that offers sophisticated living with Strip views, world-class amenities, and prime location. If your Panorama Towers condo home DIDN\'T sell, you're not alone. Panorama Towers condos face unique challenges - from marketing Strip views to highlighting world-class amenities to buyers who expect luxury living. Most agents do not understand Panorama Towers condos. They use generic strategies, and Panorama Towers condos expire.
+                  Panorama Towers is a luxury high-rise condominium building in Las Vegas that offers sophisticated living with Strip views, world-class amenities, and prime location. If your Panorama Towers condo home DID NOT sell, you're not alone. Panorama Towers condos face unique challenges - from marketing Strip views to highlighting world-class amenities to buyers who expect luxury living. Most agents do not understand Panorama Towers condos. They use generic strategies, and Panorama Towers condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Panorama Towers condos. I understand the luxury market. I know how to market high-rise condos with Strip views. I know how to attract luxury lifestyle seekers. I've sold expired condos in Panorama Towers and other luxury Strip-view properties. Fast. At top dollar. With zero excuses.
@@ -93,7 +93,7 @@ export default function PanoramaTowersCondosPage() {
                   READY TO SELL YOUR PANORAMA TOWERS CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Panorama Towers condo home DIDN\'T sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Panorama Towers condo home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="panorama_towers_condos" buttonText="GET MY PANORAMA TOWERS CONDO SOLD" />
               </div>

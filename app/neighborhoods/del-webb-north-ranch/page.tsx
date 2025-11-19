@@ -3,9 +3,9 @@ import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 
 export const metadata = {
-  title: 'Del Webb North Ranch HOMES THAT DIDN\'T SELL | Dr. Jan Duffy - Expert Real Estate Agent',
+  title: 'Del Webb North Ranch HOMES THAT DID NOT SELL | Dr. Jan Duffy - Expert Real Estate Agent',
   description:
-    'Expert help selling homes that didn\'t sell in Del Webb North Ranch, Las Vegas. 55+ active adult community specialist. 19 day average, 98.7% of asking price.',
+    'Expert help selling homes that DID NOT sell in Del Webb North Ranch, Las Vegas. 55+ active adult community specialist. 19 day average, 98.7% of asking price.',
   alternates: {
     canonical: '/neighborhoods/del-webb-north-ranch',
   },
@@ -27,15 +27,15 @@ export default function DelWebbNorthRanchPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                DEL WEBB NORTH RANCH HOMES THAT DIDN\'T SELL
+                DEL WEBB NORTH RANCH HOMES THAT DID NOT SELL
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Expert help selling homes that didn\'t sell in Del Webb North Ranch - Las Vegas's premier 55+ active adult community
+                Expert help selling homes that DID NOT sell in Del Webb North Ranch - Las Vegas's premier 55+ active adult community
               </p>
 
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  If your Del Webb North Ranch home didn\'t sell, you're not alone. Del Webb North Ranch is one of Las Vegas's premier 55+ active adult communities, but even well-maintained properties expire when agents do not understand the unique needs of 55+ buyers. I've sold 47 sellers who couldn\'t sell with an average of 19 days to contract and 98.7% of asking price. I understand the 55+ market. I know how to market active adult community properties. I know how to attract 55+ buyers. I can sell your expired Del Webb North Ranch listing. Fast. At top dollar. With zero excuses.
+                  If your Del Webb North Ranch home DID NOT sell, you're not alone. Del Webb North Ranch is one of Las Vegas's premier 55+ active adult communities, but even well-maintained properties expire when agents do not understand the unique needs of 55+ buyers. I've sold 47 sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. I understand the 55+ market. I know how to market active adult community properties. I know how to attract 55+ buyers. I can sell your expired Del Webb North Ranch listing. Fast. At top dollar. With zero excuses.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   Del Webb North Ranch offers single-family homes designed for active adults 55 and older. The community features resort-style amenities, low-maintenance living, and a vibrant social lifestyle. Properties range from $300K to $800K+, attracting buyers who value active adult living, community amenities, and maintenance-free lifestyles. Most agents do not understand the 55+ buyer. They use generic marketing, and Del Webb North Ranch homes fail to sell. I understand the 55+ buyer. I use targeted marketing strategies, highlight active adult amenities, and attract buyers seeking maintenance-free living.
@@ -67,7 +67,7 @@ export default function DelWebbNorthRanchPage() {
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">My Del Webb North Ranch Expertise</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  I've sold homes that didn\'t sell throughout Las Vegas 55+ communities. I understand the 55+ market. I know how to market active adult community properties. I know how to attract 55+ buyers.
+                  I've sold homes that DID NOT sell throughout Las Vegas 55+ communities. I understand the 55+ market. I know how to market active adult community properties. I know how to attract 55+ buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">55+ Marketing</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -103,13 +103,13 @@ export default function DelWebbNorthRanchPage() {
               </div>
 
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
-                <h2 className="text-3xl font-black mb-4">The Del Webb North Ranch HOME THAT DIDN\'T SELL Opportunity</h2>
+                <h2 className="text-3xl font-black mb-4">The Del Webb North Ranch HOME THAT DID NOT SELL Opportunity</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  Homes that didn\'t sell in Del Webb North Ranch represent opportunities. Sellers are frustrated. They've tried once and failed. They're ready to work with an agent who actually understands 55+ marketing. I understand 55+ marketing. I know how to market active adult community properties. I know how to attract 55+ buyers.
+                  Homes that DID NOT sell in Del Webb North Ranch represent opportunities. Sellers are frustrated. They've tried once and failed. They're ready to work with an agent who actually understands 55+ marketing. I understand 55+ marketing. I know how to market active adult community properties. I know how to attract 55+ buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Complete Reset</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Expired Del Webb North Ranch listings need a complete reset. New professional photography showcasing active adult features. Marketing materials emphasizing community amenities. Fresh MLS listing with optimized description highlighting 55+ benefits. Strategic pricing positioning. Aggressive marketing targeting 55+ buyers. Most agents do not do this. I do. I provide complete reset services that transform homes that didn\'t sell into attractive opportunities.
+                  Expired Del Webb North Ranch listings need a complete reset. New professional photography showcasing active adult features. Marketing materials emphasizing community amenities. Fresh MLS listing with optimized description highlighting 55+ benefits. Strategic pricing positioning. Aggressive marketing targeting 55+ buyers. Most agents do not do this. I do. I provide complete reset services that transform homes that DID NOT sell into attractive opportunities.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">55+ Marketing System</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -117,7 +117,7 @@ export default function DelWebbNorthRanchPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Proven Results</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  I've sold 47 sellers who couldn\'t sell with an average of 19 days to contract and 98.7% of asking price. These are not hypothetical results. These are real homes that didn\'t sell that I sold after other agents failed. I can do the same for your Del Webb North Ranch listing. Fast. At top dollar. With zero excuses.
+                  I've sold 47 sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. These are not hypothetical results. These are real homes that DID NOT sell that I sold after other agents failed. I can do the same for your Del Webb North Ranch listing. Fast. At top dollar. With zero excuses.
                 </p>
               </div>
 
@@ -126,7 +126,7 @@ export default function DelWebbNorthRanchPage() {
                   READY TO SELL YOUR DEL WEBB NORTH RANCH LISTING?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Del Webb North Ranch home didn\'t sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Del Webb North Ranch home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="del_webb_north_ranch_neighborhood" buttonText="GET MY LISTING SOLD" />
               </div>

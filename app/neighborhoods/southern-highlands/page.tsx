@@ -3,9 +3,9 @@ import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 
 export const metadata = {
-  title: 'Southern Highlands HOMES THAT DIDN\'T SELL | Dr. Jan Duffy - Las Vegas Real Estate Expert',
+  title: 'Southern Highlands HOMES THAT DID NOT SELL | Dr. Jan Duffy - Las Vegas Real Estate Expert',
   description:
-    'Expert help selling homes that didn\'t sell in Southern Highlands, Las Vegas. Master-planned community properties. 19 day average, 98.7% of asking price.',
+    'Expert help selling homes that DID NOT sell in Southern Highlands, Las Vegas. Master-planned community properties. 19 day average, 98.7% of asking price.',
   alternates: {
     canonical: '/neighborhoods/southern-highlands',
   },
@@ -27,15 +27,15 @@ export default function SouthernHighlandsPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                SOUTHERN HIGHLANDS HOMES THAT DIDN\'T SELL
+                SOUTHERN HIGHLANDS HOMES THAT DID NOT SELL
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Expert help selling homes that didn\'t sell in Southern Highlands - Las Vegas's premier master-planned community
+                Expert help selling homes that DID NOT sell in Southern Highlands - Las Vegas's premier master-planned community
               </p>
 
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  If your Southern Highlands home DIDN\'T sell, you're dealing with one of Las Vegas's most desirable master-planned communities. Southern Highlands offers luxury properties with master-planned amenities, family-friendly features, and sophisticated living. Even in this premier community, homes fail to sell when agents do not understand master-planned community marketing. I've sold homes that DIDN\'T sell in Southern Highlands and throughout Las Vegas. I understand master-planned community marketing. I know how to attract family-conscious buyers. I can sell your expired Southern Highlands listing. Fast. At top dollar. With zero excuses.
+                  If your Southern Highlands home DID NOT sell, you're dealing with one of Las Vegas's most desirable master-planned communities. Southern Highlands offers luxury properties with master-planned amenities, family-friendly features, and sophisticated living. Even in this premier community, homes fail to sell when agents do not understand master-planned community marketing. I've sold homes that DID NOT sell in Southern Highlands and throughout Las Vegas. I understand master-planned community marketing. I know how to attract family-conscious buyers. I can sell your expired Southern Highlands listing. Fast. At top dollar. With zero excuses.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   Southern Highlands is Las Vegas's premier master-planned community, offering luxury properties with master-planned amenities, family-friendly features, and sophisticated living. Properties range from $700K to $4M+, attracting buyers who value master-planned communities, family amenities, and quality. Most agents do not understand the Southern Highlands buyer. They use generic marketing, and Southern Highlands homes fail to sell. I understand the Southern Highlands buyer. I use master-planned community marketing strategies, highlight family amenities, and attract family-conscious buyers. Southern Highlands listings sell. Fast. At top dollar.
@@ -67,7 +67,7 @@ export default function SouthernHighlandsPage() {
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">My Southern Highlands Expertise</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  I've sold homes that DIDN\'T sell in Southern Highlands and understand the unique challenges of marketing master-planned community properties. I know how to attract family-conscious buyers. I know how to showcase master-planned features. I know how to sell Southern Highlands properties.
+                  I've sold homes that DID NOT sell in Southern Highlands and understand the unique challenges of marketing master-planned community properties. I know how to attract family-conscious buyers. I know how to showcase master-planned features. I know how to sell Southern Highlands properties.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Master-Planned Community Marketing</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -103,13 +103,13 @@ export default function SouthernHighlandsPage() {
               </div>
 
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
-                <h2 className="text-3xl font-black mb-4">The Southern Highlands HOME THAT DIDN\'T SELL Opportunity</h2>
+                <h2 className="text-3xl font-black mb-4">The Southern Highlands HOME THAT DID NOT SELL Opportunity</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  HOMES THAT didn\'t SELL in Southern Highlands represent significant opportunities. Sellers are frustrated. They've tried once and failed. They're ready to work with an agent who actually understands master-planned community marketing. I understand master-planned community marketing. I know how to market Southern Highlands properties. I know how to attract family-conscious buyers.
+                  HOMES THAT DID NOT SELL in Southern Highlands represent significant opportunities. Sellers are frustrated. They've tried once and failed. They're ready to work with an agent who actually understands master-planned community marketing. I understand master-planned community marketing. I know how to market Southern Highlands properties. I know how to attract family-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Complete Master-Planned Community Reset</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Expired Southern Highlands listings need a complete master-planned community reset. New professional photography showcasing master-planned amenities and family-friendly features. Strategic positioning emphasizing community benefits. Fresh MLS listing with optimized master-planned community description. Strategic pricing positioning. Aggressive marketing targeting family-conscious buyers. Most agents do not do this. I do. I provide complete master-planned community reset services that transform HOMES THAT DIDN\'T SELL into attractive opportunities.
+                  Expired Southern Highlands listings need a complete master-planned community reset. New professional photography showcasing master-planned amenities and family-friendly features. Strategic positioning emphasizing community benefits. Fresh MLS listing with optimized master-planned community description. Strategic pricing positioning. Aggressive marketing targeting family-conscious buyers. Most agents do not do this. I do. I provide complete master-planned community reset services that transform HOMES THAT DID NOT SELL into attractive opportunities.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Master-Planned Community Marketing System</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -117,7 +117,7 @@ export default function SouthernHighlandsPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Proven Results</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  I've sold 47 Summerlin sellers who couldn\'t sell with an average of 19 days to contract and 98.7% of asking price. These are not hypothetical results. These are real HOMES THAT DIDN\'T SELL that I sold after other agents failed. I can do the same for your Southern Highlands listing. Fast. At top dollar. With zero excuses.
+                  I've sold 47 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. These are not hypothetical results. These are real HOMES THAT DID NOT SELL that I sold after other agents failed. I can do the same for your Southern Highlands listing. Fast. At top dollar. With zero excuses.
                 </p>
               </div>
 
@@ -126,7 +126,7 @@ export default function SouthernHighlandsPage() {
                   READY TO SELL YOUR SOUTHERN HIGHLANDS LISTING?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Southern Highlands home didn\'t sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Southern Highlands home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="southern_highlands_neighborhood" buttonText="GET MY LISTING SOLD" />
               </div>

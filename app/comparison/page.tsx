@@ -5,7 +5,7 @@ import { Check, X } from 'lucide-react'
 export const metadata = {
   title: 'Your Agent vs Me | Dr. Jan Duffy',
   description:
-    'Side-by-side comparison of what your previous agent did vs. what Dr. Jan Duffy does to sell homes that didn\'t sell.',
+    'Side-by-side comparison of what your previous agent did vs. what Dr. Jan Duffy does to sell homes that DID NOT sell.',
   alternates: {
     canonical: '/comparison',
   },
@@ -59,11 +59,11 @@ export default function ComparisonPage() {
               YOUR AGENT VS ME
             </h1>
             <p className="text-xl text-center text-gray-600 mb-12 max-w-3xl mx-auto">
-              Side-by-side comparison of what your previous agent did vs. what I do to sell homes that DIDN\'T sell. The difference is obvious.
+              Side-by-side comparison of what your previous agent did vs. what I do to sell homes that DID NOT sell. The difference is obvious.
             </p>
             <div className="max-w-4xl mx-auto mb-12 prose prose-lg">
               <p className="text-lg text-gray-700 mb-6">
-                your home didn\'t sell for a reason. Your previous agent made mistakes. They used minimal marketing, did not invest in professional photography, held maybe one open house, and disappeared. Then your home DIDN\'T sell, and they made 't invest in professional photography, held maybe one open house, and disappeared. Then your home didn\'t sell, and they made 't invest in professional photography, held maybe one open house, and disappeared. Then your home did not sell, and they made $0 while you lost $4,964 per month in holding costs. <a href="/why-expire" className="text-primary font-semibold hover:underline">Learn why homes fail to sell</a> and what went wrong.
+                your home DID NOT sell for a reason. Your previous agent made mistakes. They used minimal marketing, did not invest in professional photography, held maybe one open house, and disappeared. Then your home DID NOT sell, and they made 't invest in professional photography, held maybe one open house, and disappeared. Then your home DID NOT sell, and they made 't invest in professional photography, held maybe one open house, and disappeared. Then your home did not sell, and they made $0 while you lost $4,964 per month in holding costs. <a href="/why-expire" className="text-primary font-semibold hover:underline">Learn why homes fail to sell</a> and what went wrong.
               </p>
               <p className="text-lg text-gray-700 mb-6">
                 I do things differently. I invest $5,000+ in marketing per listing. I take maximum 6 listings at a time so you get 100% focus. I use a <a href="/marketing-strategy" className="text-primary font-semibold hover:underline">97-point marketing system</a> that leaves nothing to chance. And I deliver proven results - 47 homes that didn' while you lost $4,964 per month in holding costs. <a href="/why-expire" className="text-primary font-semibold hover:underline">Learn why homes fail to sell</a> and what went wrong.
@@ -72,10 +72,10 @@ export default function ComparisonPage() {
                 I do things differently. I invest $5,000+ in marketing per listing. I take maximum 6 listings at a time so you get 100% focus. I use a <a href="/marketing-strategy" className="text-primary font-semibold hover:underline">97-point marketing system</a> that leaves nothing to chance. And I deliver proven results - 47 homes that didn' while you lost $4,964 per month in holding costs. <a href="/why-expire" className="text-primary font-semibold hover:underline">Learn why homes fail to sell</a> and what went wrong.
               </p>
               <p className="text-lg text-gray-700 mb-6">
-                I do things differently. I invest $5,000+ in marketing per listing. I take maximum 6 listings at a time so you get 100% focus. I use a <a href="/marketing-strategy" className="text-primary font-semibold hover:underline">97-point marketing system</a> that leaves nothing to chance. And I deliver proven results - 47 homes That Didn\'t sell - now sold with 19 day average and 98.7% of asking price. See <a href="/services" className="text-primary font-semibold hover:underline">my complete services</a> and <a href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process</a>.
+                I do things differently. I invest $5,000+ in marketing per listing. I take maximum 6 listings at a time so you get 100% focus. I use a <a href="/marketing-strategy" className="text-primary font-semibold hover:underline">97-point marketing system</a> that leaves nothing to chance. And I deliver proven results - 47 homes That DID NOT sell - now sold with 19 day average and 98.7% of asking price. See <a href="/services" className="text-primary font-semibold hover:underline">my complete services</a> and <a href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process</a>.
               </p>
               <p className="text-lg text-gray-700">
-                The comparison below shows exactly what your previous agent did vs. what I do. The difference is not subtle. It's dramatic. And it's why I sell homes that DIDN\'T sell in 19 days average while they got you expired. See <a href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</a> from homes I've sold.
+                The comparison below shows exactly what your previous agent did vs. what I do. The difference is not subtle. It's dramatic. And it's why I sell homes that DID NOT sell in 19 days average while they got you expired. See <a href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</a> from homes I've sold.
               </p>
             </div>
             <div className="max-w-5xl mx-auto">
@@ -179,10 +179,10 @@ export default function ComparisonPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Why Your Agent Invested Less</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Your previous agent invested less because they were juggling 47 other listings. They couldn\'t afford to invest $5,000+ in every listing. So they invested $100, hoped for the best, and got you expired. That's not how you sell homes. That's how you fail.
+                  Your previous agent invested less because they were juggling 47 other listings. They could not afford to invest $5,000+ in every listing. So they invested $100, hoped for the best, and got you expired. That's not how you sell homes. That's how you fail.
                 </p>
                 <p className="text-lg text-gray-700">
-                  Your previous agent's business model was volume-based. They took as many listings as possible, invested minimal marketing in each, and hoped something would stick. This model works for them - they collect commissions on the few that sell. But it does not work for you. You got minimal marketing, minimal attention, and an HOME THAT DIDN\'T SELL. That's the cost of working with a volume-based agent. That's why your home DIDN\'T sell.
+                  Your previous agent's business model was volume-based. They took as many listings as possible, invested minimal marketing in each, and hoped something would stick. This model works for them - they collect commissions on the few that sell. But it does not work for you. You got minimal marketing, minimal attention, and an HOME THAT DID NOT SELL. That's the cost of working with a volume-based agent. That's why your home DID NOT sell.
                 </p>
               </div>
 
@@ -195,10 +195,10 @@ export default function ComparisonPage() {
                   <div>
                     <h3 className="text-2xl font-black mb-4">Photography: iPhone vs. Professional</h3>
                     <p className="text-lg text-gray-700 mb-4">
-                      Your previous agent used iPhone photos. They spent $37 on photos, took a few quick shots, and called it done. The photos were dark, poorly lit, and didn\'t showcase your home's best features. Buyers saw these photos and scrolled past. Your home became invisible in a sea of listings.
+                      Your previous agent used iPhone photos. They spent $37 on photos, took a few quick shots, and called it done. The photos were dark, poorly lit, and DID NOT showcase your home's best features. Buyers saw these photos and scrolled past. Your home became invisible in a sea of listings.
                     </p>
                     <p className="text-lg text-gray-700 mb-4">
-                      I invest $3,700 in professional media. Professional photography showcases your home at its best. Twilight drone shots capture your property at golden hour. 3D virtual tours allow buyers to tour 24/7. Magazine-quality staging makes your home look like it belongs in a design magazine. Every photo is professionally edited. Every room is staged to perfection. This professional media is what attracts buyers and commands higher prices. This is what $3,700 buys you. This is what your previous agent DIDN\'T provide.
+                      I invest $3,700 in professional media. Professional photography showcases your home at its best. Twilight drone shots capture your property at golden hour. 3D virtual tours allow buyers to tour 24/7. Magazine-quality staging makes your home look like it belongs in a design magazine. Every photo is professionally edited. Every room is staged to perfection. This professional media is what attracts buyers and commands higher prices. This is what $3,700 buys you. This is what your previous agent DID NOT provide.
                     </p>
                   </div>
                   <div>
@@ -207,13 +207,13 @@ export default function ComparisonPage() {
                       Your previous agent used a "post to MLS and pray" strategy. They posted your listing to MLS, held maybe one open house, and disappeared. That's not marketing. That's negligence. Your home got minimal exposure, attracted few buyers, and expired.
                     </p>
                     <p className="text-lg text-gray-700 mb-4">
-                      I use a 97-point marketing system that leaves nothing to chance. Social media marketing blitz reaches thousands of potential buyers. Network activation reaches 500+ agents who can bring qualified buyers. Targeted Facebook and Google ads reach buyers actively searching for homes. Strategic open houses with buyer pre-qualification attract serious buyers. Email marketing campaigns reach qualified buyers in your price range. This comprehensive system ensures your home gets maximum exposure to qualified buyers. This is what $5,000+ buys you. This is what your previous agent DIDN\'T provide.
+                      I use a 97-point marketing system that leaves nothing to chance. Social media marketing blitz reaches thousands of potential buyers. Network activation reaches 500+ agents who can bring qualified buyers. Targeted Facebook and Google ads reach buyers actively searching for homes. Strategic open houses with buyer pre-qualification attract serious buyers. Email marketing campaigns reach qualified buyers in your price range. This comprehensive system ensures your home gets maximum exposure to qualified buyers. This is what $5,000+ buys you. This is what your previous agent DID NOT provide.
                     </p>
                   </div>
                   <div>
                     <h3 className="text-2xl font-black mb-4">Follow-Up: Zero vs. Aggressive</h3>
                     <p className="text-lg text-gray-700 mb-4">
-                      Your previous agent had zero follow-up. Buyers saw your home, but your agent never followed up. Feedback disappeared. Opportunities were lost. Showings happened, but nothing came of them. Your agent didn\'t know why. They did not care. They moved on to the next listing.
+                      Your previous agent had zero follow-up. Buyers saw your home, but your agent never followed up. Feedback disappeared. Opportunities were lost. Showings happened, but nothing came of them. Your agent DID NOT know why. They did not care. They moved on to the next listing.
                     </p>
                     <p className="text-lg text-gray-700 mb-4">
                       I have an aggressive follow-up system that ensures every showing is tracked, every buyer is contacted, and every opportunity is maximized. I follow up within 2 hours of every showing. I collect feedback from every buyer. I create urgency through buyer psychology tactics. I do not wait for offers. I create them. I do not accept lowball offers. I negotiate them up. This aggressive follow-up is what turns showings into offers and offers into sales. This is how I get 98.7% of asking price average. This is how your previous agent got you expired.
@@ -222,10 +222,10 @@ export default function ComparisonPage() {
                   <div>
                     <h3 className="text-2xl font-black mb-4">Attention: 2.1% vs. 100%</h3>
                     <p className="text-lg text-gray-700 mb-4">
-                      Your previous agent had 47+ listings. You got 2.1% of their attention. They couldn\'t afford to invest $5,000+ in every listing. They could not provide aggressive follow-up on every showing. They could not manage every detail. They spread themselves thin, hoping something would stick. Your listing got lost in the shuffle.
+                      Your previous agent had 47+ listings. You got 2.1% of their attention. They could not afford to invest $5,000+ in every listing. They could not provide aggressive follow-up on every showing. They could not manage every detail. They spread themselves thin, hoping something would stick. Your listing got lost in the shuffle.
                     </p>
                     <p className="text-lg text-gray-700 mb-4">
-                      I take maximum 6 listings at a time. You get 100% focus. Every listing gets the full treatment - professional marketing, aggressive follow-up, strategic negotiation. Nothing is left to chance. This focus is what separates successful sales from homes that DIDN\'T sell. This focus is what delivers results. This is what your previous agent didn\'t provide.
+                      I take maximum 6 listings at a time. You get 100% focus. Every listing gets the full treatment - professional marketing, aggressive follow-up, strategic negotiation. Nothing is left to chance. This focus is what separates successful sales from homes that DID NOT sell. This focus is what delivers results. This is what your previous agent DID NOT provide.
                     </p>
                   </div>
                   <div>
@@ -234,7 +234,7 @@ export default function ComparisonPage() {
                       Your previous agent got you expired. 63 days on market. 37 showings. 5 price drops. Zero offers. Then your home did not sell, and they made $0 while you lost $4,964 per month in holding costs. That's the result of minimal marketing, zero follow-up, and 2.1% attention.
                     </p>
                     <p className="text-lg text-gray-700 mb-4">
-                      I get you sold. 19 day average to contract. 98.7% of asking price. SOLD. That's the result of $5,000+ investment, aggressive follow-up, and 100% focus. The difference is not subtle. It's dramatic. And it's why I sell homes that DIDN\'T sell while they got you expired.
+                      I get you sold. 19 day average to contract. 98.7% of asking price. SOLD. That's the result of $5,000+ investment, aggressive follow-up, and 100% focus. The difference is not subtle. It's dramatic. And it's why I sell homes that DID NOT sell while they got you expired.
                     </p>
                   </div>
                 </div>
@@ -253,7 +253,7 @@ export default function ComparisonPage() {
                       <li>• $14,892 in lost holding costs over 3 months</li>
                       <li>• Lost opportunity cost - could have sold and moved on</li>
                       <li>• Emotional toll of failed listing</li>
-                      <li>• Stigma of HOME THAT DIDN\'T SELL making future sale harder</li>
+                      <li>• Stigma of HOME THAT DID NOT SELL making future sale harder</li>
                       <li>• Market depreciation while listing sat</li>
                     </ul>
                     <p className="text-xl font-bold text-red-600">

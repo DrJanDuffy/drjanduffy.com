@@ -21,7 +21,7 @@ export default function CondoHotelsPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Las Vegas condo hotels are unique investment properties that combine ownership with hotel rental programs. If your condo hotel home DIDN\'T sell, you're not alone. Condo hotels face unique challenges - from explaining rental programs to marketing to investors to buyers who need to understand hotel management. Most agents do not understand condo hotels. They use generic strategies, and condo hotels expire.
+                  Las Vegas condo hotels are unique investment properties that combine ownership with hotel rental programs. If your condo hotel home DID NOT sell, you're not alone. Condo hotels face unique challenges - from explaining rental programs to marketing to investors to buyers who need to understand hotel management. Most agents do not understand condo hotels. They use generic strategies, and condo hotels expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired condo hotels. I understand the investment market. I know how to market rental programs. I know how to attract investors and second-home buyers. I've sold expired condo hotels throughout Las Vegas. Fast. At top dollar. With zero excuses.
@@ -86,7 +86,7 @@ export default function CondoHotelsPage() {
                   READY TO SELL YOUR CONDO HOTEL?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Las Vegas condo hotel home DIDN\'T sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Las Vegas condo hotel home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="condo_hotels" buttonText="GET MY CONDO HOTEL SOLD" />
               </div>
