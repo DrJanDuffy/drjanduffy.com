@@ -2,6 +2,7 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import GoogleBusinessLink from '@/app/components/google-business-link'
 import GoogleMapEmbed from '@/app/components/google-map-embed'
+import Image from 'next/image'
 import { Phone, Mail, MapPin, Clock } from 'lucide-react'
 export const metadata = {
   title: 'Contact Dr. Jan Duffy | (702) 500-1064',
@@ -19,9 +20,22 @@ export default function ContactPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
                 CONTACT DR. JAN DUFFY
               </h1>
-              <p className="text-xl text-center text-gray-600 mb-12">
+              <p className="text-xl text-center text-gray-600 mb-8">
                 Get your HOME THAT DIDN\'T SELL sold in 30 days or less
               </p>
+              
+              {/* Dr. Jan Duffy Headshot */}
+              <div className="flex justify-center mb-12">
+                <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-primary shadow-lg">
+                  <Image
+                    src="/images/team/las-vegas-real-estate-agent-dr-janet-duffy-headshot.jpg"
+                    alt="Dr. Janet Duffy, Las Vegas real estate agent specializing in homes that didn't sell in Summerlin, The Ridges, and Henderson"
+                    fill
+                    className="object-cover"
+                    priority
+                  />
+                </div>
+              </div>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
                   If your home didn\'t sell, you need to act fast. Every day your house sits unsold is costing you money - mortgage payments, HOA fees, insurance, utilities, property taxes. The average costs when your home won\'t sell sellers $4,964 per month in holding costs. That's $116 per day. The longer you wait, the more you lose.

@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect } from 'react'
+import Image from 'next/image'
 import LeadForm from './lead-form'
 import LiveCounter from './live-counter'
 import { trackViewContent } from '@/lib/config/analytics'
@@ -49,6 +50,18 @@ export default function HeroSection() {
 
           <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 md:p-12 border-2 border-white/20">
             <div className="text-center mb-8">
+              {/* Dr. Jan Duffy Headshot */}
+              <div className="flex justify-center mb-6">
+                <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-white/30 shadow-xl">
+                  <Image
+                    src="/images/team/las-vegas-real-estate-agent-dr-janet-duffy-headshot.jpg"
+                    alt="Dr. Janet Duffy, Las Vegas real estate agent specializing in homes that didn't sell"
+                    fill
+                    className="object-cover"
+                    priority
+                  />
+                </div>
+              </div>
               <p className="text-xl md:text-2xl mb-4 font-semibold">
                 Your house won\'t sell? I specialize in selling homes other agents couldn't. 47 previously unsold homes sold - average 19 days to contract, 98.7% of asking price.
               </p>

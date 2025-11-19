@@ -407,6 +407,19 @@ export default function HomePage() {
           <h2 className="text-4xl md:text-5xl font-black mb-6">
             READY TO FIRE YOUR AGENT?
           </h2>
+          
+          {/* Dr. Jan Duffy Headshot */}
+          <div className="flex justify-center mb-6">
+            <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-white/20 shadow-xl">
+              <Image
+                src="/images/team/las-vegas-real-estate-agent-dr-janet-duffy-headshot.jpg"
+                alt="Dr. Janet Duffy, Las Vegas real estate agent"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
+          
           <p className="text-xl mb-4 max-w-2xl mx-auto">
             Your house didn\'t fail. Your agent did. Let's fix this fast.
           </p>
