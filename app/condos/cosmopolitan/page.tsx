@@ -1,11 +1,15 @@
 import StickyHeader from '@/app/components/sticky-header'
 import Navigation from '@/app/components/navigation'
 import LeadForm from '@/app/components/lead-form'
+import RelatedCondoLinks from '@/app/components/related-condo-links'
 
 export const metadata = {
   title: 'Cosmopolitan Condos Las Vegas | Expired Listing Expert | Dr. Jan Duffy',
   description:
     'Expert help selling expired Cosmopolitan condos in Las Vegas. Luxury Strip condos at The Cosmopolitan. 30-day guarantee or work free.',
+  alternates: {
+    canonical: '/condos/cosmopolitan',
+  },
 }
 
 export default function CosmopolitanCondosPage() {
@@ -102,6 +106,8 @@ export default function CosmopolitanCondosPage() {
                   No excuses. No exceptions. If your Cosmopolitan condo doesn't sell in 30 days, I continue working at no additional cost until it sells. That's how confident I am in my Cosmopolitan condo marketing system.
                 </p>
               </div>
+
+              <RelatedCondoLinks currentBuilding="/condos/cosmopolitan" category="luxury" />
 
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                 <h2 className="text-3xl font-black mb-4 text-center">
