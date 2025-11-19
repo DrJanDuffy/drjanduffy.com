@@ -32,7 +32,7 @@ export default function SummerlinCondosPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Summerlin is Las Vegas's premier master-planned community, offering mid-rise condos, townhomes, and luxury properties in a sophisticated setting. If your Summerlin condo home didn't sell, you're not alone. Summerlin condos face unique challenges - from competition with new construction to HOA restrictions to buyers who value community amenities. Most agents don't understand Summerlin condos. They use generic strategies, and Summerlin condos expire.
+                  Summerlin is Las Vegas's premier master-planned community, offering mid-rise condos, townhomes, and luxury properties in a sophisticated setting. If your Summerlin condo home DIDN\'T sell, you're not alone. Summerlin condos face unique challenges - from competition with new construction to HOA restrictions to buyers who value community amenities. Most agents don't understand Summerlin condos. They use generic strategies, and Summerlin condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Summerlin condos. I understand the Summerlin market. I know how to market mid-rise condos and townhomes. I know how to attract community-conscious buyers. I've sold expired condos in Summerlin West, The Ridges, and throughout Summerlin. Fast. At top dollar. With zero excuses.
@@ -101,7 +101,7 @@ export default function SummerlinCondosPage() {
                   READY TO SELL YOUR SUMMERLIN CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Summerlin condo home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Summerlin condo home DIDN\'T sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="summerlin_condos" buttonText="GET MY SUMMERLIN CONDO SOLD" />
               </div>

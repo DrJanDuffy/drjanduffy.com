@@ -21,7 +21,7 @@ export default function ApacheHillsCondosPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Apache Hills is a mid-rise condominium community in Las Vegas that offers affordable living with community amenities, established neighborhoods, and value positioning. If your Apache Hills condo home didn't sell, you're not alone. Apache Hills condos face unique challenges - from competition with new construction to value-conscious buyers to emphasis on community amenities. Most agents don't understand Apache Hills condos. They use generic strategies, and Apache Hills condos expire.
+                  Apache Hills is a mid-rise condominium community in Las Vegas that offers affordable living with community amenities, established neighborhoods, and value positioning. If your Apache Hills condo home DIDN\'T sell, you're not alone. Apache Hills condos face unique challenges - from competition with new construction to value-conscious buyers to emphasis on community amenities. Most agents don't understand Apache Hills condos. They use generic strategies, and Apache Hills condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Apache Hills condos. I understand the mid-rise market. I know how to market community amenities. I know how to attract value-conscious buyers. I've sold expired condos in Apache Hills and other mid-rise communities. Fast. At top dollar. With zero excuses.
@@ -90,7 +90,7 @@ export default function ApacheHillsCondosPage() {
                   READY TO SELL YOUR APACHE HILLS CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Apache Hills condo home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Apache Hills condo home DIDN\'T sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="apache_hills_condos" buttonText="GET MY APACHE HILLS CONDO SOLD" />
               </div>

@@ -10,13 +10,13 @@ export default function WhyChooseMePage() {
   const reasons = [
     {
       title: 'Proven Track Record',
-      description: '47 homes that didn't sell - now sold with 19 day average and 98.7% of asking price.',
+      description: '47 homes that didn\'t sell - now sold with 19 day average and 98.7% of asking price.',
       proof: 'Real results, not promises',
     },
     {
-      title: 'specialist in homes that didn't sell',
-      description: 'I don\'t dabble in HOMES THAT DIDN'T SELL - I specialize in them. This is all I do.',
-      proof: '100% focus on HOMES THAT DIDN'T SELL',
+      title: 'specialist in homes that DIDN\'T sell',
+      description: 'I don\'t dabble in HOMES THAT DIDN\'T SELL - I specialize in them. This is all I do.',
+      proof: '100% focus on HOMES THAT DIDN\'T SELL',
     },
     {
       title: 'Maximum 6 Listings',
@@ -30,7 +30,7 @@ export default function WhyChooseMePage() {
     },
     {
       title: 'Proven Results',
-      description: '47 homes that didn't sell - now sold with 19 day average and 98.7% of asking price. Weekly updates with real accountability.',
+      description: '47 homes that DIDN\'T sell - now sold with 19 day average and 98.7% of asking price. Weekly updates with real accountability.',
       proof: 'Accountability, not excuses',
     },
     {
@@ -82,7 +82,7 @@ export default function WhyChooseMePage() {
                 WHY CHOOSE DR. JAN DUFFY?
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                The specialist in homes that didn't sell who actually delivers results
+                The specialist in homes that DIDN\'T sell who actually delivers results
               </p>
               <div className="grid md:grid-cols-2 gap-8 mb-12">
                 {reasons.map((reason, index) => (
@@ -136,7 +136,7 @@ export default function WhyChooseMePage() {
               <div className="bg-primary text-primary-foreground p-8 rounded-lg text-center mb-12">
                 <h2 className="text-3xl font-black mb-4">THE BOTTOM LINE</h2>
                 <p className="text-2xl font-bold mb-2">
-                  Your previous agent failed. I won't.
+                  Your previous agent failed. I won\'t.
                 </p>
                 <p className="text-xl">
                   47 homes that didn't sell - now sold. 19 day average. 98.7% of asking.

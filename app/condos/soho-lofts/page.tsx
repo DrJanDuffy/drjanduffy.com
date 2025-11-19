@@ -21,7 +21,7 @@ export default function SohoLoftsPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Soho Lofts is an urban loft building in Las Vegas that offers sophisticated living with modern design, contemporary amenities, and urban location. If your Soho Lofts home didn't sell, you're not alone. Soho Lofts face unique challenges - from marketing urban lifestyle to highlighting modern design to buyers who value contemporary living. Most agents don't understand Soho Lofts. They use generic strategies, and Soho Lofts expire.
+                  Soho Lofts is an urban loft building in Las Vegas that offers sophisticated living with modern design, contemporary amenities, and urban location. If your Soho Lofts home DIDN\'T sell, you're not alone. Soho Lofts face unique challenges - from marketing urban lifestyle to highlighting modern design to buyers who value contemporary living. Most agents don't understand Soho Lofts. They use generic strategies, and Soho Lofts expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Soho Lofts. I understand the urban market. I know how to market urban lofts. I know how to attract urban lifestyle seekers. I've sold expired lofts in Soho and other urban properties. Fast. At top dollar. With zero excuses.
@@ -90,7 +90,7 @@ export default function SohoLoftsPage() {
                   READY TO SELL YOUR SOHO LOFTS?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Soho Lofts home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Soho Lofts home DIDN\'T sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="soho_lofts" buttonText="GET MY SOHO LOFTS SOLD" />
               </div>

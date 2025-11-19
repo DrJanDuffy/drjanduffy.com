@@ -21,7 +21,7 @@ export default function VeerTowersCondosPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Veer Towers is a luxury condominium building in CityCenter on the Las Vegas Strip that offers sophisticated living with modern design, CityCenter access, and world-class amenities. If your Veer Towers condo home didn't sell, you're not alone. Veer Towers condos face unique challenges - from marketing CityCenter access to highlighting modern design to buyers who value contemporary living. Most agents don't understand Veer Towers condos. They use generic strategies, and Veer Towers condos expire.
+                  Veer Towers is a luxury condominium building in CityCenter on the Las Vegas Strip that offers sophisticated living with modern design, CityCenter access, and world-class amenities. If your Veer Towers condo home DIDN\'T sell, you're not alone. Veer Towers condos face unique challenges - from marketing CityCenter access to highlighting modern design to buyers who value contemporary living. Most agents don't understand Veer Towers condos. They use generic strategies, and Veer Towers condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Veer Towers condos. I understand the luxury market. I know how to market CityCenter condos. I know how to attract modern design enthusiasts. I've sold expired condos in Veer Towers and other CityCenter properties. Fast. At top dollar. With zero excuses.
@@ -90,7 +90,7 @@ export default function VeerTowersCondosPage() {
                   READY TO SELL YOUR VEER TOWERS CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Veer Towers condo home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Veer Towers condo home DIDN\'T sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="veer_towers_condos" buttonText="GET MY VEER TOWERS CONDO SOLD" />
               </div>

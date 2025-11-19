@@ -27,15 +27,15 @@ export default function SummerlinWestPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                SUMMERLIN WEST HOMES THAT DIDN'T SELL
+                SUMMERLIN WEST HOMES THAT DIDN\'T SELL
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Expert help selling homes that didn't sell in Summerlin West - Las Vegas's premier luxury community
+                Expert help selling homes that didn\'t sell in Summerlin West - Las Vegas's premier luxury community
               </p>
 
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  If your Summerlin West home didn't sell, you're not alone. Summerlin West is one of Las Vegas's most prestigious communities, but even luxury properties expire when agents don't know how to market them effectively. I've sold 47 Summerlin sellers who couldn't sell with an average of 19 days to contract and 98.7% of asking price. I understand the Summerlin West market. I know how to market luxury properties. I know how to attract high-end buyers. I can sell your expired Summerlin West listing. Fast. At top dollar. With zero excuses.
+                  If your Summerlin West home DIDN\'T sell, you're not alone. Summerlin West is one of Las Vegas's most prestigious communities, but even luxury properties expire when agents don't know how to market them effectively. I've sold 47 Summerlin sellers who couldn\'t sell with an average of 19 days to contract and 98.7% of asking price. I understand the Summerlin West market. I know how to market luxury properties. I know how to attract high-end buyers. I can sell your expired Summerlin West listing. Fast. At top dollar. With zero excuses.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   Summerlin West offers luxury estates, golf course properties, gated communities, and sophisticated living. Properties range from $675K to $10M+, attracting buyers who value quality, location, and exclusivity. Most agents don't understand the Summerlin West buyer. They use generic marketing, and Summerlin West homes fail to sell. I understand the Summerlin West buyer. I use luxury marketing strategies, highlight exclusive amenities, and attract sophisticated buyers. Summerlin West listings sell. Fast. At top dollar.
@@ -67,7 +67,7 @@ export default function SummerlinWestPage() {
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">My Summerlin West Expertise</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  I've sold homes that didn't sell throughout Summerlin West - from luxury estates in The Ridges to golf course properties in Red Rock Country Club to gated communities throughout the area. I understand the Summerlin West market. I know how to market luxury properties. I know how to attract high-end buyers.
+                  I've sold homes that DIDN\'T sell throughout Summerlin West - from luxury estates in The Ridges to golf course properties in Red Rock Country Club to gated communities throughout the area. I understand the Summerlin West market. I know how to market luxury properties. I know how to attract high-end buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Luxury Marketing</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -103,13 +103,13 @@ export default function SummerlinWestPage() {
               </div>
 
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
-                <h2 className="text-3xl font-black mb-4">The Summerlin West HOME THAT DIDN'T SELL Opportunity</h2>
+                <h2 className="text-3xl font-black mb-4">The Summerlin West HOME THAT DIDN\'T SELL Opportunity</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  HOMES THAT DIDN'T SELL in Summerlin West represent opportunities. Sellers are frustrated. They've tried once and failed. They're ready to work with an agent who actually understands luxury marketing. I understand luxury marketing. I know how to market Summerlin West properties. I know how to attract high-end buyers.
+                  HOMES THAT didn\'t SELL in Summerlin West represent opportunities. Sellers are frustrated. They've tried once and failed. They're ready to work with an agent who actually understands luxury marketing. I understand luxury marketing. I know how to market Summerlin West properties. I know how to attract high-end buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Complete Reset</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Expired Summerlin West listings need a complete reset. New professional photography showcasing luxury features. Luxury staging highlighting sophisticated design. Fresh MLS listing with optimized description. Strategic pricing positioning. Aggressive marketing targeting luxury buyers. Most agents don't do this. I do. I provide complete reset services that transform HOMES THAT DIDN'T SELL into attractive opportunities.
+                  Expired Summerlin West listings need a complete reset. New professional photography showcasing luxury features. Luxury staging highlighting sophisticated design. Fresh MLS listing with optimized description. Strategic pricing positioning. Aggressive marketing targeting luxury buyers. Most agents don't do this. I do. I provide complete reset services that transform HOMES THAT DIDN\'T SELL into attractive opportunities.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Luxury Marketing System</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -117,7 +117,7 @@ export default function SummerlinWestPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Proven Results</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  I've sold 47 Summerlin sellers who couldn't sell with an average of 19 days to contract and 98.7% of asking price. These aren't hypothetical results. These are real HOMES THAT DIDN'T SELL that I sold after other agents failed. I can do the same for your Summerlin West listing. Fast. At top dollar. With zero excuses.
+                  I've sold 47 Summerlin sellers who couldn\'t sell with an average of 19 days to contract and 98.7% of asking price. These aren't hypothetical results. These are real HOMES THAT DIDN\'T SELL that I sold after other agents failed. I can do the same for your Summerlin West listing. Fast. At top dollar. With zero excuses.
                 </p>
               </div>
 
@@ -126,7 +126,7 @@ export default function SummerlinWestPage() {
                   READY TO SELL YOUR SUMMERLIN WEST LISTING?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Summerlin West home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Summerlin West home didn\'t sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="summerlin_west_neighborhood" buttonText="GET MY LISTING SOLD" />
               </div>

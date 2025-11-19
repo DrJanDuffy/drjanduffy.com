@@ -16,7 +16,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 grid grid-cols-2">
         <div className="bg-red-900/20 flex items-center justify-center">
           <div className="text-center p-8">
-            <div className="text-6xl font-black mb-4">DIDN'T SELL</div>
+            <div className="text-6xl font-black mb-4">DIDN\'T SELL</div>
             <div className="text-2xl opacity-75">63 Days</div>
           </div>
         </div>
@@ -32,7 +32,7 @@ export default function HeroSection() {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-8">
             <div className="text-5xl md:text-7xl font-black mb-6 leading-tight">
-              YOUR HOUSE DIDN'T FAIL.
+              YOUR HOUSE didn\'t FAIL.
               <br />
               <span className="text-red-500">YOUR AGENT DID.</span>
             </div>
@@ -50,7 +50,7 @@ export default function HeroSection() {
           <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 md:p-12 border-2 border-white/20">
             <div className="text-center mb-8">
               <p className="text-xl md:text-2xl mb-4 font-semibold">
-                Your house won't sell? I specialize in selling homes other agents couldn't. 47 previously unsold homes sold - average 19 days to contract, 98.7% of asking price.
+                Your house won\'t sell? I specialize in selling homes other agents couldn't. 47 previously unsold homes sold - average 19 days to contract, 98.7% of asking price.
               </p>
               <p className="text-lg md:text-xl mb-4 font-semibold">
                 Summerlin West luxury specialist: The Ridges, The Summit, Red Rock Country Club, and newer villages.

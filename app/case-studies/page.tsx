@@ -19,7 +19,7 @@ export default function CaseStudiesPage() {
                 DETAILED CASE STUDIES
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                In-depth analysis of how HOMES THAT DIDN'T SELL became successful sales
+                In-depth analysis of how HOMES THAT DIDN\'T SELL became successful sales
               </p>
               <div className="space-y-12">
                 {successStories.map((story) => (

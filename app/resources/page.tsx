@@ -42,14 +42,14 @@ export default function ResourcesPage() {
     {
       icon: FileText,
       title: 'Market Analysis Report',
-      description: 'Current Las Vegas market conditions and what it means for HOMES THAT DIDN'T SELL.',
+      description: 'Current Las Vegas market conditions and what it means for HOMES THAT DIDN\'T SELL.',
       type: 'Market Report',
       cta: 'Get Report',
     },
     {
       icon: Download,
       title: 'Agent Performance Quiz',
-      description: '60-second assessment to find out why your home didn't sell and what your agent did wrong.',
+      description: '60-second assessment to find out why your home DIDN\'T sell and what your agent did wrong.',
       type: 'Interactive Quiz',
       cta: 'Take Quiz',
       link: '/tools/blame-analyzer',
@@ -66,7 +66,7 @@ export default function ResourcesPage() {
                 FREE RESOURCES
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Tools, guides, and reports to help you understand and fix your HOME THAT DIDN'T SELL
+                Tools, guides, and reports to help you understand and fix your HOME THAT DIDN\'T SELL
               </p>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
                 {resources.map((resource, index) => {

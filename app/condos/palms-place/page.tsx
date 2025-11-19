@@ -21,7 +21,7 @@ export default function PalmsPlaceCondosPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Palms Place is a luxury condo hotel in Las Vegas that offers sophisticated living with Palms resort access, rental programs, and world-class amenities. If your Palms Place condo home didn't sell, you're not alone. Palms Place condos face unique challenges - from explaining rental programs to marketing resort access to buyers who need to understand hotel management. Most agents don't understand Palms Place condos. They use generic strategies, and Palms Place condos expire.
+                  Palms Place is a luxury condo hotel in Las Vegas that offers sophisticated living with Palms resort access, rental programs, and world-class amenities. If your Palms Place condo home DIDN\'T sell, you're not alone. Palms Place condos face unique challenges - from explaining rental programs to marketing resort access to buyers who need to understand hotel management. Most agents don't understand Palms Place condos. They use generic strategies, and Palms Place condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Palms Place condos. I understand the condo hotel market. I know how to market rental programs. I know how to attract investors and second-home buyers. I've sold expired condos in Palms Place and other condo hotel properties. Fast. At top dollar. With zero excuses.
@@ -90,7 +90,7 @@ export default function PalmsPlaceCondosPage() {
                   READY TO SELL YOUR PALMS PLACE CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Palms Place condo home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Palms Place condo home DIDN\'T sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="palms_place_condos" buttonText="GET MY PALMS PLACE CONDO SOLD" />
               </div>

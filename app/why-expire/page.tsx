@@ -23,14 +23,14 @@ export default function WhyExpirePage() {
             <div className="max-w-4xl mx-auto space-y-12">
               <div className="prose prose-lg max-w-none">
                   <p className="text-lg text-gray-700 mb-6">
-                    If your home didn't sell, you're not alone. In fact, you're part of a significant trend in the Las Vegas real estate market. Understanding why homes fail to sell is the first step to fixing yours. The data is clear: most listings don't expire because of the home itself. They expire because of poor marketing, minimal investment, and zero follow-up from agents who don't know what they're doing.
+                    If your home DIDN\'T sell, you're not alone. In fact, you're part of a significant trend in the Las Vegas real estate market. Understanding why homes fail to sell is the first step to fixing yours. The data is clear: most listings don't expire because of the home itself. They expire because of poor marketing, minimal investment, and zero follow-up from agents who don't know what they're doing.
                   </p>
                   <p className="text-lg text-gray-700 mb-6">
-                    The good news? HOMES THAT DIDN'T SELL can be fixed. I've sold 47 Summerlin sellers who couldn't sell with an average of 19 days to contract and 98.7% of asking price. The key is understanding what went wrong and implementing a completely different strategy. This page will show you exactly why your home didn't sell and what needs to change. See <a href="/comparison" className="text-primary font-semibold hover:underline">how I'm different from your previous agent</a> and learn about <a href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process</a>.
+                    The good news? HOMES THAT DIDN\'T SELL can be fixed. I've sold 47 Summerlin sellers who couldn\'t sell with an average of 19 days to contract and 98.7% of asking price. The key is understanding what went wrong and implementing a completely different strategy. This page will show you exactly why your home DIDN\'T sell and what needs to change. See <a href="/comparison" className="text-primary font-semibold hover:underline">how I'm different from your previous agent</a> and learn about <a href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process</a>.
                   </p>
               </div>
               <div>
-                <h2 className="text-3xl font-black mb-4">The Data: Las Vegas HOME THAT DIDN'T SELL Reality</h2>
+                <h2 className="text-3xl font-black mb-4">The Data: Las Vegas HOME THAT didn\'t SELL Reality</h2>
                 <div className="bg-gray-100 p-6 rounded-lg mb-6">
                   <ul className="space-y-3 text-lg mb-4">
                     <li>
@@ -46,10 +46,10 @@ export default function WhyExpirePage() {
                       <strong>1,500-2,250</strong> will fail to sell (historical average)
                     </li>
                     <li>
-                      <strong>$4,964/month</strong> - Average holding costs for HOMES THAT DIDN'T SELL
+                      <strong>$4,964/month</strong> - Average holding costs for HOMES THAT DIDN\'T SELL
                     </li>
                     <li>
-                      <strong>$116/day</strong> - Daily cost of an HOME THAT DIDN'T SELL
+                      <strong>$116/day</strong> - Daily cost of an HOME That Didn\'t SELL
                     </li>
                   </ul>
                   <h3 className="text-2xl font-bold mb-3">What This Data Means</h3>
@@ -63,7 +63,7 @@ export default function WhyExpirePage() {
                   Common Agent Failure Patterns
                 </h2>
                 <p className="text-lg text-gray-700 mb-6">
-                  After analyzing hundreds of HOMES THAT DIDN'T SELL, I've identified five common failure patterns that cause listings to expire. Your previous agent likely made at least three of these mistakes. Understanding what went wrong is the first step to fixing it.
+                  After analyzing hundreds of HOMES THAT DIDN\'T SELL, I've identified five common failure patterns that cause listings to expire. Your previous agent likely made at least three of these mistakes. Understanding what went wrong is the first step to fixing it.
                 </p>
                 <div className="space-y-6">
                   <div className="border-l-4 border-red-500 pl-6">
@@ -95,11 +95,11 @@ export default function WhyExpirePage() {
                       3. Overpricing Strategy
                     </h3>
                     <p className="text-gray-700 mb-3">
-                      Agents tell you what you want to hear to get the listing. Then suggest price drops every month. Amateur hour. Your previous agent probably told you your home was worth more than it actually was, just to get the listing. Then, when it didn't sell, they suggested price drops. That's not a strategy. That's incompetence.
+                      Agents tell you what you want to hear to get the listing. Then suggest price drops every month. Amateur hour. Your previous agent probably told you your home was worth more than it actually was, just to get the listing. Then, when it DIDN\'T sell, they suggested price drops. That's not a strategy. That's incompetence.
                     </p>
                     <h4 className="text-xl font-bold mb-2">The Impact</h4>
                     <p className="text-gray-700">
-                      Overpricing kills buyer interest immediately. Buyers are educated. They know market values. If your home is overpriced, they won't even look at it. I use data-driven pricing strategies based on market analysis, buyer psychology, and competitive positioning. I price it right from day one, so it sells fast at top dollar.
+                      Overpricing kills buyer interest immediately. Buyers are educated. They know market values. If your home is overpriced, they won\'t even look at it. I use data-driven pricing strategies based on market analysis, buyer psychology, and competitive positioning. I price it right from day one, so it sells fast at top dollar.
                     </p>
                   </div>
                   <div className="border-l-4 border-red-500 pl-6">
@@ -131,19 +131,19 @@ export default function WhyExpirePage() {
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">The Bottom Line</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  Your listing didn't expire because of your home. It expired because of your agent. Poor photography, minimal marketing, overpricing, part-time effort, and zero follow-up - these are the five fatal mistakes that kill listings. Your previous agent made at least three of them. That's why your home didn't sell.
+                  Your listing DIDN\'T expire because of your home. It expired because of your agent. Poor photography, minimal marketing, overpricing, part-time effort, and zero follow-up - these are the five fatal mistakes that kill listings. Your previous agent made at least three of them. That's why your home didn\'t sell.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">What Needs to Change</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  The good news? HOMES THAT DIDN'T SELL can be fixed. I've sold 47 Summerlin sellers who couldn't sell with an average of 19 days to contract and 98.7% of asking price. The key is a complete reset: new photos, new pricing strategy, fresh MLS listing, and aggressive marketing. The same system that sold these 47 HOMES THAT DIDN'T SELL can sell yours. The only question is: are you ready to work with an agent who actually knows what they're doing?
+                  The good news? HOMES THAT DIDN\'T SELL can be fixed. I've sold 47 Summerlin sellers who couldn\'t sell with an average of 19 days to contract and 98.7% of asking price. The key is a complete reset: new photos, new pricing strategy, fresh MLS listing, and aggressive marketing. The same system that sold these 47 HOMES THAT DIDN\'T SELL can sell yours. The only question is: are you ready to work with an agent who actually knows what they're doing?
                 </p>
                 <p className="text-lg text-gray-700">
-                  The fix requires a complete reset. Professional photography eliminates the stigma of poor photos. Strategic pricing positions your home competitively. Fresh MLS listing eliminates expired stigma. Aggressive marketing creates maximum exposure. This complete reset is what transforms HOMES THAT DIDN'T SELL into successful sales. This is what I do. This is what your previous agent didn't do.
+                  The fix requires a complete reset. Professional photography eliminates the stigma of poor photos. Strategic pricing positions your home competitively. Fresh MLS listing eliminates expired stigma. Aggressive marketing creates maximum exposure. This complete reset is what transforms HOMES THAT didn\'t SELL into successful sales. This is what I do. This is what your previous agent DIDN\'T do.
                 </p>
               </div>
 
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
-                <h2 className="text-3xl font-black mb-4 text-center">The Psychology of HOMES THAT DIDN'T SELL</h2>
+                <h2 className="text-3xl font-black mb-4 text-center">The Psychology of HOMES That Didn\'t SELL</h2>
                 <p className="text-lg text-gray-700 mb-6 text-center">
                   Understanding why homes fail to sell isn't just about data - it's about understanding the psychology of buyers, sellers, and agents.
                 </p>
@@ -154,7 +154,7 @@ export default function WhyExpirePage() {
                       Buyers scroll through hundreds of listings online. They make split-second decisions based on photos, price, and description. If your photos are dark and cluttered, they scroll past. If your price is too high, they scroll past. If your description is generic, they scroll past. Your previous agent's poor marketing made your home invisible. Buyers never even saw it.
                     </p>
                     <p className="text-lg text-gray-700 mb-4">
-                      Professional photography stops the scroll. Strategic pricing attracts qualified buyers. Optimized descriptions highlight unique features. This is what gets buyers to click. This is what gets buyers to schedule showings. This is what your previous agent didn't provide.
+                      Professional photography stops the scroll. Strategic pricing attracts qualified buyers. Optimized descriptions highlight unique features. This is what gets buyers to click. This is what gets buyers to schedule showings. This is what your previous agent DIDN\'T provide.
                     </p>
                   </div>
                   <div>
@@ -163,13 +163,13 @@ export default function WhyExpirePage() {
                       frustrated sellers are frustrated. They trusted their agent, followed their advice, and got failed results. They're angry. They're motivated. They're ready to work with someone who actually knows what they're doing. This psychology makes frustrated sellers the best clients. They're educated about the process. They understand the market. They're realistic about pricing. They're ready to make decisions quickly.
                     </p>
                     <p className="text-lg text-gray-700 mb-4">
-                      I understand this psychology. I know frustrated sellers are different from regular sellers. They've already been failed once - they won't accept failure again. They want results. They want accountability. They want an agent who actually delivers. This is what I provide. This is what your previous agent didn't provide.
+                      I understand this psychology. I know frustrated sellers are different from regular sellers. They've already been failed once - they won\'t accept failure again. They want results. They want accountability. They want an agent who actually delivers. This is what I provide. This is what your previous agent DIDN\'T provide.
                     </p>
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Agent Psychology: Volume vs. Quality</h3>
                     <p className="text-lg text-gray-700 mb-4">
-                      Most agents operate on a volume-based model. They take as many listings as possible, invest minimal marketing in each, and hope something sticks. This model works for them - they collect commissions on the few that sell. But it doesn't work for you. You got minimal marketing, minimal attention, and an HOME THAT DIDN'T SELL.
+                      Most agents operate on a volume-based model. They take as many listings as possible, invest minimal marketing in each, and hope something sticks. This model works for them - they collect commissions on the few that sell. But it doesn't work for you. You got minimal marketing, minimal attention, and an HOME THAT didn\'t SELL.
                     </p>
                     <p className="text-lg text-gray-700 mb-4">
                       I operate on a quality-based model. I take maximum 6 listings at a time, invest $5,000+ in marketing per listing, and deliver proven results. This model works for you - you get maximum marketing, maximum attention, and a successful sale. Quality over quantity. Results over volume. This is what separates successful agents from failed agents.
@@ -179,9 +179,9 @@ export default function WhyExpirePage() {
               </div>
 
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
-                <h2 className="text-3xl font-black mb-4 text-center">The Cost of HOMES THAT DIDN'T SELL</h2>
+                <h2 className="text-3xl font-black mb-4 text-center">The Cost of HOMES THAT DIDN\'T SELL</h2>
                 <p className="text-lg text-gray-700 mb-6 text-center">
-                  HOMES THAT DIDN'T SELL cost sellers money. A lot of money. Here's the real cost:
+                  HOMES That Didn\'t SELL cost sellers money. A lot of money. Here's the real cost:
                 </p>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="bg-white border-2 border-gray-200 rounded-lg p-6">

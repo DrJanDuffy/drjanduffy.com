@@ -21,7 +21,7 @@ export default function AllureCondosPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Allure is a luxury high-rise condominium building in Las Vegas that offers sophisticated living with world-class amenities. If your Allure condo home didn't sell, you're not alone. Allure condos face unique challenges - from strict building restrictions to competition from newer luxury buildings to buyers who expect exclusive amenities. Most agents don't understand Allure condos. They use generic strategies, and Allure condos expire.
+                  Allure is a luxury high-rise condominium building in Las Vegas that offers sophisticated living with world-class amenities. If your Allure condo home DIDN\'T sell, you're not alone. Allure condos face unique challenges - from strict building restrictions to competition from newer luxury buildings to buyers who expect exclusive amenities. Most agents don't understand Allure condos. They use generic strategies, and Allure condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Allure condos. I understand the luxury market. I know how to market high-rise condos. I know how to attract high-end buyers. I've sold expired condos in Allure and other luxury buildings. Fast. At top dollar. With zero excuses.
@@ -90,7 +90,7 @@ export default function AllureCondosPage() {
                   READY TO SELL YOUR ALLURE CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Allure condo home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Allure condo home DIDN\'T sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="allure_condos" buttonText="GET MY ALLURE CONDO SOLD" />
               </div>

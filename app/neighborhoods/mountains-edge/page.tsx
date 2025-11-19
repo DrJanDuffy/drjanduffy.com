@@ -27,15 +27,15 @@ export default function MountainsEdgePage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                MOUNTAINS EDGE HOMES THAT DIDN'T SELL
+                MOUNTAINS EDGE HOMES THAT DIDN\'T SELL
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Expert help selling homes that didn't sell in Mountains Edge - Las Vegas's family-friendly master-planned community
+                Expert help selling homes that didn\'t sell in Mountains Edge - Las Vegas's family-friendly master-planned community
               </p>
 
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  If your Mountains Edge home didn't sell, you're dealing with one of Las Vegas's most family-friendly master-planned communities. Mountains Edge offers family properties with master-planned amenities, excellent schools, and family-oriented living. Even in this family-focused community, homes fail to sell when agents don't understand family-oriented marketing. I've sold homes that didn't sell in Mountains Edge and throughout Las Vegas. I understand family-oriented marketing. I know how to attract family buyers. I can sell your expired Mountains Edge listing. Fast. At top dollar. With zero excuses.
+                  If your Mountains Edge home DIDN\'T sell, you're dealing with one of Las Vegas's most family-friendly master-planned communities. Mountains Edge offers family properties with master-planned amenities, excellent schools, and family-oriented living. Even in this family-focused community, homes fail to sell when agents don't understand family-oriented marketing. I've sold homes that DIDN\'T sell in Mountains Edge and throughout Las Vegas. I understand family-oriented marketing. I know how to attract family buyers. I can sell your expired Mountains Edge listing. Fast. At top dollar. With zero excuses.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   Mountains Edge is Las Vegas's family-friendly master-planned community, offering family properties with master-planned amenities, excellent schools, and family-oriented living. Properties range from $450K to $1.5M+, attracting buyers who value family amenities, quality schools, and family-oriented communities. Most agents don't understand the Mountains Edge buyer. They use generic marketing, and Mountains Edge homes fail to sell. I understand the Mountains Edge buyer. I use family-oriented marketing strategies, highlight family amenities, and attract family buyers. Mountains Edge listings sell. Fast. At top dollar.
@@ -67,7 +67,7 @@ export default function MountainsEdgePage() {
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">My Mountains Edge Expertise</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  I've sold homes that didn't sell in Mountains Edge and understand the unique challenges of marketing family-oriented community properties. I know how to attract family buyers. I know how to showcase family features. I know how to sell Mountains Edge properties.
+                  I've sold homes that DIDN\'T sell in Mountains Edge and understand the unique challenges of marketing family-oriented community properties. I know how to attract family buyers. I know how to showcase family features. I know how to sell Mountains Edge properties.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Family-Oriented Marketing</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -103,13 +103,13 @@ export default function MountainsEdgePage() {
               </div>
 
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
-                <h2 className="text-3xl font-black mb-4">The Mountains Edge HOME THAT DIDN'T SELL Opportunity</h2>
+                <h2 className="text-3xl font-black mb-4">The Mountains Edge HOME THAT DIDN\'T SELL Opportunity</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  HOMES THAT DIDN'T SELL in Mountains Edge represent significant opportunities. Sellers are frustrated. They've tried once and failed. They're ready to work with an agent who actually understands family-oriented marketing. I understand family-oriented marketing. I know how to market Mountains Edge properties. I know how to attract family buyers.
+                  HOMES THAT didn\'t SELL in Mountains Edge represent significant opportunities. Sellers are frustrated. They've tried once and failed. They're ready to work with an agent who actually understands family-oriented marketing. I understand family-oriented marketing. I know how to market Mountains Edge properties. I know how to attract family buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Complete Family-Oriented Reset</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Expired Mountains Edge listings need a complete family-oriented reset. New professional photography showcasing family amenities and family-oriented features. Strategic positioning emphasizing family benefits. Fresh MLS listing with optimized family-oriented description. Strategic pricing positioning. Aggressive marketing targeting family buyers. Most agents don't do this. I do. I provide complete family-oriented reset services that transform HOMES THAT DIDN'T SELL into attractive opportunities.
+                  Expired Mountains Edge listings need a complete family-oriented reset. New professional photography showcasing family amenities and family-oriented features. Strategic positioning emphasizing family benefits. Fresh MLS listing with optimized family-oriented description. Strategic pricing positioning. Aggressive marketing targeting family buyers. Most agents don't do this. I do. I provide complete family-oriented reset services that transform HOMES THAT DIDN\'T SELL into attractive opportunities.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Family-Oriented Marketing System</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -117,7 +117,7 @@ export default function MountainsEdgePage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Proven Results</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  I've sold 47 Summerlin sellers who couldn't sell with an average of 19 days to contract and 98.7% of asking price. These aren't hypothetical results. These are real HOMES THAT DIDN'T SELL that I sold after other agents failed. I can do the same for your Mountains Edge listing. Fast. At top dollar. With zero excuses.
+                  I've sold 47 Summerlin sellers who couldn\'t sell with an average of 19 days to contract and 98.7% of asking price. These aren't hypothetical results. These are real HOMES THAT DIDN\'T SELL that I sold after other agents failed. I can do the same for your Mountains Edge listing. Fast. At top dollar. With zero excuses.
                 </p>
               </div>
 
@@ -126,7 +126,7 @@ export default function MountainsEdgePage() {
                   READY TO SELL YOUR MOUNTAINS EDGE LISTING?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Mountains Edge home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Mountains Edge home didn\'t sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="mountains_edge_neighborhood" buttonText="GET MY LISTING SOLD" />
               </div>

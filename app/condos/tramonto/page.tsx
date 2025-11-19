@@ -21,7 +21,7 @@ export default function TramontoCondosPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Tramonto is a mid-rise condominium community in Las Vegas that offers affordable living with community amenities, established neighborhoods, and value positioning. If your Tramonto condo home didn't sell, you're not alone. Tramonto condos face unique challenges - from competition with new construction to value-conscious buyers to emphasis on community amenities. Most agents don't understand Tramonto condos. They use generic strategies, and Tramonto condos expire.
+                  Tramonto is a mid-rise condominium community in Las Vegas that offers affordable living with community amenities, established neighborhoods, and value positioning. If your Tramonto condo home DIDN\'T sell, you're not alone. Tramonto condos face unique challenges - from competition with new construction to value-conscious buyers to emphasis on community amenities. Most agents don't understand Tramonto condos. They use generic strategies, and Tramonto condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Tramonto condos. I understand the mid-rise market. I know how to market community amenities. I know how to attract value-conscious buyers. I've sold expired condos in Tramonto and other mid-rise communities. Fast. At top dollar. With zero excuses.
@@ -90,7 +90,7 @@ export default function TramontoCondosPage() {
                   READY TO SELL YOUR TRAMONTO CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Tramonto condo home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Tramonto condo home DIDN\'T sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="tramonto_condos" buttonText="GET MY TRAMONTO CONDO SOLD" />
               </div>
