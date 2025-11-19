@@ -13,7 +13,7 @@ export const metadata = {
   description:
     'Las Vegas real estate specialist for homes that won\'t sell. 500+ families served, $127M+ in sales. Summerlin luxury expert. Free consultation: 702-500-1064',
   alternates: {
-    canonical: '/',
+    canonical: 'https://www.drjanduffy.com/',
   },
 }
 
