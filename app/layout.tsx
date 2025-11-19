@@ -152,11 +152,26 @@ export default function RootLayout({
                 worstRating: '1',
               },
               priceRange: '$400K-$10M+',
-              award: ['Failed Listing Specialist 2025', 'Good Neighbor Award'],
+              award: ['Failed Listing Specialist 2026', 'Good Neighbor Award'],
               knowsAbout: ['Real Estate', 'Homes That Didn\'t Sell', 'Failed Listings', 'Unsold Homes', 'Re-listing Service', 'Luxury Properties', 'Property Marketing', 'Real Estate Negotiation'],
-              memberOf: {
-                '@type': 'Organization',
-                name: 'Nevada Real Estate Division',
+              memberOf: [
+                {
+                  '@type': 'Organization',
+                  name: 'Nevada Real Estate Division',
+                },
+                {
+                  '@type': 'Organization',
+                  name: 'Berkshire Hathaway HomeServices',
+                },
+              ],
+              hasCredential: {
+                '@type': 'EducationalOccupationalCredential',
+                credentialCategory: 'Professional License',
+                recognizedBy: {
+                  '@type': 'Organization',
+                  name: 'Nevada Real Estate Division',
+                },
+                credentialNumber: 'S.0197614',
               },
             },
             {
@@ -203,16 +218,33 @@ export default function RootLayout({
               name: 'Dr. Janet Duffy',
               alternateName: 'Dr. Jan Duffy',
               jobTitle: 'Real Estate Agent',
+              description: 'Las Vegas real estate expert with extensive experience helping sellers whose homes didn\'t sell. Specializes in luxury properties in Summerlin, The Ridges, and surrounding areas. 500+ families served, $127M+ in sales volume.',
               worksFor: {
                 '@type': 'Organization',
-                name: 'Dr. Janet Duffy Real Estate',
+                name: 'Berkshire Hathaway HomeServices',
+              },
+              hasCredential: {
+                '@type': 'EducationalOccupationalCredential',
+                credentialCategory: 'Professional License',
+                recognizedBy: {
+                  '@type': 'Organization',
+                  name: 'Nevada Real Estate Division',
+                },
+                credentialNumber: 'S.0197614',
               },
               telephone: '(702) 500-1064',
               email: 'info@drjanduffy.com',
               url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
               image: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}/og-image.png`,
-              award: ['Failed Listing Specialist 2025', 'Good Neighbor Award'],
-              knowsAbout: ['Real Estate', 'Homes That Didn\'t Sell', 'Failed Listings', 'Unsold Homes', 'Luxury Properties', 'Property Marketing'],
+              award: ['Failed Listing Specialist 2026', 'Good Neighbor Award'],
+              knowsAbout: ['Real Estate', 'Homes That Didn\'t Sell', 'Failed Listings', 'Unsold Homes', 'Luxury Properties', 'Property Marketing', 'Real Estate Negotiation', 'Summerlin Real Estate', 'Las Vegas Real Estate Market'],
+              alumniOf: {
+                '@type': 'EducationalOrganization',
+                name: 'University',
+              },
+              sameAs: [
+                process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
+              ],
             },
             {
               '@context': 'https://schema.org',

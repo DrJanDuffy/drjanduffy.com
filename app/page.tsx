@@ -15,6 +15,33 @@ export const metadata = {
   alternates: {
     canonical: 'https://www.drjanduffy.com/',
   },
+  authors: [{ name: 'Dr. Janet Duffy' }],
+  creator: 'Dr. Janet Duffy',
+  publisher: 'Dr. Janet Duffy Real Estate',
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://www.drjanduffy.com/',
+    siteName: 'Dr. Janet Duffy Real Estate',
+    title: 'Sell Your House Fast Las Vegas | Summerlin Real Estate Specialist',
+    description: 'Las Vegas real estate specialist for homes that won\'t sell. 500+ families served, $127M+ in sales. Summerlin luxury expert.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Sell Your House Fast Las Vegas | Summerlin Real Estate Specialist',
+    description: 'Las Vegas real estate specialist for homes that won\'t sell. 500+ families served, $127M+ in sales.',
+  },
 }
 
 export default function HomePage() {
@@ -242,11 +269,11 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
-              WHY HOMES THAT DIDN\'T SELL ARE PERFECT FOR JANUARY 2025
+              WHY HOMES THAT DIDN\'T SELL ARE PERFECT FOR JANUARY 2026
             </h2>
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-gray-700 mb-6">
-                January 2025 is the perfect storm for homes that didn\'t sell. December is historically the worst month to list a home - properties sit an average of 63 days during the holiday season. All those homes that failed to sell in December need a fresh start, creating a massive inventory of frustrated, motivated sellers.
+                January 2026 is the perfect storm for homes that didn\'t sell. December is historically the worst month to list a home - properties sit an average of 63 days during the holiday season. All those homes that failed to sell in December need a fresh start, creating a massive inventory of frustrated, motivated sellers.
               </p>
               <h3 className="text-2xl font-black mb-4 mt-8">
                 The January Advantage
@@ -267,7 +294,7 @@ export default function HomePage() {
                 The Las Vegas Market Reality
               </h3>
               <p className="text-lg text-gray-700 mb-4">
-                Las Vegas has 7,500+ active listings as of November 2025. Based on historical averages, 20-30% of these will fail to sell - that's 1,500-2,250 opportunities. In Summerlin West alone, we're looking at 200-300 homes that DIDN\'T sell. These aren't theoretical numbers. These are real homes, real sellers, real opportunities.
+                Las Vegas has 7,500+ active listings as of November 2026. Based on historical averages, 20-30% of these will fail to sell - that's 1,500-2,250 opportunities. In Summerlin West alone, we're looking at 200-300 homes that DIDN\'T sell. These aren't theoretical numbers. These are real homes, real sellers, real opportunities.
               </p>
               <p className="text-lg text-gray-700">
                 The market is shifting. Days on market are increasing. Inventory is growing. More homes are failing to sell. This isn't a problem - it's an opportunity. While other agents avoid homes that DIDN\'T sell, I specialize in them. I know how to reset them, market them, and sell them. Fast. At top dollar. With zero excuses.

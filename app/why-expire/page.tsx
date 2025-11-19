@@ -40,7 +40,7 @@ export default function WhyExpirePage() {
                       <strong>20-30%</strong> of homes fail to sell in Las Vegas market
                     </li>
                     <li>
-                      <strong>7,500+ active listings</strong> in November 2025
+                      <strong>7,500+ active listings</strong> in November 2026
                     </li>
                     <li>
                       <strong>1,500-2,250</strong> will fail to sell (historical average)
@@ -71,7 +71,7 @@ export default function WhyExpirePage() {
                       1. Poor Photography
                     </h3>
                     <p className="text-gray-700 mb-3">
-                      iPhone photos in 2025? Dark rooms, cluttered spaces, and unprofessional staging kill buyer interest in the first 2.3 seconds. Buyers scroll through hundreds of listings online. If your photos don't grab them immediately, they move on. Your previous agent spent $37 on photos. I spend $3,700 on professional media - twilight drone shots, 3D virtual tours, magazine-quality staging. The difference is obvious.
+                      iPhone photos in 2026? Dark rooms, cluttered spaces, and unprofessional staging kill buyer interest in the first 2.3 seconds. Buyers scroll through hundreds of listings online. If your photos don't grab them immediately, they move on. Your previous agent spent $37 on photos. I spend $3,700 on professional media - twilight drone shots, 3D virtual tours, magazine-quality staging. The difference is obvious.
                     </p>
                     <h4 className="text-xl font-bold mb-2">The Impact</h4>
                     <p className="text-gray-700">

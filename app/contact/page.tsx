@@ -112,7 +112,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Market Timing</h3>
                     <p className="text-lg text-gray-700 mb-4">
-                      January 2025 is the perfect time to reset your HOME THAT DIDN\'T SELL. Spring buyers are already starting to look. They're serious, pre-qualified, and ready to move. Tax refunds are coming, giving buyers more purchasing power. Interest rates are stabilizing, making buyers more confident. And most importantly, there's less competition - while other agents are chasing new listings, I'm focused on fixing expired ones. Don't miss this window.
+                      January 2026 is the perfect time to reset your HOME THAT DIDN\'T SELL. Spring buyers are already starting to look. They're serious, pre-qualified, and ready to move. Tax refunds are coming, giving buyers more purchasing power. Interest rates are stabilizing, making buyers more confident. And most importantly, there's less competition - while other agents are chasing new listings, I'm focused on fixing expired ones. Don't miss this window.
                     </p>
                   </div>
                   <div>

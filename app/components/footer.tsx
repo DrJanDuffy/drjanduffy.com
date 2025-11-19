@@ -38,7 +38,7 @@ export default function Footer() {
             <div className="mt-4 pt-4 border-t border-gray-800">
               <p className="text-xs text-gray-500">
                 <strong className="text-white">Awards:</strong><br />
-                failed listing specialist 2025<br />
+                Failed Listing Specialist 2026<br />
                 Good Neighbor Award Recipient
               </p>
             </div>
