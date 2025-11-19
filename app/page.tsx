@@ -6,10 +6,12 @@ import StickyHeader from './components/sticky-header'
 import Navigation from './components/navigation'
 import ExitIntentPopup from './components/exit-intent-popup'
 import ChatWidget from './components/chat-widget'
+import BreadcrumbSchema from './components/breadcrumb-schema'
 
 export default function HomePage() {
   return (
     <>
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }]} />
       <StickyHeader />
       <Navigation />
       <HeroSection />

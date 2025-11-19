@@ -2,6 +2,7 @@ import StickyHeader from '@/app/components/sticky-header'
 import Navigation from '@/app/components/navigation'
 import LeadForm from '@/app/components/lead-form'
 import RelatedCondoLinks from '@/app/components/related-condo-links'
+import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 
 export const metadata = {
   title: 'Cosmopolitan Condos Las Vegas | Expired Listing Expert | Dr. Jan Duffy',
@@ -15,6 +16,14 @@ export const metadata = {
 export default function CosmopolitanCondosPage() {
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Las Vegas Condos', url: '/condos' },
+          { name: 'Strip Condos', url: '/condos/strip' },
+          { name: 'Cosmopolitan Condos', url: '/condos/cosmopolitan' },
+        ]}
+      />
       <StickyHeader />
       <Navigation />
       <div className="min-h-screen bg-gray-50">

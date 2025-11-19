@@ -1,6 +1,7 @@
 import StickyHeader from '@/app/components/sticky-header'
 import Navigation from '@/app/components/navigation'
 import LeadForm from '@/app/components/lead-form'
+import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 
 export const metadata = {
   title: 'Las Vegas Condos | Dr. Jan Duffy - Expired Listing Expert',
@@ -11,6 +12,12 @@ export const metadata = {
 export default function LasVegasCondosPage() {
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Las Vegas Condos', url: '/condos' },
+        ]}
+      />
       <StickyHeader />
       <Navigation />
       <div className="min-h-screen bg-gray-50">
@@ -101,6 +108,53 @@ export default function LasVegasCondosPage() {
                 <p className="text-lg opacity-90">
                   No excuses. No exceptions. If your Las Vegas condo doesn't sell in 30 days, I continue working at no additional cost until it sells. That's how confident I am in my condo marketing system.
                 </p>
+              </div>
+
+              <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
+                <h2 className="text-3xl font-black mb-4 text-center">
+                  EXPLORE LAS VEGAS CONDO CATEGORIES
+                </h2>
+                <p className="text-center text-lg text-gray-700 mb-6">
+                  Find expert help for your specific condo type:
+                </p>
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                  <a href="/condos/strip" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
+                    <h3 className="font-bold text-lg mb-2">Strip Condos</h3>
+                    <p className="text-sm text-gray-600">Luxury condos on The Strip</p>
+                  </a>
+                  <a href="/condos/high-rise" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
+                    <h3 className="font-bold text-lg mb-2">High-Rise Condos</h3>
+                    <p className="text-sm text-gray-600">Luxury high-rise buildings</p>
+                  </a>
+                  <a href="/condos/luxury" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
+                    <h3 className="font-bold text-lg mb-2">Luxury Condos</h3>
+                    <p className="text-sm text-gray-600">Premium luxury properties</p>
+                  </a>
+                  <a href="/condos/mid-rise" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
+                    <h3 className="font-bold text-lg mb-2">Mid-Rise Condos</h3>
+                    <p className="text-sm text-gray-600">Urban living options</p>
+                  </a>
+                  <a href="/condos/summerlin" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
+                    <h3 className="font-bold text-lg mb-2">Summerlin Condos</h3>
+                    <p className="text-sm text-gray-600">Summerlin area condos</p>
+                  </a>
+                  <a href="/condos/henderson" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
+                    <h3 className="font-bold text-lg mb-2">Henderson Condos</h3>
+                    <p className="text-sm text-gray-600">Henderson area condos</p>
+                  </a>
+                  <a href="/condos/condo-hotels" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
+                    <h3 className="font-bold text-lg mb-2">Condo Hotels</h3>
+                    <p className="text-sm text-gray-600">Investment properties</p>
+                  </a>
+                  <a href="/condos/townhomes" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
+                    <h3 className="font-bold text-lg mb-2">Townhomes</h3>
+                    <p className="text-sm text-gray-600">Space and value</p>
+                  </a>
+                  <a href="/condos/sold" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
+                    <h3 className="font-bold text-lg mb-2">Sold Condos</h3>
+                    <p className="text-sm text-gray-600">See real results</p>
+                  </a>
+                </div>
               </div>
 
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
