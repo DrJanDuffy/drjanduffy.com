@@ -33,7 +33,7 @@ Create a `.env.local` file:
 
 ```env
 # Site Configuration
-NEXT_PUBLIC_SITE_URL=https://drjanduffy.com
+NEXT_PUBLIC_SITE_URL=https://www.drjanduffy.com
 
 # Analytics
 NEXT_PUBLIC_FACEBOOK_PIXEL_ID=your_pixel_id

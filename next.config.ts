@@ -16,9 +16,22 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   // Output file tracing for better performance
   outputFileTracingRoot: process.cwd(),
-  // Redirects for old neighborhood pages
+  // Redirects for old neighborhood pages and www domain
   async redirects() {
     return [
+      // Redirect non-www to www
+      {
+        source: '/:path*',
+        has: [
+          {
+            type: 'host',
+            value: 'drjanduffy.com',
+          },
+        ],
+        destination: 'https://www.drjanduffy.com/:path*',
+        permanent: true,
+      },
+      // Redirect old neighborhood pages
       {
         source: '/neighborhoods',
         destination: '/',

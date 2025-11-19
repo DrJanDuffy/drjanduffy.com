@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://drjanduffy.com'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'),
   title: 'Your Agent Failed | Dr. Jan Duffy - Expired Listing Expert',
   description:
     'Your house didn\'t fail. Your agent did. Dr. Jan Duffy has sold 47 expired Summerlin listings in 19 days average at 98.7% of asking. Get your failed listing fixed now.',
