@@ -3,7 +3,7 @@ import { formatCurrency } from '@/lib/utils'
 import Header from '@/app/components/header'
 import SuccessStoriesCarousel from '@/app/components/success-stories-carousel'
 export const metadata = {
-  title: 'HOME THAT DIDN'T SELL Success Stories | Dr. Jan Duffy',
+  title: "HOME THAT DIDN'T SELL Success Stories | Dr. Jan Duffy",
   description:
     'Real results from homes that didn't sell - now sold by Dr. Jan Duffy. See how we turned failed listings into successful sales in 14-31 days.',
 }
