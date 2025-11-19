@@ -229,6 +229,7 @@ export default function RootLayout({
                   closes: '20:00',
                 },
               ],
+              openingHours: 'Mo-Su 08:00-20:00',
               aggregateRating: {
                 '@type': 'AggregateRating',
                 ratingValue: '5',
