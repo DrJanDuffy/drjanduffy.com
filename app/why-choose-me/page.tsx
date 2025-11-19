@@ -122,9 +122,9 @@ export default function WhyChooseMePage() {
                           </div>
                         </div>
                         <div className="flex items-start gap-3">
-                          <Check className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                          <Check className="w-6 h-6 text-green-700 flex-shrink-0 mt-1" />
                           <div>
-                            <p className="font-semibold text-green-600">Dr. Jan Duffy</p>
+                            <p className="font-semibold text-green-700">Dr. Jan Duffy</p>
                             <p className="text-gray-700">{comp.drJan}</p>
                           </div>
                         </div>

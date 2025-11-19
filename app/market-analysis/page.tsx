@@ -70,19 +70,19 @@ export default function MarketAnalysisPage() {
                   </h2>
                   <ul className="space-y-3 text-lg">
                     <li className="flex items-start gap-3">
-                      <span className="text-green-600 font-bold">✓</span>
+                      <span className="text-green-700 font-bold">✓</span>
                       <span><strong>Fresh start eliminates stigma</strong> - Complete reset removes "expired" label</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-green-600 font-bold">✓</span>
+                      <span className="text-green-700 font-bold">✓</span>
                       <span><strong>Motivated sellers</strong> - Ready to price competitively and be flexible</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-green-600 font-bold">✓</span>
+                      <span className="text-green-700 font-bold">✓</span>
                       <span><strong>Professional marketing stands out</strong> - Most listings have poor marketing</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-green-600 font-bold">✓</span>
+                      <span className="text-green-700 font-bold">✓</span>
                       <span><strong>Buyers are still active</strong> - Just need the right property at the right price</span>
                     </li>
                   </ul>

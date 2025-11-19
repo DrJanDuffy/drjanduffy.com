@@ -45,7 +45,7 @@ export default function ValueCheckPage() {
                   </div>
                   <div className="p-4 bg-green-50 border-2 border-green-200 rounded-lg">
                     <div className="text-sm text-gray-600 mb-1">Quick Sale Value</div>
-                    <div className="text-3xl font-black text-green-600">
+                    <div className="text-3xl font-black text-green-700">
                       {formatCurrency(result.quickSaleValue)}
                     </div>
                     <div className="text-sm text-gray-600 mt-2">

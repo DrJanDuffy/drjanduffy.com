@@ -41,7 +41,7 @@ export default function ProofSection() {
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600">Sold:</span>
-                  <span className="font-bold text-green-600">
+                  <span className="font-bold text-green-700">
                     {story.daysSold} days
                   </span>
                 </div>
@@ -53,7 +53,7 @@ export default function ProofSection() {
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600">Sold:</span>
-                  <span className="font-bold text-green-600">
+                  <span className="font-bold text-green-700">
                     {formatCurrency(story.soldPrice)} ({story.soldPercentage}%)
                   </span>
                 </div>

@@ -90,7 +90,7 @@ export default function ThirtyDayPlanPage() {
                   <ul className="space-y-3">
                     {weekData.items.map((item, index) => (
                       <li key={index} className="flex items-start gap-3">
-                        <span className="text-green-600 font-bold text-xl mt-1">
+                        <span className="text-green-700 font-bold text-xl mt-1">
                           ✓
                         </span>
                         <span className="text-lg">{item}</span>

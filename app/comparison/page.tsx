@@ -108,7 +108,7 @@ export default function ComparisonPage() {
                         </td>
                         <td className="border-2 border-gray-300 p-4">
                           <div className="flex items-start gap-2">
-                            <Check className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                            <Check className="w-5 h-5 text-green-700 flex-shrink-0 mt-0.5" />
                             <span>{comp.drJan}</span>
                           </div>
                         </td>
@@ -157,7 +157,7 @@ export default function ComparisonPage() {
                     <li>• Network activation (500+ agents)</li>
                     <li>• Targeted Facebook/Google ads</li>
                   </ul>
-                  <p className="mt-4 text-xl font-bold text-green-600 mb-2">
+                  <p className="mt-4 text-xl font-bold text-green-700 mb-2">
                     Total: ~$5,000+
                   </p>
                   <p className="text-sm text-gray-600">
@@ -270,7 +270,7 @@ export default function ComparisonPage() {
                       <li>• Complete escrow management</li>
                       <li>• Proven results: 19 day average, 98.7% of asking</li>
                     </ul>
-                    <p className="text-xl font-bold text-green-600">
+                    <p className="text-xl font-bold text-green-700">
                       Result: SOLD in 19 days average
                     </p>
                   </div>
