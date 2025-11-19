@@ -34,9 +34,9 @@ export default function FAQPage() {
         'Yes. I specialize in luxury properties in The Ridges, Red Rock CC, The Summit, and Summerlin West. I have sold expired luxury listings ranging from $675K to $2.1M.',
     },
     {
-      question: 'What if my home doesn\'t sell in 30 days?',
+      question: 'What if my home does not sell in 30 days?',
       answer:
-        'I continue working at no additional cost until it sells. You don\'t pay extra commission - I work until your home is sold.',
+        'I continue working at no additional cost until it sells. You do not pay extra commission - I work until your home is sold.',
     },
     {
       question: 'How much do you charge?',

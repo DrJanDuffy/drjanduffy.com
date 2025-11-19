@@ -30,11 +30,11 @@ export const metadata = {
 const faqs = [
   {
     question: 'Why will not my house sell?',
-    answer: 'The most common reasons houses don\'t sell are: overpricing, poor photography, weak marketing strategy, zero follow-up, and part-time agent effort. Your previous agent likely made at least three of these mistakes. I specialize in fixing these issues with a complete marketing reset, strategic pricing, and aggressive follow-up.',
+    answer: 'The most common reasons houses do not sell are: overpricing, poor photography, weak marketing strategy, zero follow-up, and part-time agent effort. Your previous agent likely made at least three of these mistakes. I specialize in fixing these issues with a complete marketing reset, strategic pricing, and aggressive follow-up.',
   },
   {
     question: 'How long should I wait before relisting?',
-    answer: 'Don\'t wait. Every day your home sits unsold costs you $116+ in holding costs. The longer it sits, the more it becomes stigmatized. If your listing expired or your home has been on the market 60+ days with no offers, it is time to relist with a different strategy. I can help you relist and sell your home in 30 days or less.',
+    answer: 'Do not wait. Every day your home sits unsold costs you $116+ in holding costs. The longer it sits, the more it becomes stigmatized. If your listing expired or your home has been on the market 60+ days with no offers, it is time to relist with a different strategy. I can help you relist and sell your home in 30 days or less.',
   },
   {
     question: 'Should I lower my price if my house will not sell?',
