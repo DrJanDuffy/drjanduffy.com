@@ -15,7 +15,7 @@ export default function ProcessPage() {
     {
       number: 1,
       title: 'Initial Consultation',
-      description: 'Free analysis of why your home didn\'t sell and what needs to change. No BS, just honest assessment.',
+      description: 'Free analysis of why your home did not sell and what needs to change. No BS, just honest assessment.',
       duration: '1 Day',
     },
     {

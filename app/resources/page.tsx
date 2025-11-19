@@ -2,15 +2,15 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import { FileText, Download, BookOpen, Video } from 'lucide-react'
 export const metadata = {
-  title: 'Resources | HOME THAT DIDN\'T SELL Resources | Dr. Jan Duffy',
+  title: 'Resources | HOME THAT DID NOT SELL Resources | Dr. Jan Duffy',
   description:
-    'Free resources for HOME THAT DIDN\'T SELL sellers: guides, reports, calculators, and educational content.',
+    'Free resources for HOME THAT DID NOT SELL sellers: guides, reports, calculators, and educational content.',
 }
 export default function ResourcesPage() {
   const resources = [
     {
       icon: FileText,
-      title: '7 Reasons your home didn\'t sell',
+      title: '7 Reasons your home did not sell',
       description: 'Free report revealing the 5 fatal mistakes that killed your listing and how to fix them.',
       type: 'Free Report',
       cta: 'Download Now',

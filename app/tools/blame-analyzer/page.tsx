@@ -3,7 +3,7 @@ import Header from '@/app/components/header'
 export const metadata = {
   title: 'Blame Analyzer Quiz | Dr. Jan Duffy',
   description:
-    'Take the 60-second assessment to find out why your home didn\'t sell. Get your agent score and discover what went wrong.',
+    'Take the 60-second assessment to find out why your home did not sell. Get your agent score and discover what went wrong.',
 }
 export default function BlameAnalyzerPage() {
   return (
