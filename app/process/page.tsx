@@ -5,7 +5,7 @@ import { Check } from 'lucide-react'
 export const metadata = {
   title: 'The Selling Process | Dr. Jan Duffy',
   description:
-    'Learn how Dr. Jan Duffy sells homes that didn't sell in 30 days or less. Step-by-step process from listing to closing.',
+    'Learn how Dr. Jan Duffy sells homes that didn\'t sell in 30 days or less. Step-by-step process from listing to closing.',
   alternates: {
     canonical: '/process',
   },

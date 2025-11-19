@@ -3,9 +3,9 @@ import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 
 export const metadata = {
-  title: 'The Ridges HOMES THAT DIDN'T SELL | Dr. Jan Duffy - Luxury Real Estate Expert',
+  title: 'The Ridges HOMES THAT DIDN\'T SELL | Dr. Jan Duffy - Luxury Real Estate Expert',
   description:
-    'Expert help selling homes that didn't sell in The Ridges, Summerlin. Luxury golf course properties and estates. 19 day average, 98.7% of asking price.',
+    'Expert help selling homes that didn\'t sell in The Ridges, Summerlin. Luxury golf course properties and estates. 19 day average, 98.7% of asking price.',
   alternates: {
     canonical: '/neighborhoods/the-ridges',
   },

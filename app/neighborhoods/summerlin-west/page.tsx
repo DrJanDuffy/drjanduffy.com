@@ -3,9 +3,9 @@ import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 
 export const metadata = {
-  title: 'Summerlin West HOMES THAT DIDN'T SELL | Dr. Jan Duffy - Expert Real Estate Agent',
+  title: 'Summerlin West HOMES THAT DIDN\'T SELL | Dr. Jan Duffy - Expert Real Estate Agent',
   description:
-    'Expert help selling homes that didn't sell in Summerlin West, Las Vegas. Dr. Jan Duffy has sold 47 Summerlin sellers who couldn't sell in 19 days average at 98.7% of asking price.',
+    'Expert help selling homes that didn\'t sell in Summerlin West, Las Vegas. Dr. Jan Duffy has sold 47 Summerlin sellers who couldn\'t sell in 19 days average at 98.7% of asking price.',
   alternates: {
     canonical: '/neighborhoods/summerlin-west',
   },
