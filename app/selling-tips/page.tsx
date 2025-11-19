@@ -37,7 +37,7 @@ export default function SellingTipsPage() {
       category: 'Pro Tips',
       items: [
         'Reset your listing completely - new photos, new description, fresh start',
-        'Price competitively from day one - don\'t start high and drop',
+        'Price competitively from day one - do not start high and drop',
         'Be available for showings - flexibility wins',
         'Invest in professional media - it pays for itself',
         'Work with an specialist in homes that did not sell, not a generalist',

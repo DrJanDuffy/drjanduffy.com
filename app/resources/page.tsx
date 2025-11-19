@@ -17,8 +17,8 @@ export default function ResourcesPage() {
     },
     {
       icon: Download,
-      title: 'cost when your home won't sell Calculator',
-      description: 'Calculate exactly how much money you\'re losing every day your listing sits expired.',
+      title: 'cost when your home will not sell Calculator',
+      description: 'Calculate exactly how much money you are losing every day your listing sits expired.',
       type: 'Interactive Tool',
       cta: 'Calculate Now',
       link: '/tools/cost-calculator',
