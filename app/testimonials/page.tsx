@@ -1,0 +1,127 @@
+import StickyHeader from '@/app/components/sticky-header'
+import Navigation from '@/app/components/navigation'
+import { successStories } from '@/lib/data/success-stories'
+import { formatCurrency } from '@/lib/utils'
+import { Star } from 'lucide-react'
+
+export const metadata = {
+  title: 'Client Testimonials | Dr. Jan Duffy',
+  description:
+    'Read real testimonials from clients who sold their expired listings with Dr. Jan Duffy. See why sellers choose Dr. Jan after their previous agents failed.',
+}
+
+export default function TestimonialsPage() {
+  const additionalTestimonials = [
+    {
+      name: 'Sarah M.',
+      neighborhood: 'Summerlin West',
+      rating: 5,
+      text: 'After 3 months with a big franchise agent and zero offers, Dr. Jan sold our home in 18 days at 99% of asking. She actually answers her phone!',
+    },
+    {
+      name: 'Michael R.',
+      neighborhood: 'The Ridges',
+      rating: 5,
+      text: 'Our luxury home sat expired for 6 months. Dr. Jan came in, reset everything, and sold it in 22 days. Worth every penny.',
+    },
+    {
+      name: 'Jennifer L.',
+      neighborhood: 'Red Rock CC',
+      rating: 5,
+      text: 'Previous agent was a friend. Nice person, terrible agent. Dr. Jan is professional, aggressive, and gets results. Sold in 16 days.',
+    },
+    {
+      name: 'Robert T.',
+      neighborhood: 'The Summit',
+      rating: 5,
+      text: 'Three agents failed. Dr. Jan succeeded. That\'s all you need to know.',
+    },
+    {
+      name: 'Lisa K.',
+      neighborhood: 'Summerlin West',
+      rating: 5,
+      text: 'Dr. Jan\'s marketing is incredible. Professional photos, virtual tours, aggressive follow-up. Everything our last agent didn\'t do.',
+    },
+  ]
+
+  return (
+    <>
+      <StickyHeader />
+      <Navigation />
+      <div className="min-h-screen bg-gray-50">
+        <section className="py-20 bg-white">
+          <div className="container mx-auto px-4">
+            <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
+              CLIENT TESTIMONIALS
+            </h1>
+            <p className="text-xl text-center text-gray-600 mb-12">
+              Real reviews from real sellers who fired their agents and hired Dr. Jan
+            </p>
+
+            <div className="max-w-6xl mx-auto">
+              <div className="text-center mb-12">
+                <div className="flex items-center justify-center gap-2 mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="w-8 h-8 fill-yellow-400 text-yellow-400" />
+                  ))}
+                </div>
+                <p className="text-3xl font-bold">4.9/5 Average Rating</p>
+                <p className="text-lg text-gray-600 mt-2">Based on 47+ expired listing sales</p>
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-8 mb-12">
+                {successStories.map((story) => (
+                  <div
+                    key={story.id}
+                    className="bg-white border-2 border-gray-200 rounded-lg p-6 shadow-lg"
+                  >
+                    <div className="flex items-center gap-2 mb-4">
+                      {[...Array(5)].map((_, i) => (
+                        <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
+                      ))}
+                    </div>
+                    <p className="text-gray-700 mb-4 italic text-lg">
+                      "{story.testimonial}"
+                    </p>
+                    <div className="border-t pt-4">
+                      <p className="font-bold">{story.neighborhood}</p>
+                      <p className="text-sm text-gray-600">
+                        Expired: {story.daysExpired} days → Sold: {story.daysSold} days
+                      </p>
+                      <p className="text-sm text-gray-600">
+                        {formatCurrency(story.soldPrice)} ({story.soldPercentage}% of asking)
+                      </p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-6">
+                {additionalTestimonials.map((testimonial, index) => (
+                  <div
+                    key={index}
+                    className="bg-gray-50 border-2 border-gray-200 rounded-lg p-6"
+                  >
+                    <div className="flex items-center gap-2 mb-4">
+                      {[...Array(testimonial.rating)].map((_, i) => (
+                        <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                      ))}
+                    </div>
+                    <p className="text-gray-700 mb-4 italic">
+                      "{testimonial.text}"
+                    </p>
+                    <div className="border-t pt-4">
+                      <p className="font-bold">{testimonial.name}</p>
+                      <p className="text-sm text-gray-600">{testimonial.neighborhood}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </>
+  )
+}
+
