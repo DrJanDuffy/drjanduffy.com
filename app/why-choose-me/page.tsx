@@ -15,7 +15,7 @@ export default function WhyChooseMePage() {
     },
     {
       title: 'specialist in homes that DID NOT sell',
-      description: 'I don\'t dabble in HOMES THAT DID NOT SELL - I specialize in them. This is all I do.',
+      description: 'I do not dabble in HOMES THAT DID NOT SELL - I specialize in them. This is all I do.',
       proof: '100% focus on HOMES THAT DID NOT SELL',
     },
     {
@@ -35,7 +35,7 @@ export default function WhyChooseMePage() {
     },
     {
       title: 'Aggressive Follow-Up',
-      description: 'I don\'t post and disappear. I aggressively follow up on every showing and negotiate every offer.',
+      description: 'I do not post and disappear. I aggressively follow up on every showing and negotiate every offer.',
       proof: 'Relentless pursuit of results',
     },
   ]
