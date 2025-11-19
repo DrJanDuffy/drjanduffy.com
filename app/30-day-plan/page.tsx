@@ -3,7 +3,7 @@ import LeadForm from '@/app/components/lead-form'
 export const metadata = {
   title: 'The 30-Day Plan | Dr. Jan Duffy',
   description:
-    'Week-by-week breakdown of how Dr. Jan Duffy sells homes that didn't sell in 30 days or less.',
+    'Week-by-week breakdown of how Dr. Jan Duffy sells homes that didn\'t sell in 30 days or less.',
 }
 export default function ThirtyDayPlanPage() {
   const weeks = [

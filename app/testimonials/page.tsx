@@ -5,7 +5,7 @@ import { Star } from 'lucide-react'
 export const metadata = {
   title: 'Client Testimonials | Dr. Jan Duffy',
   description:
-    'Read real testimonials from clients who sold their HOMES THAT DIDN'T SELL with Dr. Jan Duffy. See why sellers choose Dr. Jan after their previous agents failed.',
+    'Read real testimonials from clients who sold their HOMES THAT DIDN\'T SELL with Dr. Jan Duffy. See why sellers choose Dr. Jan after their previous agents failed.',
 }
 export default function TestimonialsPage() {
   const additionalTestimonials = [
