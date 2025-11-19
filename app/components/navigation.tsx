@@ -32,11 +32,11 @@ export default function Navigation() {
             ))}
           </div>
           <a
-            href="tel:7022221964"
+            href="tel:7025001064"
             className="flex items-center gap-2 bg-primary text-primary-foreground px-4 py-2 rounded-lg font-bold hover:bg-primary/90 transition-colors"
           >
             <Phone className="w-4 h-4" />
-            <span className="hidden sm:inline">702-222-1964</span>
+            <span className="hidden sm:inline">(702) 500-1064</span>
             <span className="sm:hidden">CALL</span>
           </a>
         </div>

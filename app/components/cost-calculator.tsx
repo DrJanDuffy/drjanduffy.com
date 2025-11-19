@@ -138,10 +138,10 @@ export default function CostCalculator() {
           </div>
           <div className="mt-6 text-center">
             <a
-              href="tel:7022221964"
+              href="tel:7025001064"
               className="inline-block bg-red-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-red-700 transition-colors"
             >
-              STOP THE BLEEDING NOW - CALL 702-222-1964
+              STOP THE BLEEDING NOW - CALL (702) 500-1064
             </a>
           </div>
         </div>

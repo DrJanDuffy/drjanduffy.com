@@ -41,10 +41,10 @@ export default function HomePage() {
             Your house didn't fail. Your agent did. Let's fix this in 30 days or less.
           </p>
           <a
-            href="tel:7022221964"
+            href="tel:7025001064"
             className="inline-block bg-primary text-primary-foreground px-12 py-6 rounded-lg font-bold text-2xl hover:bg-primary/90 transition-colors"
           >
-            CALL NOW: 702-222-1964
+            CALL NOW: (702) 500-1064
           </a>
         </div>
       </section>

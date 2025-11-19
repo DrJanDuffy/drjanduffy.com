@@ -114,6 +114,7 @@ export default function RootLayout({
             '@context': 'https://schema.org',
             '@type': 'RealEstateAgent',
             name: 'Dr. Janet Duffy',
+            telephone: '(702) 500-1064',
             specialty: 'Expired Listings',
             areaServed: {
               '@type': 'City',

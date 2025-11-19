@@ -24,7 +24,7 @@ export async function sendSMS(phone: string, message: string) {
 export async function sendInstantConfirmation(phone: string, name: string) {
   await sendSMS(
     phone,
-    `Hi ${name}! Report sent! Check your email. Questions? Call 702-222-1964`,
+    `Hi ${name}! Report sent! Check your email. Questions? Call (702) 500-1064`,
   )
 }
 
@@ -35,9 +35,9 @@ export async function sendFollowUpSMS(
   reason?: string,
 ) {
   const messages: Record<number, string> = {
-    2: `Hi ${name}, your listing failed because ${reason || 'of poor marketing'}. Let's fix it. 702-222-1964`,
-    5: `Open houses this weekend. Your house could be showing. Ready? 702-222-1964`,
-    10: `Spring buyers arriving in 37 days. Ready or waiting? 702-222-1964`,
+    2: `Hi ${name}, your listing failed because ${reason || 'of poor marketing'}. Let's fix it. (702) 500-1064`,
+    5: `Open houses this weekend. Your house could be showing. Ready? (702) 500-1064`,
+    10: `Spring buyers arriving in 37 days. Ready or waiting? (702) 500-1064`,
   }
 
   const message = messages[day]

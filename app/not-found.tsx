@@ -22,7 +22,7 @@ export default function NotFound() {
               <Link href="/">Go to Homepage</Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="text-lg px-8 py-6">
-              <a href="tel:7022221964">Call 702-222-1964</a>
+              <a href="tel:7025001064">Call (702) 500-1064</a>
             </Button>
           </div>
           <div className="mt-12 space-y-4">
