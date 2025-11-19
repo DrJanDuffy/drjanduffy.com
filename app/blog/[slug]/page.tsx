@@ -11,7 +11,7 @@ export async function generateStaticParams() {
   return []
 }
 
-export default function BlogPostPage({ params }: { params: { slug: string } }) {
+export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
   // This is a placeholder - actual blog posts will be created separately
   notFound()
 }
