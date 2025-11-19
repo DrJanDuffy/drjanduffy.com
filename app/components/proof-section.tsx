@@ -34,7 +34,7 @@ export default function ProofSection() {
 
               <div className="space-y-3 mb-4">
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Didn't Sell:</span>
+                  <span className="text-gray-600">did not Sell:</span>
                   <span className="font-bold text-red-600">
                     {story.daysExpired} days
                   </span>

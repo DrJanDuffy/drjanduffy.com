@@ -80,7 +80,7 @@ export default function FindNewAgentPage() {
                 <div className="bg-red-50 border-2 border-red-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4 text-red-800">No Showings or Feedback</h3>
                   <p className="text-lg text-gray-700 mb-4">
-                    Your home has been on the market for weeks with no showings. Or showings happen, but you never get feedback. Your agent doesn't know why. They don't care. This is a red flag. You need an agent who actively markets your home and follows up on every showing.
+                    Your home has been on the market for weeks with no showings. Or showings happen, but you never get feedback. Your agent does not know why. They do not care. This is a red flag. You need an agent who actively markets your home and follows up on every showing.
                   </p>
                   <p className="text-lg text-gray-700">
                     I have an aggressive follow-up system that ensures every showing is tracked, every buyer is contacted, and every opportunity is maximized. I follow up within 2 hours of every showing. I collect detailed feedback. I create urgency through buyer psychology tactics. This aggressive follow-up is what turns showings into offers.
@@ -93,7 +93,7 @@ export default function FindNewAgentPage() {
                     Your agent suggested price drop after price drop with no strategy. No market analysis. No buyer feedback. Just "lower the price." This is a red flag. You need an agent who uses data-driven pricing and market analysis.
                   </p>
                   <p className="text-lg text-gray-700">
-                    I use data-driven pricing and market analysis to price your home right from day one. I analyze comparable sales, market trends, buyer psychology, and competitive positioning. I don't guess. I analyze. I price strategically to attract qualified buyers while maximizing your sale price. The result? 98.7% of asking price average.
+                    I use data-driven pricing and market analysis to price your home right from day one. I analyze comparable sales, market trends, buyer psychology, and competitive positioning. I do not guess. I analyze. I price strategically to attract qualified buyers while maximizing your sale price. The result? 98.7% of asking price average.
                   </p>
                 </div>
 
@@ -137,7 +137,7 @@ export default function FindNewAgentPage() {
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Specific Marketing Strategy</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Ask about their marketing strategy. Generic answers like "I'll market it" aren't enough. You need specific details: professional photography, staging, social media, network activation, targeted ads. I use a 97-point marketing system with specific tactics for each step. This is what gets homes sold.
+                  Ask about their marketing strategy. Generic answers like "I'll market it" are not enough. You need specific details: professional photography, staging, social media, network activation, targeted ads. I use a 97-point marketing system with specific tactics for each step. This is what gets homes sold.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Regular Communication Commitment</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -149,7 +149,7 @@ export default function FindNewAgentPage() {
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Aggressive Pricing Strategy</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Ask about pricing strategy. Will they use data-driven analysis? Market trends? Buyer psychology? I use data-driven pricing and market analysis to price your home right from day one. I don't guess. I analyze. I price strategically to attract qualified buyers while maximizing your sale price.
+                  Ask about pricing strategy. Will they use data-driven analysis? Market trends? Buyer psychology? I use data-driven pricing and market analysis to price your home right from day one. I do not guess. I analyze. I price strategically to attract qualified buyers while maximizing your sale price.
                 </p>
               </div>
             </div>
@@ -181,9 +181,9 @@ export default function FindNewAgentPage() {
                 </div>
 
                 <div className="bg-white border-2 border-gray-200 rounded-lg p-8 mb-6">
-                  <h3 className="text-2xl font-black mb-4">3. What happens if my home doesn't sell?</h3>
+                  <h3 className="text-2xl font-black mb-4">3. What happens if my home does not sell?</h3>
                   <p className="text-lg text-gray-700">
-                    Accountability matters. I have a proven system that works. But if your home doesn't sell, we analyze what went wrong and adjust the strategy. I don't disappear. I don't make excuses. I deliver results or we figure out why.
+                    Accountability matters. I have a proven system that works. But if your home does not sell, we analyze what went wrong and adjust the strategy. I do not disappear. I do not make excuses. I deliver results or we figure out why.
                   </p>
                 </div>
 

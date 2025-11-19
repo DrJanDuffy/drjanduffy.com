@@ -54,7 +54,7 @@ export default function TestimonialsPage() {
             </p>
             <div className="max-w-4xl mx-auto mb-12 prose prose-lg">
               <p className="text-lg text-gray-700 mb-6">
-                These aren't generic testimonials from happy clients. These are real reviews from frustrated sellers whose homes fail to selld, who fired their previous agents, and who hired me to fix the mess. Every single one of these testimonials comes from an HOME THAT DIDN\'T SELL that I sold after other agents failed.
+                These are not generic testimonials from happy clients. These are real reviews from frustrated sellers whose homes fail to selld, who fired their previous agents, and who hired me to fix the mess. Every single one of these testimonials comes from an HOME THAT DIDN\'T SELL that I sold after other agents failed.
               </p>
               <p className="text-lg text-gray-700 mb-6">
                 The common thread in every testimonial? Previous agent failed. home didn\'t sell. Seller frustrated. Then they called me. I reset the listing, implemented my 97-point marketing system, and sold it. Fast. At top dollar. With zero excuses. The testimonials below tell the story better than I ever could.
@@ -65,7 +65,7 @@ export default function TestimonialsPage() {
               </p>
               <h3 className="text-2xl font-bold mb-3">The Real Story</h3>
               <p className="text-lg text-gray-700">
-                These testimonials aren't just about results. They're about the experience. They're about working with an agent who actually answers the phone, who provides weekly updates, who invests in professional marketing, and who gets results. They're about the difference between an agent who fails and an agent who delivers.
+                These testimonials are not just about results. They're about the experience. They're about working with an agent who actually answers the phone, who provides weekly updates, who invests in professional marketing, and who gets results. They're about the difference between an agent who fails and an agent who delivers.
               </p>
             </div>
             <div className="max-w-6xl mx-auto">
@@ -130,7 +130,7 @@ export default function TestimonialsPage() {
                 <div className="bg-gray-100 p-8 rounded-lg mb-8">
                   <h3 className="text-2xl font-black mb-4">The Common Themes</h3>
                   <p className="text-lg text-gray-700 mb-4">
-                    Every testimonial shares common themes: Previous agent didn\'t answer the phone. Previous agent didn't provide updates. Previous agent DIDN\'T invest in marketing. Previous agent got them expired. Then they called me. I answered the phone. I provided weekly updates. I invested $5,000+ in marketing. I sold their home. Fast. At top dollar.
+                    Every testimonial shares common themes: Previous agent didn\'t answer the phone. Previous agent did not provide updates. Previous agent DIDN\'T invest in marketing. Previous agent got them expired. Then they called me. I answered the phone. I provided weekly updates. I invested $5,000+ in marketing. I sold their home. Fast. At top dollar.
                   </p>
                   <h3 className="text-2xl font-black mb-4 mt-6">The Results</h3>
                   <p className="text-lg text-gray-700 mb-4">
@@ -138,7 +138,7 @@ export default function TestimonialsPage() {
                   </p>
                   <h3 className="text-2xl font-black mb-4 mt-6">Your Testimonial Could Be Next</h3>
                   <p className="text-lg text-gray-700">
-                    Your HOME THAT DIDN'T SELL could be the next success story. The same system that generated these 47 testimonials can generate yours. The same marketing, the same follow-up, the same proven results. The only question is: are you ready to work with an agent who actually delivers results?
+                    Your HOME THAT did not SELL could be the next success story. The same system that generated these 47 testimonials can generate yours. The same marketing, the same follow-up, the same proven results. The only question is: are you ready to work with an agent who actually delivers results?
                   </p>
                 </div>
               </div>

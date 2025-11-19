@@ -71,7 +71,7 @@ export default function ProcessPage() {
                 </p>
                 <h2 className="text-3xl font-black mb-4 mt-8">Why a Process Matters</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  Most agents don't have a process. They wing it. They post to MLS and hope. They hold one open house and pray. They wait for offers and accept whatever comes. That's not how you sell homes. That's how you get expired.
+                  Most agents do not have a process. They wing it. They post to MLS and hope. They hold one open house and pray. They wait for offers and accept whatever comes. That's not how you sell homes. That's how you get expired.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">The Dr. Jan Process</h3>
                 <p className="text-lg text-gray-700">
@@ -197,10 +197,10 @@ export default function ProcessPage() {
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Step 4: Active Negotiation (Week 2-3)</h3>
                     <p className="text-lg text-gray-700 mb-4">
-                      Week 2-3 is when offers come in and negotiations begin. This is where most agents fail. They accept lowball offers or let negotiations drag on. I use aggressive follow-up, buyer psychology tactics, and strategic counter-offers to get you top dollar. I don't wait for offers. I create them.
+                      Week 2-3 is when offers come in and negotiations begin. This is where most agents fail. They accept lowball offers or let negotiations drag on. I use aggressive follow-up, buyer psychology tactics, and strategic counter-offers to get you top dollar. I do not wait for offers. I create them.
                     </p>
                     <p className="text-lg text-gray-700 mb-4">
-                      Active negotiation is where I maximize your sale price. Your previous agent probably accepted the first offer or let negotiations drag on. I use aggressive follow-up to create urgency. Buyer psychology tactics to create competition. Strategic counter-offers to maximize price. Inspection negotiation to protect your interests. Appraisal protection to ensure sale price. I don't accept lowball offers. I negotiate them up. I don't let deals fall apart. I manage every detail. This aggressive negotiation is how I get 98.7% of asking price average, not 92% or 95%.
+                      Active negotiation is where I maximize your sale price. Your previous agent probably accepted the first offer or let negotiations drag on. I use aggressive follow-up to create urgency. Buyer psychology tactics to create competition. Strategic counter-offers to maximize price. Inspection negotiation to protect your interests. Appraisal protection to ensure sale price. I do not accept lowball offers. I negotiate them up. I do not let deals fall apart. I manage every detail. This aggressive negotiation is how I get 98.7% of asking price average, not 92% or 95%.
                     </p>
                     <h4 className="text-xl font-bold mb-2">What You Get</h4>
                     <ul className="space-y-2 text-gray-700">
@@ -217,10 +217,10 @@ export default function ProcessPage() {
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Step 5: Closing & Escrow (Week 3-4)</h3>
                     <p className="text-lg text-gray-700 mb-4">
-                      Week 3-4 is closing. Escrow management, timeline enforcement, problem resolution, final walkthrough coordination. This is where deals fall apart with other agents. I don't let that happen. I manage every detail, enforce every timeline, resolve every problem. SOLD - Proven results.
+                      Week 3-4 is closing. Escrow management, timeline enforcement, problem resolution, final walkthrough coordination. This is where deals fall apart with other agents. I do not let that happen. I manage every detail, enforce every timeline, resolve every problem. SOLD - Proven results.
                     </p>
                     <p className="text-lg text-gray-700 mb-4">
-                      Closing and escrow is where deals fall apart with other agents. They disappear after getting an offer. They don't manage timelines. They don't resolve problems. They let deals fall apart. I don't let that happen. I manage every detail through closing. Escrow management ensures timelines are met. Problem resolution handles issues as they arise. Final walkthrough coordination ensures smooth closing. Closing management ensures all documents are signed. Post-closing support ensures you're satisfied. This complete management ensures your sale closes smoothly and on time. This is where I prove my value. This is where you get SOLD.
+                      Closing and escrow is where deals fall apart with other agents. They disappear after getting an offer. They do not manage timelines. They do not resolve problems. They let deals fall apart. I do not let that happen. I manage every detail through closing. Escrow management ensures timelines are met. Problem resolution handles issues as they arise. Final walkthrough coordination ensures smooth closing. Closing management ensures all documents are signed. Post-closing support ensures you're satisfied. This complete management ensures your sale closes smoothly and on time. This is where I prove my value. This is where you get SOLD.
                     </p>
                     <h4 className="text-xl font-bold mb-2">What You Get</h4>
                     <ul className="space-y-2 text-gray-700">
@@ -246,7 +246,7 @@ export default function ProcessPage() {
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Complete Reset Eliminates Stigma</h3>
                     <p className="text-lg text-gray-700 mb-4">
-                      The strategic reset eliminates stigma of unsold homes. Professional photography, staging, and fresh MLS listing make your home look brand new. Buyers don't see "expired." They see "opportunity." This reset is what transforms HOMES THAT DIDN'T SELL into attractive opportunities.
+                      The strategic reset eliminates stigma of unsold homes. Professional photography, staging, and fresh MLS listing make your home look brand new. Buyers do not see "expired." They see "opportunity." This reset is what transforms HOMES THAT did not SELL into attractive opportunities.
                     </p>
                   </div>
                   <div>

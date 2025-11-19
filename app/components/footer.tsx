@@ -216,7 +216,7 @@ export default function Footer() {
             </div>
             <div className="text-sm text-gray-500 text-center md:text-right">
               <p>
-                <strong className="text-white">Results:</strong> 500+ families served | $127M+ in sales | 47 homes that didn't sell - now sold | 19 day average | 98.7% of asking price
+                <strong className="text-white">Results:</strong> 500+ families served | $127M+ in sales | 47 homes that did not sell - now sold | 19 day average | 98.7% of asking price
               </p>
             </div>
           </div>

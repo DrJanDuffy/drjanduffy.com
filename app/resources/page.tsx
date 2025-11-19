@@ -119,7 +119,7 @@ export default function ResourcesPage() {
                   GET YOUR FREE REPORT
                 </h2>
                 <p className="text-center text-gray-600 mb-6">
-                  "7 Reasons your home didn't sell (And How to Fix Them in 30 Days)"
+                  "7 Reasons your home did not sell (And How to Fix Them in 30 Days)"
                 </p>
                 <LeadForm source="resources_page" buttonText="GET FREE REPORT" />
               </div>

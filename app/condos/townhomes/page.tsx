@@ -21,31 +21,31 @@ export default function TownhomesPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Las Vegas townhomes offer space, value, and community living in a single-family home alternative. If your townhome home DIDN\'T sell, you're not alone. Townhomes face unique challenges - from competition with single-family homes to HOA restrictions to buyers who value space and affordability. Most agents don't understand townhomes. They use generic strategies, and townhomes expire.
+                  Las Vegas townhomes offer space, value, and community living in a single-family home alternative. If your townhome home DIDN\'T sell, you're not alone. Townhomes face unique challenges - from competition with single-family homes to HOA restrictions to buyers who value space and affordability. Most agents do not understand townhomes. They use generic strategies, and townhomes expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired townhomes. I understand the townhome market. I know how to market space and value. I know how to attract buyers seeking single-family home alternatives. I've sold expired townhomes throughout Las Vegas. Fast. At top dollar. With zero excuses.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Townhomes require space-focused marketing. Professional photography highlighting square footage and layout. Strategic positioning emphasizing value compared to single-family homes. Emphasis on community living and low maintenance. Most agents don't understand this. They use generic strategies, and townhomes expire. I use space-focused marketing, highlight value, and attract buyers seeking space and affordability. Townhomes sell. Fast. At top dollar.
+                  Townhomes require space-focused marketing. Professional photography highlighting square footage and layout. Strategic positioning emphasizing value compared to single-family homes. Emphasis on community living and low maintenance. Most agents do not understand this. They use generic strategies, and townhomes expire. I use space-focused marketing, highlight value, and attract buyers seeking space and affordability. Townhomes sell. Fast. At top dollar.
                 </p>
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Townhomes Expire</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  Townhomes expire for the same reasons other properties expire - poor marketing, minimal investment, and zero follow-up. But townhomes face additional challenges that most agents don't understand or address.
+                  Townhomes expire for the same reasons other properties expire - poor marketing, minimal investment, and zero follow-up. But townhomes face additional challenges that most agents do not understand or address.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Space Marketing Challenges</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Townhomes offer space. Multiple levels. Square footage. Layout flexibility. Most agents don't market space effectively. They don't highlight multiple levels. They don't showcase square footage. They don't emphasize layout flexibility. I market space effectively. I highlight multiple levels, showcase square footage, and emphasize layout flexibility that attracts space-conscious buyers.
+                  Townhomes offer space. Multiple levels. Square footage. Layout flexibility. Most agents do not market space effectively. They do not highlight multiple levels. They do not showcase square footage. They do not emphasize layout flexibility. I market space effectively. I highlight multiple levels, showcase square footage, and emphasize layout flexibility that attracts space-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Value Positioning</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Townhomes offer value compared to single-family homes. Lower prices. Lower maintenance. Community amenities. Most agents don't position value effectively. They don't highlight lower prices. They don't showcase lower maintenance. They don't emphasize community amenities. I position value effectively. I highlight lower prices, showcase lower maintenance, and emphasize community amenities that attract value-conscious buyers.
+                  Townhomes offer value compared to single-family homes. Lower prices. Lower maintenance. Community amenities. Most agents do not position value effectively. They do not highlight lower prices. They do not showcase lower maintenance. They do not emphasize community amenities. I position value effectively. I highlight lower prices, showcase lower maintenance, and emphasize community amenities that attract value-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Single-Family Home Competition</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Townhomes compete with single-family homes. Buyers compare space, value, and features. Most agents don't know how to position townhomes against single-family homes. They don't highlight advantages. They don't showcase benefits. They don't emphasize value. I know how to position townhomes competitively. I highlight advantages, showcase benefits, and emphasize value that attracts buyers seeking single-family home alternatives.
+                  Townhomes compete with single-family homes. Buyers compare space, value, and features. Most agents do not know how to position townhomes against single-family homes. They do not highlight advantages. They do not showcase benefits. They do not emphasize value. I know how to position townhomes competitively. I highlight advantages, showcase benefits, and emphasize value that attracts buyers seeking single-family home alternatives.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
@@ -55,15 +55,15 @@ export default function TownhomesPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Space-Focused Marketing</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Townhomes offer space. I market this space effectively. I highlight multiple levels, showcase square footage, and emphasize layout flexibility that attracts space-conscious buyers. Most agents don't do this. They use generic marketing, and townhomes expire.
+                  Townhomes offer space. I market this space effectively. I highlight multiple levels, showcase square footage, and emphasize layout flexibility that attracts space-conscious buyers. Most agents do not do this. They use generic marketing, and townhomes expire.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Value Positioning</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Townhomes offer value. I position this value effectively. I highlight lower prices, showcase lower maintenance, and emphasize community amenities that attract value-conscious buyers. Most agents don't do this. They use generic positioning, and townhomes expire.
+                  Townhomes offer value. I position this value effectively. I highlight lower prices, showcase lower maintenance, and emphasize community amenities that attract value-conscious buyers. Most agents do not do this. They use generic positioning, and townhomes expire.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Single-Family Home Alternative Positioning</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Townhomes offer single-family home alternatives. I position townhomes by highlighting advantages, showcasing benefits, and emphasizing value compared to single-family homes. Most agents don't do this. They use generic positioning, and townhomes expire.
+                  Townhomes offer single-family home alternatives. I position townhomes by highlighting advantages, showcasing benefits, and emphasizing value compared to single-family homes. Most agents do not do this. They use generic positioning, and townhomes expire.
                 </p>
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
@@ -86,7 +86,7 @@ export default function TownhomesPage() {
                   READY TO SELL YOUR TOWNHOME?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Las Vegas townhome home DIDN\'T sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Las Vegas townhome home DIDN\'T sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="townhomes" buttonText="GET MY TOWNHOME SOLD" />
               </div>

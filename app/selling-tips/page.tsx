@@ -87,7 +87,7 @@ export default function SellingTipsPage() {
                   THE #1 TIP
                 </h2>
                 <p className="text-2xl font-bold text-center mb-4">
-                  Don't hire the same type of agent who failed you.
+                  do not hire the same type of agent who failed you.
                 </p>
                 <p className="text-lg text-center opacity-90">
                   If your previous agent was a generalist, hire a specialist. If they were part-time, hire full-time. If they invested $37, hire someone who invests $3,700.

@@ -66,13 +66,13 @@ export default function ThirtyDayPlanPage() {
             </p>
             <div className="max-w-4xl mx-auto mb-12 prose prose-lg">
               <p className="text-lg text-gray-700 mb-6">
-                your home didn\'t sell because your previous agent didn't have a plan. They posted to MLS, held maybe one open house, and hoped for the best. That's not a strategy. That's incompetence. I have a proven 30-day plan that sells homes that DIDN\'T sell. Fast. At top dollar. With zero excuses.
+                your home didn\'t sell because your previous agent did not have a plan. They posted to MLS, held maybe one open house, and hoped for the best. That's not a strategy. That's incompetence. I have a proven 30-day plan that sells homes that DIDN\'T sell. Fast. At top dollar. With zero excuses.
               </p>
               <p className="text-lg text-gray-700 mb-6">
                 The 30-day plan is broken down into four weeks, each with specific goals and deliverables. Week 1 is aggressive reset. Week 2 is maximum exposure. Week 3 is negotiation warfare. Week 4 is closing. Every week has measurable outcomes. Every week moves you closer to SOLD.
               </p>
               <p className="text-lg text-gray-700">
-                This isn't a theoretical plan. This is the exact system I've used to sell 47 Summerlin sellers who couldn\'t sell with an average of 19 days to contract and 98.7% of asking price. The same system can sell yours. The only question is: are you ready to work with an agent who actually has a plan?
+                This is not a theoretical plan. This is the exact system I've used to sell 47 Summerlin sellers who couldn\'t sell with an average of 19 days to contract and 98.7% of asking price. The same system can sell yours. The only question is: are you ready to work with an agent who actually has a plan?
               </p>
             </div>
             <div className="max-w-5xl mx-auto space-y-8">
@@ -133,7 +133,7 @@ export default function ThirtyDayPlanPage() {
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Week 3: Negotiation Warfare</h3>
                     <p className="text-lg text-gray-700 mb-4">
-                      Week 3 is when offers come in and negotiations begin. This is where most agents fail. They accept lowball offers or let negotiations drag on. I use aggressive follow-up, buyer psychology tactics, and strategic counter-offers to get you top dollar. I don't wait for offers. I create them. I don't accept lowball offers. I negotiate them up.
+                      Week 3 is when offers come in and negotiations begin. This is where most agents fail. They accept lowball offers or let negotiations drag on. I use aggressive follow-up, buyer psychology tactics, and strategic counter-offers to get you top dollar. I do not wait for offers. I create them. I do not accept lowball offers. I negotiate them up.
                     </p>
                     <h4 className="text-xl font-bold mb-2">Key Deliverables</h4>
                     <ul className="space-y-2 text-gray-700">
@@ -147,7 +147,7 @@ export default function ThirtyDayPlanPage() {
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Week 4: Closing & Escrow</h3>
                     <p className="text-lg text-gray-700 mb-4">
-                      Week 4 is closing. Escrow management, timeline enforcement, problem resolution, final walkthrough coordination. This is where deals fall apart with other agents. I don't let that happen. I manage every detail, enforce every timeline, resolve every problem. SOLD - Proven results.
+                      Week 4 is closing. Escrow management, timeline enforcement, problem resolution, final walkthrough coordination. This is where deals fall apart with other agents. I do not let that happen. I manage every detail, enforce every timeline, resolve every problem. SOLD - Proven results.
                     </p>
                     <h4 className="text-xl font-bold mb-2">Key Deliverables</h4>
                     <ul className="space-y-2 text-gray-700">

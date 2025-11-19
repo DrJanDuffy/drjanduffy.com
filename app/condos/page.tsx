@@ -31,31 +31,31 @@ export default function LasVegasCondosPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  If your Las Vegas condo home DIDN\'T sell, you're not alone. Condos face unique challenges in the Las Vegas market - from HOA restrictions to seasonal demand fluctuations to competition from new construction. Many agents don't understand the condo market. They use the same strategies for condos as they do for single-family homes, and the results are predictable: HOMES THAT DIDN\'T SELL, frustrated sellers, and lost money. <a href="/why-expire" className="text-primary font-semibold hover:underline">Learn why homes fail to sell</a> and what your previous agent did wrong.
+                  If your Las Vegas condo home DIDN\'T sell, you're not alone. Condos face unique challenges in the Las Vegas market - from HOA restrictions to seasonal demand fluctuations to competition from new construction. Many agents do not understand the condo market. They use the same strategies for condos as they do for single-family homes, and the results are predictable: HOMES THAT DIDN\'T SELL, frustrated sellers, and lost money. <a href="/why-expire" className="text-primary font-semibold hover:underline">Learn why homes fail to sell</a> and what your previous agent did wrong.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired condos in Las Vegas. I understand the unique challenges condos face. I know how to market them effectively. I know how to overcome HOA restrictions, seasonal demand issues, and competition from new construction. I've sold expired condos in The Strip, Summerlin, Henderson, and throughout Las Vegas. Fast. At top dollar. With zero excuses. See <a href="/services" className="text-primary font-semibold hover:underline">my complete services</a> and learn about <a href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process</a>.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  The Las Vegas condo market is complex. High-rise condos on The Strip compete with luxury resorts. Mid-rise condos in Summerlin compete with new construction. Condo hotels compete with traditional hotels. Each requires a different strategy. Most agents don't understand this. They use a one-size-fits-all approach, and condos expire. I use targeted strategies for each condo type, and condos sell. Fast. At top dollar.
+                  The Las Vegas condo market is complex. High-rise condos on The Strip compete with luxury resorts. Mid-rise condos in Summerlin compete with new construction. Condo hotels compete with traditional hotels. Each requires a different strategy. Most agents do not understand this. They use a one-size-fits-all approach, and condos expire. I use targeted strategies for each condo type, and condos sell. Fast. At top dollar.
                 </p>
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Las Vegas Condos Expire</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  Las Vegas condos expire for the same reasons single-family homes expire - poor marketing, minimal investment, and zero follow-up. But condos face additional challenges that most agents don't understand or address.
+                  Las Vegas condos expire for the same reasons single-family homes expire - poor marketing, minimal investment, and zero follow-up. But condos face additional challenges that most agents do not understand or address.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">HOA Restrictions</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Many Las Vegas condos have strict HOA restrictions that limit marketing options. No signs. Limited open houses. Restricted photography. Most agents don't know how to work within these restrictions. They try to market condos like single-family homes, hit restrictions, and give up. I know how to market condos effectively within HOA restrictions. I use digital marketing, network activation, and targeted advertising that doesn't violate HOA rules.
+                  Many Las Vegas condos have strict HOA restrictions that limit marketing options. No signs. Limited open houses. Restricted photography. Most agents do not know how to work within these restrictions. They try to market condos like single-family homes, hit restrictions, and give up. I know how to market condos effectively within HOA restrictions. I use digital marketing, network activation, and targeted advertising that does not violate HOA rules.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Seasonal Demand Fluctuations</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Las Vegas condos face seasonal demand fluctuations. Summer is slow. Winter is busy. Holiday seasons are unpredictable. Most agents don't adjust their strategies for seasonal demand. They market the same way year-round, and condos expire during slow seasons. I adjust my marketing strategies based on seasonal demand. I know when to push, when to pull back, and when to pivot.
+                  Las Vegas condos face seasonal demand fluctuations. Summer is slow. Winter is busy. Holiday seasons are unpredictable. Most agents do not adjust their strategies for seasonal demand. They market the same way year-round, and condos expire during slow seasons. I adjust my marketing strategies based on seasonal demand. I know when to push, when to pull back, and when to pivot.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Competition from New Construction</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Las Vegas has constant new construction. New condos compete with existing condos. New amenities compete with older amenities. New pricing competes with older pricing. Most agents don't know how to position existing condos against new construction. I know how to highlight unique features, emphasize established communities, and position existing condos competitively against new construction.
+                  Las Vegas has constant new construction. New condos compete with existing condos. New amenities compete with older amenities. New pricing competes with older pricing. Most agents do not know how to position existing condos against new construction. I know how to highlight unique features, emphasize established communities, and position existing condos competitively against new construction.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
@@ -65,29 +65,29 @@ export default function LasVegasCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">High-Rise Condos</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  High-rise condos on The Strip and in luxury areas require sophisticated marketing. Buyers expect luxury amenities, professional photography, and exclusive access. Most agents don't invest in the marketing high-rise condos require. I invest $5,000+ in professional media, luxury staging, and exclusive marketing that attracts high-end buyers.
+                  High-rise condos on The Strip and in luxury areas require sophisticated marketing. Buyers expect luxury amenities, professional photography, and exclusive access. Most agents do not invest in the marketing high-rise condos require. I invest $5,000+ in professional media, luxury staging, and exclusive marketing that attracts high-end buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Mid-Rise Condos & Lofts</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Mid-rise condos and lofts in Summerlin, Henderson, and other areas require different strategies. Buyers value community, amenities, and value. Most agents don't know how to market these effectively. I use community-focused marketing, amenity highlights, and value positioning that attracts the right buyers.
+                  Mid-rise condos and lofts in Summerlin, Henderson, and other areas require different strategies. Buyers value community, amenities, and value. Most agents do not know how to market these effectively. I use community-focused marketing, amenity highlights, and value positioning that attracts the right buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Condo Hotels</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Condo hotels require unique strategies. Buyers need to understand rental programs, hotel management, and investment potential. Most agents don't understand condo hotels. I specialize in marketing condo hotels to investors and second-home buyers who understand the unique value proposition.
+                  Condo hotels require unique strategies. Buyers need to understand rental programs, hotel management, and investment potential. Most agents do not understand condo hotels. I specialize in marketing condo hotels to investors and second-home buyers who understand the unique value proposition.
                 </p>
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">The Las Vegas Condo Market Reality</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  The Las Vegas condo market is competitive. New construction constantly enters the market. Existing condos compete for buyers. HOA restrictions limit marketing options. Seasonal demand fluctuates. Most agents don't understand these dynamics. They use generic strategies, and condos expire.
+                  The Las Vegas condo market is competitive. New construction constantly enters the market. Existing condos compete for buyers. HOA restrictions limit marketing options. Seasonal demand fluctuates. Most agents do not understand these dynamics. They use generic strategies, and condos expire.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Market Statistics</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Las Vegas has thousands of condos on the market at any given time. The Strip alone has hundreds of high-rise condos. Summerlin has hundreds of mid-rise condos. Henderson has hundreds of townhomes and condos. Competition is fierce. Most agents don't know how to compete effectively. I do.
+                  Las Vegas has thousands of condos on the market at any given time. The Strip alone has hundreds of high-rise condos. Summerlin has hundreds of mid-rise condos. Henderson has hundreds of townhomes and condos. Competition is fierce. Most agents do not know how to compete effectively. I do.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Expired Condo Statistics</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Condos expire at similar rates to single-family homes - 20-30% of homes fail to sell. But condos face additional challenges that make them harder to sell. HOA restrictions. Seasonal demand. Competition from new construction. Most agents don't address these challenges. I do.
+                  Condos expire at similar rates to single-family homes - 20-30% of homes fail to sell. But condos face additional challenges that make them harder to sell. HOA restrictions. Seasonal demand. Competition from new construction. Most agents do not address these challenges. I do.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">The Opportunity</h3>
                 <p className="text-lg text-gray-700">
@@ -145,7 +145,7 @@ export default function LasVegasCondosPage() {
                   READY TO SELL YOUR LAS VEGAS CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Las Vegas condo home DIDN\'T sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Las Vegas condo home DIDN\'T sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="las_vegas_condos" buttonText="GET MY CONDO SOLD" />
               </div>

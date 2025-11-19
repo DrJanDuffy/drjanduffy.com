@@ -29,7 +29,7 @@ export default function ContactPage() {
                 <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-primary shadow-lg">
                   <Image
                     src="/images/team/las-vegas-real-estate-agent-dr-janet-duffy-headshot.jpg"
-                    alt="Dr. Janet Duffy, Las Vegas real estate agent specializing in homes that didn't sell in Summerlin, The Ridges, and Henderson"
+                    alt="Dr. Janet Duffy, Las Vegas real estate agent specializing in homes that did not sell in Summerlin, The Ridges, and Henderson"
                     fill
                     className="object-cover"
                     priority
@@ -41,10 +41,10 @@ export default function ContactPage() {
                   If your home didn\'t sell, you need to act fast. Every day your house sits unsold is costing you money - mortgage payments, HOA fees, insurance, utilities, property taxes. The average costs when your home won\'t sell sellers $4,964 per month in holding costs. That's $116 per day. The longer you wait, the more you lose.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  But here's the good news: HOMES THAT DIDN\'T SELL can be fixed. I've sold 47 Summerlin sellers who couldn\'t sell with an average of 19 days to contract and 98.7% of asking price. The key is getting started immediately with the right agent, the right strategy, and the right marketing. Don't let another day pass. Contact me now and let's get your HOME THAT DIDN\'T SELL sold.
+                  But here's the good news: HOMES THAT DIDN\'T SELL can be fixed. I've sold 47 Summerlin sellers who couldn\'t sell with an average of 19 days to contract and 98.7% of asking price. The key is getting started immediately with the right agent, the right strategy, and the right marketing. do not let another day pass. Contact me now and let's get your HOME THAT DIDN\'T SELL sold.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  I understand how frustrating it is when your home doesn't sell. You trusted your previous agent, they promised results, and they failed. You're angry, frustrated, and ready to work with someone who actually knows what they're doing. That's where I come in. I specialize in HOMES THAT DIDN\'T SELL. This is all I do. I know how to reset them, market them, and sell them. Fast. At top dollar. With zero excuses.
+                  I understand how frustrating it is when your home does not sell. You trusted your previous agent, they promised results, and they failed. You're angry, frustrated, and ready to work with someone who actually knows what they're doing. That's where I come in. I specialize in HOMES THAT DIDN\'T SELL. This is all I do. I know how to reset them, market them, and sell them. Fast. At top dollar. With zero excuses.
                 </p>
               </div>
               <div className="grid md:grid-cols-2 gap-8 mb-12">
@@ -125,7 +125,7 @@ export default function ContactPage() {
                   </div>
                 </div>
                   <p className="text-lg text-gray-700">
-                    I specialize in HOMES THAT DIDN\'T SELL throughout Las Vegas, with particular expertise in Summerlin West, The Ridges, Red Rock Country Club, and other luxury communities. If your home didn\'t sell anywhere in the Las Vegas area, I can help. Distance doesn't matter - results do.
+                    I specialize in HOMES THAT DIDN\'T SELL throughout Las Vegas, with particular expertise in Summerlin West, The Ridges, Red Rock Country Club, and other luxury communities. If your home didn\'t sell anywhere in the Las Vegas area, I can help. Distance does not matter - results do.
                   </p>
                 </div>
               </div>
@@ -135,7 +135,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Time Is Money</h3>
                     <p className="text-lg text-gray-700 mb-4">
-                      Every day your listing sits expired is costing you money. The average costs when your home won\'t sell sellers $4,964 per month in holding costs. That's $116 per day. Every week is another $812. Every month is another $4,964. The longer you wait, the more you lose. Don't let another day pass. Contact me now and let's stop the bleeding.
+                      Every day your listing sits expired is costing you money. The average costs when your home won\'t sell sellers $4,964 per month in holding costs. That's $116 per day. Every week is another $812. Every month is another $4,964. The longer you wait, the more you lose. do not let another day pass. Contact me now and let's stop the bleeding.
                     </p>
                   </div>
                   <div>
@@ -147,7 +147,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Market Timing</h3>
                     <p className="text-lg text-gray-700 mb-4">
-                      January 2026 is the perfect time to reset your HOME THAT DIDN\'T SELL. Spring buyers are already starting to look. They're serious, pre-qualified, and ready to move. Tax refunds are coming, giving buyers more purchasing power. Interest rates are stabilizing, making buyers more confident. And most importantly, there's less competition - while other agents are chasing new listings, I'm focused on fixing expired ones. Don't miss this window.
+                      January 2026 is the perfect time to reset your HOME THAT DIDN\'T SELL. Spring buyers are already starting to look. They're serious, pre-qualified, and ready to move. Tax refunds are coming, giving buyers more purchasing power. Interest rates are stabilizing, making buyers more confident. And most importantly, there's less competition - while other agents are chasing new listings, I'm focused on fixing expired ones. do not miss this window.
                     </p>
                   </div>
                   <div>

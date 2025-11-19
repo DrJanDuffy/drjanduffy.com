@@ -63,7 +63,7 @@ export default function ComparisonPage() {
             </p>
             <div className="max-w-4xl mx-auto mb-12 prose prose-lg">
               <p className="text-lg text-gray-700 mb-6">
-                your home didn\'t sell for a reason. Your previous agent made mistakes. They used minimal marketing, didn't invest in professional photography, held maybe one open house, and disappeared. Then your home DIDN\'T sell, and they made 't invest in professional photography, held maybe one open house, and disappeared. Then your home didn\'t sell, and they made 't invest in professional photography, held maybe one open house, and disappeared. Then your home didn't sell, and they made $0 while you lost $4,964 per month in holding costs. <a href="/why-expire" className="text-primary font-semibold hover:underline">Learn why homes fail to sell</a> and what went wrong.
+                your home didn\'t sell for a reason. Your previous agent made mistakes. They used minimal marketing, did not invest in professional photography, held maybe one open house, and disappeared. Then your home DIDN\'T sell, and they made 't invest in professional photography, held maybe one open house, and disappeared. Then your home didn\'t sell, and they made 't invest in professional photography, held maybe one open house, and disappeared. Then your home did not sell, and they made $0 while you lost $4,964 per month in holding costs. <a href="/why-expire" className="text-primary font-semibold hover:underline">Learn why homes fail to sell</a> and what went wrong.
               </p>
               <p className="text-lg text-gray-700 mb-6">
                 I do things differently. I invest $5,000+ in marketing per listing. I take maximum 6 listings at a time so you get 100% focus. I use a <a href="/marketing-strategy" className="text-primary font-semibold hover:underline">97-point marketing system</a> that leaves nothing to chance. And I deliver proven results - 47 homes that didn' while you lost $4,964 per month in holding costs. <a href="/why-expire" className="text-primary font-semibold hover:underline">Learn why homes fail to sell</a> and what went wrong.
@@ -75,7 +75,7 @@ export default function ComparisonPage() {
                 I do things differently. I invest $5,000+ in marketing per listing. I take maximum 6 listings at a time so you get 100% focus. I use a <a href="/marketing-strategy" className="text-primary font-semibold hover:underline">97-point marketing system</a> that leaves nothing to chance. And I deliver proven results - 47 homes That Didn\'t sell - now sold with 19 day average and 98.7% of asking price. See <a href="/services" className="text-primary font-semibold hover:underline">my complete services</a> and <a href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process</a>.
               </p>
               <p className="text-lg text-gray-700">
-                The comparison below shows exactly what your previous agent did vs. what I do. The difference isn't subtle. It's dramatic. And it's why I sell homes that DIDN\'T sell in 19 days average while they got you expired. See <a href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</a> from homes I've sold.
+                The comparison below shows exactly what your previous agent did vs. what I do. The difference is not subtle. It's dramatic. And it's why I sell homes that DIDN\'T sell in 19 days average while they got you expired. See <a href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</a> from homes I've sold.
               </p>
             </div>
             <div className="max-w-5xl mx-auto">
@@ -175,14 +175,14 @@ export default function ComparisonPage() {
                   I invest more because I know it works. Professional photography increases showing requests by 300% and sale price by 5-10%. Strategic marketing brings qualified buyers. Aggressive follow-up creates urgency. The $5,000+ investment pays for itself through faster sales and higher prices.
                 </p>
                 <p className="text-lg text-gray-700 mb-4">
-                  The $5,000+ investment isn't a cost - it's an investment in your success. Professional photography showcases your home at its best, attracting more buyers and commanding higher prices. Strategic marketing reaches qualified buyers who are ready to purchase. Aggressive follow-up ensures every showing leads to an offer. The investment pays for itself through faster sales and higher prices. Your previous agent saw it as a cost and minimized it. I see it as an investment and maximize it.
+                  The $5,000+ investment is not a cost - it's an investment in your success. Professional photography showcases your home at its best, attracting more buyers and commanding higher prices. Strategic marketing reaches qualified buyers who are ready to purchase. Aggressive follow-up ensures every showing leads to an offer. The investment pays for itself through faster sales and higher prices. Your previous agent saw it as a cost and minimized it. I see it as an investment and maximize it.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Why Your Agent Invested Less</h3>
                 <p className="text-lg text-gray-700 mb-4">
                   Your previous agent invested less because they were juggling 47 other listings. They couldn\'t afford to invest $5,000+ in every listing. So they invested $100, hoped for the best, and got you expired. That's not how you sell homes. That's how you fail.
                 </p>
                 <p className="text-lg text-gray-700">
-                  Your previous agent's business model was volume-based. They took as many listings as possible, invested minimal marketing in each, and hoped something would stick. This model works for them - they collect commissions on the few that sell. But it doesn't work for you. You got minimal marketing, minimal attention, and an HOME THAT DIDN\'T SELL. That's the cost of working with a volume-based agent. That's why your home DIDN\'T sell.
+                  Your previous agent's business model was volume-based. They took as many listings as possible, invested minimal marketing in each, and hoped something would stick. This model works for them - they collect commissions on the few that sell. But it does not work for you. You got minimal marketing, minimal attention, and an HOME THAT DIDN\'T SELL. That's the cost of working with a volume-based agent. That's why your home DIDN\'T sell.
                 </p>
               </div>
 
@@ -213,16 +213,16 @@ export default function ComparisonPage() {
                   <div>
                     <h3 className="text-2xl font-black mb-4">Follow-Up: Zero vs. Aggressive</h3>
                     <p className="text-lg text-gray-700 mb-4">
-                      Your previous agent had zero follow-up. Buyers saw your home, but your agent never followed up. Feedback disappeared. Opportunities were lost. Showings happened, but nothing came of them. Your agent didn\'t know why. They didn't care. They moved on to the next listing.
+                      Your previous agent had zero follow-up. Buyers saw your home, but your agent never followed up. Feedback disappeared. Opportunities were lost. Showings happened, but nothing came of them. Your agent didn\'t know why. They did not care. They moved on to the next listing.
                     </p>
                     <p className="text-lg text-gray-700 mb-4">
-                      I have an aggressive follow-up system that ensures every showing is tracked, every buyer is contacted, and every opportunity is maximized. I follow up within 2 hours of every showing. I collect feedback from every buyer. I create urgency through buyer psychology tactics. I don't wait for offers. I create them. I don't accept lowball offers. I negotiate them up. This aggressive follow-up is what turns showings into offers and offers into sales. This is how I get 98.7% of asking price average. This is how your previous agent got you expired.
+                      I have an aggressive follow-up system that ensures every showing is tracked, every buyer is contacted, and every opportunity is maximized. I follow up within 2 hours of every showing. I collect feedback from every buyer. I create urgency through buyer psychology tactics. I do not wait for offers. I create them. I do not accept lowball offers. I negotiate them up. This aggressive follow-up is what turns showings into offers and offers into sales. This is how I get 98.7% of asking price average. This is how your previous agent got you expired.
                     </p>
                   </div>
                   <div>
                     <h3 className="text-2xl font-black mb-4">Attention: 2.1% vs. 100%</h3>
                     <p className="text-lg text-gray-700 mb-4">
-                      Your previous agent had 47+ listings. You got 2.1% of their attention. They couldn\'t afford to invest $5,000+ in every listing. They couldn't provide aggressive follow-up on every showing. They couldn't manage every detail. They spread themselves thin, hoping something would stick. Your listing got lost in the shuffle.
+                      Your previous agent had 47+ listings. You got 2.1% of their attention. They couldn\'t afford to invest $5,000+ in every listing. They could not provide aggressive follow-up on every showing. They could not manage every detail. They spread themselves thin, hoping something would stick. Your listing got lost in the shuffle.
                     </p>
                     <p className="text-lg text-gray-700 mb-4">
                       I take maximum 6 listings at a time. You get 100% focus. Every listing gets the full treatment - professional marketing, aggressive follow-up, strategic negotiation. Nothing is left to chance. This focus is what separates successful sales from homes that DIDN\'T sell. This focus is what delivers results. This is what your previous agent didn\'t provide.
@@ -231,10 +231,10 @@ export default function ComparisonPage() {
                   <div>
                     <h3 className="text-2xl font-black mb-4">Results: Expired vs. Sold</h3>
                     <p className="text-lg text-gray-700 mb-4">
-                      Your previous agent got you expired. 63 days on market. 37 showings. 5 price drops. Zero offers. Then your home didn't sell, and they made $0 while you lost $4,964 per month in holding costs. That's the result of minimal marketing, zero follow-up, and 2.1% attention.
+                      Your previous agent got you expired. 63 days on market. 37 showings. 5 price drops. Zero offers. Then your home did not sell, and they made $0 while you lost $4,964 per month in holding costs. That's the result of minimal marketing, zero follow-up, and 2.1% attention.
                     </p>
                     <p className="text-lg text-gray-700 mb-4">
-                      I get you sold. 19 day average to contract. 98.7% of asking price. SOLD. That's the result of $5,000+ investment, aggressive follow-up, and 100% focus. The difference isn't subtle. It's dramatic. And it's why I sell homes that DIDN\'T sell while they got you expired.
+                      I get you sold. 19 day average to contract. 98.7% of asking price. SOLD. That's the result of $5,000+ investment, aggressive follow-up, and 100% focus. The difference is not subtle. It's dramatic. And it's why I sell homes that DIDN\'T sell while they got you expired.
                     </p>
                   </div>
                 </div>
@@ -276,7 +276,7 @@ export default function ComparisonPage() {
                   </div>
                 </div>
                 <p className="text-lg text-gray-700 mt-6 text-center">
-                  The real cost isn't just the holding costs. It's the lost opportunity, the emotional toll, and the stigma. Working with the right agent eliminates these costs. Working with the wrong agent multiplies them. The choice is obvious.
+                  The real cost is not just the holding costs. It's the lost opportunity, the emotional toll, and the stigma. Working with the right agent eliminates these costs. Working with the wrong agent multiplies them. The choice is obvious.
                 </p>
               </div>
               <div className="mt-12 bg-white border-2 border-gray-200 rounded-lg p-8">

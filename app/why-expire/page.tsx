@@ -23,7 +23,7 @@ export default function WhyExpirePage() {
             <div className="max-w-4xl mx-auto space-y-12">
               <div className="prose prose-lg max-w-none">
                   <p className="text-lg text-gray-700 mb-6">
-                    If your home DIDN\'T sell, you're not alone. In fact, you're part of a significant trend in the Las Vegas real estate market. Understanding why homes fail to sell is the first step to fixing yours. The data is clear: most listings don't expire because of the home itself. They expire because of poor marketing, minimal investment, and zero follow-up from agents who don't know what they're doing.
+                    If your home DIDN\'T sell, you're not alone. In fact, you're part of a significant trend in the Las Vegas real estate market. Understanding why homes fail to sell is the first step to fixing yours. The data is clear: most listings do not expire because of the home itself. They expire because of poor marketing, minimal investment, and zero follow-up from agents who do not know what they're doing.
                   </p>
                   <p className="text-lg text-gray-700 mb-6">
                     The good news? HOMES THAT DIDN\'T SELL can be fixed. I've sold 47 Summerlin sellers who couldn\'t sell with an average of 19 days to contract and 98.7% of asking price. The key is understanding what went wrong and implementing a completely different strategy. This page will show you exactly why your home DIDN\'T sell and what needs to change. See <a href="/comparison" className="text-primary font-semibold hover:underline">how I'm different from your previous agent</a> and learn about <a href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process</a>.
@@ -54,7 +54,7 @@ export default function WhyExpirePage() {
                   </ul>
                   <h3 className="text-2xl font-bold mb-3">What This Data Means</h3>
                   <p className="text-lg text-gray-700">
-                    These numbers aren't abstract statistics. They represent real homes, real sellers, and real money lost. In Las Vegas alone, 1,500-2,250 listings will fail to sell this year. That's 1,500-2,250 sellers who trusted their agents, got failed results, and lost thousands of dollars in holding costs. The problem isn't the market. The problem isn't the homes. The problem is the agents.
+                    These numbers are not abstract statistics. They represent real homes, real sellers, and real money lost. In Las Vegas alone, 1,500-2,250 listings will fail to sell this year. That's 1,500-2,250 sellers who trusted their agents, got failed results, and lost thousands of dollars in holding costs. The problem is not the market. The problem is not the homes. The problem is the agents.
                   </p>
                 </div>
               </div>
@@ -71,7 +71,7 @@ export default function WhyExpirePage() {
                       1. Poor Photography
                     </h3>
                     <p className="text-gray-700 mb-3">
-                      iPhone photos in 2026? Dark rooms, cluttered spaces, and unprofessional staging kill buyer interest in the first 2.3 seconds. Buyers scroll through hundreds of listings online. If your photos don't grab them immediately, they move on. Your previous agent spent $37 on photos. I spend $3,700 on professional media - twilight drone shots, 3D virtual tours, magazine-quality staging. The difference is obvious.
+                      iPhone photos in 2026? Dark rooms, cluttered spaces, and unprofessional staging kill buyer interest in the first 2.3 seconds. Buyers scroll through hundreds of listings online. If your photos do not grab them immediately, they move on. Your previous agent spent $37 on photos. I spend $3,700 on professional media - twilight drone shots, 3D virtual tours, magazine-quality staging. The difference is obvious.
                     </p>
                     <h4 className="text-xl font-bold mb-2">The Impact</h4>
                     <p className="text-gray-700">
@@ -123,7 +123,7 @@ export default function WhyExpirePage() {
                     </p>
                     <h4 className="text-xl font-bold mb-2">The Impact</h4>
                     <p className="text-gray-700">
-                      I aggressively follow up on every showing within 2 hours. I collect detailed feedback, address concerns immediately, and use buyer psychology tactics to create urgency. I don't wait for offers. I create them. That's why I sell in 19 days and they got you expired.
+                      I aggressively follow up on every showing within 2 hours. I collect detailed feedback, address concerns immediately, and use buyer psychology tactics to create urgency. I do not wait for offers. I create them. That's why I sell in 19 days and they got you expired.
                     </p>
                   </div>
                 </div>
@@ -145,7 +145,7 @@ export default function WhyExpirePage() {
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4 text-center">The Psychology of HOMES That Didn\'t SELL</h2>
                 <p className="text-lg text-gray-700 mb-6 text-center">
-                  Understanding why homes fail to sell isn't just about data - it's about understanding the psychology of buyers, sellers, and agents.
+                  Understanding why homes fail to sell is not just about data - it's about understanding the psychology of buyers, sellers, and agents.
                 </p>
                 <div className="space-y-6">
                   <div>
@@ -169,7 +169,7 @@ export default function WhyExpirePage() {
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Agent Psychology: Volume vs. Quality</h3>
                     <p className="text-lg text-gray-700 mb-4">
-                      Most agents operate on a volume-based model. They take as many listings as possible, invest minimal marketing in each, and hope something sticks. This model works for them - they collect commissions on the few that sell. But it doesn't work for you. You got minimal marketing, minimal attention, and an HOME THAT didn\'t SELL.
+                      Most agents operate on a volume-based model. They take as many listings as possible, invest minimal marketing in each, and hope something sticks. This model works for them - they collect commissions on the few that sell. But it does not work for you. You got minimal marketing, minimal attention, and an HOME THAT didn\'t SELL.
                     </p>
                     <p className="text-lg text-gray-700 mb-4">
                       I operate on a quality-based model. I take maximum 6 listings at a time, invest $5,000+ in marketing per listing, and deliver proven results. This model works for you - you get maximum marketing, maximum attention, and a successful sale. Quality over quantity. Results over volume. This is what separates successful agents from failed agents.
@@ -229,7 +229,7 @@ export default function WhyExpirePage() {
                   GET YOUR FREE REPORT
                 </h2>
                 <p className="text-center text-gray-600 mb-6">
-                  "7 Reasons your home didn't sell (And How to Fix Them in 30 Days)"
+                  "7 Reasons your home did not sell (And How to Fix Them in 30 Days)"
                 </p>
                 <LeadForm source="why_expire" buttonText="GET THE REPORT" />
               </div>

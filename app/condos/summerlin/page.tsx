@@ -32,31 +32,31 @@ export default function SummerlinCondosPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Summerlin is Las Vegas's premier master-planned community, offering mid-rise condos, townhomes, and luxury properties in a sophisticated setting. If your Summerlin condo home DIDN\'T sell, you're not alone. Summerlin condos face unique challenges - from competition with new construction to HOA restrictions to buyers who value community amenities. Most agents don't understand Summerlin condos. They use generic strategies, and Summerlin condos expire.
+                  Summerlin is Las Vegas's premier master-planned community, offering mid-rise condos, townhomes, and luxury properties in a sophisticated setting. If your Summerlin condo home DIDN\'T sell, you're not alone. Summerlin condos face unique challenges - from competition with new construction to HOA restrictions to buyers who value community amenities. Most agents do not understand Summerlin condos. They use generic strategies, and Summerlin condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Summerlin condos. I understand the Summerlin market. I know how to market mid-rise condos and townhomes. I know how to attract community-conscious buyers. I've sold expired condos in Summerlin West, The Ridges, and throughout Summerlin. Fast. At top dollar. With zero excuses.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Summerlin condos require community-focused marketing. Professional photography highlighting community amenities. Strategic positioning against new construction. Emphasis on established neighborhoods and mature landscaping. Most agents don't understand this. They use generic strategies, and Summerlin condos expire. I use community-focused marketing, highlight amenities, and attract community-conscious buyers. Summerlin condos sell. Fast. At top dollar.
+                  Summerlin condos require community-focused marketing. Professional photography highlighting community amenities. Strategic positioning against new construction. Emphasis on established neighborhoods and mature landscaping. Most agents do not understand this. They use generic strategies, and Summerlin condos expire. I use community-focused marketing, highlight amenities, and attract community-conscious buyers. Summerlin condos sell. Fast. At top dollar.
                 </p>
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Summerlin Condos Expire</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  Summerlin condos expire for the same reasons other condos expire - poor marketing, minimal investment, and zero follow-up. But Summerlin condos face additional challenges that most agents don't understand or address.
+                  Summerlin condos expire for the same reasons other condos expire - poor marketing, minimal investment, and zero follow-up. But Summerlin condos face additional challenges that most agents do not understand or address.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Competition from New Construction</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Summerlin has constant new construction. New condos compete with existing condos. New amenities compete with older amenities. New pricing competes with older pricing. Most agents don't know how to position existing condos against new construction. They don't highlight unique features. They don't emphasize established communities. I know how to position existing condos competitively. I highlight unique features. I emphasize established communities. I showcase mature landscaping and proven neighborhoods.
+                  Summerlin has constant new construction. New condos compete with existing condos. New amenities compete with older amenities. New pricing competes with older pricing. Most agents do not know how to position existing condos against new construction. They do not highlight unique features. They do not emphasize established communities. I know how to position existing condos competitively. I highlight unique features. I emphasize established communities. I showcase mature landscaping and proven neighborhoods.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">HOA Restriction Challenges</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Summerlin condos have HOA restrictions. No signs. Limited open houses. Restricted photography. Most agents don't know how to work within these restrictions. They try to market Summerlin condos like regular condos, hit restrictions, and give up. I know how to market Summerlin condos effectively within HOA restrictions. I use digital marketing, network activation, and targeted advertising that doesn't violate HOA rules.
+                  Summerlin condos have HOA restrictions. No signs. Limited open houses. Restricted photography. Most agents do not know how to work within these restrictions. They try to market Summerlin condos like regular condos, hit restrictions, and give up. I know how to market Summerlin condos effectively within HOA restrictions. I use digital marketing, network activation, and targeted advertising that does not violate HOA rules.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Community Amenity Marketing</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Summerlin offers community amenities. Parks. Trails. Golf courses. Community centers. Most agents don't market community amenities effectively. They don't highlight parks. They don't showcase trails. They don't emphasize golf access. I market community amenities effectively. I highlight parks, showcase trails, and emphasize golf access that attracts community-conscious buyers.
+                  Summerlin offers community amenities. Parks. Trails. Golf courses. Community centers. Most agents do not market community amenities effectively. They do not highlight parks. They do not showcase trails. They do not emphasize golf access. I market community amenities effectively. I highlight parks, showcase trails, and emphasize golf access that attracts community-conscious buyers.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
@@ -66,15 +66,15 @@ export default function SummerlinCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Community-Focused Marketing</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Summerlin condos require community-focused marketing. Professional photography highlighting community amenities. Strategic positioning against new construction. Emphasis on established neighborhoods. Most agents don't understand this. I do. I use community-focused marketing, highlight amenities, and attract community-conscious buyers.
+                  Summerlin condos require community-focused marketing. Professional photography highlighting community amenities. Strategic positioning against new construction. Emphasis on established neighborhoods. Most agents do not understand this. I do. I use community-focused marketing, highlight amenities, and attract community-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Established Neighborhood Positioning</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Summerlin has established neighborhoods with mature landscaping, proven communities, and established amenities. I position existing condos by highlighting established neighborhoods, showcasing mature landscaping, and emphasizing proven communities. Most agents don't do this. They use generic positioning, and Summerlin condos expire.
+                  Summerlin has established neighborhoods with mature landscaping, proven communities, and established amenities. I position existing condos by highlighting established neighborhoods, showcasing mature landscaping, and emphasizing proven communities. Most agents do not do this. They use generic positioning, and Summerlin condos expire.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Community Amenity Highlighting</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Summerlin offers community amenities. Parks. Trails. Golf courses. Community centers. I highlight these amenities effectively. I showcase parks, emphasize trails, and highlight golf access that attracts community-conscious buyers. Most agents don't do this. They use generic marketing, and Summerlin condos expire.
+                  Summerlin offers community amenities. Parks. Trails. Golf courses. Community centers. I highlight these amenities effectively. I showcase parks, emphasize trails, and highlight golf access that attracts community-conscious buyers. Most agents do not do this. They use generic marketing, and Summerlin condos expire.
                 </p>
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
@@ -101,7 +101,7 @@ export default function SummerlinCondosPage() {
                   READY TO SELL YOUR SUMMERLIN CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Summerlin condo home DIDN\'T sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Summerlin condo home DIDN\'T sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="summerlin_condos" buttonText="GET MY SUMMERLIN CONDO SOLD" />
               </div>

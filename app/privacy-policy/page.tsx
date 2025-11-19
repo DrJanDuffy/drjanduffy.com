@@ -23,7 +23,7 @@ export default function PrivacyPolicyPage() {
                   <ul>
                     <li>Name, email address, and phone number</li>
                     <li>Property address (if provided)</li>
-                    <li>Information about your HOME THAT DIDN'T SELL</li>
+                    <li>Information about your HOME THAT did not SELL</li>
                     <li>Any other information you choose to provide</li>
                   </ul>
                 </div>

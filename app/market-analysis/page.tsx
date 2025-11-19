@@ -102,7 +102,7 @@ export default function MarketAnalysisPage() {
                     </div>
                     <div>
                       <p className="text-4xl font-black mb-2">47</p>
-                      <p className="text-lg">homes that didn't sell - now sold</p>
+                      <p className="text-lg">homes that did not sell - now sold</p>
                     </div>
                   </div>
                 </div>

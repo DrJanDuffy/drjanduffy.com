@@ -17,7 +17,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 grid grid-cols-2">
         <div className="bg-red-900/20 flex items-center justify-center">
           <div className="text-center p-8">
-            <div className="text-6xl font-black mb-4">DIDN\'T SELL</div>
+            <div className="text-6xl font-black mb-4">DID NOT SELL</div>
             <div className="text-2xl opacity-75">63 Days</div>
           </div>
         </div>
@@ -55,7 +55,7 @@ export default function HeroSection() {
                 <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-white/30 shadow-xl">
                   <Image
                     src="/images/team/las-vegas-real-estate-agent-dr-janet-duffy-headshot.jpg"
-                    alt="Dr. Janet Duffy, Las Vegas real estate agent specializing in homes that didn't sell"
+                    alt="Dr. Janet Duffy, Las Vegas real estate agent specializing in homes that did not sell"
                     fill
                     className="object-cover"
                     priority
@@ -63,7 +63,7 @@ export default function HeroSection() {
                 </div>
               </div>
               <p className="text-xl md:text-2xl mb-4 font-semibold">
-                Your house won\'t sell? I specialize in selling homes other agents couldn't. 47 previously unsold homes sold - average 19 days to contract, 98.7% of asking price.
+                Your house will not sell? I specialize in selling homes other agents could not. 47 previously unsold homes sold - average 19 days to contract, 98.7% of asking price.
               </p>
               <p className="text-lg md:text-xl mb-4 font-semibold">
                 Summerlin West luxury specialist: The Ridges, The Summit, Red Rock Country Club, and newer villages.

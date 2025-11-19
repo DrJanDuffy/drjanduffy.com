@@ -21,10 +21,10 @@ export default function NewListingsCondosPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  If you're listing your Las Vegas condo for the first time, you have one chance to get it right. Most agents don't understand condos. They use generic strategies, make common mistakes, and your home doesn't sell. I specialize in condos. I know what works. I know what doesn't. I know how to avoid the mistakes that cause listings to expire.
+                  If you're listing your Las Vegas condo for the first time, you have one chance to get it right. Most agents do not understand condos. They use generic strategies, make common mistakes, and your home does not sell. I specialize in condos. I know what works. I know what does not. I know how to avoid the mistakes that cause listings to expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  New condo listings face unique challenges. Competition from new construction. HOA restrictions. Seasonal demand fluctuations. Buyers who don't understand condos. Most agents don't address these challenges. They use the same strategies for condos as they do for single-family homes, and the results are predictable: HOMES THAT DIDN\'T SELL, frustrated sellers, and lost money.
+                  New condo listings face unique challenges. Competition from new construction. HOA restrictions. Seasonal demand fluctuations. Buyers who do not understand condos. Most agents do not address these challenges. They use the same strategies for condos as they do for single-family homes, and the results are predictable: HOMES THAT DIDN\'T SELL, frustrated sellers, and lost money.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I've sold 47 HOMES THAT didn\'t SELL in Las Vegas. I know what causes listings to expire. I know how to avoid those mistakes. I know how to market condos effectively from day one. If you're listing your condo for the first time, work with an agent who actually understands condos. Work with me.
@@ -37,15 +37,15 @@ export default function NewListingsCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Mistake #1: Generic Marketing</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Most agents use generic marketing for condos. They don't highlight unique features. They don't address condo-specific concerns. They don't target the right buyers. Generic marketing doesn't work for condos. I use targeted marketing that highlights unique features, addresses condo-specific concerns, and targets the right buyers.
+                  Most agents use generic marketing for condos. They do not highlight unique features. They do not address condo-specific concerns. They do not target the right buyers. Generic marketing does not work for condos. I use targeted marketing that highlights unique features, addresses condo-specific concerns, and targets the right buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Mistake #2: Ignoring HOA Restrictions</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Many Las Vegas condos have strict HOA restrictions. No signs. Limited open houses. Restricted photography. Most agents don't understand these restrictions. They try to market condos like single-family homes, hit restrictions, and give up. I know how to market condos effectively within HOA restrictions. I use digital marketing, network activation, and targeted advertising that doesn't violate HOA rules.
+                  Many Las Vegas condos have strict HOA restrictions. No signs. Limited open houses. Restricted photography. Most agents do not understand these restrictions. They try to market condos like single-family homes, hit restrictions, and give up. I know how to market condos effectively within HOA restrictions. I use digital marketing, network activation, and targeted advertising that does not violate HOA rules.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Mistake #3: Wrong Pricing Strategy</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Condos require different pricing strategies than single-family homes. HOA fees affect affordability. Amenities affect value. Competition from new construction affects pricing. Most agents don't understand condo pricing. They use single-family home pricing strategies, and condos expire. I use data-driven pricing strategies specifically for condos. I know how to price condos competitively while maximizing value.
+                  Condos require different pricing strategies than single-family homes. HOA fees affect affordability. Amenities affect value. Competition from new construction affects pricing. Most agents do not understand condo pricing. They use single-family home pricing strategies, and condos expire. I use data-driven pricing strategies specifically for condos. I know how to price condos competitively while maximizing value.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
@@ -69,11 +69,11 @@ export default function NewListingsCondosPage() {
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">Why New Listings Matter</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  New listings have momentum. Buyers are interested. Agents are paying attention. The market is watching. If you don't capitalize on this momentum, your home doesn't sell. Most agents don't capitalize on new listing momentum. They use generic strategies, make common mistakes, and momentum dies. I capitalize on new listing momentum. I use targeted strategies, avoid common mistakes, and momentum builds. Your condo sells. Fast. At top dollar.
+                  New listings have momentum. Buyers are interested. Agents are paying attention. The market is watching. If you do not capitalize on this momentum, your home does not sell. Most agents do not capitalize on new listing momentum. They use generic strategies, make common mistakes, and momentum dies. I capitalize on new listing momentum. I use targeted strategies, avoid common mistakes, and momentum builds. Your condo sells. Fast. At top dollar.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">The First 30 Days</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  The first 30 days are critical. This is when your condo has the most visibility. This is when buyers are most interested. This is when you have the best chance to sell. Most agents waste the first 30 days. They use generic strategies. They make common mistakes. They don't capitalize on momentum. I maximize the first 30 days. I use targeted strategies. I avoid common mistakes. I capitalize on momentum. Your condo sells. Fast. At top dollar.
+                  The first 30 days are critical. This is when your condo has the most visibility. This is when buyers are most interested. This is when you have the best chance to sell. Most agents waste the first 30 days. They use generic strategies. They make common mistakes. They do not capitalize on momentum. I maximize the first 30 days. I use targeted strategies. I avoid common mistakes. I capitalize on momentum. Your condo sells. Fast. At top dollar.
                 </p>
               </div>
               

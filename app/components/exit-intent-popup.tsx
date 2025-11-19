@@ -48,7 +48,7 @@ export default function ExitIntentPopup() {
             Get My Free Report:
           </p>
           <p className="text-xl font-bold text-primary mb-2">
-            "7 Reasons your home didn't sell
+            "7 Reasons your home did not sell
           </p>
           <p className="text-xl font-bold text-primary mb-4">
             (And How to Fix Them in 30 Days)"

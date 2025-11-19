@@ -21,31 +21,31 @@ export default function VieraCondosPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Viera is a mid-rise condominium community in Las Vegas that offers affordable living with community amenities, established neighborhoods, and value positioning. If your Viera condo home DIDN\'T sell, you're not alone. Viera condos face unique challenges - from competition with new construction to value-conscious buyers to emphasis on community amenities. Most agents don't understand Viera condos. They use generic strategies, and Viera condos expire.
+                  Viera is a mid-rise condominium community in Las Vegas that offers affordable living with community amenities, established neighborhoods, and value positioning. If your Viera condo home DIDN\'T sell, you're not alone. Viera condos face unique challenges - from competition with new construction to value-conscious buyers to emphasis on community amenities. Most agents do not understand Viera condos. They use generic strategies, and Viera condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Viera condos. I understand the mid-rise market. I know how to market community amenities. I know how to attract value-conscious buyers. I've sold expired condos in Viera and other mid-rise communities. Fast. At top dollar. With zero excuses.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Viera condos require value-focused marketing. Professional photography highlighting community amenities. Strategic positioning emphasizing affordability and value. Emphasis on established neighborhoods and mature communities. Most agents don't understand this. They use generic strategies, and Viera condos expire. I use value-focused marketing, highlight community amenities, and attract value-conscious buyers. Viera condos sell. Fast. At top dollar.
+                  Viera condos require value-focused marketing. Professional photography highlighting community amenities. Strategic positioning emphasizing affordability and value. Emphasis on established neighborhoods and mature communities. Most agents do not understand this. They use generic strategies, and Viera condos expire. I use value-focused marketing, highlight community amenities, and attract value-conscious buyers. Viera condos sell. Fast. At top dollar.
                 </p>
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Viera Condos Expire</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  Viera condos expire for the same reasons other mid-rise condos expire - poor marketing, minimal investment, and zero follow-up. But Viera condos face additional challenges that most agents don't understand or address.
+                  Viera condos expire for the same reasons other mid-rise condos expire - poor marketing, minimal investment, and zero follow-up. But Viera condos face additional challenges that most agents do not understand or address.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Competition from New Construction</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Las Vegas has constant new construction. New condos compete with existing condos. New amenities compete with older amenities. New pricing competes with older pricing. Most agents don't know how to position existing condos against new construction. They don't highlight unique features. They don't emphasize established communities. I know how to position existing condos competitively. I highlight unique features. I emphasize established communities. I showcase mature neighborhoods and proven value.
+                  Las Vegas has constant new construction. New condos compete with existing condos. New amenities compete with older amenities. New pricing competes with older pricing. Most agents do not know how to position existing condos against new construction. They do not highlight unique features. They do not emphasize established communities. I know how to position existing condos competitively. I highlight unique features. I emphasize established communities. I showcase mature neighborhoods and proven value.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Value-Conscious Buyer Market</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Viera attracts value-conscious buyers. Families. First-time buyers. Retirees. Most agents don't know how to market to value-conscious buyers. They use luxury marketing, and value-conscious buyers look elsewhere. I know how to market to value-conscious buyers. I emphasize affordability, highlight value, and showcase community amenities that attract value-conscious buyers.
+                  Viera attracts value-conscious buyers. Families. First-time buyers. Retirees. Most agents do not know how to market to value-conscious buyers. They use luxury marketing, and value-conscious buyers look elsewhere. I know how to market to value-conscious buyers. I emphasize affordability, highlight value, and showcase community amenities that attract value-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Community Amenity Marketing</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Viera offers community amenities. Parks. Pools. Community centers. Family-oriented features. Most agents don't market community amenities effectively. They don't highlight parks. They don't showcase pools. They don't emphasize family-oriented features. I market community amenities effectively. I highlight parks, showcase pools, and emphasize family-oriented features that attract community-conscious buyers.
+                  Viera offers community amenities. Parks. Pools. Community centers. Family-oriented features. Most agents do not market community amenities effectively. They do not highlight parks. They do not showcase pools. They do not emphasize family-oriented features. I market community amenities effectively. I highlight parks, showcase pools, and emphasize family-oriented features that attract community-conscious buyers.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
@@ -55,15 +55,15 @@ export default function VieraCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Community Amenities</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Viera offers community amenities including parks, pools, community centers, and family-oriented features. Most agents don't market community amenities effectively. I do. I highlight parks, showcase pools, emphasize community centers, and showcase family-oriented features that attract community-conscious buyers.
+                  Viera offers community amenities including parks, pools, community centers, and family-oriented features. Most agents do not market community amenities effectively. I do. I highlight parks, showcase pools, emphasize community centers, and showcase family-oriented features that attract community-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Established Neighborhoods</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Viera has established neighborhoods with mature landscaping, proven communities, and established amenities. Most agents don't position established neighborhoods effectively. I do. I highlight mature landscaping, showcase proven communities, and emphasize established amenities that attract neighborhood-conscious buyers.
+                  Viera has established neighborhoods with mature landscaping, proven communities, and established amenities. Most agents do not position established neighborhoods effectively. I do. I highlight mature landscaping, showcase proven communities, and emphasize established amenities that attract neighborhood-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Value Positioning</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Viera offers value positioning with affordable pricing, community amenities, and established neighborhoods. Most agents don't position value effectively. I do. I highlight affordable pricing, showcase community amenities, and emphasize established neighborhoods that attract value-conscious buyers.
+                  Viera offers value positioning with affordable pricing, community amenities, and established neighborhoods. Most agents do not position value effectively. I do. I highlight affordable pricing, showcase community amenities, and emphasize established neighborhoods that attract value-conscious buyers.
                 </p>
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
@@ -73,15 +73,15 @@ export default function VieraCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Value-Focused Marketing</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Viera condos require value-focused marketing. Professional photography highlighting community amenities. Strategic positioning emphasizing affordability and value. Emphasis on established neighborhoods. Most agents don't understand this. I do. I use value-focused marketing, highlight community amenities, and attract value-conscious buyers.
+                  Viera condos require value-focused marketing. Professional photography highlighting community amenities. Strategic positioning emphasizing affordability and value. Emphasis on established neighborhoods. Most agents do not understand this. I do. I use value-focused marketing, highlight community amenities, and attract value-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Community Amenity Highlighting</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Viera condos offer community amenities. I highlight these amenities effectively. I showcase parks, emphasize pools, highlight community centers, and showcase family-oriented features that attract community-conscious buyers. Most agents don't do this. They use generic marketing, and Viera condos expire.
+                  Viera condos offer community amenities. I highlight these amenities effectively. I showcase parks, emphasize pools, highlight community centers, and showcase family-oriented features that attract community-conscious buyers. Most agents do not do this. They use generic marketing, and Viera condos expire.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Value-Conscious Buyer Targeting</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Viera attracts value-conscious buyers. Families. First-time buyers. Retirees. Most agents don't know how to target these buyers. I do. I use targeted advertising, community-focused marketing, and value positioning that attracts value-conscious buyers.
+                  Viera attracts value-conscious buyers. Families. First-time buyers. Retirees. Most agents do not know how to target these buyers. I do. I use targeted advertising, community-focused marketing, and value positioning that attracts value-conscious buyers.
                 </p>
               </div>
               
@@ -90,7 +90,7 @@ export default function VieraCondosPage() {
                   READY TO SELL YOUR VIERA CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Viera condo home DIDN\'T sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Viera condo home DIDN\'T sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="viera_condos" buttonText="GET MY VIERA CONDO SOLD" />
               </div>

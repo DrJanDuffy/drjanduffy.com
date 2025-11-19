@@ -75,7 +75,7 @@ export default function HomeWontSellPage() {
                 Your Home won\'t Sell in Las Vegas? Here's Why.
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                If your home won't sell, you're not alone. In Las Vegas, 20-30% of all homes fail to sell on their first try every year.
+                If your home will not sell, you're not alone. In Las Vegas, 20-30% of all homes fail to sell on their first try every year.
               </p>
 
               <div className="prose prose-lg max-w-none mb-12">
@@ -83,7 +83,7 @@ export default function HomeWontSellPage() {
                   Your home won\'t sell. You've tried. Your agent tried. Nothing worked. You're frustrated, angry, and losing money every day. The average unsold home costs sellers $4,964 per month in holding costs. That's $116 per day. Every day you wait is money down the drain.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  But here's the truth: your home DIDN\'T fail. Your agent did. I specialize in homes that won\'t sell. I've helped 47 Summerlin sellers who couldn\'t sell with their previous agent. Average 19 days to contract. 98.7% of asking price. These aren't hypothetical results. These are real homes that I sold after other agents failed. See <Link href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</Link> and learn about <Link href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process</Link>.
+                  But here's the truth: your home DIDN\'T fail. Your agent did. I specialize in homes that won\'t sell. I've helped 47 Summerlin sellers who couldn\'t sell with their previous agent. Average 19 days to contract. 98.7% of asking price. These are not hypothetical results. These are real homes that I sold after other agents failed. See <Link href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</Link> and learn about <Link href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process</Link>.
                 </p>
               </div>
             </div>
@@ -103,14 +103,14 @@ export default function HomeWontSellPage() {
                     Your previous agent probably told you what you wanted to hear about price, not the truth. They wanted the listing, so they overpriced it. Then, when it DIDN\'T sell, they suggested price drop after price drop. That's not a strategy. That's incompetence.
                   </p>
                   <p className="text-lg text-gray-700">
-                    I use data-driven pricing and market analysis to price your home right from day one. I analyze comparable sales, market trends, buyer psychology, and competitive positioning. I don't guess. I analyze. I price strategically to attract qualified buyers while maximizing your sale price. The result? 98.7% of asking price average, not 92% or 95%.
+                    I use data-driven pricing and market analysis to price your home right from day one. I analyze comparable sales, market trends, buyer psychology, and competitive positioning. I do not guess. I analyze. I price strategically to attract qualified buyers while maximizing your sale price. The result? 98.7% of asking price average, not 92% or 95%.
                   </p>
                 </div>
 
                 <div className="bg-white border-2 border-red-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4 text-red-800">2. Poor Photography & Presentation</h3>
                   <p className="text-lg text-gray-700 mb-4">
-                    Your previous agent used iPhone photos. Dark rooms, cluttered spaces, unprofessional staging. Buyers scroll through hundreds of listings online. If your photos don't grab them immediately, they move on. Your home becomes invisible.
+                    Your previous agent used iPhone photos. Dark rooms, cluttered spaces, unprofessional staging. Buyers scroll through hundreds of listings online. If your photos do not grab them immediately, they move on. Your home becomes invisible.
                   </p>
                   <p className="text-lg text-gray-700">
                     I invest $3,700 in professional media - twilight drone shots, 3D virtual tours, magazine-quality staging. Professional photography increases showing requests by 300% and sale price by 5-10%. This is what $3,700 buys you. This is what your previous agent DIDN\'T provide.
@@ -133,7 +133,7 @@ export default function HomeWontSellPage() {
                     Your previous agent had zero follow-up. Buyers saw your home, but your agent never followed up. Feedback disappeared. Opportunities were lost. Showings happened, but nothing came of them.
                   </p>
                   <p className="text-lg text-gray-700">
-                    I have an aggressive follow-up system that ensures every showing is tracked, every buyer is contacted, and every opportunity is maximized. I follow up within 2 hours of every showing. I collect detailed feedback. I create urgency through buyer psychology tactics. I don't wait for offers. I create them. This aggressive follow-up is what turns showings into offers and offers into sales.
+                    I have an aggressive follow-up system that ensures every showing is tracked, every buyer is contacted, and every opportunity is maximized. I follow up within 2 hours of every showing. I collect detailed feedback. I create urgency through buyer psychology tactics. I do not wait for offers. I create them. This aggressive follow-up is what turns showings into offers and offers into sales.
                   </p>
                 </div>
 
@@ -205,11 +205,11 @@ export default function HomeWontSellPage() {
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Step 1: Complete Marketing Reset</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  The first step is a complete marketing reset. Professional photography and staging ($3,700 investment). 3D virtual tour creation. Market analysis and strategic pricing. Fresh MLS listing with optimized description. Social media marketing blitz launch. This complete reset eliminates the stigma of unsold homes. Buyers see a beautiful, properly priced home with professional marketing. They don't see "DIDN\'T sell." They see "opportunity."
+                  The first step is a complete marketing reset. Professional photography and staging ($3,700 investment). 3D virtual tour creation. Market analysis and strategic pricing. Fresh MLS listing with optimized description. Social media marketing blitz launch. This complete reset eliminates the stigma of unsold homes. Buyers see a beautiful, properly priced home with professional marketing. They do not see "DIDN\'T sell." They see "opportunity."
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Step 2: Strategic Pricing Analysis</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Most homes that won\'t sell are overpriced. But lowering price alone won't fix the problem if your marketing is weak. I use data-driven pricing and market analysis to price your home right from day one. I analyze comparable sales, market trends, buyer psychology, and competitive positioning. I price strategically to attract qualified buyers while maximizing your sale price.
+                  Most homes that won\'t sell are overpriced. But lowering price alone will not fix the problem if your marketing is weak. I use data-driven pricing and market analysis to price your home right from day one. I analyze comparable sales, market trends, buyer psychology, and competitive positioning. I price strategically to attract qualified buyers while maximizing your sale price.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Step 3: Aggressive Marketing Launch</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -217,7 +217,7 @@ export default function HomeWontSellPage() {
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Step 4: Active Negotiation</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Week 2-3 is when offers come in and negotiations begin. I use aggressive follow-up, buyer psychology tactics, and strategic counter-offers to get you top dollar. I don't accept lowball offers. I negotiate them up. This aggressive negotiation is how I get 98.7% of asking price average.
+                  Week 2-3 is when offers come in and negotiations begin. I use aggressive follow-up, buyer psychology tactics, and strategic counter-offers to get you top dollar. I do not accept lowball offers. I negotiate them up. This aggressive negotiation is how I get 98.7% of asking price average.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Step 5: Closing Management</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -232,11 +232,11 @@ export default function HomeWontSellPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
-                Las Vegas Homes That Wouldn't Sell - Until Now
+                Las Vegas Homes That would not Sell - Until Now
               </h2>
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-gray-700 mb-6">
-                  These are real Las Vegas homes that wouldn't sell with other agents - until I got involved:
+                  These are real Las Vegas homes that would not sell with other agents - until I got involved:
                 </p>
                 <div className="grid md:grid-cols-2 gap-6 mb-8">
                   <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-6">

@@ -21,31 +21,31 @@ export default function MostExpensiveCondosPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Las Vegas has some of the most expensive condos in the country. Luxury high-rise condos on The Strip command premium prices. Turnberry Place, Panorama Towers, Trump International, and other luxury buildings offer condos priced from $1 million to $10 million+. If your expensive condo home DIDN\'T sell, you're not alone. Expensive condos face unique challenges - from limited buyer pool to high expectations to sophisticated marketing requirements. Most agents don't understand expensive condos. They use generic strategies, and expensive condos expire.
+                  Las Vegas has some of the most expensive condos in the country. Luxury high-rise condos on The Strip command premium prices. Turnberry Place, Panorama Towers, Trump International, and other luxury buildings offer condos priced from $1 million to $10 million+. If your expensive condo home DIDN\'T sell, you're not alone. Expensive condos face unique challenges - from limited buyer pool to high expectations to sophisticated marketing requirements. Most agents do not understand expensive condos. They use generic strategies, and expensive condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired expensive condos. I understand the luxury market. I know how to market high-end properties. I know how to attract high-net-worth buyers. I've sold expired luxury condos in Turnberry Place, Panorama Towers, The Ogden, and other premium buildings. Fast. At top dollar. With zero excuses.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Expensive condos require sophisticated marketing. Professional photography with luxury staging. Exclusive access events. High-end advertising in luxury publications. Discerning buyer network. Most agents don't invest in this level of marketing. They use generic strategies, and expensive condos expire. I invest $5,000+ in professional media, luxury staging, and exclusive marketing that attracts high-net-worth buyers. Expensive condos sell. Fast. At top dollar.
+                  Expensive condos require sophisticated marketing. Professional photography with luxury staging. Exclusive access events. High-end advertising in luxury publications. Discerning buyer network. Most agents do not invest in this level of marketing. They use generic strategies, and expensive condos expire. I invest $5,000+ in professional media, luxury staging, and exclusive marketing that attracts high-net-worth buyers. Expensive condos sell. Fast. At top dollar.
                 </p>
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Expensive Condos Expire</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  Expensive condos expire for the same reasons other condos expire - poor marketing, minimal investment, and zero follow-up. But expensive condos face additional challenges that most agents don't understand or address.
+                  Expensive condos expire for the same reasons other condos expire - poor marketing, minimal investment, and zero follow-up. But expensive condos face additional challenges that most agents do not understand or address.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Limited Buyer Pool</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Expensive condos have a limited buyer pool. High-net-worth individuals. Investors seeking premium properties. Second-home buyers wanting luxury lifestyle. Most agents don't know how to reach this limited buyer pool. They use generic advertising, and expensive condos expire. I know how to reach this limited buyer pool. I use targeted advertising, exclusive access events, and luxury marketing that attracts high-net-worth buyers.
+                  Expensive condos have a limited buyer pool. High-net-worth individuals. Investors seeking premium properties. Second-home buyers wanting luxury lifestyle. Most agents do not know how to reach this limited buyer pool. They use generic advertising, and expensive condos expire. I know how to reach this limited buyer pool. I use targeted advertising, exclusive access events, and luxury marketing that attracts high-net-worth buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">High Expectations</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Expensive condos attract buyers with high expectations. Luxury amenities. Exclusive access. Sophisticated design. Professional marketing. Most agents don't meet these expectations. They use generic marketing, and high-net-worth buyers look elsewhere. I meet these expectations. I use luxury marketing, highlight exclusive amenities, and attract high-net-worth buyers.
+                  Expensive condos attract buyers with high expectations. Luxury amenities. Exclusive access. Sophisticated design. Professional marketing. Most agents do not meet these expectations. They use generic marketing, and high-net-worth buyers look elsewhere. I meet these expectations. I use luxury marketing, highlight exclusive amenities, and attract high-net-worth buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Premium Pricing Justification</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Expensive condos command premium pricing. Buyers need to understand value. Most agents don't justify premium pricing effectively. They don't explain luxury amenities. They don't showcase exclusive access. They don't highlight sophisticated design. I justify premium pricing effectively. I explain luxury amenities, showcase exclusive access, and highlight sophisticated design that attracts value-conscious luxury buyers.
+                  Expensive condos command premium pricing. Buyers need to understand value. Most agents do not justify premium pricing effectively. They do not explain luxury amenities. They do not showcase exclusive access. They do not highlight sophisticated design. I justify premium pricing effectively. I explain luxury amenities, showcase exclusive access, and highlight sophisticated design that attracts value-conscious luxury buyers.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
@@ -55,15 +55,15 @@ export default function MostExpensiveCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Luxury Marketing Investment</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Expensive condos require luxury marketing investment. Professional photography with luxury staging. Exclusive access events. High-end advertising in luxury publications. Most agents don't invest in luxury marketing. I invest $5,000+ in professional media, luxury staging, and exclusive marketing that attracts high-net-worth buyers.
+                  Expensive condos require luxury marketing investment. Professional photography with luxury staging. Exclusive access events. High-end advertising in luxury publications. Most agents do not invest in luxury marketing. I invest $5,000+ in professional media, luxury staging, and exclusive marketing that attracts high-net-worth buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">High-Net-Worth Buyer Network</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Expensive condos attract high-net-worth buyers. I have a network of high-net-worth individuals, investors seeking premium properties, and second-home buyers wanting luxury lifestyle. I use this network to market expensive condos effectively. Most agents don't have this network. They use generic advertising, and expensive condos expire.
+                  Expensive condos attract high-net-worth buyers. I have a network of high-net-worth individuals, investors seeking premium properties, and second-home buyers wanting luxury lifestyle. I use this network to market expensive condos effectively. Most agents do not have this network. They use generic advertising, and expensive condos expire.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Premium Positioning</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Expensive condos require premium positioning. I position expensive condos as exclusive properties with sophisticated design, world-class amenities, and prime locations. I highlight unique features, emphasize exclusive access, and showcase premium value. Most agents don't position expensive condos effectively. They use generic positioning, and expensive condos expire.
+                  Expensive condos require premium positioning. I position expensive condos as exclusive properties with sophisticated design, world-class amenities, and prime locations. I highlight unique features, emphasize exclusive access, and showcase premium value. Most agents do not position expensive condos effectively. They use generic positioning, and expensive condos expire.
                 </p>
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
@@ -90,7 +90,7 @@ export default function MostExpensiveCondosPage() {
                   READY TO SELL YOUR EXPENSIVE CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your expensive Las Vegas condo home DIDN\'T sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your expensive Las Vegas condo home DIDN\'T sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="most_expensive_condos" buttonText="GET MY EXPENSIVE CONDO SOLD" />
               </div>

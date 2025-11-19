@@ -44,7 +44,7 @@ export default function CaseStudiesPage() {
                       <div className="bg-gray-50 p-6 rounded-lg">
                         <h3 className="text-xl font-bold mb-4">The Problem</h3>
                         <ul className="space-y-2 text-gray-700">
-                          <li>• home didn't sell after {story.daysExpired} days</li>
+                          <li>• home did not sell after {story.daysExpired} days</li>
                           <li>• Previous agent: {story.previousAgent}</li>
                           <li>• Zero offers during listing period</li>
                           <li>• Stigma from expired status</li>

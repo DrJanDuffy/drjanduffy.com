@@ -78,15 +78,15 @@ export default function FAQPage() {
                   If your home didn\'t sell, you probably have questions. Why did it expire? How long will it take to sell? What percentage of asking can you expect? What makes me different from your previous agent? These are all valid questions, and you deserve real answers.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  The FAQ below covers the most common questions I get from HOME That Didn\'t SELL sellers. These aren't generic answers. These are real answers based on 47 homes that DIDN\'T sell - now sold, 19 day average, 98.7% of asking price. If you have questions that aren't covered here, call me directly at (702) 500-1064. I'll give you real answers, not sales pitches. Learn more about <a href="/about" className="text-primary font-semibold hover:underline">my background</a>, <a href="/services" className="text-primary font-semibold hover:underline">my services</a>, and <a href="/process" className="text-primary font-semibold hover:underline">my selling process</a>.
+                  The FAQ below covers the most common questions I get from HOME That Didn\'t SELL sellers. These are not generic answers. These are real answers based on 47 homes that DIDN\'T sell - now sold, 19 day average, 98.7% of asking price. If you have questions that are not covered here, call me directly at (702) 500-1064. I'll give you real answers, not sales pitches. Learn more about <a href="/about" className="text-primary font-semibold hover:underline">my background</a>, <a href="/services" className="text-primary font-semibold hover:underline">my services</a>, and <a href="/process" className="text-primary font-semibold hover:underline">my selling process</a>.
                 </p>
                 <h2 className="text-3xl font-black mb-4 mt-8">Why These Questions Matter</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  Most agents avoid answering tough questions. They give vague answers, make promises, and hope you don't ask follow-ups. I answer every question directly, honestly, and with real data. You deserve to know what you're getting into. You deserve real answers.
+                  Most agents avoid answering tough questions. They give vague answers, make promises, and hope you do not ask follow-ups. I answer every question directly, honestly, and with real data. You deserve to know what you're getting into. You deserve real answers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">The Real Answers</h3>
                 <p className="text-lg text-gray-700">
-                  The answers below are based on real experience, real results, and real data. I've sold 47 HOMES THAT DIDN\'T SELL. I know what works. I know what doesn't. I know how long it takes. I know what percentage of asking you can expect. I'll give you real answers, not marketing fluff.
+                  The answers below are based on real experience, real results, and real data. I've sold 47 HOMES THAT DIDN\'T SELL. I know what works. I know what does not. I know how long it takes. I know what percentage of asking you can expect. I'll give you real answers, not marketing fluff.
                 </p>
               </div>
               <div className="space-y-6 mb-12">
@@ -133,17 +133,17 @@ export default function FAQPage() {
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Will I Get Less Than Asking?</h3>
                     <p className="text-lg text-gray-700 mb-4">
-                      Many sellers worry that HOMES THAT didn\'t SELL sell for less than asking. The truth is, it depends on the agent. Your previous agent probably got you expired because they overpriced your home or didn't negotiate effectively. I average 98.7% of asking price on HOMES THAT DIDN\'T SELL through aggressive marketing and strategic negotiation.
+                      Many sellers worry that HOMES THAT didn\'t SELL sell for less than asking. The truth is, it depends on the agent. Your previous agent probably got you expired because they overpriced your home or did not negotiate effectively. I average 98.7% of asking price on HOMES THAT DIDN\'T SELL through aggressive marketing and strategic negotiation.
                     </p>
                     <h4 className="text-xl font-bold mb-2">How I Get Top Dollar</h4>
                     <p className="text-gray-700">
-                      I get top dollar through data-driven pricing, aggressive marketing, and strategic negotiation. I price your home right from day one, so it sells fast at top dollar. I use buyer psychology tactics and strategic counter-offers to maximize your sale price. I don't accept lowball offers. I negotiate them up.
+                      I get top dollar through data-driven pricing, aggressive marketing, and strategic negotiation. I price your home right from day one, so it sells fast at top dollar. I use buyer psychology tactics and strategic counter-offers to maximize your sale price. I do not accept lowball offers. I negotiate them up.
                     </p>
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold mb-3">How Long Will It Really Take?</h3>
                     <p className="text-lg text-gray-700 mb-4">
-                      Many sellers worry that HOMES THAT didn\'t SELL take longer to sell. The truth is, it depends on the agent. Your previous agent probably got you expired because they DIDN\'T have a system. I have a proven 30-day plan that sells homes that didn't sell. I average 19 days to contract and continue working until your home sells.
+                      Many sellers worry that HOMES THAT didn\'t SELL take longer to sell. The truth is, it depends on the agent. Your previous agent probably got you expired because they DIDN\'T have a system. I have a proven 30-day plan that sells homes that did not sell. I average 19 days to contract and continue working until your home sells.
                     </p>
                     <h4 className="text-xl font-bold mb-2">How I Sell Fast</h4>
                     <p className="text-gray-700">

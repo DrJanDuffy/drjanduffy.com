@@ -123,7 +123,7 @@ export default function SummerlinAgentPage() {
                     The Ridges is Summerlin's most exclusive community. Ultra-luxury estates from $1.5M to $10M+. Gated communities, mountain views, private golf courses. This market requires specialized marketing for high-net-worth buyers, off-market property access, and luxury home expertise.
                   </p>
                   <p className="text-lg text-gray-700">
-                    I've sold multiple homes in The Ridges, understanding the unique buyer psychology and marketing needs. Luxury buyers want privacy, exclusivity, and quality. They don't respond to generic marketing. They respond to targeted, high-end marketing that showcases the lifestyle, not just the home.
+                    I've sold multiple homes in The Ridges, understanding the unique buyer psychology and marketing needs. Luxury buyers want privacy, exclusivity, and quality. They do not respond to generic marketing. They respond to targeted, high-end marketing that showcases the lifestyle, not just the home.
                   </p>
                 </div>
 
@@ -175,7 +175,7 @@ export default function SummerlinAgentPage() {
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Off-Market Access</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  I have access to off-market properties through my network of 500+ agents and builder relationships. When buying, this gives you access to properties before they hit the market. When selling, this gives you access to qualified buyers who are actively looking but haven't found the right property yet.
+                  I have access to off-market properties through my network of 500+ agents and builder relationships. When buying, this gives you access to properties before they hit the market. When selling, this gives you access to qualified buyers who are actively looking but have not found the right property yet.
                 </p>
               </div>
             </div>
@@ -280,7 +280,7 @@ export default function SummerlinAgentPage() {
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Off-Market Properties</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Through my network of 500+ agents, I have access to off-market properties. These are homes that haven't hit the market yet but sellers are ready to sell. This gives you first access to properties before they become available to the general public.
+                  Through my network of 500+ agents, I have access to off-market properties. These are homes that have not hit the market yet but sellers are ready to sell. This gives you first access to properties before they become available to the general public.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Neighborhood Expertise</h3>
                 <p className="text-lg text-gray-700 mb-4">

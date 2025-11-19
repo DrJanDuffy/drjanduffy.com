@@ -47,7 +47,7 @@ export default function RelistHomePage() {
 
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Your listing expired. Your agent couldn't sell it. You're frustrated, angry, and losing money every day. The average unsold home costs sellers $4,964 per month in holding costs. That's $116 per day. Every day you wait is money down the drain.
+                  Your listing expired. Your agent could not sell it. You're frustrated, angry, and losing money every day. The average unsold home costs sellers $4,964 per month in holding costs. That's $116 per day. Every day you wait is money down the drain.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   But here's the truth: you can\'t keep doing what DIDN\'T work. Relisting with the same strategy, same photos, same pricing, same agent - that's insanity. You need a complete reset. New photos. New pricing strategy. Fresh MLS listing. Aggressive marketing. This is what I do. I've helped 47 sellers who couldn\'t sell with their previous agent. Average 19 days to contract. 98.7% of asking price. See <Link href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</Link> from relisted homes I've sold.
@@ -65,7 +65,7 @@ export default function RelistHomePage() {
               </h2>
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-gray-700 mb-6">
-                  Relisting with the same strategy is like doing the same thing and expecting different results. It doesn't work. Here's why:
+                  Relisting with the same strategy is like doing the same thing and expecting different results. It does not work. Here's why:
                 </p>
                 <div className="bg-red-50 border-2 border-red-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4 text-red-800">Same Photos, Same Problem</h3>
@@ -123,11 +123,11 @@ export default function RelistHomePage() {
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">New Professional Photography</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  I invest $3,700 in professional media - twilight drone shots, 3D virtual tours, magazine-quality staging. Professional photography showcases your home at its best. Buyers see a beautiful, properly staged home. They don't see "expired." They see "opportunity." This professional media is what gets homes sold.
+                  I invest $3,700 in professional media - twilight drone shots, 3D virtual tours, magazine-quality staging. Professional photography showcases your home at its best. Buyers see a beautiful, properly staged home. They do not see "expired." They see "opportunity." This professional media is what gets homes sold.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Strategic Pricing Analysis</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  I use data-driven pricing and market analysis to price your home right from day one. I don't just lower the price. I analyze comparable sales, market trends, buyer psychology, and competitive positioning. I price strategically to attract qualified buyers while maximizing your sale price. The result? 98.7% of asking price average, not 92% or 95%.
+                  I use data-driven pricing and market analysis to price your home right from day one. I do not just lower the price. I analyze comparable sales, market trends, buyer psychology, and competitive positioning. I price strategically to attract qualified buyers while maximizing your sale price. The result? 98.7% of asking price average, not 92% or 95%.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Fresh MLS Listing</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -222,7 +222,7 @@ export default function RelistHomePage() {
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Week 3: Active Negotiation</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Offers come in. I use aggressive follow-up, buyer psychology tactics, and strategic counter-offers to get you top dollar. I don't accept lowball offers. I negotiate them up. This aggressive negotiation is how I get 98.7% of asking price average.
+                  Offers come in. I use aggressive follow-up, buyer psychology tactics, and strategic counter-offers to get you top dollar. I do not accept lowball offers. I negotiate them up. This aggressive negotiation is how I get 98.7% of asking price average.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Week 4: Closing</h3>
                 <p className="text-lg text-gray-700 mb-4">

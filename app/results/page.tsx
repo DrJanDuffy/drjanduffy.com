@@ -54,7 +54,7 @@ export default function ResultsPage() {
                 REAL RESULTS
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Actual statistics from homes that didn't sell - now sold by Dr. Jan Duffy
+                Actual statistics from homes that did not sell - now sold by Dr. Jan Duffy
               </p>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
                 {stats.map((stat, index) => {

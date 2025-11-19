@@ -32,31 +32,31 @@ export default function HighRiseCondosPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Las Vegas high-rise condos are luxury properties that require sophisticated marketing. They compete with world-class resorts. They attract high-end buyers. They require professional photography, luxury staging, and exclusive marketing. Most agents don't understand high-rise condos. They use generic strategies, and high-rise condos expire.
+                  Las Vegas high-rise condos are luxury properties that require sophisticated marketing. They compete with world-class resorts. They attract high-end buyers. They require professional photography, luxury staging, and exclusive marketing. Most agents do not understand high-rise condos. They use generic strategies, and high-rise condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired high-rise condos. I understand the luxury market. I know how to market high-rise condos. I know how to attract high-end buyers. I've sold expired high-rise condos in Panorama Towers, Turnberry Place, The Ogden, and other luxury buildings. Fast. At top dollar. With zero excuses.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  High-rise condos face unique challenges. Competition from luxury resorts. High HOA fees. Strict building restrictions. Buyers who expect luxury amenities and exclusive access. Most agents don't address these challenges. They use generic strategies, and high-rise condos expire. I address these challenges. I use luxury marketing strategies, highlight exclusive amenities, and attract high-end buyers. High-rise condos sell. Fast. At top dollar.
+                  High-rise condos face unique challenges. Competition from luxury resorts. High HOA fees. Strict building restrictions. Buyers who expect luxury amenities and exclusive access. Most agents do not address these challenges. They use generic strategies, and high-rise condos expire. I address these challenges. I use luxury marketing strategies, highlight exclusive amenities, and attract high-end buyers. High-rise condos sell. Fast. At top dollar.
                 </p>
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why High-Rise Condos Expire</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  High-rise condos expire for the same reasons other condos expire - poor marketing, minimal investment, and zero follow-up. But high-rise condos face additional challenges that most agents don't understand or address.
+                  High-rise condos expire for the same reasons other condos expire - poor marketing, minimal investment, and zero follow-up. But high-rise condos face additional challenges that most agents do not understand or address.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Inadequate Luxury Marketing</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  High-rise condos require luxury marketing. Professional photography. Luxury staging. Exclusive access events. High-end advertising. Most agents don't invest in luxury marketing. They use generic strategies, and high-rise condos expire. I invest $5,000+ in professional media, luxury staging, and exclusive marketing that attracts high-end buyers.
+                  High-rise condos require luxury marketing. Professional photography. Luxury staging. Exclusive access events. High-end advertising. Most agents do not invest in luxury marketing. They use generic strategies, and high-rise condos expire. I invest $5,000+ in professional media, luxury staging, and exclusive marketing that attracts high-end buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Wrong Buyer Targeting</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  High-rise condos attract high-end buyers. Investors. Second-home buyers. Luxury lifestyle seekers. Most agents don't know how to target these buyers. They use generic advertising, and high-rise condos expire. I use targeted advertising, exclusive access events, and luxury marketing that attracts high-end buyers.
+                  High-rise condos attract high-end buyers. Investors. Second-home buyers. Luxury lifestyle seekers. Most agents do not know how to target these buyers. They use generic advertising, and high-rise condos expire. I use targeted advertising, exclusive access events, and luxury marketing that attracts high-end buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Building Restriction Challenges</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  High-rise condos have strict building restrictions. Limited open houses. Restricted photography. Complex approval processes. Most agents don't know how to work within these restrictions. They try to market high-rise condos like regular condos, hit restrictions, and give up. I know how to market high-rise condos effectively within building restrictions. I use digital marketing, exclusive access events, and targeted advertising that doesn't violate building rules.
+                  High-rise condos have strict building restrictions. Limited open houses. Restricted photography. Complex approval processes. Most agents do not know how to work within these restrictions. They try to market high-rise condos like regular condos, hit restrictions, and give up. I know how to market high-rise condos effectively within building restrictions. I use digital marketing, exclusive access events, and targeted advertising that does not violate building rules.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
@@ -66,15 +66,15 @@ export default function HighRiseCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Luxury Marketing Investment</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  High-rise condos require luxury marketing investment. Professional photography. Luxury staging. Exclusive access events. High-end advertising. Most agents don't invest in luxury marketing. I invest $5,000+ in professional media, luxury staging, and exclusive marketing that attracts high-end buyers.
+                  High-rise condos require luxury marketing investment. Professional photography. Luxury staging. Exclusive access events. High-end advertising. Most agents do not invest in luxury marketing. I invest $5,000+ in professional media, luxury staging, and exclusive marketing that attracts high-end buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">High-End Buyer Network</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  High-rise condos attract high-end buyers. I have a network of investors, second-home buyers, and luxury lifestyle seekers. I use this network to market high-rise condos effectively. Most agents don't have this network. They use generic advertising, and high-rise condos expire.
+                  High-rise condos attract high-end buyers. I have a network of investors, second-home buyers, and luxury lifestyle seekers. I use this network to market high-rise condos effectively. Most agents do not have this network. They use generic advertising, and high-rise condos expire.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Building Relationship Management</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  High-rise condos have strict building restrictions. I have relationships with building management. I know how to work within restrictions. I know how to get approvals. Most agents don't have these relationships. They hit restrictions, and high-rise condos expire.
+                  High-rise condos have strict building restrictions. I have relationships with building management. I know how to work within restrictions. I know how to get approvals. Most agents do not have these relationships. They hit restrictions, and high-rise condos expire.
                 </p>
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
@@ -101,7 +101,7 @@ export default function HighRiseCondosPage() {
                   READY TO SELL YOUR HIGH-RISE CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Las Vegas high-rise condo home DIDN\'T sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Las Vegas high-rise condo home DIDN\'T sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="high_rise_condos" buttonText="GET MY HIGH-RISE CONDO SOLD" />
               </div>

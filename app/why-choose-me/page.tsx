@@ -139,7 +139,7 @@ export default function WhyChooseMePage() {
                   Your previous agent failed. I won\'t.
                 </p>
                 <p className="text-xl">
-                  47 homes that didn't sell - now sold. 19 day average. 98.7% of asking.
+                  47 homes that did not sell - now sold. 19 day average. 98.7% of asking.
                 </p>
               </div>
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
