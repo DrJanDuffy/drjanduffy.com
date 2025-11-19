@@ -2,9 +2,9 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import { Lightbulb, AlertCircle, CheckCircle } from 'lucide-react'
 export const metadata = {
-  title: 'Selling Tips | HOME THAT DIDN'T SELL Tips | Dr. Jan Duffy',
+  title: `Selling Tips | HOME THAT DIDN'T SELL Tips | Dr. Jan Duffy`,
   description:
-    'Expert tips for selling homes that didn't sell: pricing, staging, marketing, and negotiation strategies.',
+    `Expert tips for selling homes that didn't sell: pricing, staging, marketing, and negotiation strategies.`,
 }
 export default function SellingTipsPage() {
   const tips = [
@@ -40,7 +40,7 @@ export default function SellingTipsPage() {
         'Price competitively from day one - don\'t start high and drop',
         'Be available for showings - flexibility wins',
         'Invest in professional media - it pays for itself',
-        'Work with an specialist in homes that didn't sell, not a generalist',
+        `Work with an specialist in homes that didn't sell, not a generalist`,
         'Set realistic expectations based on market data',
       ],
     },

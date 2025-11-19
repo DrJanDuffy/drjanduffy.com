@@ -2,21 +2,21 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import { Check, X } from 'lucide-react'
 export const metadata = {
-  title: 'Why Choose Dr. Jan Duffy | specialist in homes that didn't sell',
+  title: 'Why Choose Dr. Jan Duffy | specialist in homes that did not sell',
   description:
-    'Why choose Dr. Jan Duffy for your HOME THAT DIDN'T SELL? 47 sold, 19 day average, 98.7% of asking, and proven results.',
+    'Why choose Dr. Jan Duffy for your HOME THAT DID NOT SELL? 47 sold, 19 day average, 98.7% of asking, and proven results.',
 }
 export default function WhyChooseMePage() {
   const reasons = [
     {
       title: 'Proven Track Record',
-      description: '47 homes that didn't sell - now sold with 19 day average and 98.7% of asking price.',
+      description: '47 homes that did not sell - now sold with 19 day average and 98.7% of asking price.',
       proof: 'Real results, not promises',
     },
     {
-      title: 'specialist in homes that didn't sell',
-      description: 'I don\'t dabble in HOMES THAT DIDN'T SELL - I specialize in them. This is all I do.',
-      proof: '100% focus on HOMES THAT DIDN'T SELL',
+      title: 'specialist in homes that did not sell',
+      description: 'I do not dabble in HOMES THAT DID NOT SELL - I specialize in them. This is all I do.',
+      proof: '100% focus on HOMES THAT DID NOT SELL',
     },
     {
       title: 'Maximum 6 Listings',
@@ -30,7 +30,7 @@ export default function WhyChooseMePage() {
     },
     {
       title: 'Proven Results',
-      description: '47 homes that didn't sell - now sold with 19 day average and 98.7% of asking price. Weekly updates with real accountability.',
+      description: '47 homes that did not sell - now sold with 19 day average and 98.7% of asking price. Weekly updates with real accountability.',
       proof: 'Accountability, not excuses',
     },
     {
