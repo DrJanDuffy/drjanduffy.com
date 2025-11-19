@@ -63,7 +63,7 @@ export default function PrivacyPolicyPage() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-600">
-                    Last updated: November 2025
+                    Last updated: November 2026
                   </p>
                 </div>
               </div>

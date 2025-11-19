@@ -8,7 +8,21 @@ export const metadata = {
   description:
     'Need to relist your home in Las Vegas? Specialist in homes that didn\'t sell. 47 sold, 19 days average, 98.7% asking. Call 702-500-1064',
   alternates: {
-    canonical: '/relist-home-las-vegas',
+    canonical: 'https://www.drjanduffy.com/relist-home-las-vegas',
+  },
+  authors: [{ name: 'Dr. Janet Duffy' }],
+  creator: 'Dr. Janet Duffy',
+  openGraph: {
+    type: 'article',
+    locale: 'en_US',
+    url: 'https://www.drjanduffy.com/relist-home-las-vegas',
+    title: 'Relist Your Home Las Vegas | Failed Listing Specialist',
+    description: 'Need to relist your home in Las Vegas? Specialist in homes that didn\'t sell. 47 sold, 19 days average.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Relist Your Home Las Vegas',
+    description: 'Specialist in homes that didn\'t sell. 47 sold, 19 days average, 98.7% asking.',
   },
 }
 
@@ -28,7 +42,7 @@ export default function RelistHomePage() {
                 Time to Relist Your Home in Las Vegas? Here's How We Do It Right.
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Your listing expired. Your agent couldn't sell it. You need a fresh start. I specialize in relisting homes that didn't sell.
+                Your listing expired. Your agent couldn\'t sell it. You need a fresh start. I specialize in relisting homes that DIDN\'T sell.
               </p>
 
               <div className="prose prose-lg max-w-none mb-12">
@@ -36,7 +50,7 @@ export default function RelistHomePage() {
                   Your listing expired. Your agent couldn't sell it. You're frustrated, angry, and losing money every day. The average unsold home costs sellers $4,964 per month in holding costs. That's $116 per day. Every day you wait is money down the drain.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  But here's the truth: you can't keep doing what didn't work. Relisting with the same strategy, same photos, same pricing, same agent - that's insanity. You need a complete reset. New photos. New pricing strategy. Fresh MLS listing. Aggressive marketing. This is what I do. I've helped 47 sellers who couldn't sell with their previous agent. Average 19 days to contract. 98.7% of asking price. See <Link href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</Link> from relisted homes I've sold.
+                  But here's the truth: you can\'t keep doing what DIDN\'T work. Relisting with the same strategy, same photos, same pricing, same agent - that's insanity. You need a complete reset. New photos. New pricing strategy. Fresh MLS listing. Aggressive marketing. This is what I do. I've helped 47 sellers who couldn\'t sell with their previous agent. Average 19 days to contract. 98.7% of asking price. See <Link href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</Link> from relisted homes I've sold.
                 </p>
               </div>
             </div>
@@ -86,7 +100,7 @@ export default function RelistHomePage() {
                 <div className="bg-red-50 border-2 border-red-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4 text-red-800">Same Agent, Same Failure</h3>
                   <p className="text-lg text-gray-700 mb-4">
-                    Your previous agent had 47+ listings. You got 2.1% of their attention. They couldn't afford to invest $5,000+ in every listing. Relisting with the same agent means the same part-time effort. Your listing gets lost in the shuffle.
+                    Your previous agent had 47+ listings. You got 2.1% of their attention. They couldn\'t afford to invest $5,000+ in every listing. Relisting with the same agent means the same part-time effort. Your listing gets lost in the shuffle.
                   </p>
                   <p className="text-lg text-gray-700">
                     I take maximum 6 listings at a time. You get 100% focus. Every home gets the full treatment - professional marketing, aggressive follow-up, strategic negotiation. Nothing is left to chance. This focus is what separates successful sales from failed listings.
@@ -228,7 +242,7 @@ export default function RelistHomePage() {
               Let's Relist and Sell Your Home
             </h2>
             <p className="text-xl mb-4 max-w-2xl mx-auto">
-              Your listing expired. Your agent couldn't sell it. Let's fix this with a complete reset.
+              Your listing expired. Your agent couldn\'t sell it. Let's fix this with a complete reset.
             </p>
             <p className="text-lg mb-8 max-w-2xl mx-auto opacity-90">
               Call 702-500-1064 or text 702-500-1064. Free consultation. Let's relist and sell your home.

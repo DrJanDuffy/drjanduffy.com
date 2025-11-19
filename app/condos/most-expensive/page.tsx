@@ -21,7 +21,7 @@ export default function MostExpensiveCondosPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Las Vegas has some of the most expensive condos in the country. Luxury high-rise condos on The Strip command premium prices. Turnberry Place, Panorama Towers, Trump International, and other luxury buildings offer condos priced from $1 million to $10 million+. If your expensive condo home didn't sell, you're not alone. Expensive condos face unique challenges - from limited buyer pool to high expectations to sophisticated marketing requirements. Most agents don't understand expensive condos. They use generic strategies, and expensive condos expire.
+                  Las Vegas has some of the most expensive condos in the country. Luxury high-rise condos on The Strip command premium prices. Turnberry Place, Panorama Towers, Trump International, and other luxury buildings offer condos priced from $1 million to $10 million+. If your expensive condo home DIDN\'T sell, you're not alone. Expensive condos face unique challenges - from limited buyer pool to high expectations to sophisticated marketing requirements. Most agents don't understand expensive condos. They use generic strategies, and expensive condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired expensive condos. I understand the luxury market. I know how to market high-end properties. I know how to attract high-net-worth buyers. I've sold expired luxury condos in Turnberry Place, Panorama Towers, The Ogden, and other premium buildings. Fast. At top dollar. With zero excuses.
@@ -90,7 +90,7 @@ export default function MostExpensiveCondosPage() {
                   READY TO SELL YOUR EXPENSIVE CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your expensive Las Vegas condo home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your expensive Las Vegas condo home DIDN\'T sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="most_expensive_condos" buttonText="GET MY EXPENSIVE CONDO SOLD" />
               </div>

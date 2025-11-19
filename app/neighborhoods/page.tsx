@@ -7,7 +7,16 @@ export const metadata = {
   description:
     'Expert help selling homes that didn\'t sell in Las Vegas neighborhoods: Summerlin West, The Ridges, Red Rock Country Club, The Summit, and more. 19 day average, 98.7% of asking price.',
   alternates: {
-    canonical: '/neighborhoods',
+    canonical: 'https://www.drjanduffy.com/neighborhoods',
+  },
+  authors: [{ name: 'Dr. Janet Duffy' }],
+  creator: 'Dr. Janet Duffy',
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://www.drjanduffy.com/neighborhoods',
+    title: 'Las Vegas Neighborhoods | failed listing specialist',
+    description: 'Expert help selling homes that didn\'t sell in Las Vegas neighborhoods.',
   },
 }
 
@@ -29,12 +38,12 @@ export default function NeighborhoodsPage() {
                 LAS VEGAS NEIGHBORHOODS
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Expert help selling homes that didn't sell in Las Vegas's premier neighborhoods
+                Expert help selling homes that DIDN\'T sell in Las Vegas's premier neighborhoods
               </p>
 
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  If your home didn't sell in any Las Vegas neighborhood, you're not alone. Even in the most prestigious communities - Summerlin West, The Ridges, Red Rock Country Club, The Summit - homes fail to sell when agents don't understand neighborhood-specific marketing. I've sold 47 Summerlin sellers who couldn't sell with an average of 19 days to contract and 98.7% of asking price. I understand neighborhood-specific marketing. I know how to market properties in each unique community. I can sell your HOME THAT DIDN'T SELL. Fast. At top dollar. With zero excuses.
+                  If your home didn\'t sell in any Las Vegas neighborhood, you're not alone. Even in the most prestigious communities - Summerlin West, The Ridges, Red Rock Country Club, The Summit - homes fail to sell when agents don't understand neighborhood-specific marketing. I've sold 47 Summerlin sellers who couldn\'t sell with an average of 19 days to contract and 98.7% of asking price. I understand neighborhood-specific marketing. I know how to market properties in each unique community. I can sell your HOME THAT DIDN\'T SELL. Fast. At top dollar. With zero excuses.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   Las Vegas neighborhoods are diverse. Each community has unique characteristics, buyer profiles, and marketing requirements. Summerlin West offers luxury estates and golf course properties. The Ridges offers ultra-luxury living with exclusivity. Red Rock Country Club offers golf course access and mountain views. The Summit offers gated security and privacy. MacDonald Ranch offers established communities and mature landscaping. Southern Highlands offers master-planned amenities and family features. Skye Canyon offers new construction and modern design. Mountains Edge offers family-friendly living and quality schools. Each requires different marketing strategies. Most agents don't understand this. They use generic strategies, and homes fail to sell. I understand neighborhood-specific marketing. I use targeted strategies for each community, and listings sell. Fast. At top dollar.
@@ -66,7 +75,7 @@ export default function NeighborhoodsPage() {
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">My Neighborhood Expertise</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  I've sold homes that didn't sell throughout Las Vegas neighborhoods and understand the unique challenges of marketing neighborhood-specific properties. I know how to attract neighborhood-specific buyers. I know how to showcase neighborhood features. I know how to sell neighborhood properties.
+                  I've sold homes that DIDN\'T sell throughout Las Vegas neighborhoods and understand the unique challenges of marketing neighborhood-specific properties. I know how to attract neighborhood-specific buyers. I know how to showcase neighborhood features. I know how to sell neighborhood properties.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Neighborhood-Specific Marketing</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -126,13 +135,13 @@ export default function NeighborhoodsPage() {
               </div>
 
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
-                <h2 className="text-3xl font-black mb-4">The Neighborhood HOME THAT DIDN'T SELL Opportunity</h2>
+                <h2 className="text-3xl font-black mb-4">The Neighborhood HOME THAT DIDN\'T SELL Opportunity</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  HOMES THAT DIDN'T SELL in Las Vegas neighborhoods represent significant opportunities. Sellers are frustrated. They've tried once and failed. They're ready to work with an agent who actually understands neighborhood-specific marketing. I understand neighborhood-specific marketing. I know how to market neighborhood properties. I know how to attract neighborhood-specific buyers.
+                  HOMES THAT didn\'t SELL in Las Vegas neighborhoods represent significant opportunities. Sellers are frustrated. They've tried once and failed. They're ready to work with an agent who actually understands neighborhood-specific marketing. I understand neighborhood-specific marketing. I know how to market neighborhood properties. I know how to attract neighborhood-specific buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Complete Neighborhood Reset</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Expired neighborhood listings need a complete neighborhood-specific reset. New professional photography showcasing neighborhood features. Strategic positioning emphasizing neighborhood benefits. Fresh MLS listing with optimized neighborhood description. Strategic pricing positioning. Aggressive marketing targeting neighborhood-specific buyers. Most agents don't do this. I do. I provide complete neighborhood reset services that transform HOMES THAT DIDN'T SELL into attractive opportunities.
+                  Expired neighborhood listings need a complete neighborhood-specific reset. New professional photography showcasing neighborhood features. Strategic positioning emphasizing neighborhood benefits. Fresh MLS listing with optimized neighborhood description. Strategic pricing positioning. Aggressive marketing targeting neighborhood-specific buyers. Most agents don't do this. I do. I provide complete neighborhood reset services that transform HOMES THAT DIDN\'T SELL into attractive opportunities.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Neighborhood Marketing System</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -140,7 +149,7 @@ export default function NeighborhoodsPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Proven Results</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  I've sold 47 Summerlin sellers who couldn't sell with an average of 19 days to contract and 98.7% of asking price. These aren't hypothetical results. These are real HOMES THAT DIDN'T SELL that I sold after other agents failed. I can do the same for your neighborhood listing. Fast. At top dollar. With zero excuses.
+                  I've sold 47 Summerlin sellers who couldn\'t sell with an average of 19 days to contract and 98.7% of asking price. These aren't hypothetical results. These are real HOMES THAT DIDN\'T SELL that I sold after other agents failed. I can do the same for your neighborhood listing. Fast. At top dollar. With zero excuses.
                 </p>
               </div>
 
@@ -149,7 +158,7 @@ export default function NeighborhoodsPage() {
                   READY TO SELL YOUR NEIGHBORHOOD LISTING?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your neighborhood home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your neighborhood home didn\'t sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="neighborhoods_page" buttonText="GET MY LISTING SOLD" />
               </div>

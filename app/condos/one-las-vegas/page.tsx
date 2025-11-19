@@ -21,7 +21,7 @@ export default function OneLasVegasCondosPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  One Las Vegas is a luxury high-rise condominium building in Las Vegas that offers sophisticated living with Strip views, world-class amenities, and prime location. If your One Las Vegas condo home didn't sell, you're not alone. One Las Vegas condos face unique challenges - from marketing Strip views to highlighting world-class amenities to buyers who expect luxury living. Most agents don't understand One Las Vegas condos. They use generic strategies, and One Las Vegas condos expire.
+                  One Las Vegas is a luxury high-rise condominium building in Las Vegas that offers sophisticated living with Strip views, world-class amenities, and prime location. If your One Las Vegas condo home DIDN\'T sell, you're not alone. One Las Vegas condos face unique challenges - from marketing Strip views to highlighting world-class amenities to buyers who expect luxury living. Most agents don't understand One Las Vegas condos. They use generic strategies, and One Las Vegas condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired One Las Vegas condos. I understand the luxury market. I know how to market high-rise condos with Strip views. I know how to attract luxury lifestyle seekers. I've sold expired condos in One Las Vegas and other luxury Strip-view properties. Fast. At top dollar. With zero excuses.
@@ -90,7 +90,7 @@ export default function OneLasVegasCondosPage() {
                   READY TO SELL YOUR ONE LAS VEGAS CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your One Las Vegas condo home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your One Las Vegas condo home DIDN\'T sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="one_las_vegas_condos" buttonText="GET MY ONE LAS VEGAS CONDO SOLD" />
               </div>

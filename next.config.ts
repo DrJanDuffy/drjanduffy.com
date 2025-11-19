@@ -16,22 +16,6 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   // Output file tracing for better performance
   outputFileTracingRoot: process.cwd(),
-  // Redirects for old neighborhood pages
-  async redirects() {
-    return [
-      // Redirect old neighborhood pages
-      {
-        source: '/neighborhoods',
-        destination: '/',
-        permanent: true,
-      },
-      {
-        source: '/neighborhoods/:path*',
-        destination: '/',
-        permanent: true,
-      },
-    ]
-  },
 }
 
 export default nextConfig

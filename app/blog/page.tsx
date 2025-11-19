@@ -7,7 +7,21 @@ export const metadata = {
   description:
     'Expert insights on Las Vegas real estate, market trends, selling tips, and neighborhood guides. Stay informed with the latest from Summerlin real estate specialist.',
   alternates: {
-    canonical: '/blog',
+    canonical: 'https://www.drjanduffy.com/blog',
+  },
+  authors: [{ name: 'Dr. Janet Duffy' }],
+  creator: 'Dr. Janet Duffy',
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://www.drjanduffy.com/blog',
+    title: 'Las Vegas Real Estate Blog | Market Insights & Selling Tips',
+    description: 'Expert insights on Las Vegas real estate, market trends, selling tips, and neighborhood guides.',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Las Vegas Real Estate Blog',
+    description: 'Expert insights on Las Vegas real estate, market trends, and selling tips.',
   },
 }
 
@@ -17,21 +31,21 @@ const blogPosts = [
     slug: 'why-house-wont-sell-las-vegas',
     title: 'Why Your House Won\'t Sell in Las Vegas: 7 Common Mistakes',
     excerpt: 'Data-driven analysis of why homes don\'t sell in Las Vegas. Common agent failures and how to avoid them.',
-    date: '2025-01-15',
+    date: '2026-01-15',
     category: 'Selling Tips',
   },
   {
     slug: 'how-to-sell-house-fast-las-vegas',
-    title: 'How to Sell Your House Fast in Las Vegas: Complete 2025 Guide',
+    title: 'How to Sell Your House Fast in Las Vegas: Complete 2026 Guide',
     excerpt: 'Complete guide to selling your house fast in Las Vegas. Timeline, checklist, and local considerations.',
-    date: '2025-01-10',
+    date: '2026-01-10',
     category: 'Selling Tips',
   },
   {
-    slug: 'summerlin-market-report-january-2025',
-    title: 'Summerlin Real Estate Market Report January 2025',
+    slug: 'summerlin-market-report-january-2026',
+    title: 'Summerlin Real Estate Market Report January 2026',
     excerpt: 'Current Summerlin market insights: inventory, prices, days on market, trends, and predictions.',
-    date: '2025-01-05',
+    date: '2026-01-05',
     category: 'Market Reports',
   },
 ]

@@ -17,7 +17,7 @@ export default function MarketAnalysisPage() {
                 LAS VEGAS MARKET ANALYSIS
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Current market conditions and what they mean for HOMES THAT DIDN'T SELL
+                Current market conditions and what they mean for HOMES THAT DIDN\'T SELL
               </p>
               <div className="space-y-8 mb-12">
                 <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
@@ -43,7 +43,7 @@ export default function MarketAnalysisPage() {
                 </div>
                 <div className="bg-red-50 border-2 border-red-200 rounded-lg p-8">
                   <h2 className="text-2xl font-black mb-4 text-red-800">
-                    What This Means for HOMES THAT DIDN'T SELL
+                    What This Means for HOMES THAT didn\'t SELL
                   </h2>
                   <ul className="space-y-3 text-lg">
                     <li className="flex items-start gap-3">
@@ -60,29 +60,29 @@ export default function MarketAnalysisPage() {
                     </li>
                     <li className="flex items-start gap-3">
                       <span className="text-red-600 font-bold">•</span>
-                      <span><strong>Stigma risk</strong> - HOMES THAT DIDN'T SELL need aggressive reset</span>
+                      <span><strong>Stigma risk</strong> - HOMES That Didn\'t SELL need aggressive reset</span>
                     </li>
                   </ul>
                 </div>
                 <div className="bg-green-50 border-2 border-green-200 rounded-lg p-8">
                   <h2 className="text-2xl font-black mb-4 text-green-800">
-                    Why HOMES THAT DIDN'T SELL Can Still Sell Fast
+                    Why HOMES THAT DIDN\'T SELL Can Still Sell Fast
                   </h2>
                   <ul className="space-y-3 text-lg">
                     <li className="flex items-start gap-3">
-                      <span className="text-green-600 font-bold">✓</span>
+                      <span className="text-green-700 font-bold">✓</span>
                       <span><strong>Fresh start eliminates stigma</strong> - Complete reset removes "expired" label</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-green-600 font-bold">✓</span>
+                      <span className="text-green-700 font-bold">✓</span>
                       <span><strong>Motivated sellers</strong> - Ready to price competitively and be flexible</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-green-600 font-bold">✓</span>
+                      <span className="text-green-700 font-bold">✓</span>
                       <span><strong>Professional marketing stands out</strong> - Most listings have poor marketing</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-green-600 font-bold">✓</span>
+                      <span className="text-green-700 font-bold">✓</span>
                       <span><strong>Buyers are still active</strong> - Just need the right property at the right price</span>
                     </li>
                   </ul>

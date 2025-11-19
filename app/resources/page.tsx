@@ -2,15 +2,15 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import { FileText, Download, BookOpen, Video } from 'lucide-react'
 export const metadata = {
-  title: 'Resources | HOME THAT DIDN'T SELL Resources | Dr. Jan Duffy',
+  title: 'Resources | HOME THAT DID NOT SELL Resources | Dr. Jan Duffy',
   description:
-    'Free resources for HOME THAT DIDN'T SELL sellers: guides, reports, calculators, and educational content.',
+    'Free resources for HOME THAT DID NOT SELL sellers: guides, reports, calculators, and educational content.',
 }
 export default function ResourcesPage() {
   const resources = [
     {
       icon: FileText,
-      title: '7 Reasons your home didn't sell',
+      title: '7 Reasons your home did not sell',
       description: 'Free report revealing the 5 fatal mistakes that killed your listing and how to fix them.',
       type: 'Free Report',
       cta: 'Download Now',
@@ -26,7 +26,7 @@ export default function ResourcesPage() {
     {
       icon: BookOpen,
       title: 'The 30-Day Sale Plan',
-      description: 'Complete week-by-week breakdown of how to sell your HOME THAT DIDN'T SELL in 30 days or less.',
+      description: 'Complete week-by-week breakdown of how to sell your HOME THAT DIDN\'T SELL in 30 days or less.',
       type: 'Guide',
       cta: 'View Plan',
       link: '/30-day-plan',
@@ -42,14 +42,14 @@ export default function ResourcesPage() {
     {
       icon: FileText,
       title: 'Market Analysis Report',
-      description: 'Current Las Vegas market conditions and what it means for HOMES THAT DIDN'T SELL.',
+      description: 'Current Las Vegas market conditions and what it means for HOMES THAT DIDN\'T SELL.',
       type: 'Market Report',
       cta: 'Get Report',
     },
     {
       icon: Download,
       title: 'Agent Performance Quiz',
-      description: '60-second assessment to find out why your home didn't sell and what your agent did wrong.',
+      description: '60-second assessment to find out why your home DIDN\'T sell and what your agent did wrong.',
       type: 'Interactive Quiz',
       cta: 'Take Quiz',
       link: '/tools/blame-analyzer',
@@ -66,7 +66,7 @@ export default function ResourcesPage() {
                 FREE RESOURCES
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Tools, guides, and reports to help you understand and fix your HOME THAT DIDN'T SELL
+                Tools, guides, and reports to help you understand and fix your HOME THAT DIDN\'T SELL
               </p>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
                 {resources.map((resource, index) => {

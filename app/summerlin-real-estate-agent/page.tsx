@@ -8,7 +8,21 @@ export const metadata = {
   description:
     'Summerlin real estate agent specializing in The Ridges, Red Rock Country Club, The Summit. $127M+ sold. Local expert. Call 702-500-1064',
   alternates: {
-    canonical: '/summerlin-real-estate-agent',
+    canonical: 'https://www.drjanduffy.com/summerlin-real-estate-agent',
+  },
+  authors: [{ name: 'Dr. Janet Duffy' }],
+  creator: 'Dr. Janet Duffy',
+  openGraph: {
+    type: 'profile',
+    locale: 'en_US',
+    url: 'https://www.drjanduffy.com/summerlin-real-estate-agent',
+    title: 'Summerlin Real Estate Agent | Luxury Home Specialist | The Ridges',
+    description: 'Summerlin real estate agent specializing in The Ridges, Red Rock Country Club, The Summit. $127M+ sold.',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Summerlin Real Estate Agent | Luxury Home Specialist',
+    description: 'Specializing in The Ridges, Red Rock Country Club, The Summit. $127M+ sold.',
   },
 }
 
@@ -176,7 +190,7 @@ export default function SummerlinAgentPage() {
               </h2>
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-gray-700 mb-6">
-                  As of January 2025, the Summerlin market shows:
+                  As of January 2026, the Summerlin market shows:
                 </p>
                 <div className="grid md:grid-cols-2 gap-6 mb-8">
                   <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-6">
@@ -200,7 +214,7 @@ export default function SummerlinAgentPage() {
                   <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-6">
                     <h3 className="text-xl font-black mb-3">Buyer Activity</h3>
                     <p className="text-gray-700">
-                      Spring 2025 buyers are already active. Pre-qualified, serious buyers looking for luxury homes. Tax refund season (February-April) typically increases buyer activity and purchasing power.
+                      Spring 2026 buyers are already active. Pre-qualified, serious buyers looking for luxury homes. Tax refund season (February-April) typically increases buyer activity and purchasing power.
                     </p>
                   </div>
                 </div>
@@ -238,7 +252,7 @@ export default function SummerlinAgentPage() {
                   <div className="bg-white border-2 border-gray-200 rounded-lg p-6">
                     <h3 className="text-xl font-black mb-3">The Summit Condo - $850K</h3>
                     <p className="text-gray-700">
-                      Sold in 16 days at 99.2% of asking. High-rise condo that didn't sell with previous agent. Professional photography showcasing Strip views, targeted marketing to second-home buyers, strategic pricing.
+                      Sold in 16 days at 99.2% of asking. High-rise condo that DIDN\'T sell with previous agent. Professional photography showcasing Strip views, targeted marketing to second-home buyers, strategic pricing.
                     </p>
                   </div>
                 </div>

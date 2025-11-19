@@ -1,5 +1,7 @@
 import Link from 'next/link'
-import { Phone, Mail, MapPin } from 'lucide-react'
+import Image from 'next/image'
+import { Phone, Mail, MapPin, Clock } from 'lucide-react'
+import GoogleBusinessLink from './google-business-link'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -13,7 +15,7 @@ export default function Footer() {
             <h3 className="text-white font-black text-xl mb-4">Dr. Janet Duffy</h3>
             <p className="text-sm mb-4">
               Las Vegas Real Estate Expert<br />
-              Specializing in HOMES THAT DIDN'T SELL
+              Specializing in HOMES THAT DIDN\'T SELL
             </p>
             <div className="space-y-3">
               <a
@@ -34,11 +36,22 @@ export default function Footer() {
                 <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
                 <span>1180 North Town Center Drive<br />Las Vegas, NV 89144<br />Serving Summerlin, The Ridges & Surrounding Areas</span>
               </div>
+              <div className="flex items-start gap-2 text-sm mt-3">
+                <Clock className="w-4 h-4 mt-1 flex-shrink-0" />
+                <div>
+                  <div className="font-semibold mb-1">Business Hours:</div>
+                  <div>Mon-Sun: 8:00 AM - 8:00 PM</div>
+                  <div className="text-xs text-gray-500 mt-1">Available 7 days a week</div>
+                </div>
+              </div>
+              <div className="mt-3">
+                <GoogleBusinessLink variant="text" />
+              </div>
             </div>
             <div className="mt-4 pt-4 border-t border-gray-800">
               <p className="text-xs text-gray-500">
                 <strong className="text-white">Awards:</strong><br />
-                failed listing specialist 2025<br />
+                Failed Listing Specialist 2026<br />
                 Good Neighbor Award Recipient
               </p>
             </div>
@@ -187,16 +200,17 @@ export default function Footer() {
             </div>
             <div className="flex flex-col items-center gap-2">
               {/* Berkshire Hathaway HomeServices Logo */}
-              <div className="flex items-center justify-center h-8">
-                {/* Logo will be displayed here - add berkshire-hathaway-logo.png to public folder */}
-                <img 
+              <div className="flex items-center justify-center max-w-[200px]">
+                <Image 
                   src="/berkshire-hathaway-logo.png" 
-                  alt="Berkshire Hathaway HomeServices" 
-                  className="h-8 w-auto object-contain"
-                  style={{ display: 'block' }}
+                  alt="Berkshire Hathaway HomeServices Las Vegas Real Estate" 
+                  width={200}
+                  height={40}
+                  className="h-auto w-full max-h-10 object-contain"
+                  style={{ maxWidth: '200px', height: 'auto' }}
                 />
               </div>
-              <p className="text-xs text-gray-400 text-center">
+              <p className="text-xs text-gray-400 text-center max-w-[200px]">
                 Berkshire Hathaway HomeServices
               </p>
             </div>

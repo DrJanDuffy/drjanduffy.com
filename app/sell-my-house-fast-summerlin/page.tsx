@@ -8,7 +8,21 @@ export const metadata = {
   description:
     'Sell your house fast in Summerlin. Luxury home specialist with 47 previously unsold homes sold. Average 19 days. Call 702-500-1064',
   alternates: {
-    canonical: '/sell-my-house-fast-summerlin',
+    canonical: 'https://www.drjanduffy.com/sell-my-house-fast-summerlin',
+  },
+  authors: [{ name: 'Dr. Janet Duffy' }],
+  creator: 'Dr. Janet Duffy',
+  openGraph: {
+    type: 'article',
+    locale: 'en_US',
+    url: 'https://www.drjanduffy.com/sell-my-house-fast-summerlin',
+    title: 'Sell My House Fast Summerlin | Luxury Home Specialist | 19 Days',
+    description: 'Sell your house fast in Summerlin. Luxury home specialist with 47 previously unsold homes sold.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Sell My House Fast Summerlin',
+    description: 'Luxury home specialist with 47 previously unsold homes sold. Average 19 days.',
   },
 }
 
@@ -36,7 +50,7 @@ export default function SellFastSummerlinPage() {
                   Need to sell your house fast in Summerlin? The Summerlin luxury market is different. Price ranges from $800K to $10M+. Buyer expectations are higher. Marketing needs are different. Competition is fierce. You need a Summerlin specialist who understands luxury home marketing, not just any Las Vegas agent.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  I specialize in selling Summerlin luxury homes fast. I've helped 47 Summerlin sellers who couldn't sell with their previous agent. Average 19 days to contract. 98.7% of asking price. These aren't hypothetical results. These are real Summerlin homes that I sold after other agents failed. See <Link href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</Link> and learn about <Link href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process</Link>.
+                  I specialize in selling Summerlin luxury homes fast. I've helped 47 Summerlin sellers who couldn\'t sell with their previous agent. Average 19 days to contract. 98.7% of asking price. These aren't hypothetical results. These are real Summerlin homes that I sold after other agents failed. See <Link href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</Link> and learn about <Link href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process</Link>.
                 </p>
               </div>
             </div>

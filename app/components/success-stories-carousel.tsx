@@ -62,7 +62,7 @@ export default function SuccessStoriesCarousel() {
           </div>
           <div className="bg-green-50 p-4 rounded-lg">
             <div className="text-sm text-gray-600 mb-1">Sold</div>
-            <div className="text-2xl font-bold text-green-600">
+            <div className="text-2xl font-bold text-green-700">
               {currentStory.daysSold} days
             </div>
           </div>
@@ -75,7 +75,7 @@ export default function SuccessStoriesCarousel() {
           </div>
           <div className="flex justify-between">
             <span className="text-gray-600">Sold Price:</span>
-            <span className="font-bold text-green-600">
+            <span className="font-bold text-green-700">
               {formatCurrency(currentStory.soldPrice)} ({currentStory.soldPercentage}%)
             </span>
           </div>

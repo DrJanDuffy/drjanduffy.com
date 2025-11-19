@@ -5,14 +5,14 @@ import { TrendingUp, Clock, DollarSign, Home } from 'lucide-react'
 export const metadata = {
   title: 'Results & Statistics | Dr. Jan Duffy',
   description:
-    'Real results from Dr. Jan Duffy: 47 homes that didn't sell - now sold, 19 day average, 98.7% of asking price.',
+    'Real results from Dr. Jan Duffy: 47 homes that did not sell - now sold, 19 day average, 98.7% of asking price.',
 }
 export default function ResultsPage() {
   const stats = [
     {
       icon: Home,
       number: '47',
-      label: 'homes that didn't sell - now sold',
+      label: 'homes that did not sell - now sold',
       description: 'Real results from frustrated sellers',
     },
     {
@@ -136,7 +136,7 @@ export default function ResultsPage() {
                         </div>
                         <div className="flex justify-between">
                           <span className="text-gray-600">Sold:</span>
-                          <span className="font-bold text-green-600">
+                          <span className="font-bold text-green-700">
                             {story.daysSold} days
                           </span>
                         </div>
@@ -148,7 +148,7 @@ export default function ResultsPage() {
                         </div>
                         <div className="flex justify-between">
                           <span className="text-gray-600">Sold:</span>
-                          <span className="font-bold text-green-600">
+                          <span className="font-bold text-green-700">
                             {formatCurrency(story.soldPrice)} ({story.soldPercentage}%)
                           </span>
                         </div>

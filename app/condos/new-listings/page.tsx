@@ -24,10 +24,10 @@ export default function NewListingsCondosPage() {
                   If you're listing your Las Vegas condo for the first time, you have one chance to get it right. Most agents don't understand condos. They use generic strategies, make common mistakes, and your home doesn't sell. I specialize in condos. I know what works. I know what doesn't. I know how to avoid the mistakes that cause listings to expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  New condo listings face unique challenges. Competition from new construction. HOA restrictions. Seasonal demand fluctuations. Buyers who don't understand condos. Most agents don't address these challenges. They use the same strategies for condos as they do for single-family homes, and the results are predictable: HOMES THAT DIDN'T SELL, frustrated sellers, and lost money.
+                  New condo listings face unique challenges. Competition from new construction. HOA restrictions. Seasonal demand fluctuations. Buyers who don't understand condos. Most agents don't address these challenges. They use the same strategies for condos as they do for single-family homes, and the results are predictable: HOMES THAT DIDN\'T SELL, frustrated sellers, and lost money.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  I've sold 47 HOMES THAT DIDN'T SELL in Las Vegas. I know what causes listings to expire. I know how to avoid those mistakes. I know how to market condos effectively from day one. If you're listing your condo for the first time, work with an agent who actually understands condos. Work with me.
+                  I've sold 47 HOMES THAT didn\'t SELL in Las Vegas. I know what causes listings to expire. I know how to avoid those mistakes. I know how to market condos effectively from day one. If you're listing your condo for the first time, work with an agent who actually understands condos. Work with me.
                 </p>
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">

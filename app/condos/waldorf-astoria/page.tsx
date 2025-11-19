@@ -21,7 +21,7 @@ export default function WaldorfAstoriaCondosPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Waldorf Astoria is a luxury hotel and condominium building on the Las Vegas Strip that offers sophisticated living with brand recognition, exclusive amenities, and prime location. If your Waldorf Astoria condo home didn't sell, you're not alone. Waldorf Astoria condos face unique challenges - from marketing brand recognition to highlighting exclusive amenities to buyers who value luxury branding. Most agents don't understand Waldorf Astoria condos. They use generic strategies, and Waldorf Astoria condos expire.
+                  Waldorf Astoria is a luxury hotel and condominium building on the Las Vegas Strip that offers sophisticated living with brand recognition, exclusive amenities, and prime location. If your Waldorf Astoria condo home DIDN\'T sell, you're not alone. Waldorf Astoria condos face unique challenges - from marketing brand recognition to highlighting exclusive amenities to buyers who value luxury branding. Most agents don't understand Waldorf Astoria condos. They use generic strategies, and Waldorf Astoria condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Waldorf Astoria condos. I understand the luxury market. I know how to market brand-recognized condos. I know how to attract brand-conscious buyers. I've sold expired condos in Waldorf Astoria and other luxury brand properties. Fast. At top dollar. With zero excuses.
@@ -90,7 +90,7 @@ export default function WaldorfAstoriaCondosPage() {
                   READY TO SELL YOUR WALDORF ASTORIA CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Waldorf Astoria condo home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Waldorf Astoria condo home DIDN\'T sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="waldorf_astoria_condos" buttonText="GET MY WALDORF ASTORIA CONDO SOLD" />
               </div>

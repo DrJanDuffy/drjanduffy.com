@@ -36,62 +36,72 @@ export default function CostCalculator() {
 
       <div className="space-y-4 mb-6">
         <div>
-          <label className="block text-sm font-semibold mb-2">
+          <label htmlFor="days-expired" className="block text-sm font-semibold mb-2">
             Days Expired
           </label>
           <input
+            id="days-expired"
             type="number"
             value={daysExpired}
             onChange={(e) => setDaysExpired(Number(e.target.value))}
             className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-primary focus:outline-none"
+            aria-label="Number of days the home has been expired"
           />
         </div>
 
         <div>
-          <label className="block text-sm font-semibold mb-2">
+          <label htmlFor="monthly-mortgage" className="block text-sm font-semibold mb-2">
             Monthly Mortgage
           </label>
           <input
+            id="monthly-mortgage"
             type="number"
             value={monthlyMortgage}
             onChange={(e) => setMonthlyMortgage(Number(e.target.value))}
             className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-primary focus:outline-none"
+            aria-label="Monthly mortgage payment amount"
           />
         </div>
 
         <div>
-          <label className="block text-sm font-semibold mb-2">
+          <label htmlFor="monthly-hoa" className="block text-sm font-semibold mb-2">
             Monthly HOA
           </label>
           <input
+            id="monthly-hoa"
             type="number"
             value={monthlyHOA}
             onChange={(e) => setMonthlyHOA(Number(e.target.value))}
             className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-primary focus:outline-none"
+            aria-label="Monthly HOA fee amount"
           />
         </div>
 
         <div>
-          <label className="block text-sm font-semibold mb-2">
+          <label htmlFor="monthly-insurance" className="block text-sm font-semibold mb-2">
             Monthly Insurance
           </label>
           <input
+            id="monthly-insurance"
             type="number"
             value={monthlyInsurance}
             onChange={(e) => setMonthlyInsurance(Number(e.target.value))}
             className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-primary focus:outline-none"
+            aria-label="Monthly insurance payment amount"
           />
         </div>
 
         <div>
-          <label className="block text-sm font-semibold mb-2">
+          <label htmlFor="monthly-utilities" className="block text-sm font-semibold mb-2">
             Monthly Utilities
           </label>
           <input
+            id="monthly-utilities"
             type="number"
             value={monthlyUtilities}
             onChange={(e) => setMonthlyUtilities(Number(e.target.value))}
             className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-primary focus:outline-none"
+            aria-label="Monthly utilities cost amount"
           />
         </div>
       </div>

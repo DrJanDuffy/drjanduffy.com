@@ -101,7 +101,7 @@ export default function LuxuryCondosPage() {
                   READY TO SELL YOUR LUXURY CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Las Vegas luxury condo home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Las Vegas luxury condo home DIDN\'T sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="luxury_condos" buttonText="GET MY LUXURY CONDO SOLD" />
               </div>

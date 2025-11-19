@@ -1,7 +1,7 @@
 import CostCalculator from '@/app/components/cost-calculator'
 import Header from '@/app/components/header'
 export const metadata = {
-  title: 'cost when your home won't sell Calculator | Dr. Jan Duffy',
+  title: 'cost when your home will not sell Calculator | Dr. Jan Duffy',
   description:
     'Calculate how much money you\'re losing every day your listing sits expired. Stop the bleeding now.',
 }
@@ -14,7 +14,7 @@ export default function CostCalculatorPage() {
           <div className="max-w-3xl mx-auto">
             <div className="text-center mb-12">
               <h1 className="text-4xl md:text-5xl font-black mb-4">
-                cost when your home won't sell CALCULATOR
+                cost when your home won\'t sell CALCULATOR
               </h1>
               <p className="text-xl text-gray-600">
                 See exactly how much money you're losing every day

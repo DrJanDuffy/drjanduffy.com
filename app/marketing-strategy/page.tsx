@@ -85,7 +85,7 @@ export default function MarketingStrategyPage() {
                 THE 97-POINT MARKETING SYSTEM
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Comprehensive marketing strategy that sells homes that didn't sell fast
+                Comprehensive marketing strategy that sells homes that DIDN\'T sell fast
               </p>
               <div className="grid md:grid-cols-2 gap-8 mb-12">
                 {strategies.map((strategy, index) => (

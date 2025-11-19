@@ -34,7 +34,7 @@ export default function CosmopolitanCondosPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  The Cosmopolitan is a luxury resort and condominium building on the Las Vegas Strip that offers sophisticated living with world-class amenities and resort access. If your Cosmopolitan condo home didn't sell, you're not alone. Cosmopolitan condos face unique challenges - from competition with luxury resorts to strict building restrictions to buyers who expect exclusive access. Most agents don't understand Cosmopolitan condos. They use generic strategies, and Cosmopolitan condos expire.
+                  The Cosmopolitan is a luxury resort and condominium building on the Las Vegas Strip that offers sophisticated living with world-class amenities and resort access. If your Cosmopolitan condo home DIDN\'T sell, you're not alone. Cosmopolitan condos face unique challenges - from competition with luxury resorts to strict building restrictions to buyers who expect exclusive access. Most agents don't understand Cosmopolitan condos. They use generic strategies, and Cosmopolitan condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Cosmopolitan condos. I understand the luxury market. I know how to market Strip condos. I know how to attract high-end buyers. I've sold expired condos in The Cosmopolitan and other luxury Strip properties. Fast. At top dollar. With zero excuses.
@@ -103,7 +103,7 @@ export default function CosmopolitanCondosPage() {
                   READY TO SELL YOUR COSMOPOLITAN CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Cosmopolitan condo home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Cosmopolitan condo home DIDN\'T sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="cosmopolitan_condos" buttonText="GET MY COSMOPOLITAN CONDO SOLD" />
               </div>

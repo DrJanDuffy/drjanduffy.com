@@ -80,7 +80,7 @@ export default function BlameAnalyzer() {
           <h2 className="text-4xl font-black mb-4">YOUR AGENT SCORE</h2>
           <div
             className={`text-6xl font-black mb-4 ${
-              score < 50 ? 'text-red-600' : score < 75 ? 'text-yellow-600' : 'text-green-600'
+              score < 50 ? 'text-red-600' : score < 75 ? 'text-yellow-600' : 'text-green-700'
             }`}
           >
             {score}/100

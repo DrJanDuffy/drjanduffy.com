@@ -2,9 +2,9 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import { Lightbulb, AlertCircle, CheckCircle } from 'lucide-react'
 export const metadata = {
-  title: 'Selling Tips | HOME THAT DIDN'T SELL Tips | Dr. Jan Duffy',
+  title: 'Selling Tips | HOME THAT DID NOT SELL Tips | Dr. Jan Duffy',
   description:
-    'Expert tips for selling homes that didn't sell: pricing, staging, marketing, and negotiation strategies.',
+    'Expert tips for selling homes that did not sell: pricing, staging, marketing, and negotiation strategies.',
 }
 export default function SellingTipsPage() {
   const tips = [
@@ -37,10 +37,10 @@ export default function SellingTipsPage() {
       category: 'Pro Tips',
       items: [
         'Reset your listing completely - new photos, new description, fresh start',
-        'Price competitively from day one - don\'t start high and drop',
+        'Price competitively from day one - do not start high and drop',
         'Be available for showings - flexibility wins',
         'Invest in professional media - it pays for itself',
-        'Work with an specialist in homes that didn't sell, not a generalist',
+        'Work with an specialist in homes that did not sell, not a generalist',
         'Set realistic expectations based on market data',
       ],
     },
@@ -53,10 +53,10 @@ export default function SellingTipsPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-5xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                SELLING TIPS FOR HOMES THAT DIDN'T SELL
+                SELLING TIPS FOR HOMES THAT DIDN\'T SELL
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Expert advice from someone who's sold 47 HOMES THAT DIDN'T SELL
+                Expert advice from someone who's sold 47 HOMES THAT didn\'t SELL
               </p>
               <div className="grid md:grid-cols-3 gap-8 mb-12">
                 {tips.map((tip, index) => {

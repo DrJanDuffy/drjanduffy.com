@@ -4,7 +4,7 @@ import { X, Check } from 'lucide-react'
 
 export default function WhyExpiredSection() {
   const failures = [
-    { text: 'iPhone Photos in 2025', icon: X },
+    { text: 'iPhone Photos in 2026', icon: X },
     { text: 'One Open House (Maybe)', icon: X },
     { text: '"Posted to MLS" Strategy', icon: X },
     { text: 'Zero Follow-Up System', icon: X },
@@ -17,7 +17,7 @@ export default function WhyExpiredSection() {
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-black text-center mb-4">
-          WHY YOUR HOME DIDN'T SELL
+          WHY YOUR HOME DIDN\'T SELL
         </h2>
         <p className="text-xl text-center text-gray-600 mb-12">
           (Spoiler: It's Not Your House)

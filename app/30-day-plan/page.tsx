@@ -62,17 +62,17 @@ export default function ThirtyDayPlanPage() {
               THE 30-DAY PLAN
             </h1>
             <p className="text-xl text-center text-gray-600 mb-12">
-              How I sell homes that didn't sell in 30 days or less
+              How I sell homes that DIDN\'T sell in 30 days or less
             </p>
             <div className="max-w-4xl mx-auto mb-12 prose prose-lg">
               <p className="text-lg text-gray-700 mb-6">
-                your home didn't sell because your previous agent didn't have a plan. They posted to MLS, held maybe one open house, and hoped for the best. That's not a strategy. That's incompetence. I have a proven 30-day plan that sells homes that didn't sell. Fast. At top dollar. With zero excuses.
+                your home didn\'t sell because your previous agent didn't have a plan. They posted to MLS, held maybe one open house, and hoped for the best. That's not a strategy. That's incompetence. I have a proven 30-day plan that sells homes that DIDN\'T sell. Fast. At top dollar. With zero excuses.
               </p>
               <p className="text-lg text-gray-700 mb-6">
                 The 30-day plan is broken down into four weeks, each with specific goals and deliverables. Week 1 is aggressive reset. Week 2 is maximum exposure. Week 3 is negotiation warfare. Week 4 is closing. Every week has measurable outcomes. Every week moves you closer to SOLD.
               </p>
               <p className="text-lg text-gray-700">
-                This isn't a theoretical plan. This is the exact system I've used to sell 47 Summerlin sellers who couldn't sell with an average of 19 days to contract and 98.7% of asking price. The same system can sell yours. The only question is: are you ready to work with an agent who actually has a plan?
+                This isn't a theoretical plan. This is the exact system I've used to sell 47 Summerlin sellers who couldn\'t sell with an average of 19 days to contract and 98.7% of asking price. The same system can sell yours. The only question is: are you ready to work with an agent who actually has a plan?
               </p>
             </div>
             <div className="max-w-5xl mx-auto space-y-8">
@@ -90,7 +90,7 @@ export default function ThirtyDayPlanPage() {
                   <ul className="space-y-3">
                     {weekData.items.map((item, index) => (
                       <li key={index} className="flex items-start gap-3">
-                        <span className="text-green-600 font-bold text-xl mt-1">
+                        <span className="text-green-700 font-bold text-xl mt-1">
                           ✓
                         </span>
                         <span className="text-lg">{item}</span>

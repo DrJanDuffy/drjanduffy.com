@@ -21,7 +21,7 @@ export default function OgdenCondosPage() {
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  The Ogden is a luxury high-rise condominium building in downtown Las Vegas that offers sophisticated urban living with modern design, exclusive amenities, and prime downtown location. If your Ogden condo home didn't sell, you're not alone. Ogden condos face unique challenges - from marketing urban lifestyle to highlighting modern design to buyers who value downtown living. Most agents don't understand Ogden condos. They use generic strategies, and Ogden condos expire.
+                  The Ogden is a luxury high-rise condominium building in downtown Las Vegas that offers sophisticated urban living with modern design, exclusive amenities, and prime downtown location. If your Ogden condo home DIDN\'T sell, you're not alone. Ogden condos face unique challenges - from marketing urban lifestyle to highlighting modern design to buyers who value downtown living. Most agents don't understand Ogden condos. They use generic strategies, and Ogden condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Ogden condos. I understand the urban market. I know how to market downtown high-rise condos. I know how to attract urban lifestyle seekers. I've sold expired condos in The Ogden and other luxury downtown properties. Fast. At top dollar. With zero excuses.
@@ -90,7 +90,7 @@ export default function OgdenCondosPage() {
                   READY TO SELL YOUR OGDEN CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  If your Ogden condo home didn't sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  If your Ogden condo home DIDN\'T sell, don't wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="ogden_condos" buttonText="GET MY OGDEN CONDO SOLD" />
               </div>
