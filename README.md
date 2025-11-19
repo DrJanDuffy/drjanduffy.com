@@ -2,6 +2,8 @@
 
 The simplest way to use v0. Just prompt and see your app generated instantly - no chat management, no complexity. Build AI-powered apps with real-time generation and seamless deployment to Vercel.
 
+> **Modernized:** November 2025 - Updated with latest Next.js 15, React 19, and Tailwind CSS 4 for optimal performance and modern development experience.
+
 ![Screenshot](screenshot.png)
 
 ## Deploy Your Own
