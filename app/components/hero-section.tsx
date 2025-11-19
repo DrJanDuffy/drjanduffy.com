@@ -33,7 +33,7 @@ export default function HeroSection() {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-8">
             <div className="text-5xl md:text-7xl font-black mb-6 leading-tight">
-              YOUR HOUSE didn\'t FAIL.
+              YOUR HOUSE did not FAIL.
               <br />
               <span className="text-red-500">YOUR AGENT DID.</span>
             </div>
