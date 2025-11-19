@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'could not Sell Your Las Vegas Home? | Dr. Jan Duffy - I Sell Homes That DID NOT Sell',
     description:
-      'Your home DID NOT sell? I\'ve helped 47 Summerlin sellers who could not sell with their previous agent. Average 19 days to contract, 98.7% of asking.',
+      'Your home DID NOT sell? I have helped 47 Summerlin sellers who could not sell with their previous agent. Average 19 days to contract, 98.7% of asking.',
     images: ['/og-image.png'],
   },
   twitter: {

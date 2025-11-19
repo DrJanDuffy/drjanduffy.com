@@ -3,7 +3,7 @@ import Header from '@/app/components/header'
 export const metadata = {
   title: 'cost when your home will not sell Calculator | Dr. Jan Duffy',
   description:
-    'Calculate how much money you\'re losing every day your listing sits expired. Stop the bleeding now.',
+    'Calculate how much money you are losing every day your listing sits expired. Stop the bleeding now.',
 }
 export default function CostCalculatorPage() {
   return (

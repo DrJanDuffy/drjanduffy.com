@@ -5,7 +5,7 @@ import FAQSchema from '@/app/components/faq-schema'
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Home will not Sell Las Vegas? Here\'s Why & How to Fix It',
+  title: 'Home will not Sell Las Vegas? here is Why & How to Fix It',
   description:
     'Your home will not sell in Las Vegas? Specialist in homes that sat with other agents. 47 sold - average 19 days, 98.7% of asking. Call 702-500-1064',
   alternates: {
@@ -17,12 +17,12 @@ export const metadata = {
     type: 'article',
     locale: 'en_US',
     url: 'https://www.drjanduffy.com/home-wont-sell-las-vegas',
-    title: 'Home will not Sell Las Vegas? Here\'s Why & How to Fix It',
+    title: 'Home will not Sell Las Vegas? here is Why & How to Fix It',
     description: 'Your home will not sell in Las Vegas? Specialist in homes that sat with other agents. 47 sold - average 19 days, 98.7% of asking.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Home will not Sell Las Vegas? Here\'s Why & How to Fix It',
+    title: 'Home will not Sell Las Vegas? here is Why & How to Fix It',
     description: 'Specialist in homes that sat with other agents. 47 sold - average 19 days, 98.7% of asking.',
   },
 }
@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     question: 'How long should I wait before relisting?',
-    answer: 'Don\'t wait. Every day your home sits unsold costs you $116+ in holding costs. The longer it sits, the more it becomes stigmatized. If your listing expired or your home has been on the market 60+ days with no offers, it\'s time to relist with a different strategy. I can help you relist and sell your home in 30 days or less.',
+    answer: 'Don\'t wait. Every day your home sits unsold costs you $116+ in holding costs. The longer it sits, the more it becomes stigmatized. If your listing expired or your home has been on the market 60+ days with no offers, it is time to relist with a different strategy. I can help you relist and sell your home in 30 days or less.',
   },
   {
     question: 'Should I lower my price if my house will not sell?',
@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     question: 'How much does it cost when my house sits unsold?',
-    answer: 'The average unsold home costs sellers $4,964 per month in holding costs. That\'s $116 per day. This includes mortgage payments, HOA fees, insurance, utilities, and property taxes. Plus, there are hidden costs: lost opportunity, market depreciation, and emotional toll. The longer it sits, the more it costs you.',
+    answer: 'The average unsold home costs sellers $4,964 per month in holding costs. that is $116 per day. This includes mortgage payments, HOA fees, insurance, utilities, and property taxes. Plus, there are hidden costs: lost opportunity, market depreciation, and emotional toll. The longer it sits, the more it costs you.',
   },
   {
     question: 'What makes you different from my previous agent?',
@@ -54,7 +54,7 @@ const faqs = [
   },
   {
     question: 'Can you really sell my home if it DID NOT sell before?',
-    answer: 'Yes. I\'ve sold 47 homes that DID NOT sell with other agents. Average 19 days to contract, 98.7% of asking price. The key is a complete reset: new professional photos, strategic pricing analysis, fresh MLS listing, and aggressive marketing. The stigma disappears when buyers see a beautiful, properly priced home with professional marketing.',
+    answer: 'Yes. I have sold 47 homes that DID NOT sell with other agents. Average 19 days to contract, 98.7% of asking price. The key is a complete reset: new professional photos, strategic pricing analysis, fresh MLS listing, and aggressive marketing. The stigma disappears when buyers see a beautiful, properly priced home with professional marketing.',
   },
 ]
 

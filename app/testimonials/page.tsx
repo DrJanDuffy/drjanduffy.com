@@ -31,7 +31,7 @@ export default function TestimonialsPage() {
       name: 'Robert T.',
       neighborhood: 'The Summit',
       rating: 5,
-      text: 'Three agents failed. Dr. Jan succeeded. That\'s all you need to know.',
+      text: 'Three agents failed. Dr. Jan succeeded. that is all you need to know.',
     },
     {
       name: 'Lisa K.',

@@ -50,7 +50,7 @@ export default function RelistHomePage() {
                   Your listing expired. Your agent could not sell it. You're frustrated, angry, and losing money every day. The average unsold home costs sellers $4,964 per month in holding costs. That's $116 per day. Every day you wait is money down the drain.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  But here's the truth: you can\'t keep doing what DID NOT work. Relisting with the same strategy, same photos, same pricing, same agent - that's insanity. You need a complete reset. New photos. New pricing strategy. Fresh MLS listing. Aggressive marketing. This is what I do. I've helped 47 sellers who could not sell with their previous agent. Average 19 days to contract. 98.7% of asking price. See <Link href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</Link> from relisted homes I've sold.
+                  But here is the truth: you cannot keep doing what DID NOT work. Relisting with the same strategy, same photos, same pricing, same agent - that is insanity. You need a complete reset. New photos. New pricing strategy. Fresh MLS listing. Aggressive marketing. This is what I do. I have helped 47 sellers who could not sell with their previous agent. Average 19 days to contract. 98.7% of asking price. See <Link href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</Link> from relisted homes I have sold.
                 </p>
               </div>
             </div>

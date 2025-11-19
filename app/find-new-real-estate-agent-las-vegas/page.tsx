@@ -4,7 +4,7 @@ import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Find New Real Estate Agent Las Vegas | When Your Agent Can\'t Sell',
+  title: 'Find New Real Estate Agent Las Vegas | When Your Agent cannot Sell',
   description:
     'Looking for a new real estate agent in Las Vegas? Specialist in selling homes other agents could not. 500+ families served. Call 702-500-1064',
   alternates: {
@@ -16,7 +16,7 @@ export const metadata = {
     type: 'article',
     locale: 'en_US',
     url: 'https://www.drjanduffy.com/find-new-real-estate-agent-las-vegas',
-    title: 'Find New Real Estate Agent Las Vegas | When Your Agent Can\'t Sell',
+    title: 'Find New Real Estate Agent Las Vegas | When Your Agent cannot Sell',
     description: 'Looking for a new real estate agent in Las Vegas? Specialist in selling homes other agents could not.',
   },
   twitter: {

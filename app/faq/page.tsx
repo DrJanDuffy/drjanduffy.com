@@ -31,7 +31,7 @@ export default function FAQPage() {
     {
       question: 'Do you work with luxury homes?',
       answer:
-        'Yes. I specialize in luxury properties in The Ridges, Red Rock CC, The Summit, and Summerlin West. I\'ve sold expired luxury listings ranging from $675K to $2.1M.',
+        'Yes. I specialize in luxury properties in The Ridges, Red Rock CC, The Summit, and Summerlin West. I have sold expired luxury listings ranging from $675K to $2.1M.',
     },
     {
       question: 'What if my home doesn\'t sell in 30 days?',
@@ -44,9 +44,9 @@ export default function FAQPage() {
         'Standard commission rates apply. However, I invest significantly more in marketing ($5,000+ vs. industry average of $100), which typically results in faster sales and higher prices.',
     },
     {
-      question: 'Can you sell my home if it\'s been expired for months?',
+      question: 'Can you sell my home if it is been expired for months?',
       answer:
-        'Yes. I\'ve sold homes that were expired for 200+ days. The key is a complete reset: new photos, new pricing strategy, fresh MLS listing, and aggressive marketing. Stigma can be overcome with the right approach.',
+        'Yes. I have sold homes that were expired for 200+ days. The key is a complete reset: new photos, new pricing strategy, fresh MLS listing, and aggressive marketing. Stigma can be overcome with the right approach.',
     },
     {
       question: 'What neighborhoods do you serve?',
