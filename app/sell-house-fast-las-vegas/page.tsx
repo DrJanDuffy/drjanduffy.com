@@ -8,7 +8,21 @@ export const metadata = {
   description:
     'Need to sell your house fast in Las Vegas? Specialized service for homes that won\'t sell. 500+ families helped. Summerlin expert. Free consultation: 702-500-1064',
   alternates: {
-    canonical: '/sell-house-fast-las-vegas',
+    canonical: 'https://www.drjanduffy.com/sell-house-fast-las-vegas',
+  },
+  authors: [{ name: 'Dr. Janet Duffy' }],
+  creator: 'Dr. Janet Duffy',
+  openGraph: {
+    type: 'article',
+    locale: 'en_US',
+    url: 'https://www.drjanduffy.com/sell-house-fast-las-vegas',
+    title: 'Sell Your House Fast Las Vegas | 19 Day Average | Free Consultation',
+    description: 'Need to sell your house fast in Las Vegas? Specialized service for homes that won\'t sell. 500+ families helped.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Sell Your House Fast Las Vegas',
+    description: 'Specialized service for homes that won\'t sell. 500+ families helped. Summerlin expert.',
   },
 }
 

@@ -8,7 +8,21 @@ export const metadata = {
   description:
     'Complete services for homes that didn\'t sell: professional photography, staging, marketing, negotiation, and closing management.',
   alternates: {
-    canonical: '/services',
+    canonical: 'https://www.drjanduffy.com/services',
+  },
+  authors: [{ name: 'Dr. Janet Duffy' }],
+  creator: 'Dr. Janet Duffy',
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://www.drjanduffy.com/services',
+    title: 'Services | Failed Listing Solutions | Dr. Jan Duffy',
+    description: 'Complete services for homes that didn\'t sell: professional photography, staging, marketing, negotiation, and closing management.',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Services | Failed Listing Solutions',
+    description: 'Complete services for homes that didn\'t sell.',
   },
 }
 import Link from 'next/link'

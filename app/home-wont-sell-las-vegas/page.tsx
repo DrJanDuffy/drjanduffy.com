@@ -9,7 +9,21 @@ export const metadata = {
   description:
     'Your home won\'t sell in Las Vegas? Specialist in homes that sat with other agents. 47 sold - average 19 days, 98.7% of asking. Call 702-500-1064',
   alternates: {
-    canonical: '/home-wont-sell-las-vegas',
+    canonical: 'https://www.drjanduffy.com/home-wont-sell-las-vegas',
+  },
+  authors: [{ name: 'Dr. Janet Duffy' }],
+  creator: 'Dr. Janet Duffy',
+  openGraph: {
+    type: 'article',
+    locale: 'en_US',
+    url: 'https://www.drjanduffy.com/home-wont-sell-las-vegas',
+    title: 'Home Won\'t Sell Las Vegas? Here\'s Why & How to Fix It',
+    description: 'Your home won\'t sell in Las Vegas? Specialist in homes that sat with other agents. 47 sold - average 19 days, 98.7% of asking.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Home Won\'t Sell Las Vegas? Here\'s Why & How to Fix It',
+    description: 'Specialist in homes that sat with other agents. 47 sold - average 19 days, 98.7% of asking.',
   },
 }
 

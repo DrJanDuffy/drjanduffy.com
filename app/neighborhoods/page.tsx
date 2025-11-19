@@ -7,7 +7,16 @@ export const metadata = {
   description:
     'Expert help selling homes that didn\'t sell in Las Vegas neighborhoods: Summerlin West, The Ridges, Red Rock Country Club, The Summit, and more. 19 day average, 98.7% of asking price.',
   alternates: {
-    canonical: '/neighborhoods',
+    canonical: 'https://www.drjanduffy.com/neighborhoods',
+  },
+  authors: [{ name: 'Dr. Janet Duffy' }],
+  creator: 'Dr. Janet Duffy',
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://www.drjanduffy.com/neighborhoods',
+    title: 'Las Vegas Neighborhoods | failed listing specialist',
+    description: 'Expert help selling homes that didn\'t sell in Las Vegas neighborhoods.',
   },
 }
 

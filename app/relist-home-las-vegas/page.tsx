@@ -8,7 +8,21 @@ export const metadata = {
   description:
     'Need to relist your home in Las Vegas? Specialist in homes that didn\'t sell. 47 sold, 19 days average, 98.7% asking. Call 702-500-1064',
   alternates: {
-    canonical: '/relist-home-las-vegas',
+    canonical: 'https://www.drjanduffy.com/relist-home-las-vegas',
+  },
+  authors: [{ name: 'Dr. Janet Duffy' }],
+  creator: 'Dr. Janet Duffy',
+  openGraph: {
+    type: 'article',
+    locale: 'en_US',
+    url: 'https://www.drjanduffy.com/relist-home-las-vegas',
+    title: 'Relist Your Home Las Vegas | Failed Listing Specialist',
+    description: 'Need to relist your home in Las Vegas? Specialist in homes that didn\'t sell. 47 sold, 19 days average.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Relist Your Home Las Vegas',
+    description: 'Specialist in homes that didn\'t sell. 47 sold, 19 days average, 98.7% asking.',
   },
 }
 

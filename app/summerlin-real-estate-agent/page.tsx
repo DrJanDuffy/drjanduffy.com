@@ -8,7 +8,21 @@ export const metadata = {
   description:
     'Summerlin real estate agent specializing in The Ridges, Red Rock Country Club, The Summit. $127M+ sold. Local expert. Call 702-500-1064',
   alternates: {
-    canonical: '/summerlin-real-estate-agent',
+    canonical: 'https://www.drjanduffy.com/summerlin-real-estate-agent',
+  },
+  authors: [{ name: 'Dr. Janet Duffy' }],
+  creator: 'Dr. Janet Duffy',
+  openGraph: {
+    type: 'profile',
+    locale: 'en_US',
+    url: 'https://www.drjanduffy.com/summerlin-real-estate-agent',
+    title: 'Summerlin Real Estate Agent | Luxury Home Specialist | The Ridges',
+    description: 'Summerlin real estate agent specializing in The Ridges, Red Rock Country Club, The Summit. $127M+ sold.',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Summerlin Real Estate Agent | Luxury Home Specialist',
+    description: 'Specializing in The Ridges, Red Rock Country Club, The Summit. $127M+ sold.',
   },
 }
 

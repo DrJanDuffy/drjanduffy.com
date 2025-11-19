@@ -7,7 +7,21 @@ export const metadata = {
   description:
     'Learn about Dr. Janet Duffy, Las Vegas real estate expert specializing in selling homes that didn\'t sell. Helped 47 Summerlin sellers in 19 days average at 98.7% of asking price.',
   alternates: {
-    canonical: '/about',
+    canonical: 'https://www.drjanduffy.com/about',
+  },
+  authors: [{ name: 'Dr. Janet Duffy' }],
+  creator: 'Dr. Janet Duffy',
+  openGraph: {
+    type: 'profile',
+    locale: 'en_US',
+    url: 'https://www.drjanduffy.com/about',
+    title: 'About Dr. Jan Duffy | Failed Listing Specialist',
+    description: 'Learn about Dr. Janet Duffy, Las Vegas real estate expert specializing in selling homes that didn\'t sell.',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'About Dr. Jan Duffy | Failed Listing Specialist',
+    description: 'Las Vegas real estate expert specializing in selling homes that didn\'t sell.',
   },
 }
 

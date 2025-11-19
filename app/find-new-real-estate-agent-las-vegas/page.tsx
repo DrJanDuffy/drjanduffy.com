@@ -8,7 +8,21 @@ export const metadata = {
   description:
     'Looking for a new real estate agent in Las Vegas? Specialist in selling homes other agents couldn\'t. 500+ families served. Call 702-500-1064',
   alternates: {
-    canonical: '/find-new-real-estate-agent-las-vegas',
+    canonical: 'https://www.drjanduffy.com/find-new-real-estate-agent-las-vegas',
+  },
+  authors: [{ name: 'Dr. Janet Duffy' }],
+  creator: 'Dr. Janet Duffy',
+  openGraph: {
+    type: 'article',
+    locale: 'en_US',
+    url: 'https://www.drjanduffy.com/find-new-real-estate-agent-las-vegas',
+    title: 'Find New Real Estate Agent Las Vegas | When Your Agent Can\'t Sell',
+    description: 'Looking for a new real estate agent in Las Vegas? Specialist in selling homes other agents couldn\'t.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Find New Real Estate Agent Las Vegas',
+    description: 'Specialist in selling homes other agents couldn\'t. 500+ families served.',
   },
 }
 

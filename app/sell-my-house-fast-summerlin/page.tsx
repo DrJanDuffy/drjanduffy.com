@@ -8,7 +8,21 @@ export const metadata = {
   description:
     'Sell your house fast in Summerlin. Luxury home specialist with 47 previously unsold homes sold. Average 19 days. Call 702-500-1064',
   alternates: {
-    canonical: '/sell-my-house-fast-summerlin',
+    canonical: 'https://www.drjanduffy.com/sell-my-house-fast-summerlin',
+  },
+  authors: [{ name: 'Dr. Janet Duffy' }],
+  creator: 'Dr. Janet Duffy',
+  openGraph: {
+    type: 'article',
+    locale: 'en_US',
+    url: 'https://www.drjanduffy.com/sell-my-house-fast-summerlin',
+    title: 'Sell My House Fast Summerlin | Luxury Home Specialist | 19 Days',
+    description: 'Sell your house fast in Summerlin. Luxury home specialist with 47 previously unsold homes sold.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Sell My House Fast Summerlin',
+    description: 'Luxury home specialist with 47 previously unsold homes sold. Average 19 days.',
   },
 }
 

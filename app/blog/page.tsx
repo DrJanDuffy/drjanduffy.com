@@ -7,7 +7,21 @@ export const metadata = {
   description:
     'Expert insights on Las Vegas real estate, market trends, selling tips, and neighborhood guides. Stay informed with the latest from Summerlin real estate specialist.',
   alternates: {
-    canonical: '/blog',
+    canonical: 'https://www.drjanduffy.com/blog',
+  },
+  authors: [{ name: 'Dr. Janet Duffy' }],
+  creator: 'Dr. Janet Duffy',
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://www.drjanduffy.com/blog',
+    title: 'Las Vegas Real Estate Blog | Market Insights & Selling Tips',
+    description: 'Expert insights on Las Vegas real estate, market trends, selling tips, and neighborhood guides.',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Las Vegas Real Estate Blog',
+    description: 'Expert insights on Las Vegas real estate, market trends, and selling tips.',
   },
 }
 
