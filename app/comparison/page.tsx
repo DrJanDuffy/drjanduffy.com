@@ -56,6 +56,21 @@ export default function ComparisonPage() {
             <h1 className="text-4xl md:text-5xl font-black text-center mb-12">
               YOUR AGENT VS ME
             </h1>
+            <p className="text-xl text-center text-gray-600 mb-12 max-w-3xl mx-auto">
+              Side-by-side comparison of what your previous agent did vs. what I do to sell expired listings. The difference is obvious.
+            </p>
+
+            <div className="max-w-4xl mx-auto mb-12 prose prose-lg">
+              <p className="text-lg text-gray-700 mb-6">
+                Your listing expired for a reason. Your previous agent made mistakes. They used minimal marketing, didn't invest in professional photography, held maybe one open house, and disappeared. Then your listing expired, and they made $0 while you lost $4,964 per month in holding costs.
+              </p>
+              <p className="text-lg text-gray-700 mb-6">
+                I do things differently. I invest $5,000+ in marketing per listing. I take maximum 6 listings at a time so you get 100% focus. I use a 97-point marketing system that leaves nothing to chance. And I guarantee results - 30 days or I work free, 98% of asking or I cut my commission.
+              </p>
+              <p className="text-lg text-gray-700">
+                The comparison below shows exactly what your previous agent did vs. what I do. The difference isn't subtle. It's dramatic. And it's why I sell expired listings in 19 days average while they got you expired.
+              </p>
+            </div>
 
             <div className="max-w-5xl mx-auto">
               <div className="overflow-x-auto">
@@ -99,34 +114,67 @@ export default function ComparisonPage() {
 
               <div className="mt-12 grid md:grid-cols-2 gap-8">
                 <div className="bg-red-50 border-2 border-red-200 rounded-lg p-6">
-                  <h2 className="text-2xl font-black mb-4 text-red-800">
+                  <h2 className="text-3xl font-black mb-4 text-red-800">
                     Your Agent's Investment
                   </h2>
-                  <ul className="space-y-2 text-gray-700">
-                    <li>• $37 on photos</li>
-                    <li>• 1 open house</li>
-                    <li>• MLS posting</li>
-                    <li>• Zero follow-up</li>
+                  <p className="text-lg text-gray-700 mb-4">
+                    Your previous agent's total investment in marketing your home was minimal. Here's what they actually spent:
+                  </p>
+                  <ul className="space-y-2 text-gray-700 mb-4">
+                    <li>• $37 on photos (iPhone quality)</li>
+                    <li>• 1 open house (maybe)</li>
+                    <li>• MLS posting (basic)</li>
+                    <li>• Zero follow-up system</li>
+                    <li>• No social media marketing</li>
+                    <li>• No network activation</li>
+                    <li>• No targeted advertising</li>
                   </ul>
-                  <p className="mt-4 text-xl font-bold text-red-600">
+                  <p className="mt-4 text-xl font-bold text-red-600 mb-2">
                     Total: ~$100
+                  </p>
+                  <p className="text-sm text-gray-600">
+                    Result: 63 days expired, $0 commission, you lost $4,964/month
                   </p>
                 </div>
 
                 <div className="bg-green-50 border-2 border-green-200 rounded-lg p-6">
-                  <h2 className="text-2xl font-black mb-4 text-green-800">
+                  <h2 className="text-3xl font-black mb-4 text-green-800">
                     My Investment
                   </h2>
-                  <ul className="space-y-2 text-gray-700">
+                  <p className="text-lg text-gray-700 mb-4">
+                    I invest significantly more in marketing your home because I know it pays off. Here's what I actually spend:
+                  </p>
+                  <ul className="space-y-2 text-gray-700 mb-4">
                     <li>• $3,700 on professional media</li>
-                    <li>• Strategic open houses</li>
+                    <li>• Strategic open houses with pre-qualification</li>
                     <li>• 97-point marketing system</li>
-                    <li>• Aggressive follow-up</li>
+                    <li>• Aggressive follow-up system</li>
+                    <li>• Social media marketing blitz</li>
+                    <li>• Network activation (500+ agents)</li>
+                    <li>• Targeted Facebook/Google ads</li>
                   </ul>
-                  <p className="mt-4 text-xl font-bold text-green-600">
+                  <p className="mt-4 text-xl font-bold text-green-600 mb-2">
                     Total: ~$5,000+
                   </p>
+                  <p className="text-sm text-gray-600">
+                    Result: 19 day average, 98.7% of asking, SOLD
+                  </p>
                 </div>
+              </div>
+
+              <div className="mt-12 bg-gray-100 p-8 rounded-lg">
+                <h2 className="text-3xl font-black mb-4 text-center">The Investment Difference</h2>
+                <p className="text-lg text-gray-700 mb-4">
+                  The difference in investment is dramatic: $100 vs. $5,000+. But the difference in results is even more dramatic: expired vs. sold, $0 commission vs. full commission, $4,964/month loss vs. top dollar sale.
+                </p>
+                <h3 className="text-2xl font-bold mb-3">Why I Invest More</h3>
+                <p className="text-lg text-gray-700 mb-4">
+                  I invest more because I know it works. Professional photography increases showing requests by 300% and sale price by 5-10%. Strategic marketing brings qualified buyers. Aggressive follow-up creates urgency. The $5,000+ investment pays for itself through faster sales and higher prices.
+                </p>
+                <h3 className="text-2xl font-bold mb-3">Why Your Agent Invested Less</h3>
+                <p className="text-lg text-gray-700">
+                  Your previous agent invested less because they were juggling 47 other listings. They couldn't afford to invest $5,000+ in every listing. So they invested $100, hoped for the best, and got you expired. That's not how you sell homes. That's how you fail.
+                </p>
               </div>
 
               <div className="mt-12 bg-primary text-primary-foreground p-8 rounded-lg text-center">

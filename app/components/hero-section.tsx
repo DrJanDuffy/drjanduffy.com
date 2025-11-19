@@ -31,11 +31,11 @@ export default function HeroSection() {
       <div className="relative z-10 container mx-auto px-4 py-20">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-8">
-            <h1 className="text-5xl md:text-7xl font-black mb-6 leading-tight">
+            <div className="text-5xl md:text-7xl font-black mb-6 leading-tight">
               YOUR HOUSE DIDN'T FAIL.
               <br />
               <span className="text-red-500">YOUR AGENT DID.</span>
-            </h1>
+            </div>
             <p className="text-xl md:text-2xl mb-4 font-semibold">
               63 Days on Market. 37 Showings. 5 Price Drops.
             </p>
