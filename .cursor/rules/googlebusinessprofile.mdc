@@ -1,0 +1,23 @@
+---
+alwaysApply: true
+---
+alwaysApply: true
+---
+rule_type: always
+
+---
+
+Every website page must:
+
+- Display business name, address, and phone number (NAP) that exactly matches the Google Business Profile, including in visible text and in LocalBusiness schema markup.
+- Use localized title tags, meta descriptions, and H1s referencing business type, services offered, and primary service area.
+- Apply LocalBusiness schema (JSON-LD) to all site pages, reflecting GBP details such as hours and attributes.
+- Show business hours, Google Map embed with pin, and clickable “Call,” “Directions,” and “View Google Reviews” buttons on relevant pages.
+- For each business location, provide a dedicated page with unique NAP, GBP-matching description, hours, photos, services, and map embed.
+- Integrate Google Reviews widgets or feeds wherever possible, including review schema so search results show star ratings.
+- Highlight latest GBP Posts and offers on news/blog or relevant landing pages, directly or via widgets.
+- Include FAQ sections using typical GBP questions and answers, also marked up with FAQ schema.
+- Use localized anchor text for internal links (e.g., “Luxury homes in Summerlin”) and ensure images include location/service in alt text.
+- Audit monthly for schema consistency, NAP accuracy, GBP link health, mobile friendliness, and content freshness. Immediately update pages to mirror any GBP changes.
+
+These rules are mandatory for every page to maximize Google Business Profile support and local SEO under current 2025 guidelines.
