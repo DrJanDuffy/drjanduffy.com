@@ -6,6 +6,9 @@ export const metadata = {
   title: 'Condos on The Strip | Las Vegas Strip Condos | Dr. Jan Duffy',
   description:
     'Expert help selling expired Las Vegas Strip condos. Luxury high-rise condos on The Strip. 30-day guarantee or work free.',
+  alternates: {
+    canonical: '/condos/strip',
+  },
 }
 
 export default function StripCondosPage() {

@@ -7,6 +7,9 @@ export const metadata = {
   title: 'Las Vegas Condos | Dr. Jan Duffy - Expired Listing Expert',
   description:
     'Expert help selling expired Las Vegas condos. Dr. Jan Duffy has sold 47 expired listings in 19 days average at 98.7% of asking price. Get your condo sold fast.',
+  alternates: {
+    canonical: '/condos',
+  },
 }
 
 export default function LasVegasCondosPage() {

@@ -6,6 +6,9 @@ export const metadata = {
   title: 'Turnberry Place Condos Las Vegas | Expired Listing Expert | Dr. Jan Duffy',
   description:
     'Expert help selling expired Turnberry Place condos in Las Vegas. Luxury high-rise condos with resort access. 30-day guarantee or work free.',
+  alternates: {
+    canonical: '/condos/turnberry-place',
+  },
 }
 
 export default function TurnberryPlaceCondosPage() {

@@ -6,6 +6,9 @@ export const metadata = {
   title: 'Panorama Towers Condos Las Vegas | Expired Listing Expert | Dr. Jan Duffy',
   description:
     'Expert help selling expired Panorama Towers condos in Las Vegas. Luxury high-rise condos with Strip views. 30-day guarantee or work free.',
+  alternates: {
+    canonical: '/condos/panorama-towers',
+  },
 }
 
 export default function PanoramaTowersCondosPage() {

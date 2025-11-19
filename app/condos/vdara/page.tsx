@@ -6,6 +6,9 @@ export const metadata = {
   title: 'Vdara Condos Las Vegas | Expired Listing Expert | Dr. Jan Duffy',
   description:
     'Expert help selling expired Vdara condos in Las Vegas. Luxury non-gaming condos with Aria access. 30-day guarantee or work free.',
+  alternates: {
+    canonical: '/condos/vdara',
+  },
 }
 
 export default function VdaraCondosPage() {
