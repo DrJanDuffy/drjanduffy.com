@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import GoogleBusinessLink from '@/app/components/google-business-link'
+import GoogleMapEmbed from '@/app/components/google-map-embed'
 import { Phone, Mail, MapPin, Clock } from 'lucide-react'
 export const metadata = {
   title: 'Contact Dr. Jan Duffy | (702) 500-1064',
@@ -166,7 +167,7 @@ export default function ContactPage() {
                   </div>
                 </div>
               </div>
-              <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
+              <div className="bg-white border-2 border-gray-200 rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4 text-center">
                   SEND A MESSAGE
                 </h2>
@@ -177,6 +178,17 @@ export default function ContactPage() {
                   Or call me directly at <a href="tel:7025001064" className="text-primary font-bold hover:underline">(702) 500-1064</a> for immediate assistance.
                 </p>
                 <LeadForm source="contact_page" buttonText="SEND MESSAGE" />
+              </div>
+
+              {/* Google Map Section */}
+              <div className="bg-white border-2 border-primary rounded-lg p-8">
+                <h2 className="text-3xl font-black mb-4 text-center">
+                  Visit Our Office Location
+                </h2>
+                <p className="text-center text-lg text-gray-700 mb-6">
+                  Located at 1180 North Town Center Drive in Las Vegas, serving Summerlin, The Ridges, and surrounding areas.
+                </p>
+                <GoogleMapEmbed />
               </div>
             </div>
           </div>

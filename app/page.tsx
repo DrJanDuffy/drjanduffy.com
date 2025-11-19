@@ -6,12 +6,15 @@ import Header from './components/header'
 import ExitIntentPopup from './components/exit-intent-popup'
 import ChatWidget from './components/chat-widget'
 import BreadcrumbSchema from './components/breadcrumb-schema'
+import NAPSection from './components/nap-section'
+import GoogleReviews from './components/google-reviews'
+import GoogleMapEmbed from './components/google-map-embed'
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Sell Your House Fast Las Vegas | Summerlin Real Estate Specialist',
+  title: 'Dr. Janet Duffy Real Estate | Real Estate Agent in Las Vegas, NV | (702) 500-1064',
   description:
-    'Las Vegas real estate specialist for homes that won\'t sell. 500+ families served, $127M+ in sales. Summerlin luxury expert. Free consultation: 702-500-1064',
+    'Dr. Janet Duffy Real Estate - Las Vegas real estate specialist for homes that won\'t sell. Serving Summerlin, The Ridges, and Henderson. 500+ families served, $127M+ in sales. Call (702) 500-1064 for free consultation.',
   alternates: {
     canonical: 'https://www.drjanduffy.com/',
   },
@@ -34,13 +37,13 @@ export const metadata = {
     locale: 'en_US',
     url: 'https://www.drjanduffy.com/',
     siteName: 'Dr. Janet Duffy Real Estate',
-    title: 'Sell Your House Fast Las Vegas | Summerlin Real Estate Specialist',
-    description: 'Las Vegas real estate specialist for homes that won\'t sell. 500+ families served, $127M+ in sales. Summerlin luxury expert.',
+    title: 'Dr. Janet Duffy Real Estate | Real Estate Agent in Las Vegas, NV | (702) 500-1064',
+    description: 'Dr. Janet Duffy Real Estate - Las Vegas real estate specialist for homes that won\'t sell. Serving Summerlin, The Ridges, and Henderson. 500+ families served, $127M+ in sales. Call (702) 500-1064.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Sell Your House Fast Las Vegas | Summerlin Real Estate Specialist',
-    description: 'Las Vegas real estate specialist for homes that won\'t sell. 500+ families served, $127M+ in sales.',
+    title: 'Dr. Janet Duffy Real Estate | Real Estate Agent in Las Vegas, NV',
+    description: 'Las Vegas real estate specialist for homes that won\'t sell. Serving Summerlin, The Ridges, and Henderson. Call (702) 500-1064.',
   },
 }
 
@@ -103,7 +106,7 @@ export default function HomePage() {
                   <li>• 19 day average to contract</li>
                 </ul>
                 <Link href="/sell-house-fast-las-vegas" className="inline-block bg-primary text-primary-foreground px-6 py-3 rounded-lg font-bold hover:bg-primary/90 transition-colors">
-                  Sell Your Home Fast →
+                  Learn more about selling your home fast in Las Vegas →
                 </Link>
               </div>
               <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-8">
@@ -119,7 +122,7 @@ export default function HomePage() {
                   <li>• Negotiation expertise</li>
                 </ul>
                 <Link href="/summerlin-real-estate-agent" className="inline-block bg-primary text-primary-foreground px-6 py-3 rounded-lg font-bold hover:bg-primary/90 transition-colors">
-                  Find Your Home →
+                  Find luxury homes in Summerlin →
                 </Link>
               </div>
               <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-8">
@@ -135,7 +138,7 @@ export default function HomePage() {
                   <li>• 98.7% of asking price average</li>
                 </ul>
                 <Link href="/home-wont-sell-las-vegas" className="inline-block bg-primary text-primary-foreground px-6 py-3 rounded-lg font-bold hover:bg-primary/90 transition-colors">
-                  Get Help Now →
+                  Get help selling your home in Las Vegas →
                 </Link>
               </div>
             </div>
@@ -155,20 +158,20 @@ export default function HomePage() {
             </p>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <Link href="/neighborhoods/summerlin-west" className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-primary transition-colors">
-                <h3 className="text-xl font-black mb-2">Summerlin West</h3>
-                <p className="text-gray-700 text-sm">Luxury homes, golf course properties, The Ridges, Red Rock Country Club</p>
+                <h3 className="text-xl font-black mb-2">Summerlin West Real Estate</h3>
+                <p className="text-gray-700 text-sm">Luxury homes, golf course properties, The Ridges, Red Rock Country Club in Las Vegas</p>
               </Link>
               <Link href="/neighborhoods/the-ridges" className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-primary transition-colors">
-                <h3 className="text-xl font-black mb-2">The Ridges</h3>
-                <p className="text-gray-700 text-sm">Ultra-luxury estates, gated communities, mountain views</p>
+                <h3 className="text-xl font-black mb-2">The Ridges Las Vegas</h3>
+                <p className="text-gray-700 text-sm">Ultra-luxury estates, gated communities, mountain views in Summerlin</p>
               </Link>
               <Link href="/neighborhoods/red-rock-country-club" className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-primary transition-colors">
-                <h3 className="text-xl font-black mb-2">Red Rock Country Club</h3>
-                <p className="text-gray-700 text-sm">Golf course homes, resort-style living, luxury amenities</p>
+                <h3 className="text-xl font-black mb-2">Red Rock Country Club Las Vegas</h3>
+                <p className="text-gray-700 text-sm">Golf course homes, resort-style living, luxury amenities in Summerlin</p>
               </Link>
               <Link href="/neighborhoods/the-summit" className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-primary transition-colors">
-                <h3 className="text-xl font-black mb-2">The Summit</h3>
-                <p className="text-gray-700 text-sm">Luxury condos, high-rise living, Strip views</p>
+                <h3 className="text-xl font-black mb-2">The Summit Las Vegas</h3>
+                <p className="text-gray-700 text-sm">Luxury condos, high-rise living, Strip views in Summerlin</p>
               </Link>
             </div>
             <div className="text-center mt-8">
@@ -382,6 +385,23 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* NAP Section with Map */}
+      <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <NAPSection variant="detailed" showMap={true} showHours={true} className="mb-12" />
+            
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
+              <h2 className="text-3xl font-black mb-6 text-center">Visit Our Office</h2>
+              <GoogleMapEmbed />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Google Reviews Section */}
+      <GoogleReviews />
+
       <section className="py-20 bg-gray-900 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl md:text-5xl font-black mb-6">
@@ -405,6 +425,14 @@ export default function HomePage() {
               className="inline-block bg-white text-gray-900 px-12 py-6 rounded-lg font-bold text-2xl hover:bg-gray-100 transition-colors"
             >
               CONTACT ME
+            </a>
+            <a
+              href="https://www.google.com/maps/dir/?api=1&destination=1180+North+Town+Center+Drive,+Las+Vegas,+NV+89144"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-primary text-primary-foreground px-12 py-6 rounded-lg font-bold text-2xl hover:bg-primary/90 transition-colors"
+            >
+              GET DIRECTIONS
             </a>
           </div>
           <div className="flex flex-wrap justify-center gap-4 text-sm opacity-75">

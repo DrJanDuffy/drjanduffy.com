@@ -240,6 +240,10 @@ export default function RootLayout({
               servesCuisine: undefined,
               paymentAccepted: 'Cash, Check, Credit Card',
               currenciesAccepted: 'USD',
+              sameAs: [
+                process.env.NEXT_PUBLIC_GOOGLE_BUSINESS_URL || process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
+                process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
+              ],
             },
             {
               '@context': 'https://schema.org',

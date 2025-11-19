@@ -1,11 +1,12 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import NAPSection from '@/app/components/nap-section'
 
 export const metadata = {
-  title: 'About Dr. Jan Duffy | Failed Listing Specialist',
+  title: 'About Dr. Janet Duffy | Real Estate Agent in Las Vegas, NV | (702) 500-1064',
   description:
-    'Learn about Dr. Janet Duffy, Las Vegas real estate expert specializing in selling homes that didn\'t sell. Helped 47 Summerlin sellers in 19 days average at 98.7% of asking price.',
+    'Learn about Dr. Janet Duffy, Las Vegas real estate expert specializing in selling homes that didn\'t sell. Serving Summerlin, The Ridges, and Henderson. Helped 47 Summerlin sellers in 19 days average at 98.7% of asking price. Call (702) 500-1064.',
   alternates: {
     canonical: 'https://www.drjanduffy.com/about',
   },
@@ -15,13 +16,13 @@ export const metadata = {
     type: 'profile',
     locale: 'en_US',
     url: 'https://www.drjanduffy.com/about',
-    title: 'About Dr. Jan Duffy | Failed Listing Specialist',
-    description: 'Learn about Dr. Janet Duffy, Las Vegas real estate expert specializing in selling homes that didn\'t sell.',
+    title: 'About Dr. Janet Duffy | Real Estate Agent in Las Vegas, NV',
+    description: 'Learn about Dr. Janet Duffy, Las Vegas real estate expert specializing in selling homes that didn\'t sell. Serving Summerlin, The Ridges, and Henderson.',
   },
   twitter: {
     card: 'summary',
-    title: 'About Dr. Jan Duffy | Failed Listing Specialist',
-    description: 'Las Vegas real estate expert specializing in selling homes that didn\'t sell.',
+    title: 'About Dr. Janet Duffy | Real Estate Agent in Las Vegas, NV',
+    description: 'Las Vegas real estate expert specializing in selling homes that didn\'t sell. Serving Summerlin, The Ridges, and Henderson.',
   },
 }
 
@@ -238,12 +239,15 @@ export default function AboutPage() {
                   </div>
                 </div>
 
-                <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
+                <div className="bg-white border-2 border-gray-200 rounded-lg p-8 mb-12">
                 <h2 className="text-2xl font-black mb-4 text-center">
                   READY TO WORK WITH THE EXPERT?
                 </h2>
                 <LeadForm source="about_page" buttonText="GET STARTED NOW" />
               </div>
+
+              {/* Contact Information Section */}
+              <NAPSection variant="detailed" showMap={false} showHours={true} />
             </div>
           </div>
         </section>

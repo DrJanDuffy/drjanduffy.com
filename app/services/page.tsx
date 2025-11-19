@@ -4,9 +4,9 @@ import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import ServiceSchema from '@/app/components/service-schema'
 import { Camera, Home, TrendingUp, Users, FileText, Phone } from 'lucide-react'
 export const metadata = {
-  title: 'Services | Failed Listing Solutions | Dr. Jan Duffy',
+  title: 'Real Estate Services in Las Vegas, NV | Dr. Janet Duffy | (702) 500-1064',
   description:
-    'Complete services for homes that didn\'t sell: professional photography, staging, marketing, negotiation, and closing management.',
+    'Complete real estate services for homes that didn\'t sell in Las Vegas, Summerlin, and Henderson. Professional photography, staging, marketing, negotiation, and closing management. Call (702) 500-1064.',
   alternates: {
     canonical: 'https://www.drjanduffy.com/services',
   },
@@ -16,13 +16,13 @@ export const metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://www.drjanduffy.com/services',
-    title: 'Services | Failed Listing Solutions | Dr. Jan Duffy',
-    description: 'Complete services for homes that didn\'t sell: professional photography, staging, marketing, negotiation, and closing management.',
+    title: 'Real Estate Services in Las Vegas, NV | Dr. Janet Duffy',
+    description: 'Complete real estate services for homes that didn\'t sell in Las Vegas, Summerlin, and Henderson. Professional photography, staging, marketing, negotiation, and closing management.',
   },
   twitter: {
     card: 'summary',
-    title: 'Services | Failed Listing Solutions',
-    description: 'Complete services for homes that didn\'t sell.',
+    title: 'Real Estate Services in Las Vegas, NV | Dr. Janet Duffy',
+    description: 'Complete real estate services for homes that didn\'t sell in Las Vegas, Summerlin, and Henderson.',
   },
 }
 import Link from 'next/link'
@@ -309,12 +309,15 @@ export default function ServicesPage() {
                 </div>
               </div>
 
-              <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
+              <div className="bg-white border-2 border-gray-200 rounded-lg p-8 mb-12">
                 <h2 className="text-2xl font-black mb-4 text-center">
                   READY FOR COMPLETE SERVICE?
                 </h2>
                 <LeadForm source="services_page" buttonText="GET STARTED" />
               </div>
+
+              {/* Contact Information Section */}
+              <NAPSection variant="compact" showMap={false} showHours={true} />
             </div>
           </div>
         </section>
