@@ -3,9 +3,9 @@ import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 
 export const metadata = {
-  title: 'MacDonald Ranch HOMES THAT DIDN'T SELL | Dr. Jan Duffy - Henderson Real Estate Expert',
+  title: 'MacDonald Ranch HOMES THAT DIDN\'T SELL | Dr. Jan Duffy - Henderson Real Estate Expert',
   description:
-    'Expert help selling homes that didn't sell in MacDonald Ranch, Henderson. Established community properties. 19 day average, 98.7% of asking price.',
+    'Expert help selling homes that didn\'t sell in MacDonald Ranch, Henderson. Established community properties. 19 day average, 98.7% of asking price.',
   alternates: {
     canonical: '/neighborhoods/macdonald-ranch',
   },

@@ -3,7 +3,7 @@ import LeadForm from '@/app/components/lead-form'
 export const metadata = {
   title: 'Marketing Strategy | 97-Point System | Dr. Jan Duffy',
   description:
-    'Learn about Dr. Jan Duffy\'s 97-point marketing system that sells homes that didn't sell in 19 days average.',
+    'Learn about Dr. Jan Duffy\'s 97-point marketing system that sells homes that didn\'t sell in 19 days average.',
 }
 export default function MarketingStrategyPage() {
   const strategies = [

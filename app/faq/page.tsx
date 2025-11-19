@@ -2,9 +2,9 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
-  title: 'FAQ | HOME THAT DIDN'T SELL Questions | Dr. Jan Duffy',
+  title: 'FAQ | HOME THAT DIDN\'T SELL Questions | Dr. Jan Duffy',
   description:
-    'Frequently asked questions about HOMES THAT DIDN'T SELL, selling process, and working with Dr. Jan Duffy.',
+    'Frequently asked questions about HOMES THAT DIDN\'T SELL, selling process, and working with Dr. Jan Duffy.',
 }
 export default function FAQPage() {
   const faqs = [

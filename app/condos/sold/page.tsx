@@ -68,7 +68,7 @@ export default function CondosSoldPage() {
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">The Results Speak for Themselves</h2>
-                
+              </div>
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR CONDO?

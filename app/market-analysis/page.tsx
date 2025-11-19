@@ -3,7 +3,7 @@ import LeadForm from '@/app/components/lead-form'
 export const metadata = {
   title: 'Market Analysis | Las Vegas Real Estate Market | Dr. Jan Duffy',
   description:
-    'Current Las Vegas real estate market analysis: inventory, pricing trends, and what it means for HOMES THAT DIDN'T SELL.',
+    'Current Las Vegas real estate market analysis: inventory, pricing trends, and what it means for HOMES THAT DIDN\'T SELL.',
 }
 export default function MarketAnalysisPage() {
   return (
