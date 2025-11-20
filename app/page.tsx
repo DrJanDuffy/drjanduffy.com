@@ -107,7 +107,7 @@ export default function HomePage() {
                   <li>• Aggressive follow-up</li>
                   <li>• 19 day average to contract</li>
                 </ul>
-                <Link href="/sell-house-fast-las-vegas" className="inline-block bg-primary text-primary-foreground px-6 py-3 rounded-lg font-bold hover:bg-primary/90 transition-colors">
+                <Link href="/sell-house-fast-las-vegas" className="inline-block bg-[var(--color-cta)] text-[var(--color-cta-foreground)] px-6 py-3 rounded-lg font-bold hover:bg-[var(--color-cta-hover)] transition-colors">
                   Learn more about selling your home fast in Las Vegas →
                 </Link>
               </div>
@@ -123,7 +123,7 @@ export default function HomePage() {
                   <li>• Neighborhood knowledge</li>
                   <li>• Negotiation expertise</li>
                 </ul>
-                <Link href="/summerlin-real-estate-agent" className="inline-block bg-primary text-primary-foreground px-6 py-3 rounded-lg font-bold hover:bg-primary/90 transition-colors">
+                <Link href="/summerlin-real-estate-agent" className="inline-block bg-[var(--color-cta)] text-[var(--color-cta-foreground)] px-6 py-3 rounded-lg font-bold hover:bg-[var(--color-cta-hover)] transition-colors">
                   Find luxury homes in Summerlin →
                 </Link>
               </div>
@@ -139,7 +139,7 @@ export default function HomePage() {
                   <li>• Aggressive marketing</li>
                   <li>• 98.7% of asking price average</li>
                 </ul>
-                <Link href="/home-wont-sell-las-vegas" className="inline-block bg-primary text-primary-foreground px-6 py-3 rounded-lg font-bold hover:bg-primary/90 transition-colors">
+                <Link href="/home-wont-sell-las-vegas" className="inline-block bg-[var(--color-cta)] text-[var(--color-cta-foreground)] px-6 py-3 rounded-lg font-bold hover:bg-[var(--color-cta-hover)] transition-colors">
                   Get help selling your home in Las Vegas →
                 </Link>
               </div>
@@ -177,7 +177,7 @@ export default function HomePage() {
               </Link>
             </div>
             <div className="text-center mt-8">
-              <Link href="/neighborhoods" className="inline-block bg-primary text-primary-foreground px-8 py-4 rounded-lg font-bold text-lg hover:bg-primary/90 transition-colors">
+              <Link href="/neighborhoods" className="inline-block bg-[var(--color-cta)] text-[var(--color-cta-foreground)] px-8 py-4 rounded-lg font-bold text-lg hover:bg-[var(--color-cta-hover)] transition-colors">
                 View All Neighborhoods →
               </Link>
             </div>

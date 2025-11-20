@@ -100,7 +100,7 @@ export default function BlogPage() {
                 </p>
                 <Link
                   href="/contact"
-                  className="inline-block bg-primary text-primary-foreground px-8 py-4 rounded-lg font-bold hover:bg-primary/90 transition-colors"
+                  className="inline-block bg-[var(--color-cta)] text-[var(--color-cta-foreground)] px-8 py-4 rounded-lg font-bold hover:bg-[var(--color-cta-hover)] transition-colors"
                 >
                   Get Market Updates
                 </Link>
