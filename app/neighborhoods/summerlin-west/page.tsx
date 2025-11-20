@@ -5,7 +5,7 @@ import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 export const metadata = {
   title: 'Summerlin West HOMES THAT DID NOT SELL | Dr. Jan Duffy - Expert Real Estate Agent',
   description:
-    'Expert help selling homes that DID NOT sell in Summerlin West, Las Vegas. Dr. Jan Duffy has sold 47 Summerlin sellers who could not sell in 19 days average at 98.7% of asking price.',
+    'Expert help selling homes that DID NOT sell in Summerlin West, Las Vegas. Dr. Jan Duffy has sold 7 Summerlin sellers who could not sell in 19 days average at 98.7% of asking price.',
   alternates: {
     canonical: '/neighborhoods/summerlin-west',
   },
@@ -35,7 +35,7 @@ export default function SummerlinWestPage() {
 
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  If your Summerlin West home DID NOT sell, you're not alone. Summerlin West is one of Las Vegas's most prestigious communities, but even luxury properties expire when agents do not know how to market them effectively. I've sold 47 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. I understand the Summerlin West market. I know how to market luxury properties. I know how to attract high-end buyers. I can sell your expired Summerlin West listing. Fast. At top dollar. With zero excuses.
+                  If your Summerlin West home DID NOT sell, you're not alone. Summerlin West is one of Las Vegas's most prestigious communities, but even luxury properties expire when agents do not know how to market them effectively. I've sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. I understand the Summerlin West market. I know how to market luxury properties. I know how to attract high-end buyers. I can sell your expired Summerlin West listing. Fast. At top dollar. With zero excuses.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   Summerlin West offers luxury estates, golf course properties, gated communities, and sophisticated living. Properties range from $675K to $10M+, attracting buyers who value quality, location, and exclusivity. Most agents do not understand the Summerlin West buyer. They use generic marketing, and Summerlin West homes fail to sell. I understand the Summerlin West buyer. I use luxury marketing strategies, highlight exclusive amenities, and attract sophisticated buyers. Summerlin West listings sell. Fast. At top dollar.
