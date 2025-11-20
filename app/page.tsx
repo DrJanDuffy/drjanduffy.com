@@ -8,6 +8,7 @@ import ChatWidget from './components/chat-widget'
 import BreadcrumbSchema from './components/breadcrumb-schema'
 import NAPSection from './components/nap-section'
 import GoogleReviews from './components/google-reviews'
+import GBPPostsWidget from './components/gbp-posts-widget'
 import GoogleMapEmbed from './components/google-map-embed'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -262,7 +263,7 @@ export default function HomePage() {
                 The longer your home sits unsold, the more it becomes stigmatized. Buyers see a home that's been on the market for months and think "what's wrong with it?" After 60 days, they assume it's overpriced. After 90 days, they assume it has problems. After 120 days, it's toxic. The stigma compounds, making it harder to sell even when you finally get the right agent.
               </p>
               <p className="text-lg text-gray-700">
-                But here's the good news: homes that did not sell can be fixed. I've helped 47 Summerlin sellers who could not sell with their previous agent - average 19 days to contract and 98.7% of asking price. The key is a complete reset: new photos, new pricing strategy, fresh MLS listing, and aggressive marketing. The stigma disappears when buyers see a beautiful, properly priced home with professional marketing. See <a href="/success-stories" className="text-primary font-semibold hover:underline">real success stories from homes I've sold</a> and learn about <a href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process</a>.
+                But here's the good news: homes that did not sell can be fixed. I've helped 47 Summerlin sellers who could not sell with their previous agent - average 19 days to contract and 98.7% of asking price. The key is a complete reset: new photos, new pricing strategy, fresh MLS listing, and aggressive marketing. The stigma disappears when buyers see a beautiful, properly priced home with professional marketing. See <a href="/success-stories" className="text-primary font-semibold hover:underline">real success stories from Summerlin homes I've sold</a> and learn about <a href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process for Las Vegas homes</a>.
               </p>
             </div>
           </div>
@@ -337,7 +338,7 @@ export default function HomePage() {
                 Proven System vs. Hope and Pray
               </h3>
               <p className="text-lg text-gray-700 mb-4">
-                Your previous agent had no system. They posted to MLS, held maybe one open house, and hoped for the best. That's not a strategy. That's incompetence. I have a proven 30-day plan that sells homes that did not sell. Week 1 is aggressive reset. Week 2 is maximum exposure. Week 3 is negotiation warfare. Week 4 is closing. Every week has measurable outcomes. Every week moves you closer to SOLD. Learn more about <a href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process</a> and see <a href="/services" className="text-primary font-semibold hover:underline">my complete services</a>.
+                Your previous agent had no system. They posted to MLS, held maybe one open house, and hoped for the best. That's not a strategy. That's incompetence. I have a proven 30-day plan that sells homes that did not sell. Week 1 is aggressive reset. Week 2 is maximum exposure. Week 3 is negotiation warfare. Week 4 is closing. Every week has measurable outcomes. Every week moves you closer to SOLD. Learn more about <a href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process for Las Vegas homes</a> and see <a href="/services" className="text-primary font-semibold hover:underline">my complete real estate services in Summerlin and Henderson</a>.
               </p>
               <p className="text-lg text-gray-700 mb-6">
                 The results speak for themselves: 47 homes that did not sell - now sold, 19 day average, 98.7% of asking price. These are not hypothetical results. These are real homes that I sold after other agents failed. The same system that delivered these results can deliver yours. The only question is: are you ready to work with an agent who actually has a system?
@@ -403,6 +404,15 @@ export default function HomePage() {
       {/* Google Reviews Section */}
       <GoogleReviews />
 
+      {/* GBP Posts Widget */}
+      <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <GBPPostsWidget maxPosts={3} />
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 bg-gray-900 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl md:text-5xl font-black mb-6">
@@ -452,13 +462,13 @@ export default function HomePage() {
           <div className="flex flex-wrap justify-center gap-4 text-sm opacity-75">
             <a href="/about" className="hover:underline">About Dr. Jan Duffy</a>
             <span>•</span>
-            <a href="/services" className="hover:underline">Services</a>
+            <a href="/services" className="hover:underline">Las Vegas Real Estate Services</a>
             <span>•</span>
-            <a href="/process" className="hover:underline">Selling Process</a>
+            <a href="/process" className="hover:underline">30-Day Selling Process</a>
             <span>•</span>
-            <a href="/faq" className="hover:underline">FAQ</a>
+            <a href="/faq" className="hover:underline">Frequently Asked Questions</a>
             <span>•</span>
-            <a href="/success-stories" className="hover:underline">Success Stories</a>
+            <a href="/success-stories" className="hover:underline">Summerlin Success Stories</a>
           </div>
         </div>
       </section>
