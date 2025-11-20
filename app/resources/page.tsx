@@ -89,12 +89,12 @@ export default function ResourcesPage() {
                       {resource.link ? (
                         <a
                           href={resource.link}
-                          className="inline-block bg-primary text-primary-foreground px-6 py-2 rounded-lg font-bold hover:bg-primary/90 transition-colors"
+                          className="inline-block bg-[var(--color-cta)] text-[var(--color-cta-foreground)] px-6 py-2 rounded-lg font-bold hover:bg-[var(--color-cta-hover)] transition-colors"
                         >
                           {resource.cta}
                         </a>
                       ) : (
-                        <button className="inline-block bg-primary text-primary-foreground px-6 py-2 rounded-lg font-bold hover:bg-primary/90 transition-colors">
+                        <button className="inline-block bg-[var(--color-cta)] text-[var(--color-cta-foreground)] px-6 py-2 rounded-lg font-bold hover:bg-[var(--color-cta-hover)] transition-colors">
                           {resource.cta}
                         </button>
                       )}

@@ -440,13 +440,13 @@ export default function HomePage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
             <a
               href="tel:7025001064"
-              className="inline-block bg-primary text-primary-foreground px-12 py-6 rounded-lg font-bold text-2xl hover:bg-primary/90 transition-colors"
+              className="inline-block bg-[var(--color-cta)] text-[var(--color-cta-foreground)] px-12 py-6 rounded-lg font-bold text-2xl hover:bg-[var(--color-cta-hover)] transition-colors"
             >
               CALL NOW: (702) 500-1064
             </a>
             <a
               href="/contact"
-              className="inline-block bg-white text-gray-900 px-12 py-6 rounded-lg font-bold text-2xl hover:bg-gray-100 transition-colors"
+              className="inline-block bg-white text-gray-900 px-12 py-6 rounded-lg font-bold text-2xl hover:bg-gray-100 transition-colors border-2 border-gray-300"
             >
               CONTACT ME
             </a>
@@ -454,7 +454,7 @@ export default function HomePage() {
               href="https://www.google.com/maps/dir/?api=1&destination=1180+North+Town+Center+Drive,+Las+Vegas,+NV+89144"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-primary text-primary-foreground px-12 py-6 rounded-lg font-bold text-2xl hover:bg-primary/90 transition-colors"
+              className="inline-block bg-[var(--color-cta)] text-[var(--color-cta-foreground)] px-12 py-6 rounded-lg font-bold text-2xl hover:bg-[var(--color-cta-hover)] transition-colors"
             >
               GET DIRECTIONS
             </a>

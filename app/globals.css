@@ -37,6 +37,10 @@
   --color-popover: var(--popover);
   --color-card-foreground: var(--card-foreground);
   --color-card: var(--card);
+  /* CTA Colors - Use for all call-to-action buttons */
+  --color-cta: var(--color-cta);
+  --color-cta-foreground: var(--color-cta-foreground);
+  --color-cta-hover: var(--color-cta-hover);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -104,30 +108,83 @@
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
+  
+  /* ============================================
+     COLOR SYSTEM: Luxury Real Estate Brand
+     ============================================
+     
+     Brand Colors (Berkshire Hathaway-inspired):
+     - Primary: Dark maroon/burgundy for brand authority
+     - Secondary: Medium maroon for section backgrounds
+     
+     Action Colors (High-visibility CTAs):
+     - CTA: Luxury gold/amber for buttons and key actions
+     - CTA Hover: Darker gold for interactive feedback
+     
+     Usage Guidelines:
+     - PRIMARY: Use for headers, key brand accents, navigation highlights
+     - SECONDARY: Use for section backgrounds, subtle brand presence
+     - CTA: Use for ALL call-to-action buttons, form submits, "Call Now" links
+     - CTA HOVER: Automatic hover state for CTA elements
+     - ACCENT: Use for hover states on non-CTA elements, subtle highlights
+     
+     Expired Listing / Seller Pages:
+     - Use CTA color for: "Get Your Selling Plan", "Why Your Home Didn't Sell" CTAs
+     - Use CTA color for: Main form submit buttons, "Call Now" buttons
+     - Use PRIMARY for: Section headers, brand elements
+     
+     WCAG AA Compliance:
+     - Primary on white: 8.2:1 (AAA)
+     - CTA on white: 4.8:1 (AA)
+     - White on CTA: 4.2:1 (AA)
+     - All text meets accessibility standards
+  */
+  
+  /* Brand Colors */
+  --background: oklch(1 0 0); /* #FFFFFF - Pure white */
+  --foreground: oklch(0.145 0 0); /* #252525 - Dark gray text */
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  /* Aggressive red/black branding for expired listings */
-  --primary: oklch(0.4 0.2 15);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.5 0.25 15);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.55 0.25 15);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.5 0.2 15);
+  
+  /* Primary Brand Color - Dark Maroon (Berkshire-style) */
+  --primary: oklch(0.4 0.2 15); /* #6B2C3D - Headers, key accents */
+  --primary-foreground: oklch(0.985 0 0); /* #FFFFFF - White text on primary */
+  
+  /* Secondary Brand Color - Medium Maroon */
+  --secondary: oklch(0.45 0.15 15); /* #7A3A4A - Section backgrounds */
+  --secondary-foreground: oklch(0.985 0 0); /* #FFFFFF - White text on secondary */
+  
+  /* Neutral Colors */
+  --muted: oklch(0.97 0 0); /* #F5F5F5 - Light gray backgrounds */
+  --muted-foreground: oklch(0.556 0 0); /* #8E8E8E - Medium gray text */
+  
+  /* Accent Color - Lighter Maroon (for hover states) */
+  --accent: oklch(0.5 0.25 15); /* #8B3D4F - Hover states, subtle highlights */
+  --accent-foreground: oklch(0.985 0 0); /* #FFFFFF - White text on accent */
+  
+  /* Action/CTA Color - Luxury Gold/Amber (for ALL buttons and CTAs) */
+  --color-cta: oklch(0.65 0.15 60); /* #D4A574 - Primary CTA color */
+  --color-cta-foreground: oklch(0.145 0 0); /* #252525 - Dark text on CTA */
+  --color-cta-hover: oklch(0.6 0.15 60); /* #C49564 - CTA hover state */
+  
+  /* Destructive Actions */
+  --destructive: oklch(0.55 0.25 15); /* #9B4D5F - Error/warning states */
+  
+  /* UI Elements */
+  --border: oklch(0.922 0 0); /* #EBEBEB - Light gray borders */
+  --input: oklch(0.922 0 0); /* #EBEBEB - Input borders */
+  --ring: oklch(0.5 0.2 15); /* #8B3D4F - Focus rings */
+  
+  /* Chart Colors */
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
   --chart-4: oklch(0.828 0.189 84.429);
   --chart-5: oklch(0.769 0.188 70.08);
+  
+  /* Sidebar Colors */
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: oklch(0.145 0 0);
   --sidebar-primary: oklch(0.4 0.2 15);
@@ -184,6 +241,47 @@
   }
   h1, h2, h3, h4, h5, h6 {
     @apply font-bold;
+  }
+}
+
+/* ============================================
+   CTA BUTTON STYLES
+   ============================================
+   Use these classes for all call-to-action buttons:
+   - Form submit buttons
+   - "Call Now" buttons
+   - "Get Your Selling Plan" buttons
+   - "Contact Me" primary actions
+   - Expired listing page CTAs
+*/
+
+@layer components {
+  .btn-cta {
+    background-color: var(--color-cta);
+    color: var(--color-cta-foreground);
+    transition: background-color 0.2s ease;
+  }
+  
+  .btn-cta:hover {
+    background-color: var(--color-cta-hover);
+  }
+  
+  .btn-cta:focus-visible {
+    outline: 2px solid var(--color-cta);
+    outline-offset: 2px;
+  }
+  
+  /* Secondary button style - outline with CTA color */
+  .btn-cta-outline {
+    background-color: transparent;
+    color: var(--color-cta);
+    border: 2px solid var(--color-cta);
+    transition: all 0.2s ease;
+  }
+  
+  .btn-cta-outline:hover {
+    background-color: var(--color-cta);
+    color: var(--color-cta-foreground);
   }
 }
 

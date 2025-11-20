@@ -310,13 +310,13 @@ export default function HomeWontSellPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
               <a
                 href="tel:7025001064"
-                className="inline-block bg-white text-primary px-12 py-6 rounded-lg font-bold text-2xl hover:bg-gray-100 transition-colors"
+                className="inline-block bg-[var(--color-cta)] text-[var(--color-cta-foreground)] px-12 py-6 rounded-lg font-bold text-2xl hover:bg-[var(--color-cta-hover)] transition-colors"
               >
                 CALL NOW: (702) 500-1955
               </a>
               <a
                 href="tel:7025001064"
-                className="inline-block bg-white text-primary px-12 py-6 rounded-lg font-bold text-2xl hover:bg-gray-100 transition-colors"
+                className="inline-block bg-[var(--color-cta)] text-[var(--color-cta-foreground)] px-12 py-6 rounded-lg font-bold text-2xl hover:bg-[var(--color-cta-hover)] transition-colors"
               >
                 TEXT: (702) 222-1964
               </a>

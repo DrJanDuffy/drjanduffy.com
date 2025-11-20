@@ -134,7 +134,8 @@ export default function LeadForm({
       <Button
         type="submit"
         disabled={isSubmitting}
-        className="w-full py-6 text-lg font-bold bg-primary hover:bg-primary/90 text-primary-foreground"
+        variant="cta"
+        className="w-full py-6 text-lg font-bold"
       >
         {isSubmitting ? 'SUBMITTING...' : buttonText}
       </Button>

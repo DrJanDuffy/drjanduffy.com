@@ -185,14 +185,14 @@ export default function Header() {
             <div className="flex items-center gap-3 flex-shrink-0">
               <a
                 href="tel:7025001064"
-                className="hidden sm:flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-bold hover:bg-primary/90 transition-colors shadow-md"
+                className="hidden sm:flex items-center gap-2 bg-[var(--color-cta)] text-[var(--color-cta-foreground)] px-6 py-3 rounded-lg font-bold hover:bg-[var(--color-cta-hover)] transition-colors shadow-md"
               >
                 <Phone className="w-5 h-5" />
                 <span>(702) 500-1064</span>
               </a>
               <a
                 href="tel:7025001064"
-                className="sm:hidden flex items-center justify-center w-12 h-12 bg-primary text-primary-foreground rounded-lg font-bold hover:bg-primary/90 transition-colors shadow-md"
+                className="sm:hidden flex items-center justify-center w-12 h-12 bg-[var(--color-cta)] text-[var(--color-cta-foreground)] rounded-lg font-bold hover:bg-[var(--color-cta-hover)] transition-colors shadow-md"
               >
                 <Phone className="w-5 h-5" />
               </a>
