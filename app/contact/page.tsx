@@ -205,7 +205,7 @@ export default function ContactPage() {
                   Visit Our Office Location
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  Located at 1180 North Town Center Drive in Las Vegas, serving Summerlin, The Ridges, and surrounding areas.
+                  Located at 1180 N Town Center Dr in Las Vegas, serving Summerlin, The Ridges, and surrounding areas.
                 </p>
                 <GoogleMapEmbed />
               </div>

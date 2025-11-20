@@ -9,14 +9,14 @@ interface GoogleMapEmbedProps {
 }
 
 export default function GoogleMapEmbed({
-  address = '1180 North Town Center Drive, Las Vegas, NV 89144',
+  address = '1180 N Town Center Dr, Las Vegas, NV 89144',
   className = '',
   height = '400px',
 }: GoogleMapEmbedProps) {
-  // Google Maps embed URL - replace with your actual Google Business Profile embed URL
-  // You can get this from Google Maps by clicking Share > Embed a map
+  // Google Maps embed URL - using query parameter format for reliable embedding
+  // Address: 1180 N Town Center Dr, Las Vegas, NV 89144
   const mapEmbedUrl = process.env.NEXT_PUBLIC_GOOGLE_MAP_EMBED_URL || 
-    `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3218.1234567890!2d-115.3030!3d36.1579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzYsLTE1NS4zMDMw!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus`
+    `https://www.google.com/maps?q=${encodeURIComponent(address)}&output=embed`
 
   const directionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(address)}`
 

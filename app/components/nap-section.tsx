@@ -18,11 +18,11 @@ export default function NAPSection({
   const phone = '(702) 500-1064'
   const email = 'info@drjanduffy.com'
   const address = {
-    street: '1180 North Town Center Drive',
+    street: '1180 N Town Center Dr',
     city: 'Las Vegas',
     state: 'NV',
     zip: '89144',
-    full: '1180 North Town Center Drive, Las Vegas, NV 89144',
+    full: '1180 N Town Center Dr, Las Vegas, NV 89144',
   }
   const hours = {
     weekdays: '8:00 AM - 8:00 PM',
@@ -107,7 +107,7 @@ export default function NAPSection({
           {showMap && (
             <div>
               <iframe
-                src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3218.1234567890!2d-115.3030!3d36.1579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzYsLTE1NS4zMDMw!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus`}
+                src={`https://www.google.com/maps?q=${encodeURIComponent(address.full)}&output=embed`}
                 width="100%"
                 height="300"
                 style={{ border: 0, borderRadius: '8px' }}

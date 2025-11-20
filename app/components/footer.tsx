@@ -34,7 +34,7 @@ export default function Footer() {
               </a>
               <div className="flex items-start gap-2 text-sm">
                 <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
-                <span>1180 North Town Center Drive<br />Las Vegas, NV 89144<br />Serving Summerlin, The Ridges & Surrounding Areas</span>
+                <span>1180 N Town Center Dr<br />Las Vegas, NV 89144<br />Serving Summerlin, The Ridges & Surrounding Areas</span>
               </div>
               <div className="flex items-start gap-2 text-sm mt-3">
                 <Clock className="w-4 h-4 mt-1 flex-shrink-0" />

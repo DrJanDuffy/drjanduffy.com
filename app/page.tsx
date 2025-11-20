@@ -456,7 +456,7 @@ export default function HomePage() {
               CONTACT ME
             </a>
             <a
-              href="https://www.google.com/maps/dir/?api=1&destination=1180+North+Town+Center+Drive,+Las+Vegas,+NV+89144"
+              href="https://www.google.com/maps/dir/?api=1&destination=1180+N+Town+Center+Dr,+Las+Vegas,+NV+89144"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-[var(--color-cta)] text-[var(--color-cta-foreground)] px-12 py-6 rounded-lg font-bold text-2xl hover:bg-[var(--color-cta-hover)] transition-colors"

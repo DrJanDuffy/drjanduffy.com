@@ -190,7 +190,7 @@ export default function RootLayout({
               ],
               address: {
                 '@type': 'PostalAddress',
-                streetAddress: '1180 North Town Center Drive',
+                streetAddress: '1180 N Town Center Dr',
                 addressLocality: 'Las Vegas',
                 addressRegion: 'NV',
                 postalCode: '89144',
