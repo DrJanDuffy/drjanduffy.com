@@ -222,10 +222,10 @@ export default function ServicesPage() {
                   <div>
                     <h3 className="text-2xl font-black mb-4">Escrow Management & Closing</h3>
                     <p className="text-lg text-gray-700 mb-4">
-                      Your previous agent disappeared after getting an offer. I manage every detail through closing. Escrow management ensures timelines are met. Problem resolution handles issues as they arise. Final walkthrough coordination ensures smooth closing. Closing management ensures all documents are signed. Post-closing support ensures you're satisfied with the process.
+                      Your previous agent disappeared after getting an offer. I manage every detail through closing. Escrow management ensures timelines are met. Problem resolution handles issues as they arise. Final walkthrough coordination ensures smooth closing. Closing management ensures all documents are signed. Post-closing support ensures you are satisfied with the process.
                     </p>
                     <p className="text-lg text-gray-700 mb-4">
-                      The escrow management includes timeline enforcement to ensure closing happens on time, problem resolution to handle issues as they arise, final walkthrough coordination to ensure smooth closing, closing management to ensure all documents are signed, and post-closing support to ensure you're satisfied. This complete management ensures your sale closes smoothly and on time. This is where deals fall apart with other agents. I do not let that happen.
+                      The escrow management includes timeline enforcement to ensure closing happens on time, problem resolution to handle issues as they arise, final walkthrough coordination to ensure smooth closing, closing management to ensure all documents are signed, and post-closing support to ensure you are satisfied. This complete management ensures your sale closes smoothly and on time. This is where deals fall apart with other agents. I do not let that happen.
                     </p>
                   </div>
                   <div>
@@ -234,7 +234,7 @@ export default function ServicesPage() {
                       Your previous agent disappeared after listing your home. I provide weekly detailed reports with real accountability. Weekly detailed reports show showing activity, buyer feedback, market conditions, and strategy adjustments. Real-time updates keep you informed of all activity. Direct phone access ensures you can reach me when needed. Email communication provides written updates. Text message updates provide instant notifications.
                     </p>
                     <p className="text-lg text-gray-700 mb-4">
-                      The weekly communication includes weekly detailed reports with showing activity and buyer feedback, real-time updates on all marketing activities, direct phone access for immediate questions, email communication for written updates, and text message updates for instant notifications. This communication ensures you're always informed and I'm always accountable. This is transparency. This is accountability. This is what your previous agent DID NOT provide.
+                      The weekly communication includes weekly detailed reports with showing activity and buyer feedback, real-time updates on all marketing activities, direct phone access for immediate questions, email communication for written updates, and text message updates for instant notifications. This communication ensures you are always informed and I am always accountable. This is transparency. This is accountability. This is what your previous agent DID NOT provide.
                     </p>
                   </div>
                 </div>

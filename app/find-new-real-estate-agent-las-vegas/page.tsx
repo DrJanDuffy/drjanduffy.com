@@ -73,7 +73,7 @@ export default function FindNewAgentPage() {
                     Your agent disappeared after listing your home. No weekly updates. No showing feedback. No communication. You're left in the dark, wondering what's happening. This is a red flag. You need an agent who communicates regularly and keeps you informed.
                   </p>
                   <p className="text-lg text-gray-700">
-                    I provide weekly detailed reports with showing activity, buyer feedback, market conditions, and strategy adjustments. Real-time updates. Direct phone access. Email communication. Text message updates. This communication ensures you're always informed and I'm always accountable.
+                    I provide weekly detailed reports with showing activity, buyer feedback, market conditions, and strategy adjustments. Real-time updates. Direct phone access. Email communication. Text message updates. This communication ensures you are always informed and I am always accountable.
                   </p>
                 </div>
 
@@ -141,7 +141,7 @@ export default function FindNewAgentPage() {
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Regular Communication Commitment</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Ask about communication. How often will you hear from them? What format? Weekly reports? Real-time updates? I provide weekly detailed reports with showing activity, buyer feedback, market conditions, and strategy adjustments. Plus real-time updates, direct phone access, email, and text. This communication ensures you're always informed.
+                  Ask about communication. How often will you hear from them? What format? Weekly reports? Real-time updates? I provide weekly detailed reports with showing activity, buyer feedback, market conditions, and strategy adjustments. Plus real-time updates, direct phone access, email, and text. This communication ensures you are always informed.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Professional Photography & Staging</h3>
                 <p className="text-lg text-gray-700 mb-4">
