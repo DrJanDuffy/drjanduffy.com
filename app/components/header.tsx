@@ -290,7 +290,7 @@ export default function Header() {
                 <a
                   href="tel:7025001064"
                   onClick={() => setMobileMenuOpen(false)}
-                  className="flex items-center justify-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-bold hover:bg-primary/90 transition-colors shadow-md"
+                  className="flex items-center justify-center gap-2 bg-[var(--color-cta)] text-[var(--color-cta-foreground)] px-6 py-3 rounded-lg font-bold hover:bg-[var(--color-cta-hover)] transition-colors shadow-md"
                 >
                   <Phone className="w-5 h-5" />
                   <span>Call (702) 500-1064</span>
