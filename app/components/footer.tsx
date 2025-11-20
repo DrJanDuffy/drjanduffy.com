@@ -202,12 +202,13 @@ export default function Footer() {
               {/* Berkshire Hathaway HomeServices Logo */}
               <div className="flex items-center justify-center max-w-[200px]">
                 <Image 
-                  src="/berkshire-hathaway-logo.png" 
+                  src="/berkshire-hathaway-logo.svg" 
                   alt="Berkshire Hathaway HomeServices Las Vegas Real Estate" 
                   width={200}
                   height={40}
                   className="h-auto w-full max-h-10 object-contain"
                   style={{ maxWidth: '200px', height: 'auto' }}
+                  priority={false}
                 />
               </div>
               <p className="text-xs text-gray-400 text-center max-w-[200px]">
