@@ -21,7 +21,7 @@ export default function ContactPage() {
                 CONTACT DR. JAN DUFFY
               </h1>
               <p className="text-xl text-center text-gray-600 mb-8">
-                Get your HOME THAT DID NOT SELL sold in 30 days or less
+                Sell your HOME THAT DID NOT SELL in 30 days or less
               </p>
               
               {/* Dr. Jan Duffy Headshot */}
@@ -41,7 +41,7 @@ export default function ContactPage() {
                   If your home did not sell, you need to act fast. Every day your house sits unsold is costing you money - mortgage payments, HOA fees, insurance, utilities, property taxes. The average costs when your home will not sell sellers $4,964 per month in holding costs. That is $116 per day. The longer you wait, the more you lose.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  But here is the good news: HOMES THAT DID NOT SELL can be fixed. I have sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. The key is getting started immediately with the right agent, the right strategy, and the right marketing. Do not let another day pass. Contact me now and let us get your HOME THAT DID NOT SELL sold.
+                  But here is the good news: HOMES THAT DID NOT SELL can be fixed. I have sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. The key is getting started immediately with the right agent, the right strategy, and the right marketing. Do not let another day pass. Contact me now and let us sell your HOME THAT DID NOT SELL.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I understand how frustrating it is when your home does not sell. You trusted your previous agent, they promised results, and they failed. you are angry, frustrated, and ready to work with someone who actually knows what they are doing. That is where I come in. I specialize in HOMES THAT DID NOT SELL. This is all I do. I know how to reset them, market them, and sell them. Fast. At top dollar. With zero excuses.

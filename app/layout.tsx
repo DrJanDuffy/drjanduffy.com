@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'could not Sell Your Home? | Dr. Jan Duffy',
     description:
-      'Your house DID NOT sell? Get your home sold in 30 days or less with proven results.',
+      'Your house DID NOT sell? Sell your home that did not sell in 30 days or less with proven results.',
     images: ['/og-image.png'],
   },
 }
