@@ -1,6 +1,10 @@
 import Header from '@/app/components/header'
 import { successStories } from '@/lib/data/success-stories'
 import { formatCurrency } from '@/lib/utils'
+import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import NAPSection from '@/app/components/nap-section'
+import GoogleBusinessLink from '@/app/components/google-business-link'
+import GoogleReviews from '@/app/components/google-reviews'
 import { Star } from 'lucide-react'
 export const metadata = {
   title: 'Client Testimonials | Dr. Jan Duffy',
@@ -42,6 +46,7 @@ export default function TestimonialsPage() {
   ]
   return (
     <>
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Testimonials', url: '/testimonials' }]} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
@@ -141,6 +146,22 @@ export default function TestimonialsPage() {
                     Your HOME THAT did not SELL could be the next success story. The same system that generated these 47 testimonials can generate yours. The same marketing, the same follow-up, the same proven results. The only question is: are you ready to work with an agent who actually delivers results?
                   </p>
                 </div>
+              </div>
+
+              {/* Google Reviews Section */}
+              <div className="max-w-4xl mx-auto mb-12">
+                <GoogleReviews />
+              </div>
+
+              {/* NAP Section */}
+              <NAPSection variant="default" showHours={true} className="mb-12" />
+
+              {/* Google Business Profile Link */}
+              <div className="text-center mb-12">
+                <p className="text-lg text-gray-700 mb-4">
+                  Read more reviews and see our complete Google Business Profile
+                </p>
+                <GoogleBusinessLink variant="button" />
               </div>
             </div>
           </div>

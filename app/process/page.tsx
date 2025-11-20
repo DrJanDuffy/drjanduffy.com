@@ -1,6 +1,9 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import ServiceSchema from '@/app/components/service-schema'
+import NAPSection from '@/app/components/nap-section'
+import GoogleBusinessLink from '@/app/components/google-business-link'
 import { Check } from 'lucide-react'
 export const metadata = {
   title: 'The Selling Process | Dr. Jan Duffy',
@@ -46,6 +49,11 @@ export default function ProcessPage() {
   return (
     <>
       <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Selling Process', url: '/process' }]} />
+      <ServiceSchema
+        serviceName="Failed Listing Specialist Services"
+        description="Complete real estate services for homes that did not sell in Las Vegas, Summerlin, and Henderson. Professional photography, staging, marketing, negotiation, and closing management."
+        areaServed={['Las Vegas', 'Summerlin', 'Henderson', 'The Ridges']}
+      />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
@@ -269,11 +277,22 @@ export default function ProcessPage() {
                   </div>
                 </div>
               </div>
-              <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
+              <div className="bg-white border-2 border-gray-200 rounded-lg p-8 mb-12">
                 <h2 className="text-2xl font-black mb-4 text-center">
                   READY TO START THE PROCESS?
                 </h2>
                 <LeadForm source="process_page" buttonText="GET STARTED" />
+              </div>
+
+              {/* NAP Section */}
+              <NAPSection variant="default" showHours={true} className="mb-12" />
+
+              {/* Google Business Profile Link */}
+              <div className="text-center mb-12">
+                <p className="text-lg text-gray-700 mb-4">
+                  See what clients say about my selling process
+                </p>
+                <GoogleBusinessLink variant="button" />
               </div>
             </div>
           </div>

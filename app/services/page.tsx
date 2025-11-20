@@ -3,6 +3,8 @@ import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import ServiceSchema from '@/app/components/service-schema'
 import NAPSection from '@/app/components/nap-section'
+import GoogleReviews from '@/app/components/google-reviews'
+import GoogleBusinessLink from '@/app/components/google-business-link'
 import { Camera, Home, TrendingUp, Users, FileText, Phone } from 'lucide-react'
 export const metadata = {
   title: 'Real Estate Services in Las Vegas, NV | Dr. Janet Duffy | (702) 500-1064',
@@ -317,8 +319,18 @@ export default function ServicesPage() {
                 <LeadForm source="services_page" buttonText="GET STARTED" />
               </div>
 
+              {/* Google Reviews Section */}
+              <div className="mb-12">
+                <GoogleReviews />
+              </div>
+
               {/* Contact Information Section */}
               <NAPSection variant="compact" showMap={false} showHours={true} />
+
+              {/* Google Business Profile Link */}
+              <div className="text-center mt-8">
+                <GoogleBusinessLink variant="button" />
+              </div>
             </div>
           </div>
         </section>

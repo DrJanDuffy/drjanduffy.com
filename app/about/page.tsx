@@ -2,6 +2,8 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import NAPSection from '@/app/components/nap-section'
+import GoogleReviews from '@/app/components/google-reviews'
+import GoogleBusinessLink from '@/app/components/google-business-link'
 import Image from 'next/image'
 
 export const metadata = {
@@ -260,8 +262,18 @@ export default function AboutPage() {
                 <LeadForm source="about_page" buttonText="GET STARTED NOW" />
               </div>
 
+              {/* Google Reviews Section */}
+              <div className="mb-12">
+                <GoogleReviews />
+              </div>
+
               {/* Contact Information Section */}
               <NAPSection variant="detailed" showMap={false} showHours={true} />
+
+              {/* Google Business Profile Link */}
+              <div className="text-center mt-8">
+                <GoogleBusinessLink variant="button" />
+              </div>
             </div>
           </div>
         </section>

@@ -1,6 +1,8 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import NAPSection from '@/app/components/nap-section'
+import GoogleBusinessLink from '@/app/components/google-business-link'
 export const metadata = {
   title: 'Why Homes Do Not Sell | Dr. Jan Duffy',
   description:
@@ -232,6 +234,17 @@ export default function WhyExpirePage() {
                   "7 Reasons your home did not sell (And How to Fix Them in 30 Days)"
                 </p>
                 <LeadForm source="why_expire" buttonText="GET THE REPORT" />
+              </div>
+
+              {/* NAP Section */}
+              <NAPSection variant="default" showHours={true} className="mb-12" />
+
+              {/* Google Business Profile Link */}
+              <div className="text-center mb-12">
+                <p className="text-lg text-gray-700 mb-4">
+                  See what clients say about my approach to homes that did not sell
+                </p>
+                <GoogleBusinessLink variant="button" />
               </div>
             </div>
           </div>

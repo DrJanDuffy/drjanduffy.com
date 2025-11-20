@@ -2,6 +2,9 @@ import { successStories } from '@/lib/data/success-stories'
 import { formatCurrency } from '@/lib/utils'
 import Header from '@/app/components/header'
 import SuccessStoriesCarousel from '@/app/components/success-stories-carousel'
+import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import NAPSection from '@/app/components/nap-section'
+import GoogleBusinessLink from '@/app/components/google-business-link'
 export const metadata = {
   title: 'HOME THAT DID NOT SELL Success Stories | Dr. Jan Duffy',
   description:
@@ -10,6 +13,7 @@ export const metadata = {
 export default function SuccessStoriesPage() {
   return (
     <>
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Success Stories', url: '/success-stories' }]} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
@@ -128,6 +132,17 @@ export default function SuccessStoriesPage() {
                 <p className="text-lg text-gray-700">
                   Your HOME THAT DID NOT SELL could be the next success story. The same system that sold these 47 HOMES THAT did not SELL can sell yours. The same marketing, the same follow-up, the same proven results. The only question is: are you ready to work with an agent who actually delivers results?
                 </p>
+              </div>
+
+              {/* NAP Section */}
+              <NAPSection variant="default" showHours={true} className="mb-12" />
+
+              {/* Google Business Profile Link */}
+              <div className="text-center mb-12">
+                <p className="text-lg text-gray-700 mb-4">
+                  Read more reviews and see our complete Google Business Profile
+                </p>
+                <GoogleBusinessLink variant="button" />
               </div>
             </div>
           </div>
