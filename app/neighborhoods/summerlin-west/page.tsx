@@ -117,7 +117,7 @@ export default function SummerlinWestPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Proven Results</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  I've sold 47 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. These are not hypothetical results. These are real HOMES THAT DID NOT SELL that I sold after other agents failed. I can do the same for your Summerlin West listing. Fast. At top dollar. With zero excuses.
+                  I've sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. These are not hypothetical results. These are real HOMES THAT DID NOT SELL that I sold after other agents failed. I can do the same for your Summerlin West listing. Fast. At top dollar. With zero excuses.
                 </p>
               </div>
 

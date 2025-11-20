@@ -24,7 +24,7 @@ export default function CondosSoldPage() {
                   These are not hypothetical success stories or marketing fluff. These are real expired condo listings that I sold after other agents failed. Every single one of these condos sat on the market for months, bleeding money, while previous agents collected nothing and sellers lost thousands. Then they called me. I reset the listing, implemented my 97-point marketing system, and sold them. Fast. At top dollar. With zero excuses.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  The numbers do not lie. I've sold 47 HOMES THAT DID NOT SELL in Las Vegas with an average of 19 days to contract and 98.7% of asking price. Many of these were condos - from luxury high-rises on The Strip to mid-rise condos in Summerlin to townhomes in Henderson. That's not a coincidence. That's not luck. That's a proven system that works for condos.
+                  The numbers do not lie. I've sold 7 HOMES THAT DID NOT SELL in Las Vegas with an average of 19 days to contract and 98.7% of asking price. Many of these were condos - from luxury high-rises on The Strip to mid-rise condos in Summerlin to townhomes in Henderson. That's not a coincidence. That's not luck. That's a proven system that works for condos.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   When you see these sold condos, you're seeing what's possible when you work with an agent who actually understands condos. Most agents show you their best-case scenarios - luxury condos in perfect condition that sold quickly. I show you expired condos. Condos that other agents could not sell. Condos that sat on the market for 60, 90, 120+ days. Then I show you how I sold them in 14-31 days at 97-99% of asking price.
@@ -74,7 +74,7 @@ export default function CondosSoldPage() {
                   READY TO SELL YOUR CONDO?
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  Your expired condo could be the next success story. The same system that sold these 47 HOMES THAT did not SELL can sell yours. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
+                  Your expired condo could be the next success story. The same system that sold these 7 HOMES THAT did not SELL can sell yours. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
                 <LeadForm source="condos_sold" buttonText="GET MY CONDO SOLD" />
               </div>

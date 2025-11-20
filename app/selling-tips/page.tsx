@@ -56,7 +56,7 @@ export default function SellingTipsPage() {
                 SELLING TIPS FOR HOMES THAT DID NOT SELL
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Expert advice from someone who's sold 47 HOMES THAT DID NOT SELL
+                Expert advice from someone who's sold 7 HOMES THAT DID NOT SELL
               </p>
               <div className="grid md:grid-cols-3 gap-8 mb-12">
                 {tips.map((tip, index) => {

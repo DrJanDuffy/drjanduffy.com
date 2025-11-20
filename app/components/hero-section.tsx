@@ -63,7 +63,7 @@ export default function HeroSection() {
                 </div>
               </div>
               <p className="text-xl md:text-2xl mb-4 font-semibold">
-                Your house will not sell? I specialize in selling homes other agents could not. 47 previously unsold homes sold - average 19 days to contract, 98.7% of asking price.
+                Your house will not sell? I specialize in selling homes other agents could not. 7 previously unsold homes sold - average 19 days to contract, 98.7% of asking price.
               </p>
               <p className="text-lg md:text-xl mb-4 font-semibold">
                 Summerlin West luxury specialist: The Ridges, The Summit, Red Rock Country Club, and newer villages.

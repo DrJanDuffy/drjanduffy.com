@@ -42,7 +42,7 @@ export default function SellHouseFastPage() {
                 Sell Your House Fast in Las Vegas
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Specialized service for homes that will not sell. 47 previously unsold homes sold - average 19 days to contract, 98.7% of asking price.
+                Specialized service for homes that will not sell. 7 previously unsold homes sold - average 19 days to contract, 98.7% of asking price.
               </p>
 
               <div className="prose prose-lg max-w-none mb-12">

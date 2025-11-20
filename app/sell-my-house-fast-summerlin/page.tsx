@@ -6,7 +6,7 @@ import Link from 'next/link'
 export const metadata = {
   title: 'Sell My House Fast Summerlin | Luxury Home Specialist | 19 Days',
   description:
-    'Sell your house fast in Summerlin. Luxury home specialist with 47 previously unsold homes sold. Average 19 days. Call 702-500-1064',
+    'Sell your house fast in Summerlin. Luxury home specialist with 7 previously unsold homes sold. Average 19 days. Call 702-500-1064',
   alternates: {
     canonical: 'https://www.drjanduffy.com/sell-my-house-fast-summerlin',
   },
@@ -17,12 +17,12 @@ export const metadata = {
     locale: 'en_US',
     url: 'https://www.drjanduffy.com/sell-my-house-fast-summerlin',
     title: 'Sell My House Fast Summerlin | Luxury Home Specialist | 19 Days',
-    description: 'Sell your house fast in Summerlin. Luxury home specialist with 47 previously unsold homes sold.',
+    description: 'Sell your house fast in Summerlin. Luxury home specialist with 7 previously unsold homes sold.',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Sell My House Fast Summerlin',
-    description: 'Luxury home specialist with 47 previously unsold homes sold. Average 19 days.',
+    description: 'Luxury home specialist with 7 previously unsold homes sold. Average 19 days.',
   },
 }
 
@@ -42,7 +42,7 @@ export default function SellFastSummerlinPage() {
                 Sell Your House Fast in Summerlin
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Luxury home specialist with 47 previously unsold homes sold. Average 19 days to contract, 98.7% of asking price.
+                Luxury home specialist with 7 previously unsold homes sold. Average 19 days to contract, 98.7% of asking price.
               </p>
 
               <div className="prose prose-lg max-w-none mb-12">
@@ -50,7 +50,7 @@ export default function SellFastSummerlinPage() {
                   Need to sell your house fast in Summerlin? The Summerlin luxury market is different. Price ranges from $800K to $10M+. Buyer expectations are higher. Marketing needs are different. Competition is fierce. You need a Summerlin specialist who understands luxury home marketing, not just any Las Vegas agent.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  I specialize in selling Summerlin luxury homes fast. I've helped 47 Summerlin sellers who could not sell with their previous agent. Average 19 days to contract. 98.7% of asking price. These are not hypothetical results. These are real Summerlin homes that I sold after other agents failed. See <Link href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</Link> and learn about <Link href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process</Link>.
+                  I specialize in selling Summerlin luxury homes fast. I've helped 7 Summerlin sellers who could not sell with their previous agent. Average 19 days to contract. 98.7% of asking price. These are not hypothetical results. These are real Summerlin homes that I sold after other agents failed. See <Link href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</Link> and learn about <Link href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process</Link>.
                 </p>
               </div>
             </div>
@@ -212,7 +212,7 @@ export default function SellFastSummerlinPage() {
               Get Your Summerlin Home Sold Fast
             </h2>
             <p className="text-xl mb-4 max-w-2xl mx-auto">
-              Summerlin luxury home specialist. 47 previously unsold homes sold. Average 19 days. 98.7% of asking.
+              Summerlin luxury home specialist. 7 previously unsold homes sold. Average 19 days. 98.7% of asking.
             </p>
             <p className="text-lg mb-8 max-w-2xl mx-auto opacity-90">
               Call 702-500-1064 or text 702-500-1064. Free consultation. Let's get your Summerlin home sold fast.

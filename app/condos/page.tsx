@@ -4,7 +4,7 @@ import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 export const metadata = {
   title: 'Las Vegas Condos | Dr. Jan Duffy - failed listing specialist',
   description:
-    'Expert help selling expired Las Vegas condos. Dr. Jan Duffy has sold 47 HOMES THAT DID NOT SELL in 19 days average at 98.7% of asking price. Get your condo sold fast.',
+    'Expert help selling expired Las Vegas condos. Dr. Jan Duffy has sold 7 HOMES THAT DID NOT SELL in 19 days average at 98.7% of asking price. Get your condo sold fast.',
   alternates: {
     canonical: '/condos',
   },
