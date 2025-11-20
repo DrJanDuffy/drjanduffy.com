@@ -222,7 +222,6 @@ export default function Footer() {
           </div>
           <div className="mt-4 pt-4 border-t border-gray-800 text-xs text-gray-600 text-center">
             <p>
-              This website is not affiliated with or endorsed by any real estate brokerage or organization.
               All property information is subject to change without notice.
             </p>
           </div>
