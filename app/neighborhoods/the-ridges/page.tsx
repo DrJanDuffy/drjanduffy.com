@@ -105,7 +105,7 @@ export default function TheRidgesPage() {
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">The Ridges HOME THAT DID NOT SELL Opportunity</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  HOMES THAT DID NOT SELL in The Ridges represent significant opportunities. Sellers are frustrated. They've tried once and failed. They're ready to work with an agent who actually understands ultra-luxury marketing. I understand ultra-luxury marketing. I know how to market Ridges properties. I know how to attract high-end buyers.
+                  HOMES THAT DID NOT SELL in The Ridges represent significant opportunities. Sellers are frustrated. They have tried once and failed. They are ready to work with an agent who actually understands ultra-luxury marketing. I understand ultra-luxury marketing. I know how to market Ridges properties. I know how to attract high-end buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Complete Ultra-Luxury Reset</h3>
                 <p className="text-lg text-gray-700 mb-4">

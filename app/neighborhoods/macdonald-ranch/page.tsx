@@ -105,7 +105,7 @@ export default function MacDonaldRanchPage() {
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">The MacDonald Ranch HOME THAT DID NOT SELL Opportunity</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  HOMES THAT DID NOT SELL in MacDonald Ranch represent significant opportunities. Sellers are frustrated. They've tried once and failed. They're ready to work with an agent who actually understands established community marketing. I understand established community marketing. I know how to market MacDonald Ranch properties. I know how to attract value-conscious buyers.
+                  HOMES THAT DID NOT SELL in MacDonald Ranch represent significant opportunities. Sellers are frustrated. They have tried once and failed. They are ready to work with an agent who actually understands established community marketing. I understand established community marketing. I know how to market MacDonald Ranch properties. I know how to attract value-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Complete Established Community Reset</h3>
                 <p className="text-lg text-gray-700 mb-4">

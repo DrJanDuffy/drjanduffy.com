@@ -25,10 +25,10 @@ export default function WhyExpirePage() {
             <div className="max-w-4xl mx-auto space-y-12">
               <div className="prose prose-lg max-w-none">
                   <p className="text-lg text-gray-700 mb-6">
-                    If your home DID NOT sell, you're not alone. In fact, you're part of a significant trend in the Las Vegas real estate market. Understanding why homes fail to sell is the first step to fixing yours. The data is clear: most listings do not expire because of the home itself. They expire because of poor marketing, minimal investment, and zero follow-up from agents who do not know what they're doing.
+                    If your home DID NOT sell, you are not alone. In fact, you are part of a significant trend in the Las Vegas real estate market. Understanding why homes fail to sell is the first step to fixing yours. The data is clear: most listings do not expire because of the home itself. They expire because of poor marketing, minimal investment, and zero follow-up from agents who do not know what they are doing.
                   </p>
                   <p className="text-lg text-gray-700 mb-6">
-                    The good news? HOMES THAT DID NOT SELL can be fixed. I've sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. The key is understanding what went wrong and implementing a completely different strategy. This page will show you exactly why your home DID NOT sell and what needs to change. See <a href="/comparison" className="text-primary font-semibold hover:underline">how I'm different from your previous agent</a> and learn about <a href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process</a>.
+                    The good news? HOMES THAT DID NOT SELL can be fixed. I have sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. The key is understanding what went wrong and implementing a completely different strategy. This page will show you exactly why your home DID NOT sell and what needs to change. See <a href="/comparison" className="text-primary font-semibold hover:underline">how I am different from your previous agent</a> and learn about <a href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process</a>.
                   </p>
               </div>
               <div>
@@ -51,7 +51,7 @@ export default function WhyExpirePage() {
                       <strong>$4,964/month</strong> - Average holding costs for HOMES THAT DID NOT SELL
                     </li>
                     <li>
-                      <strong>$116/day</strong> - Daily cost of an HOME That DID NOT SELL
+                      <strong>$116/day</strong> - Daily cost of a HOME That DID NOT SELL
                     </li>
                   </ul>
                   <h3 className="text-2xl font-bold mb-3">What This Data Means</h3>
@@ -65,7 +65,7 @@ export default function WhyExpirePage() {
                   Common Agent Failure Patterns
                 </h2>
                 <p className="text-lg text-gray-700 mb-6">
-                  After analyzing hundreds of HOMES THAT DID NOT SELL, I've identified five common failure patterns that cause listings to expire. Your previous agent likely made at least three of these mistakes. Understanding what went wrong is the first step to fixing it.
+                  After analyzing hundreds of HOMES THAT DID NOT SELL, I have identified five common failure patterns that cause listings to expire. Your previous agent likely made at least three of these mistakes. Understanding what went wrong is the first step to fixing it.
                 </p>
                 <div className="space-y-6">
                   <div className="border-l-4 border-red-500 pl-6">
@@ -137,7 +137,7 @@ export default function WhyExpirePage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">What Needs to Change</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  The good news? HOMES THAT DID NOT SELL can be fixed. I've sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. The key is a complete reset: new photos, new pricing strategy, fresh MLS listing, and aggressive marketing. The same system that sold these 7 HOMES THAT DID NOT SELL can sell yours. The only question is: are you ready to work with an agent who actually knows what they're doing?
+                  The good news? HOMES THAT DID NOT SELL can be fixed. I have sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. The key is a complete reset: new photos, new pricing strategy, fresh MLS listing, and aggressive marketing. The same system that sold these 7 HOMES THAT DID NOT SELL can sell yours. The only question is: are you ready to work with an agent who actually knows what they are doing?
                 </p>
                 <p className="text-lg text-gray-700">
                   The fix requires a complete reset. Professional photography eliminates the stigma of poor photos. Strategic pricing positions your home competitively. Fresh MLS listing eliminates expired stigma. Aggressive marketing creates maximum exposure. This complete reset is what transforms HOMES THAT DID NOT SELL into successful sales. This is what I do. This is what your previous agent DID NOT do.
@@ -162,16 +162,16 @@ export default function WhyExpirePage() {
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Seller Psychology: The Frustration Factor</h3>
                     <p className="text-lg text-gray-700 mb-4">
-                      frustrated sellers are frustrated. They trusted their agent, followed their advice, and got failed results. They're angry. They're motivated. They're ready to work with someone who actually knows what they're doing. This psychology makes frustrated sellers the best clients. They're educated about the process. They understand the market. They're realistic about pricing. They're ready to make decisions quickly.
+                      Frustrated sellers are frustrated. They trusted their agent, followed their advice, and got failed results. They are angry. They are motivated. They are ready to work with someone who actually knows what they are doing. This psychology makes frustrated sellers the best clients. They are educated about the process. They understand the market. They are realistic about pricing. They are ready to make decisions quickly.
                     </p>
                     <p className="text-lg text-gray-700 mb-4">
-                      I understand this psychology. I know frustrated sellers are different from regular sellers. They've already been failed once - they will not accept failure again. They want results. They want accountability. They want an agent who actually delivers. This is what I provide. This is what your previous agent DID NOT provide.
+                      I understand this psychology. I know frustrated sellers are different from regular sellers. They have already been failed once - they will not accept failure again. They want results. They want accountability. They want an agent who actually delivers. This is what I provide. This is what your previous agent DID NOT provide.
                     </p>
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Agent Psychology: Volume vs. Quality</h3>
                     <p className="text-lg text-gray-700 mb-4">
-                      Most agents operate on a volume-based model. They take as many listings as possible, invest minimal marketing in each, and hope something sticks. This model works for them - they collect commissions on the few that sell. But it does not work for you. You got minimal marketing, minimal attention, and an HOME THAT DID NOT SELL.
+                      Most agents operate on a volume-based model. They take as many listings as possible, invest minimal marketing in each, and hope something sticks. This model works for them - they collect commissions on the few that sell. But it does not work for you. You got minimal marketing, minimal attention, and a HOME THAT DID NOT SELL.
                     </p>
                     <p className="text-lg text-gray-700 mb-4">
                       I operate on a quality-based model. I take maximum 6 listings at a time, invest $5,000+ in marketing per listing, and deliver proven results. This model works for you - you get maximum marketing, maximum attention, and a successful sale. Quality over quantity. Results over volume. This is what separates successful agents from failed agents.
@@ -183,7 +183,7 @@ export default function WhyExpirePage() {
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4 text-center">The Cost of HOMES THAT DID NOT SELL</h2>
                 <p className="text-lg text-gray-700 mb-6 text-center">
-                  HOMES That DID NOT SELL cost sellers money. A lot of money. Here's the real cost:
+                  HOMES That DID NOT SELL cost sellers money. A lot of money. Here is the real cost:
                 </p>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="bg-white border-2 border-gray-200 rounded-lg p-6">

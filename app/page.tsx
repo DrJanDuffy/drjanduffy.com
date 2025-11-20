@@ -293,7 +293,7 @@ export default function HomePage() {
                 Sellers who tried before are different from first-time sellers. They've already tried once and failed. They're frustrated, angry, and motivated. They've learned the hard way that not all agents are created equal. They're ready to work with someone who actually knows what they're doing. They will not accept excuses. They want results.
               </p>
               <p className="text-lg text-gray-700 mb-4">
-                This psychology makes frustrated sellers the best clients. They're educated about the process. They understand the market. They're realistic about pricing. They're ready to make decisions quickly. And most importantly, they're willing to pay full commission to someone who can actually sell their home.
+                This psychology makes frustrated sellers the best clients. They are educated about the process. They understand the market. They are realistic about pricing. They are ready to make decisions quickly. And most importantly, they are willing to pay full commission to someone who can actually sell their home.
               </p>
               <h3 className="text-2xl font-black mb-4 mt-8">
                 The Las Vegas Market Reality

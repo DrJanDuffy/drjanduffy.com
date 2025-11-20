@@ -75,15 +75,15 @@ export default function HomeWontSellPage() {
                 Your Home will not Sell in Las Vegas? Here's Why.
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                If your home will not sell, you're not alone. In Las Vegas, 20-30% of all homes fail to sell on their first try every year.
+                If your home will not sell, you are not alone. In Las Vegas, 20-30% of all homes fail to sell on their first try every year.
               </p>
 
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Your home will not sell. You've tried. Your agent tried. Nothing worked. You're frustrated, angry, and losing money every day. The average unsold home costs sellers $4,964 per month in holding costs. That's $116 per day. Every day you wait is money down the drain.
+                  Your home will not sell. You have tried. Your agent tried. Nothing worked. You are frustrated, angry, and losing money every day. The average unsold home costs sellers $4,964 per month in holding costs. That is $116 per day. Every day you wait is money down the drain.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  But here's the truth: your home DID NOT fail. Your agent did. I specialize in homes that will not sell. I've helped 7 Summerlin sellers who could not sell with their previous agent. Average 19 days to contract. 98.7% of asking price. These are not hypothetical results. These are real homes that I sold after other agents failed. See <Link href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</Link> and learn about <Link href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process</Link>.
+                  But here is the truth: your home DID NOT fail. Your agent did. I specialize in homes that will not sell. I have helped 7 Summerlin sellers who could not sell with their previous agent. Average 19 days to contract. 98.7% of asking price. These are not hypothetical results. These are real homes that I sold after other agents failed. See <Link href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</Link> and learn about <Link href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process</Link>.
                 </p>
               </div>
             </div>
@@ -159,7 +159,7 @@ export default function HomeWontSellPage() {
               </h2>
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-gray-700 mb-6">
-                  While your home sits unsold, you're losing money every single day. Here's the real cost:
+                  While your home sits unsold, you are losing money every single day. Here is the real cost:
                 </p>
                 <div className="bg-red-50 border-2 border-red-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4 text-red-800">Direct Costs</h3>
@@ -289,7 +289,7 @@ export default function HomeWontSellPage() {
                   </div>
                 </div>
                 <p className="text-lg text-gray-700">
-                  The pattern is clear: homes that will not sell with other agents sell with the right strategy. See more <Link href="/success-stories" className="text-primary font-semibold hover:underline">success stories</Link> from homes I've sold.
+                  The pattern is clear: homes that will not sell with other agents sell with the right strategy. See more <Link href="/success-stories" className="text-primary font-semibold hover:underline">success stories</Link> from homes I have sold.
                 </p>
               </div>
             </div>

@@ -59,7 +59,7 @@ export default function TestimonialsPage() {
             </p>
             <div className="max-w-4xl mx-auto mb-12 prose prose-lg">
               <p className="text-lg text-gray-700 mb-6">
-                These are not generic testimonials from happy clients. These are real reviews from frustrated sellers whose homes fail to selld, who fired their previous agents, and who hired me to fix the mess. Every single one of these testimonials comes from an HOME THAT DID NOT SELL that I sold after other agents failed.
+                These are not generic testimonials from happy clients. These are real reviews from frustrated sellers whose homes failed to sell, who fired their previous agents, and who hired me to fix the mess. Every single one of these testimonials comes from a HOME THAT DID NOT SELL that I sold after other agents failed.
               </p>
               <p className="text-lg text-gray-700 mb-6">
                 The common thread in every testimonial? Previous agent failed. home DID NOT sell. Seller frustrated. Then they called me. I reset the listing, implemented my 97-point marketing system, and sold it. Fast. At top dollar. With zero excuses. The testimonials below tell the story better than I ever could.
@@ -70,7 +70,7 @@ export default function TestimonialsPage() {
               </p>
               <h3 className="text-2xl font-bold mb-3">The Real Story</h3>
               <p className="text-lg text-gray-700">
-                These testimonials are not just about results. They're about the experience. They're about working with an agent who actually answers the phone, who provides weekly updates, who invests in professional marketing, and who gets results. They're about the difference between an agent who fails and an agent who delivers.
+                These testimonials are not just about results. They are about the experience. They are about working with an agent who actually answers the phone, who provides weekly updates, who invests in professional marketing, and who gets results. They are about the difference between an agent who fails and an agent who delivers.
               </p>
             </div>
             <div className="max-w-6xl mx-auto">

@@ -290,7 +290,7 @@ export default function ServicesPage() {
                       <li>• Result: HOME THAT DID NOT SELL</li>
                     </ul>
                     <p className="text-lg text-gray-700 mt-4">
-                      Your previous agent's minimal services cost you thousands. The $100 investment was not enough to sell your home. The lack of marketing made your home invisible. The zero follow-up lost opportunities. This is what minimal services get you: an HOME THAT did not SELL.
+                      Your previous agent's minimal services cost you thousands. The $100 investment was not enough to sell your home. The lack of marketing made your home invisible. The zero follow-up lost opportunities. This is what minimal services get you: a HOME THAT did not SELL.
                     </p>
                   </div>
                   <div className="bg-green-50 border-2 border-green-200 rounded-lg p-6">
