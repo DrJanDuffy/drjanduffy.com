@@ -244,7 +244,7 @@ export default function RootLayout({
               paymentAccepted: 'Cash, Check, Credit Card',
               currenciesAccepted: 'USD',
               sameAs: [
-                process.env.NEXT_PUBLIC_GOOGLE_BUSINESS_URL || process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
+                process.env.NEXT_PUBLIC_GOOGLE_BUSINESS_URL || 'https://share.google/ocO9fjtV1xkSkqZIe',
                 process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
               ],
             },
@@ -280,6 +280,7 @@ export default function RootLayout({
                 name: 'University',
               },
               sameAs: [
+                process.env.NEXT_PUBLIC_GOOGLE_BUSINESS_URL || 'https://share.google/ocO9fjtV1xkSkqZIe',
                 process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
               ],
             },
@@ -299,6 +300,7 @@ export default function RootLayout({
                 availableLanguage: 'English',
               },
               sameAs: [
+                process.env.NEXT_PUBLIC_GOOGLE_BUSINESS_URL || 'https://share.google/ocO9fjtV1xkSkqZIe',
                 process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
               ],
             },

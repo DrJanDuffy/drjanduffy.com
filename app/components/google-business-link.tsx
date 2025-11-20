@@ -10,8 +10,8 @@ export default function GoogleBusinessLink({
   className = '', 
   variant = 'default' 
 }: GoogleBusinessLinkProps) {
-  // Replace with your actual Google Business Profile URL
-  const googleBusinessUrl = process.env.NEXT_PUBLIC_GOOGLE_BUSINESS_URL || 'https://g.page/r/YOUR_GOOGLE_BUSINESS_PROFILE'
+  // Google Business Profile URL
+  const googleBusinessUrl = process.env.NEXT_PUBLIC_GOOGLE_BUSINESS_URL || 'https://share.google/ocO9fjtV1xkSkqZIe'
   
   if (variant === 'button') {
     return (
