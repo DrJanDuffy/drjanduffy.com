@@ -44,14 +44,19 @@ export default function AboutPage() {
 
               {/* Dr. Jan Duffy Photo */}
               <div className="flex justify-center mb-8">
-                <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary shadow-lg">
-                  <Image
-                    src="/images/team/las-vegas-real-estate-agent-dr-janet-duffy-headshot.jpg"
-                    alt="Dr. Janet Duffy, Las Vegas real estate agent specializing in homes that did not sell in Summerlin, The Ridges, and Henderson"
-                    fill
-                    className="object-cover"
-                    priority
-                  />
+                <div className="relative w-64 h-64 md:w-80 md:h-80">
+                  {/* Trust-building color rings - deep blue for trust, gold accent for premium */}
+                  <div className="absolute inset-0 rounded-full border-4 border-blue-700 shadow-2xl"></div>
+                  <div className="absolute inset-2 rounded-full border-2 border-amber-500/50"></div>
+                  <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-blue-800 shadow-xl bg-gradient-to-br from-blue-50 to-white">
+                    <Image
+                      src="/images/team/las-vegas-real-estate-agent-dr-janet-duffy-headshot.jpg"
+                      alt="Dr. Janet Duffy, Las Vegas real estate agent specializing in homes that did not sell in Summerlin, The Ridges, and Henderson"
+                      fill
+                      className="object-cover"
+                      priority
+                    />
+                  </div>
                 </div>
               </div>
 

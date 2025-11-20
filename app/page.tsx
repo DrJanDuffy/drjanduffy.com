@@ -421,13 +421,18 @@ export default function HomePage() {
           
           {/* Dr. Jan Duffy Headshot */}
           <div className="flex justify-center mb-6">
-            <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-white/20 shadow-xl">
-              <Image
-                src="/images/team/las-vegas-real-estate-agent-dr-janet-duffy-headshot.jpg"
-                alt="Dr. Janet Duffy, Las Vegas real estate agent"
-                fill
-                className="object-cover"
-              />
+            <div className="relative w-32 h-32 md:w-40 md:h-40">
+              {/* Trust-building color rings */}
+              <div className="absolute inset-0 rounded-full border-4 border-blue-600/50 shadow-2xl"></div>
+              <div className="absolute inset-2 rounded-full border-2 border-amber-400/40"></div>
+              <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-blue-700/60 shadow-xl">
+                <Image
+                  src="/images/team/las-vegas-real-estate-agent-dr-janet-duffy-headshot.jpg"
+                  alt="Dr. Janet Duffy, Las Vegas real estate agent"
+                  fill
+                  className="object-cover"
+                />
+              </div>
             </div>
           </div>
           
