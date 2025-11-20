@@ -35,8 +35,8 @@ export default function GBPPostsWidget({
       type: 'offer',
     },
     {
-      title: '47 Homes That DID NOT Sell - Now Sold',
-      description: 'We\'ve helped 47 Summerlin sellers who could not sell with their previous agent. Average 19 days to contract, 98.7% of asking price.',
+      title: '7 Homes That DID NOT Sell - Now Sold',
+      description: 'We\'ve helped 7 Summerlin sellers who could not sell with their previous agent. Average 19 days to contract, 98.7% of asking price.',
       date: '2026-01-05',
       type: 'update',
     },

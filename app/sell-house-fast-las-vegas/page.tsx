@@ -6,7 +6,7 @@ import Link from 'next/link'
 export const metadata = {
   title: 'Sell Your House Fast Las Vegas | 19 Day Average | Free Consultation',
   description:
-    'Need to sell your house fast in Las Vegas? Specialized service for homes that will not sell. 500+ families helped. Summerlin expert. Free consultation: 702-500-1064',
+    'Need to sell your house fast in Las Vegas? Specialized service for homes that will not sell. 7 homes that did not sell - now sold. Summerlin expert. Free consultation: 702-500-1064',
   alternates: {
     canonical: 'https://www.drjanduffy.com/sell-house-fast-las-vegas',
   },
@@ -17,12 +17,12 @@ export const metadata = {
     locale: 'en_US',
     url: 'https://www.drjanduffy.com/sell-house-fast-las-vegas',
     title: 'Sell Your House Fast Las Vegas | 19 Day Average | Free Consultation',
-    description: 'Need to sell your house fast in Las Vegas? Specialized service for homes that will not sell. 500+ families helped.',
+    description: 'Need to sell your house fast in Las Vegas? Specialized service for homes that will not sell. 7 homes that did not sell - now sold.',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Sell Your House Fast Las Vegas',
-    description: 'Specialized service for homes that will not sell. 500+ families helped. Summerlin expert.',
+    description: 'Specialized service for homes that will not sell. 7 homes that did not sell - now sold. Summerlin expert.',
   },
 }
 
@@ -50,7 +50,7 @@ export default function SellHouseFastPage() {
                   Need to sell your house fast in Las Vegas? You're not alone. Every year, thousands of Las Vegas homeowners face the same challenge: their house will not sell, and they're losing money every day it sits on the market. The average unsold home costs sellers $4,964 per month in holding costs. That's $116 per day. Every day you wait is money down the drain.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  I specialize in selling homes fast - even homes that DID NOT sell with other agents. I've helped 47 Summerlin sellers who could not sell with their previous agent. Average 19 days to contract. 98.7% of asking price. These are not hypothetical results. These are real homes that I sold after other agents failed. See <Link href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</Link> and learn about <Link href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process</Link>.
+                  I specialize in selling homes fast - even homes that DID NOT sell with other agents. I've helped 7 Summerlin sellers who could not sell with their previous agent. Average 19 days to contract. 98.7% of asking price. These are not hypothetical results. These are real homes that I sold after other agents failed. See <Link href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</Link> and learn about <Link href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process</Link>.
                 </p>
               </div>
             </div>

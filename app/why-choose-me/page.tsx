@@ -10,7 +10,7 @@ export default function WhyChooseMePage() {
   const reasons = [
     {
       title: 'Proven Track Record',
-      description: '47 homes that DID NOT sell - now sold with 19 day average and 98.7% of asking price.',
+      description: '7 homes that DID NOT sell - now sold with 19 day average and 98.7% of asking price.',
       proof: 'Real results, not promises',
     },
     {
@@ -139,7 +139,7 @@ export default function WhyChooseMePage() {
                   Your previous agent failed. I will not.
                 </p>
                 <p className="text-xl">
-                  47 homes that did not sell - now sold. 19 day average. 98.7% of asking.
+                  7 homes that did not sell - now sold. 19 day average. 98.7% of asking.
                 </p>
               </div>
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">

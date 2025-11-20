@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'),
   title: 'Sell Your House Fast Las Vegas | Summerlin Real Estate Specialist',
   description:
-    'Las Vegas real estate specialist for homes that will not sell. 500+ families served, $127M+ in sales. Summerlin luxury expert. Free consultation: 702-500-1064',
+    'Las Vegas real estate specialist for homes that will not sell. 7 homes that did not sell - now sold. Summerlin luxury expert. Free consultation: 702-500-1064',
   keywords: [
     'home that DID NOT sell las vegas',
     'house will not sell vegas',
@@ -255,7 +255,7 @@ export default function RootLayout({
               name: 'Dr. Janet Duffy',
               alternateName: 'Dr. Jan Duffy',
               jobTitle: 'Real Estate Agent',
-              description: 'Las Vegas real estate expert with extensive experience helping sellers whose homes DID NOT sell. Specializes in luxury properties in Summerlin, The Ridges, and surrounding areas. 500+ families served, $127M+ in sales volume.',
+              description: 'Las Vegas real estate expert with extensive experience helping sellers whose homes DID NOT sell. Specializes in luxury properties in Summerlin, The Ridges, and surrounding areas. 7 homes that did not sell - now sold.',
               worksFor: {
                 '@type': 'Organization',
                 name: 'Berkshire Hathaway HomeServices',

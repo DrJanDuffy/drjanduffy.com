@@ -6,7 +6,7 @@ import Link from 'next/link'
 export const metadata = {
   title: 'Find New Real Estate Agent Las Vegas | When Your Agent cannot Sell',
   description:
-    'Looking for a new real estate agent in Las Vegas? Specialist in selling homes other agents could not. 500+ families served. Call 702-500-1064',
+    'Looking for a new real estate agent in Las Vegas? Specialist in selling homes other agents could not. 7 homes that did not sell - now sold. Call 702-500-1064',
   alternates: {
     canonical: 'https://www.drjanduffy.com/find-new-real-estate-agent-las-vegas',
   },
@@ -22,7 +22,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Find New Real Estate Agent Las Vegas',
-    description: 'Specialist in selling homes other agents could not. 500+ families served.',
+    description: 'Specialist in selling homes other agents could not. 7 homes that did not sell - now sold.',
   },
 }
 
@@ -50,7 +50,7 @@ export default function FindNewAgentPage() {
                   You trusted an agent. They DID NOT deliver. Your listing expired. Your home DID NOT sell. You're frustrated, angry, and losing money every day. The average unsold home costs sellers $4,964 per month in holding costs. That's $116 per day. Every day you wait is money down the drain.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  But here's the truth: not all agents are created equal. Some agents actually sell homes. Others just collect listings and hope something sticks. You need to find an agent who actually delivers results. I specialize in selling homes other agents could not. 500+ families served. $127M+ in sales. 47 homes that DID NOT sell with other agents - now sold. See <Link href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</Link> and learn about <Link href="/comparison" className="text-primary font-semibold hover:underline">how I'm different from your previous agent</Link>.
+                  But here's the truth: not all agents are created equal. Some agents actually sell homes. Others just collect listings and hope something sticks. You need to find an agent who actually delivers results. I specialize in selling homes other agents could not. 7 homes that DID NOT sell with other agents - now sold. See <Link href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</Link> and learn about <Link href="/comparison" className="text-primary font-semibold hover:underline">how I'm different from your previous agent</Link>.
                 </p>
               </div>
             </div>
@@ -217,11 +217,11 @@ export default function FindNewAgentPage() {
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Look for Specialization</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Not all agents are good at everything. Some specialize in first-time buyers. Some specialize in luxury homes. Some specialize in homes that DID NOT sell. I specialize in homes that DID NOT sell with other agents. This specialization is what delivers results. 47 homes That DID NOT sell - now sold. 19 day average. 98.7% of asking price.
+                  Not all agents are good at everything. Some specialize in first-time buyers. Some specialize in luxury homes. Some specialize in homes that DID NOT sell. I specialize in homes that DID NOT sell with other agents. This specialization is what delivers results. 7 homes That DID NOT sell - now sold. 19 day average. 98.7% of asking price.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Check Their Track Record</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Ask for specific results. How many homes sold? Average days on market? Average sale price percentage? I've sold 47 homes that DID NOT sell with other agents. Average 19 days to contract. 98.7% of asking price. $127M+ in total sales. 500+ families served. These are real results, not promises.
+                  Ask for specific results. How many homes sold? Average days on market? Average sale price percentage? I've sold 7 homes that DID NOT sell with other agents. Average 19 days to contract. 98.7% of asking price. These are real results, not promises.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Ask About Their System</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -271,7 +271,7 @@ export default function FindNewAgentPage() {
                   </div>
                 </div>
                 <p className="text-lg text-gray-700 mt-6 text-center">
-                  These credentials are for credibility. But what matters is results. 47 homes that DID NOT sell with other agents - now sold. That's what you need.
+                  These credentials are for credibility. But what matters is results. 7 homes that DID NOT sell with other agents - now sold. That's what you need.
                 </p>
               </div>
             </div>

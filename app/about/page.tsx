@@ -9,7 +9,7 @@ import Image from 'next/image'
 export const metadata = {
   title: 'About Dr. Janet Duffy | Real Estate Agent in Las Vegas, NV | (702) 500-1064',
   description:
-    'Learn about Dr. Janet Duffy, Las Vegas real estate expert specializing in selling homes that did not sell. Serving Summerlin, The Ridges, and Henderson. Helped 47 Summerlin sellers in 19 days average at 98.7% of asking price. Call (702) 500-1064.',
+    'Learn about Dr. Janet Duffy, Las Vegas real estate expert specializing in selling homes that did not sell. Serving Summerlin, The Ridges, and Henderson. Helped 7 Summerlin sellers in 19 days average at 98.7% of asking price. Call (702) 500-1064.',
   alternates: {
     canonical: 'https://www.drjanduffy.com/about',
   },
@@ -59,7 +59,7 @@ export default function AboutPage() {
                 <div className="bg-primary/10 p-8 rounded-lg mb-8">
                   <h2 className="text-3xl font-black mb-4">The failed listing specialist</h2>
                   <p className="text-xl mb-4">
-                    Dr. Janet Duffy has sold <strong>47 Summerlin sellers who could not sell</strong> with an average of <strong>19 days</strong> to contract and <strong>98.7% of asking price</strong>.
+                    Dr. Janet Duffy has sold <strong>7 Summerlin sellers who could not sell</strong> with an average of <strong>19 days</strong> to contract and <strong>98.7% of asking price</strong>.
                   </p>
                   <p className="text-lg mb-4">
                     While other agents give up on HOMES THAT DID NOT SELL, Dr. Jan specializes in turning failed listings into successful sales through aggressive marketing, data-driven pricing, and relentless follow-up. Most agents see HOMES THAT DID NOT SELL as damaged goods or too much work. I see them as opportunities - homes that just need the right agent, the right strategy, and the right marketing.
@@ -78,11 +78,10 @@ export default function AboutPage() {
                     <h3 className="text-2xl font-bold mb-4">Key Achievements</h3>
                     <ul className="space-y-2 text-lg mb-4">
                       <li>• Licensed Real Estate Agent (Nevada)</li>
-                      <li>• $127M+ in Summerlin Sales</li>
                       <li>• specialist in homes that DID NOT sell</li>
                       <li>• 135+ Domain Portfolio</li>
                       <li>• Top 1% of Las Vegas Agents</li>
-                      <li>• 47 homes that DID NOT sell - now sold</li>
+                      <li>• 7 homes that DID NOT sell - now sold</li>
                       <li>• 19 Day Average Time to Contract</li>
                       <li>• 98.7% Average Sale Price Percentage</li>
                       <li>• Good Neighbor Award Recipient</li>
@@ -154,10 +153,10 @@ export default function AboutPage() {
                   </p>
                   <h3 className="text-2xl font-bold mb-4">Proven Results</h3>
                   <p className="text-lg mb-4">
-                    I deliver proven results. 47 homes that DID NOT sell - now sold with an average of 19 days to contract and 98.7% of asking price. Weekly updates with real accountability. Professional photos worth $3,700+. Your previous agent made promises. I deliver proven results with real consequences.
+                    I deliver proven results. 7 homes that DID NOT sell - now sold with an average of 19 days to contract and 98.7% of asking price. Weekly updates with real accountability. Professional photos worth $3,700+. Your previous agent made promises. I deliver proven results with real consequences.
                   </p>
                   <p className="text-lg mb-4">
-                    The results speak for themselves: 47 homes that DID NOT sell - now sold, 19 day average, 98.7% of asking price. These are not hypothetical results. These are real HOMES THAT DID NOT SELL that I sold after other agents failed. The same system that delivered these results can deliver yours. The only question is: are you ready to work with an agent who actually delivers results?
+                    The results speak for themselves: 7 homes that DID NOT sell - now sold, 19 day average, 98.7% of asking price. These are not hypothetical results. These are real HOMES THAT DID NOT SELL that I sold after other agents failed. The same system that delivered these results can deliver yours. The only question is: are you ready to work with an agent who actually delivers results?
                   </p>
                 </div>
 
@@ -172,7 +171,7 @@ export default function AboutPage() {
                   </p>
                   <h3 className="text-2xl font-bold mb-4">Building the System</h3>
                   <p className="text-lg mb-4">
-                    After that first success, I refined my system. I invested more in marketing. I developed the 97-point marketing system. I created the aggressive follow-up process. I built the strategic negotiation tactics. Each HOME THAT DID NOT SELL taught me something new. Each success validated the system. After 47 HOMES THAT DID NOT SELL, I have a proven system that works. Fast. At top dollar. With zero excuses.
+                    After that first success, I refined my system. I invested more in marketing. I developed the 97-point marketing system. I created the aggressive follow-up process. I built the strategic negotiation tactics. Each HOME THAT DID NOT SELL taught me something new. Each success validated the system. After 7 HOMES THAT DID NOT SELL, I have a proven system that works. Fast. At top dollar. With zero excuses.
                   </p>
                   <h3 className="text-2xl font-bold mb-4">The Specialization</h3>
                   <p className="text-lg mb-4">
@@ -213,7 +212,7 @@ export default function AboutPage() {
                 <div className="bg-white border-2 border-gray-200 rounded-lg p-8 mb-12">
                   <h2 className="text-3xl font-black mb-4 text-center">Ready to Work with the Expert?</h2>
                   <p className="text-lg text-gray-700 mb-4 text-center">
-                    If your home did not sell, you need an agent who actually knows what they are doing. You need an agent who specializes in HOMES THAT DID NOT SELL. You need an agent who delivers proven results. That is me. I have sold 47 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. The same system that delivered these results can deliver yours.
+                    If your home did not sell, you need an agent who actually knows what they are doing. You need an agent who specializes in HOMES THAT DID NOT SELL. You need an agent who delivers proven results. That is me. I have sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. The same system that delivered these results can deliver yours.
                   </p>
                   <p className="text-lg text-gray-700 text-center">
                     do not let your cost when your home will not sell you another $4,964 per month. do not let your previous agent's failure become your failure. Work with an agent who actually delivers results. Work with me. Call (702) 500-1064 or fill out the form below to get started.

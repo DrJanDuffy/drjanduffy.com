@@ -81,7 +81,7 @@ export default function TestimonialsPage() {
                   ))}
                 </div>
                 <p className="text-3xl font-bold">4.9/5 Average Rating</p>
-                <p className="text-lg text-gray-600 mt-2">Based on 47+ HOME THAT DID NOT SELL sales</p>
+                <p className="text-lg text-gray-600 mt-2">Based on 7+ HOME THAT DID NOT SELL sales</p>
               </div>
               <div className="grid md:grid-cols-2 gap-8 mb-12">
                 {successStories.map((story) => (
@@ -139,7 +139,7 @@ export default function TestimonialsPage() {
                   </p>
                   <h3 className="text-2xl font-black mb-4 mt-6">The Results</h3>
                   <p className="text-lg text-gray-700 mb-4">
-                    The results speak for themselves: 47 homes that DID NOT sell - now sold, 19 day average, 98.7% of asking price. But the testimonials tell the real story - the story of frustrated sellers who finally found an agent who actually delivers. The story of HOMES That DID NOT SELL that became success stories. The story of agents who failed and an agent who succeeded.
+                    The results speak for themselves: 7 homes that DID NOT sell - now sold, 19 day average, 98.7% of asking price. But the testimonials tell the real story - the story of frustrated sellers who finally found an agent who actually delivers. The story of HOMES That DID NOT SELL that became success stories. The story of agents who failed and an agent who succeeded.
                   </p>
                   <h3 className="text-2xl font-black mb-4 mt-6">Your Testimonial Could Be Next</h3>
                   <p className="text-lg text-gray-700">

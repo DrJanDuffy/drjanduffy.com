@@ -6,7 +6,7 @@ import Link from 'next/link'
 export const metadata = {
   title: 'Summerlin Real Estate Agent | Luxury Home Specialist | The Ridges',
   description:
-    'Summerlin real estate agent specializing in The Ridges, Red Rock Country Club, The Summit. $127M+ sold. Local expert. Call 702-500-1064',
+    'Summerlin real estate agent specializing in The Ridges, Red Rock Country Club, The Summit. 7 homes that did not sell - now sold. Local expert. Call 702-500-1064',
   alternates: {
     canonical: 'https://www.drjanduffy.com/summerlin-real-estate-agent',
   },
@@ -17,12 +17,12 @@ export const metadata = {
     locale: 'en_US',
     url: 'https://www.drjanduffy.com/summerlin-real-estate-agent',
     title: 'Summerlin Real Estate Agent | Luxury Home Specialist | The Ridges',
-    description: 'Summerlin real estate agent specializing in The Ridges, Red Rock Country Club, The Summit. $127M+ sold.',
+    description: 'Summerlin real estate agent specializing in The Ridges, Red Rock Country Club, The Summit. 7 homes that did not sell - now sold.',
   },
   twitter: {
     card: 'summary',
     title: 'Summerlin Real Estate Agent | Luxury Home Specialist',
-    description: 'Specializing in The Ridges, Red Rock Country Club, The Summit. $127M+ sold.',
+    description: 'Specializing in The Ridges, Red Rock Country Club, The Summit. 7 homes that did not sell - now sold.',
   },
 }
 
@@ -42,12 +42,12 @@ export default function SummerlinAgentPage() {
                 Summerlin Real Estate Agent - Luxury Home Specialist
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Local expert in The Ridges, Red Rock Country Club, The Summit, and newer Summerlin villages. $127M+ sold, 500+ families served.
+                Local expert in The Ridges, Red Rock Country Club, The Summit, and newer Summerlin villages. 7 homes that did not sell - now sold.
               </p>
 
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Looking for a Summerlin real estate agent? You need someone who knows the market, understands luxury buyers, and has proven results. I specialize in Summerlin West luxury homes: The Ridges, Red Rock Country Club, The Summit, and newer villages. $127M+ in sales. 500+ families served. Local expertise that gets results.
+                  Looking for a Summerlin real estate agent? You need someone who knows the market, understands luxury buyers, and has proven results. I specialize in Summerlin West luxury homes: The Ridges, Red Rock Country Club, The Summit, and newer villages. 7 homes that did not sell - now sold. Local expertise that gets results.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   Whether you're buying or selling in Summerlin, you need an agent who understands the unique dynamics of this luxury market. Price ranges from $800K to $10M+. Buyer demographics are different. Marketing needs are different. Negotiation strategies are different. This is why you need a Summerlin specialist, not just any Las Vegas agent.

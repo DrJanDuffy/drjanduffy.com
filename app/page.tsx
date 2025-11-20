@@ -16,7 +16,7 @@ import Link from 'next/link'
 export const metadata = {
   title: 'Dr. Janet Duffy Real Estate | Real Estate Agent in Las Vegas, NV | (702) 500-1064',
   description:
-    'Dr. Janet Duffy Real Estate - Las Vegas real estate specialist for homes that will not sell. Serving Summerlin, The Ridges, and Henderson. 500+ families served, $127M+ in sales. Call (702) 500-1064 for free consultation.',
+    'Dr. Janet Duffy Real Estate - Las Vegas real estate specialist for homes that will not sell. Serving Summerlin, The Ridges, and Henderson. 7 homes that did not sell - now sold. Call (702) 500-1064 for free consultation.',
   alternates: {
     canonical: 'https://www.drjanduffy.com/',
   },
@@ -40,7 +40,7 @@ export const metadata = {
     url: 'https://www.drjanduffy.com/',
     siteName: 'Dr. Janet Duffy Real Estate',
     title: 'Dr. Janet Duffy Real Estate | Real Estate Agent in Las Vegas, NV | (702) 500-1064',
-    description: 'Dr. Janet Duffy Real Estate - Las Vegas real estate specialist for homes that will not sell. Serving Summerlin, The Ridges, and Henderson. 500+ families served, $127M+ in sales. Call (702) 500-1064.',
+    description: 'Dr. Janet Duffy Real Estate - Las Vegas real estate specialist for homes that will not sell. Serving Summerlin, The Ridges, and Henderson. 7 homes that did not sell - now sold. Call (702) 500-1064.',
   },
   twitter: {
     card: 'summary_large_image',
@@ -98,7 +98,7 @@ export default function HomePage() {
               <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-8">
                 <h3 className="text-2xl font-black mb-4">For Sellers</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Specialized service for homes that will not sell. Professional marketing, strategic pricing, aggressive follow-up. 47 homes that did not sell with other agents - now sold.
+                  Specialized service for homes that will not sell. Professional marketing, strategic pricing, aggressive follow-up. 7 homes that did not sell with other agents - now sold.
                 </p>
                 <ul className="space-y-2 text-gray-700 mb-6">
                   <li>• Professional photography & staging</li>
@@ -190,23 +190,23 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
-              Results: $127M+ Sold, 500+ Families Served
+              Results: 7 Homes That Did Not Sell - Now Sold
             </h2>
             <p className="text-xl text-center text-gray-600 mb-12">
               Real results from Las Vegas real estate transactions
             </p>
             <div className="grid md:grid-cols-3 gap-8 mb-12">
               <div className="text-center">
-                <div className="text-5xl font-black text-primary mb-2">$127M+</div>
-                <div className="text-lg text-gray-700">Total Sales Volume</div>
+                <div className="text-5xl font-black text-primary mb-2">7</div>
+                <div className="text-lg text-gray-700">Homes That Did Not Sell - Now Sold</div>
               </div>
               <div className="text-center">
-                <div className="text-5xl font-black text-primary mb-2">500+</div>
-                <div className="text-lg text-gray-700">Families Served</div>
+                <div className="text-5xl font-black text-primary mb-2">19</div>
+                <div className="text-lg text-gray-700">Day Average</div>
               </div>
               <div className="text-center">
-                <div className="text-5xl font-black text-primary mb-2">47</div>
-                <div className="text-lg text-gray-700">Homes That did not Sell - Now Sold</div>
+                <div className="text-5xl font-black text-primary mb-2">98.7%</div>
+                <div className="text-lg text-gray-700">Of Asking Price</div>
               </div>
             </div>
             <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-8">
@@ -215,7 +215,7 @@ export default function HomePage() {
                 <div>
                   <h4 className="text-xl font-bold mb-2">Homes That did not Sell</h4>
                   <ul className="space-y-1 text-gray-700">
-                    <li>• 47 homes sold after other agents failed</li>
+                    <li>• 7 homes sold after other agents failed</li>
                     <li>• 19 day average to contract</li>
                     <li>• 98.7% of asking price average</li>
                     <li>• Complete marketing reset strategy</li>
@@ -263,7 +263,7 @@ export default function HomePage() {
                 The longer your home sits unsold, the more it becomes stigmatized. Buyers see a home that's been on the market for months and think "what's wrong with it?" After 60 days, they assume it's overpriced. After 90 days, they assume it has problems. After 120 days, it's toxic. The stigma compounds, making it harder to sell even when you finally get the right agent.
               </p>
               <p className="text-lg text-gray-700">
-                But here's the good news: homes that did not sell can be fixed. I've helped 47 Summerlin sellers who could not sell with their previous agent - average 19 days to contract and 98.7% of asking price. The key is a complete reset: new photos, new pricing strategy, fresh MLS listing, and aggressive marketing. The stigma disappears when buyers see a beautiful, properly priced home with professional marketing. See <a href="/success-stories" className="text-primary font-semibold hover:underline">real success stories from Summerlin homes I've sold</a> and learn about <a href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process for Las Vegas homes</a>.
+                But here's the good news: homes that did not sell can be fixed. I've helped 7 Summerlin sellers who could not sell with their previous agent - average 19 days to contract and 98.7% of asking price. The key is a complete reset: new photos, new pricing strategy, fresh MLS listing, and aggressive marketing. The stigma disappears when buyers see a beautiful, properly priced home with professional marketing. See <a href="/success-stories" className="text-primary font-semibold hover:underline">real success stories from Summerlin homes I've sold</a> and learn about <a href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process for Las Vegas homes</a>.
               </p>
             </div>
           </div>
@@ -341,7 +341,7 @@ export default function HomePage() {
                 Your previous agent had no system. They posted to MLS, held maybe one open house, and hoped for the best. That's not a strategy. That's incompetence. I have a proven 30-day plan that sells homes that did not sell. Week 1 is aggressive reset. Week 2 is maximum exposure. Week 3 is negotiation warfare. Week 4 is closing. Every week has measurable outcomes. Every week moves you closer to SOLD. Learn more about <a href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process for Las Vegas homes</a> and see <a href="/services" className="text-primary font-semibold hover:underline">my complete real estate services in Summerlin and Henderson</a>.
               </p>
               <p className="text-lg text-gray-700 mb-6">
-                The results speak for themselves: 47 homes that did not sell - now sold, 19 day average, 98.7% of asking price. These are not hypothetical results. These are real homes that I sold after other agents failed. The same system that delivered these results can deliver yours. The only question is: are you ready to work with an agent who actually has a system?
+                The results speak for themselves: 7 homes that did not sell - now sold, 19 day average, 98.7% of asking price. These are not hypothetical results. These are real homes that I sold after other agents failed. The same system that delivered these results can deliver yours. The only question is: are you ready to work with an agent who actually has a system?
               </p>
             </div>
           </div>
@@ -435,7 +435,7 @@ export default function HomePage() {
             Your house did not fail. Your agent did. Let's fix this fast.
           </p>
           <p className="text-lg mb-8 max-w-2xl mx-auto opacity-90">
-            I've helped 47 Summerlin sellers who could not sell with their previous agent - average 19 days to contract and 98.7% of asking price. Proven results. No excuses. No BS. Just results.
+            I've helped 7 Summerlin sellers who could not sell with their previous agent - average 19 days to contract and 98.7% of asking price. Proven results. No excuses. No BS. Just results.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
             <a

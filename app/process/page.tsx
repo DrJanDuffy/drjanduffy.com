@@ -67,7 +67,7 @@ export default function ProcessPage() {
               </p>
               <div className="max-w-4xl mx-auto mb-12 prose prose-lg">
                 <p className="text-lg text-gray-700 mb-4 text-center">
-                  This proven process has sold 47 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. Each step is designed to overcome stigma of unsold homes, maximize exposure, and attract qualified buyers. Learn about <a href="/services" className="text-primary font-semibold hover:underline">my complete services</a> and see <a href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</a> from homes I've sold.
+                  This proven process has sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. Each step is designed to overcome stigma of unsold homes, maximize exposure, and attract qualified buyers. Learn about <a href="/services" className="text-primary font-semibold hover:underline">my complete services</a> and see <a href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</a> from homes I've sold.
                 </p>
               </div>
               <div className="max-w-4xl mx-auto mb-12 prose prose-lg">
@@ -83,7 +83,7 @@ export default function ProcessPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">The Dr. Jan Process</h3>
                 <p className="text-lg text-gray-700">
-                  My process is proven. I've used it to sell 47 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. The same process can sell yours. The only question is: are you ready to work with an agent who actually has a process?
+                  My process is proven. I've used it to sell 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. The same process can sell yours. The only question is: are you ready to work with an agent who actually has a process?
                 </p>
               </div>
               <div className="space-y-8 mb-12">
@@ -248,7 +248,7 @@ export default function ProcessPage() {
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4 text-center">Why This Process Works</h2>
                 <p className="text-lg text-gray-700 mb-6 text-center">
-                  This process has sold 47 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. Here's why it works:
+                  This process has sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. Here's why it works:
                 </p>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>

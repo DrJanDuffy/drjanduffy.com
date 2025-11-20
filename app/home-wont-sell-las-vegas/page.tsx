@@ -50,11 +50,11 @@ const faqs = [
   },
   {
     question: 'What makes you different from my previous agent?',
-    answer: 'I invest $5,000+ in marketing per listing (vs. $100). I take maximum 6 listings at a time (vs. 47+). I use a 97-point marketing system (vs. post to MLS and pray). I have aggressive follow-up (vs. zero follow-up). I specialize in homes that DID NOT sell (vs. avoiding them). The result: 47 homes that DID NOT sell - now sold, 19 day average, 98.7% of asking price.',
+    answer: 'I invest $5,000+ in marketing per listing (vs. $100). I take maximum 6 listings at a time (vs. 47+). I use a 97-point marketing system (vs. post to MLS and pray). I have aggressive follow-up (vs. zero follow-up). I specialize in homes that DID NOT sell (vs. avoiding them). The result: 7 homes that DID NOT sell - now sold, 19 day average, 98.7% of asking price.',
   },
   {
     question: 'Can you really sell my home if it DID NOT sell before?',
-    answer: 'Yes. I have sold 47 homes that DID NOT sell with other agents. Average 19 days to contract, 98.7% of asking price. The key is a complete reset: new professional photos, strategic pricing analysis, fresh MLS listing, and aggressive marketing. The stigma disappears when buyers see a beautiful, properly priced home with professional marketing.',
+    answer: 'Yes. I have sold 7 homes that DID NOT sell with other agents. Average 19 days to contract, 98.7% of asking price. The key is a complete reset: new professional photos, strategic pricing analysis, fresh MLS listing, and aggressive marketing. The stigma disappears when buyers see a beautiful, properly priced home with professional marketing.',
   },
 ]
 
@@ -83,7 +83,7 @@ export default function HomeWontSellPage() {
                   Your home will not sell. You've tried. Your agent tried. Nothing worked. You're frustrated, angry, and losing money every day. The average unsold home costs sellers $4,964 per month in holding costs. That's $116 per day. Every day you wait is money down the drain.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  But here's the truth: your home DID NOT fail. Your agent did. I specialize in homes that will not sell. I've helped 47 Summerlin sellers who could not sell with their previous agent. Average 19 days to contract. 98.7% of asking price. These are not hypothetical results. These are real homes that I sold after other agents failed. See <Link href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</Link> and learn about <Link href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process</Link>.
+                  But here's the truth: your home DID NOT fail. Your agent did. I specialize in homes that will not sell. I've helped 7 Summerlin sellers who could not sell with their previous agent. Average 19 days to contract. 98.7% of asking price. These are not hypothetical results. These are real homes that I sold after other agents failed. See <Link href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</Link> and learn about <Link href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process</Link>.
                 </p>
               </div>
             </div>

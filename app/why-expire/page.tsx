@@ -28,7 +28,7 @@ export default function WhyExpirePage() {
                     If your home DID NOT sell, you're not alone. In fact, you're part of a significant trend in the Las Vegas real estate market. Understanding why homes fail to sell is the first step to fixing yours. The data is clear: most listings do not expire because of the home itself. They expire because of poor marketing, minimal investment, and zero follow-up from agents who do not know what they're doing.
                   </p>
                   <p className="text-lg text-gray-700 mb-6">
-                    The good news? HOMES THAT DID NOT SELL can be fixed. I've sold 47 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. The key is understanding what went wrong and implementing a completely different strategy. This page will show you exactly why your home DID NOT sell and what needs to change. See <a href="/comparison" className="text-primary font-semibold hover:underline">how I'm different from your previous agent</a> and learn about <a href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process</a>.
+                    The good news? HOMES THAT DID NOT SELL can be fixed. I've sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. The key is understanding what went wrong and implementing a completely different strategy. This page will show you exactly why your home DID NOT sell and what needs to change. See <a href="/comparison" className="text-primary font-semibold hover:underline">how I'm different from your previous agent</a> and learn about <a href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process</a>.
                   </p>
               </div>
               <div>
@@ -137,7 +137,7 @@ export default function WhyExpirePage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">What Needs to Change</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  The good news? HOMES THAT DID NOT SELL can be fixed. I've sold 47 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. The key is a complete reset: new photos, new pricing strategy, fresh MLS listing, and aggressive marketing. The same system that sold these 47 HOMES THAT DID NOT SELL can sell yours. The only question is: are you ready to work with an agent who actually knows what they're doing?
+                  The good news? HOMES THAT DID NOT SELL can be fixed. I've sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. The key is a complete reset: new photos, new pricing strategy, fresh MLS listing, and aggressive marketing. The same system that sold these 7 HOMES THAT DID NOT SELL can sell yours. The only question is: are you ready to work with an agent who actually knows what they're doing?
                 </p>
                 <p className="text-lg text-gray-700">
                   The fix requires a complete reset. Professional photography eliminates the stigma of poor photos. Strategic pricing positions your home competitively. Fresh MLS listing eliminates expired stigma. Aggressive marketing creates maximum exposure. This complete reset is what transforms HOMES THAT DID NOT SELL into successful sales. This is what I do. This is what your previous agent DID NOT do.
