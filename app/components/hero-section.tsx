@@ -13,22 +13,9 @@ export default function HeroSection() {
 
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white">
-      {/* Split background effect */}
-      <div className="absolute inset-0 grid grid-cols-2">
-        <div className="bg-amber-900/20 flex items-center justify-center">
-          <div className="text-center p-8">
-            <div className="text-6xl font-black mb-4">DID NOT SELL</div>
-            <div className="text-2xl opacity-75">63 Days</div>
-          </div>
-        </div>
-        <div className="bg-green-900/20 flex items-center justify-center">
-          <div className="text-center p-8">
-            <div className="text-6xl font-black mb-4">SOLD</div>
-            <div className="text-2xl opacity-75">19 Days</div>
-          </div>
-        </div>
-      </div>
-
+      {/* Subtle luxury accent - minimal amber/gold hint for premium feel */}
+      <div className="absolute inset-0 bg-gradient-to-br from-amber-950/5 via-transparent to-transparent pointer-events-none"></div>
+      
       <div className="relative z-10 container mx-auto px-4 py-20">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-8">
@@ -48,7 +35,7 @@ export default function HeroSection() {
             </p>
           </div>
 
-          <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 md:p-12 border-2 border-white/20">
+          <div className="bg-gray-900/98 rounded-2xl p-8 md:p-12 border border-white/10 shadow-2xl ring-1 ring-amber-500/10">
             <div className="text-center mb-8">
               {/* Dr. Jan Duffy Headshot */}
               <div className="flex justify-center mb-6">
