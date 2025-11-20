@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'could not Sell Your Las Vegas Home? | Dr. Jan Duffy - I Sell Homes That DID NOT Sell',
     description:
-      'Your home DID NOT sell? I have helped 47 Summerlin sellers who could not sell with their previous agent. Average 19 days to contract, 98.7% of asking.',
+      'Your home DID NOT sell? I have helped 7 Summerlin sellers who could not sell with their previous agent. Average 19 days to contract, 98.7% of asking.',
     images: ['/og-image.png'],
   },
   twitter: {
@@ -120,7 +120,7 @@ export default function RootLayout({
               '@id': `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}#agent`,
               name: 'Dr. Janet Duffy',
               alternateName: 'Dr. Jan Duffy',
-              description: 'Las Vegas real estate expert specializing in homes that DID NOT sell. Helped 47 Summerlin sellers who could not sell with their previous agent - 19 day average and 98.7% of asking price.',
+              description: 'Las Vegas real estate expert specializing in homes that DID NOT sell. Helped 7 Summerlin sellers who could not sell with their previous agent - 19 day average and 98.7% of asking price.',
               telephone: '(702) 500-1064',
               email: 'info@drjanduffy.com',
               url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
@@ -310,7 +310,7 @@ export default function RootLayout({
               '@id': `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}#website`,
               name: 'Dr. Janet Duffy - Failed Listing Specialist',
               url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
-              description: 'Las Vegas real estate expert specializing in homes that DID NOT sell. Helped 47 Summerlin sellers who could not sell with their previous agent - 19 day average and 98.7% of asking price.',
+              description: 'Las Vegas real estate expert specializing in homes that DID NOT sell. Helped 7 Summerlin sellers who could not sell with their previous agent - 19 day average and 98.7% of asking price.',
               publisher: {
                 '@id': `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}#organization`,
               },

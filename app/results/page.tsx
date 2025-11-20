@@ -5,13 +5,13 @@ import { TrendingUp, Clock, DollarSign, Home } from 'lucide-react'
 export const metadata = {
   title: 'Results & Statistics | Dr. Jan Duffy',
   description:
-    'Real results from Dr. Jan Duffy: 47 homes that did not sell - now sold, 19 day average, 98.7% of asking price.',
+    'Real results from Dr. Jan Duffy: 7 homes that did not sell - now sold, 19 day average, 98.7% of asking price.',
 }
 export default function ResultsPage() {
   const stats = [
     {
       icon: Home,
-      number: '47',
+      number: '7',
       label: 'homes that did not sell - now sold',
       description: 'Real results from frustrated sellers',
     },
@@ -26,12 +26,6 @@ export default function ResultsPage() {
       number: '98.7%',
       label: 'Of Asking Price',
       description: 'Average sale price percentage',
-    },
-    {
-      icon: TrendingUp,
-      number: '$127M+',
-      label: 'Total Sales Volume',
-      description: 'In Summerlin properties',
     },
   ]
   const totalValue = successStories.reduce((sum, story) => sum + story.soldPrice, 0)
