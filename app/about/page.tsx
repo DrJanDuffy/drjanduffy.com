@@ -117,25 +117,25 @@ export default function AboutPage() {
                 <div className="bg-gray-100 p-8 rounded-lg mb-12">
                   <h2 className="text-3xl font-black mb-4">Why HOMES THAT DID NOT SELL?</h2>
                   <p className="text-lg mb-4">
-                    Most agents avoid HOMES THAT DID NOT SELL. They see them as damaged goods or too much work. They think HOMES That DID NOT SELL are stigmatized, overpriced, or have problems. they are wrong. I see HOMES THAT DID NOT SELL as opportunities - homes that just need the right agent, the right strategy, and the right marketing.
+                    Most agents avoid HOMES THAT DID NOT SELL. They see them as damaged goods or too much work. They think HOMES That DID NOT SELL are stigmatized, overpriced, or have problems. They are wrong. I see HOMES THAT DID NOT SELL as opportunities - homes that just need the right agent, the right strategy, and the right marketing.
                   </p>
-                  <h3 className="text-2xl font-bold mb-4">The Psychology of frustrated sellers</h3>
+                  <h3 className="text-2xl font-bold mb-4">The Psychology of Frustrated Sellers</h3>
                   <p className="text-lg mb-4">
-                    frustrated sellers are frustrated, motivated, and ready to work with someone who actually knows what they are doing. They've already been failed once - they will not accept failure again. they are educated about the process. They understand the market. they are realistic about pricing. they are ready to make decisions quickly. And most importantly, they are willing to pay full commission to someone who can actually sell their home.
+                    Frustrated sellers are frustrated, motivated, and ready to work with someone who actually knows what they are doing. They have already been failed once - they will not accept failure again. They are educated about the process. They understand the market. They are realistic about pricing. They are ready to make decisions quickly. And most importantly, they are willing to pay full commission to someone who can actually sell their home.
                   </p>
                   <h3 className="text-2xl font-bold mb-4">The Opportunity</h3>
                   <p className="text-lg mb-4">
                     In Las Vegas, 20-30% of all homes fail to sell every year. That is 1,500-2,250 homes that sat on the market for months, bleeding money, while agents collected nothing and sellers lost thousands. These are not bad homes. These are homes that had bad agents. With the right agent, the right strategy, and the right marketing, these homes sell. Fast. At top dollar. With zero excuses.
                   </p>
                   <p className="text-lg">
-                    That is where I come in. I take the homes that other agents could not sell and I sell them. Fast. At top dollar. With zero excuses. I have done it 47 times. I can do it for you too.
+                    That is where I come in. I take the homes that other agents could not sell and I sell them. Fast. At top dollar. With zero excuses. I have done it 7 times. I can do it for you too.
                   </p>
                 </div>
 
                 <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                   <h2 className="text-3xl font-black mb-4">The Dr. Jan Difference</h2>
                   <p className="text-lg mb-4">
-                    What makes me different from your previous agent? it is not just experience or credentials - it is my approach, my investment, and my proven results.
+                    What makes me different from your previous agent? It is not just experience or credentials - it is my approach, my investment, and my proven results.
                   </p>
                   <h3 className="text-2xl font-bold mb-4">Maximum Focus</h3>
                   <p className="text-lg mb-4">
@@ -182,7 +182,7 @@ export default function AboutPage() {
                 <div className="bg-white border-2 border-gray-200 rounded-lg p-8 mb-12">
                   <h2 className="text-3xl font-black mb-4">What Clients Say</h2>
                   <p className="text-lg mb-4">
-                    do not just take my word for it. Here's what clients say about working with me:
+                    Do not just take my word for it. Here's what clients say about working with me:
                   </p>
                   <div className="space-y-6">
                     <div className="border-l-4 border-primary pl-4">
@@ -205,7 +205,7 @@ export default function AboutPage() {
                     </div>
                   </div>
                   <p className="text-lg text-gray-700 mt-6">
-                    These testimonials represent real results from real HOMES THAT DID NOT SELL. See more <a href="/testimonials" className="text-primary font-semibold hover:underline">client testimonials</a> and <a href="/success-stories" className="text-primary font-semibold hover:underline">success stories</a> from homes I have sold. Each testimonial represents a frustrated seller who finally found an agent who actually delivers results. Each testimonial represents an HOME THAT DID NOT SELL that became a success story. Your HOME THAT DID NOT SELL could be next.
+                    These testimonials represent real results from real HOMES THAT DID NOT SELL. See more <a href="/testimonials" className="text-primary font-semibold hover:underline">client testimonials</a> and <a href="/success-stories" className="text-primary font-semibold hover:underline">success stories</a> from homes I have sold. Each testimonial represents a frustrated seller who finally found an agent who actually delivers results. Each testimonial represents a HOME THAT DID NOT SELL that became a success story. Your HOME THAT DID NOT SELL could be next.
                   </p>
                 </div>
 
@@ -215,7 +215,7 @@ export default function AboutPage() {
                     If your home did not sell, you need an agent who actually knows what they are doing. You need an agent who specializes in HOMES THAT DID NOT SELL. You need an agent who delivers proven results. That is me. I have sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. The same system that delivered these results can deliver yours.
                   </p>
                   <p className="text-lg text-gray-700 text-center">
-                    do not let your cost when your home will not sell you another $4,964 per month. do not let your previous agent's failure become your failure. Work with an agent who actually delivers results. Work with me. Call (702) 500-1064 or fill out the form below to get started.
+                    Do not let your home that will not sell cost you another $4,964 per month. Do not let your previous agent's failure become your failure. Work with an agent who actually delivers results. Work with me. Call (702) 500-1064 or fill out the form below to get started.
                   </p>
                 </div>
 

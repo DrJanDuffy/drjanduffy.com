@@ -38,13 +38,13 @@ export default function ContactPage() {
               </div>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  If your home did not sell, you need to act fast. Every day your house sits unsold is costing you money - mortgage payments, HOA fees, insurance, utilities, property taxes. The average costs when your home will not sell sellers $4,964 per month in holding costs. That is $116 per day. The longer you wait, the more you lose.
+                  If your home did not sell, you need to act fast. Every day your house sits unsold is costing you money - mortgage payments, HOA fees, insurance, utilities, property taxes. The average cost when your home will not sell is $4,964 per month in holding costs. That is $116 per day. The longer you wait, the more you lose.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   But here is the good news: HOMES THAT DID NOT SELL can be fixed. I have sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. The key is getting started immediately with the right agent, the right strategy, and the right marketing. Do not let another day pass. Contact me now and let us sell your HOME THAT DID NOT SELL.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  I understand how frustrating it is when your home does not sell. You trusted your previous agent, they promised results, and they failed. you are angry, frustrated, and ready to work with someone who actually knows what they are doing. That is where I come in. I specialize in HOMES THAT DID NOT SELL. This is all I do. I know how to reset them, market them, and sell them. Fast. At top dollar. With zero excuses.
+                  I understand how frustrating it is when your home does not sell. You trusted your previous agent, they promised results, and they failed. You are angry, frustrated, and ready to work with someone who actually knows what they are doing. That is where I come in. I specialize in HOMES THAT DID NOT SELL. This is all I do. I know how to reset them, market them, and sell them. Fast. At top dollar. With zero excuses.
                 </p>
               </div>
               <div className="grid md:grid-cols-2 gap-8 mb-12">
@@ -135,7 +135,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Time Is Money</h3>
                     <p className="text-lg text-gray-700 mb-4">
-                      Every day your listing sits expired is costing you money. The average costs when your home will not sell sellers $4,964 per month in holding costs. That is $116 per day. Every week is another $812. Every month is another $4,964. The longer you wait, the more you lose. do not let another day pass. Contact me now and let us stop the bleeding.
+                      Every day your listing sits expired is costing you money. The average cost when your home will not sell is $4,964 per month in holding costs. That is $116 per day. Every week is another $812. Every month is another $4,964. The longer you wait, the more you lose. Do not let another day pass. Contact me now and let us stop the bleeding.
                     </p>
                   </div>
                   <div>
@@ -147,7 +147,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Market Timing</h3>
                     <p className="text-lg text-gray-700 mb-4">
-                      January 2026 is the perfect time to reset your HOME THAT DID NOT SELL. Spring buyers are already starting to look. they are serious, pre-qualified, and ready to move. Tax refunds are coming, giving buyers more purchasing power. Interest rates are stabilizing, making buyers more confident. And most importantly, there is less competition - while other agents are chasing new listings, I'm focused on fixing expired ones. do not miss this window.
+                      January 2026 is the perfect time to reset your HOME THAT DID NOT SELL. Spring buyers are already starting to look. They are serious, pre-qualified, and ready to move. Tax refunds are coming, giving buyers more purchasing power. Interest rates are stabilizing, making buyers more confident. And most importantly, there is less competition - while other agents are chasing new listings, I'm focused on fixing expired ones. Do not miss this window.
                     </p>
                   </div>
                   <div>

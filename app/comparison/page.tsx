@@ -176,7 +176,7 @@ export default function ComparisonPage() {
                   Your previous agent invested less because they were juggling 47 other listings. They could not afford to invest $5,000+ in every listing. So they invested $100, hoped for the best, and got you expired. That's not how you sell homes. That's how you fail.
                 </p>
                 <p className="text-lg text-gray-700">
-                  Your previous agent's business model was volume-based. They took as many listings as possible, invested minimal marketing in each, and hoped something would stick. This model works for them - they collect commissions on the few that sell. But it does not work for you. You got minimal marketing, minimal attention, and an HOME THAT DID NOT SELL. That's the cost of working with a volume-based agent. That's why your home DID NOT sell.
+                  Your previous agent's business model was volume-based. They took as many listings as possible, invested minimal marketing in each, and hoped something would stick. This model works for them - they collect commissions on the few that sell. But it does not work for you. You got minimal marketing, minimal attention, and a HOME THAT DID NOT SELL. That's the cost of working with a volume-based agent. That's why your home DID NOT sell.
                 </p>
               </div>
 

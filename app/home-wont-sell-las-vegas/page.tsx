@@ -5,9 +5,9 @@ import FAQSchema from '@/app/components/faq-schema'
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Home will not Sell Las Vegas? here is Why & How to Fix It',
+  title: 'Home will not Sell Las Vegas? Here is Why & How to Fix It',
   description:
-    'Your home will not sell in Las Vegas? Specialist in homes that sat with other agents. 47 sold - average 19 days, 98.7% of asking. Call 702-500-1064',
+    'Your home will not sell in Las Vegas? Specialist in homes that sat with other agents. 7 sold - average 19 days, 98.7% of asking. Call 702-500-1064',
   alternates: {
     canonical: 'https://www.drjanduffy.com/home-wont-sell-las-vegas',
   },
@@ -17,13 +17,13 @@ export const metadata = {
     type: 'article',
     locale: 'en_US',
     url: 'https://www.drjanduffy.com/home-wont-sell-las-vegas',
-    title: 'Home will not Sell Las Vegas? here is Why & How to Fix It',
-    description: 'Your home will not sell in Las Vegas? Specialist in homes that sat with other agents. 47 sold - average 19 days, 98.7% of asking.',
+    title: 'Home will not Sell Las Vegas? Here is Why & How to Fix It',
+    description: 'Your home will not sell in Las Vegas? Specialist in homes that sat with other agents. 7 sold - average 19 days, 98.7% of asking.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Home will not Sell Las Vegas? here is Why & How to Fix It',
-    description: 'Specialist in homes that sat with other agents. 47 sold - average 19 days, 98.7% of asking.',
+    title: 'Home will not Sell Las Vegas? Here is Why & How to Fix It',
+    description: 'Specialist in homes that sat with other agents. 7 sold - average 19 days, 98.7% of asking.',
   },
 }
 
@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     question: 'How much does it cost when my house sits unsold?',
-    answer: 'The average unsold home costs sellers $4,964 per month in holding costs. that is $116 per day. This includes mortgage payments, HOA fees, insurance, utilities, and property taxes. Plus, there are hidden costs: lost opportunity, market depreciation, and emotional toll. The longer it sits, the more it costs you.',
+    answer: 'The average unsold home costs sellers $4,964 per month in holding costs. That is $116 per day. This includes mortgage payments, HOA fees, insurance, utilities, and property taxes. Plus, there are hidden costs: lost opportunity, market depreciation, and emotional toll. The longer it sits, the more it costs you.',
   },
   {
     question: 'What makes you different from my previous agent?',
@@ -201,7 +201,7 @@ export default function HomeWontSellPage() {
               </h2>
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-gray-700 mb-6">
-                  Selling a home That will not sell requires a complete reset, not more of the same. Here's how I do it:
+                  Selling a home that will not sell requires a complete reset, not more of the same. Here is how I do it:
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Step 1: Complete Marketing Reset</h3>
                 <p className="text-lg text-gray-700 mb-4">
