@@ -67,7 +67,7 @@ export default function ProcessPage() {
               </p>
               <div className="max-w-4xl mx-auto mb-12 prose prose-lg">
                 <p className="text-lg text-gray-700 mb-4 text-center">
-                  This proven process has sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. Each step is designed to overcome stigma of unsold homes, maximize exposure, and attract qualified buyers. Learn about <a href="/services" className="text-primary font-semibold hover:underline">my complete services</a> and see <a href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</a> from homes I've sold.
+                  This proven process has sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. Each step is designed to overcome stigma of unsold homes, maximize exposure, and attract qualified buyers. Learn about <a href="/services" className="text-primary font-semibold hover:underline">my complete services</a>, see <a href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</a> from homes I've sold, and check out my <a href="/guides/sellers-guide" className="text-primary font-semibold hover:underline">complete seller's guide</a> for comprehensive guidance on evaluating agents and preparing to relist.
                 </p>
               </div>
               <div className="max-w-4xl mx-auto mb-12 prose prose-lg">

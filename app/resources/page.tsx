@@ -1,6 +1,6 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
-import { FileText, Download, BookOpen, Video } from 'lucide-react'
+import { FileText, Download, BookOpen, Video, HelpCircle } from 'lucide-react'
 export const metadata = {
   title: 'Resources | HOME THAT DID NOT SELL Resources | Dr. Jan Duffy',
   description:
@@ -53,6 +53,14 @@ export default function ResourcesPage() {
       type: 'Interactive Quiz',
       cta: 'Take Quiz',
       link: '/tools/blame-analyzer',
+    },
+    {
+      icon: HelpCircle,
+      title: 'Complete Seller\'s Guide',
+      description: 'Comprehensive guide on evaluating agents, addressing concerns, preparing for consultation, and successfully relisting your home.',
+      type: 'Guide',
+      cta: 'Read Guide',
+      link: '/guides/sellers-guide',
     },
   ]
   return (
