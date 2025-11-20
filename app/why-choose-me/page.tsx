@@ -30,7 +30,7 @@ export default function WhyChooseMePage() {
     },
     {
       title: 'Proven Results',
-      description: '47 homes that DID NOT sell - now sold with 19 day average and 98.7% of asking price. Weekly updates with real accountability.',
+      description: '7 homes that DID NOT sell - now sold with 19 day average and 98.7% of asking price. Weekly updates with real accountability.',
       proof: 'Accountability, not excuses',
     },
     {
