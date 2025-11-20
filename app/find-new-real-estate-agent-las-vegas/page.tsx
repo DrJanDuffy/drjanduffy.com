@@ -47,7 +47,7 @@ export default function FindNewAgentPage() {
 
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  You trusted an agent. They DID NOT deliver. Your listing expired. Your home DID NOT sell. You're frustrated, angry, and losing money every day. The average unsold home costs sellers $4,964 per month in holding costs. That's $116 per day. Every day you wait is money down the drain.
+                  You trusted an agent. They DID NOT deliver. Your listing expired. Your home DID NOT sell. You're frustrated, angry, and losing money every day. The average unsold home costs sellers $4,964 per month in holding costs. That's $116 per day. Every day you wait is money down the drain. See my <Link href="/guides/sellers-guide" className="text-primary font-semibold hover:underline">complete seller's guide</Link> for comprehensive guidance on evaluating agents and making your next move.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   But here's the truth: not all agents are created equal. Some agents actually sell homes. Others just collect listings and hope something sticks. You need to find an agent who actually delivers results. I specialize in selling homes other agents could not. 7 homes that DID NOT sell with other agents - now sold. See <Link href="/success-stories" className="text-primary font-semibold hover:underline">real success stories</Link> and learn about <Link href="/comparison" className="text-primary font-semibold hover:underline">how I'm different from your previous agent</Link>.
