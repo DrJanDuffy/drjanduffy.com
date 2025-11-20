@@ -1,5 +1,6 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
+import FAQSchema from '@/app/components/faq-schema'
 import { Lightbulb, AlertCircle, CheckCircle } from 'lucide-react'
 export const metadata = {
   title: 'Selling Tips | HOME THAT DID NOT SELL Tips | Dr. Jan Duffy',
@@ -7,6 +8,14 @@ export const metadata = {
     'Expert tips for selling homes that did not sell: pricing, staging, marketing, and negotiation strategies.',
 }
 export default function SellingTipsPage() {
+  const faqs = [
+    {
+      question: 'What not to say when selling a house?',
+      answer:
+        'Avoid negative comments about your home, price justifications that sound defensive, desperation signals like "motivated seller" or "must sell," complaints about the market or previous agent, and oversharing personal information. Instead, let professional marketing and strategic pricing speak for themselves. I use professional photography and optimized descriptions that highlight your home\'s best features without sounding desperate. This professional approach is part of why I achieve 98.7% of asking price on homes that did not sell. Learn more about my marketing strategy and selling process.',
+    },
+  ]
+
   const tips = [
     {
       icon: AlertCircle,
@@ -47,6 +56,7 @@ export default function SellingTipsPage() {
   ]
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
@@ -58,6 +68,21 @@ export default function SellingTipsPage() {
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert advice from someone who's sold 7 HOMES THAT DID NOT SELL
               </p>
+              <div className="space-y-6 mb-12">
+                {faqs.map((faq, index) => (
+                  <div
+                    key={index}
+                    className="bg-gray-50 border-2 border-gray-200 rounded-lg p-6 shadow-lg"
+                  >
+                    <h3 className="text-xl font-black mb-3 text-primary">
+                      {faq.question}
+                    </h3>
+                    <p className="text-gray-700 text-lg leading-relaxed">
+                      {faq.answer}
+                    </p>
+                  </div>
+                ))}
+              </div>
               <div className="grid md:grid-cols-3 gap-8 mb-12">
                 {tips.map((tip, index) => {
                   const Icon = tip.icon

@@ -119,6 +119,16 @@ export default function FAQPage() {
       answer:
         'After signing, you should expect: photography and staging scheduling within days, listing preparation and MLS entry, marketing launch across multiple channels, regular updates on showings and feedback, and active follow-up on all buyer interest. I provide a clear timeline: photography within 3-5 days, listing goes live within a week, marketing launches immediately, and you receive weekly updates with real activity reports. You should know exactly what is happening at every step.',
     },
+    {
+      question: 'What is the 3-3-3 rule in real estate?',
+      answer:
+        'The 3-3-3 rule is a general real estate guideline suggesting that buyers should look at 3 homes in 3 different neighborhoods over 3 weekends before making a decision. However, for sellers with homes that did not sell, this rule highlights why proper marketing and pricing are critical. If your home is not properly presented or priced, buyers will move on to the next 3 homes. I use strategic pricing and professional marketing to ensure your home stands out in those first 3 showings. My 19-day average proves that with the right approach, homes sell quickly regardless of buyer decision timelines. Learn more about my proven selling process.',
+    },
+    {
+      question: 'What salary do you need for a $400000 house?',
+      answer:
+        'For a $400,000 home in Las Vegas, buyers typically need an annual income of approximately $100,000-$120,000 to qualify for a conventional mortgage, assuming a 20% down payment and standard debt-to-income ratios. This helps sellers understand their buyer pool. In the Las Vegas market, homes in this price range attract qualified buyers, but proper pricing and marketing are essential to reach them. I use market analysis to price homes competitively within their buyer qualification range, ensuring maximum buyer interest. This strategic pricing is part of why I achieve 98.7% of asking price on homes that did not sell.',
+    },
   ]
   return (
     <>

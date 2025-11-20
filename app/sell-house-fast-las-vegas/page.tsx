@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import FAQSchema from '@/app/components/faq-schema'
 import Link from 'next/link'
 
 export const metadata = {
@@ -27,12 +28,26 @@ export const metadata = {
 }
 
 export default function SellHouseFastPage() {
+  const faqs = [
+    {
+      question: 'What sells a house the fastest?',
+      answer:
+        'Three things sell houses fastest: professional marketing, strategic pricing, and aggressive follow-up. Professional photography increases showing requests by 300% and sale price by 5-10%. Strategic pricing based on market data positions your home competitively from day one. Aggressive follow-up on every showing turns interest into offers. I invest $5,000+ in marketing per listing and use a 97-point marketing system. This comprehensive approach is why I average 19 days to contract on homes that did not sell. Learn more about my proven selling process and marketing strategy.',
+    },
+    {
+      question: 'What is the quickest way to sell your house?',
+      answer:
+        'The quickest way to sell your house is a complete reset with professional marketing and strategic pricing. This means: fresh professional photography ($3,700 investment), strategic pricing based on market analysis, fresh MLS listing with optimized description, aggressive marketing across multiple channels, and relentless follow-up on all showings. I have sold 7 homes that did not sell using this approach, averaging 19 days to contract and 98.7% of asking price. The key is not waiting - every day costs you $116 in holding costs. See my 30-day selling process for the complete strategy.',
+    },
+  ]
+
   return (
     <>
       <BreadcrumbSchema items={[
         { name: 'Home', url: '/' },
         { name: 'Sell Your House Fast Las Vegas', url: '/sell-house-fast-las-vegas' }
       ]} />
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
@@ -162,6 +177,24 @@ export default function SellHouseFastPage() {
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
+              <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
+                Frequently Asked Questions About Selling Fast
+              </h2>
+              <div className="space-y-6 mb-12">
+                {faqs.map((faq, index) => (
+                  <div
+                    key={index}
+                    className="bg-gray-50 border-2 border-gray-200 rounded-lg p-6 shadow-lg"
+                  >
+                    <h3 className="text-xl font-black mb-3 text-primary">
+                      {faq.question}
+                    </h3>
+                    <p className="text-gray-700 text-lg leading-relaxed">
+                      {faq.answer}
+                    </p>
+                  </div>
+                ))}
+              </div>
               <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
                 What Makes Homes Sell Fast in Las Vegas
               </h2>

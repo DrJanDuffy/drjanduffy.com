@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import FAQSchema from '@/app/components/faq-schema'
 import NAPSection from '@/app/components/nap-section'
 import GoogleBusinessLink from '@/app/components/google-business-link'
 export const metadata = {
@@ -12,9 +13,23 @@ export const metadata = {
   },
 }
 export default function WhyExpirePage() {
+  const faqs = [
+    {
+      question: 'What are the hardest months to sell a house?',
+      answer:
+        'December and January are typically the hardest months to sell a house due to holidays, weather, and reduced buyer activity. However, proper strategy can overcome timing challenges. In Las Vegas, the market remains active year-round, but listings that expire during these months often do so because of poor marketing and pricing, not just timing. I have sold homes that did not sell during challenging months by using aggressive marketing, strategic pricing, and professional presentation. The key is not waiting for the "right" month - it is creating the right strategy regardless of timing. My 19-day average proves that with proper marketing, homes sell quickly even in challenging months. Learn more about why homes do not sell and how to fix them.',
+    },
+    {
+      question: 'What decreases property value the most?',
+      answer:
+        'Poor presentation, overpricing, and weak marketing decrease property value perception more than the property itself. Dark photos, cluttered spaces, and unprofessional staging make homes look less valuable. Overpricing kills buyer interest immediately. Weak marketing makes homes invisible to qualified buyers. These factors are why homes do not sell - not the home itself. I fix these issues with professional photography ($3,700 investment), strategic pricing based on market data, and aggressive marketing (97-point system). This comprehensive approach is why I achieve 98.7% of asking price on homes that did not sell. The home itself is rarely the problem - it is how it is presented and marketed. See how I am different from your previous agent.',
+    },
+  ]
+
   return (
     <>
       <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Why homes fail to sell', url: '/why-expire' }]} />
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
@@ -130,6 +145,25 @@ export default function WhyExpirePage() {
                   </div>
                 </div>
               </div>
+              <div className="bg-white border-2 border-gray-200 rounded-lg p-8 mb-12">
+                <h2 className="text-3xl font-black mb-6 text-center">Frequently Asked Questions</h2>
+                <div className="space-y-6">
+                  {faqs.map((faq, index) => (
+                    <div
+                      key={index}
+                      className="bg-gray-50 border-2 border-gray-200 rounded-lg p-6 shadow-lg"
+                    >
+                      <h3 className="text-xl font-black mb-3 text-primary">
+                        {faq.question}
+                      </h3>
+                      <p className="text-gray-700 text-lg leading-relaxed">
+                        {faq.answer}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">The Bottom Line</h2>
                 <p className="text-lg text-gray-700 mb-4">

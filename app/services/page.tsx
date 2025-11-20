@@ -2,6 +2,7 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import ServiceSchema from '@/app/components/service-schema'
+import FAQSchema from '@/app/components/faq-schema'
 import NAPSection from '@/app/components/nap-section'
 import GoogleReviews from '@/app/components/google-reviews'
 import GoogleBusinessLink from '@/app/components/google-business-link'
@@ -30,6 +31,14 @@ export const metadata = {
 }
 import Link from 'next/link'
 export default function ServicesPage() {
+  const faqs = [
+    {
+      question: 'At what point is a house not worth fixing?',
+      answer:
+        'A house is not worth fixing when repair costs exceed potential value increase, or when strategic marketing investment would yield better returns. For homes that did not sell, the focus should be on presentation and marketing fixes rather than major structural repairs. I invest $3,700 in professional photography and staging, which increases sale price by 5-10% - far more than most repairs. Strategic pricing and aggressive marketing often solve "fix" problems without expensive renovations. The key is understanding what fixes actually help sell homes versus what is over-investment. I help clients evaluate which improvements will maximize sale price and speed, focusing on high-impact, low-cost solutions. Learn more about my complete services and proven selling process.',
+    },
+  ]
+
   const services = [
     {
       icon: Camera,
@@ -112,6 +121,7 @@ export default function ServicesPage() {
         description="Complete services for HOMES THAT DID NOT SELL including professional photography, staging, marketing, negotiation, and closing management. $5,000+ investment per listing."
         areaServed={['Las Vegas', 'Summerlin', 'Henderson']}
       />
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
@@ -123,6 +133,23 @@ export default function ServicesPage() {
               <p className="text-xl text-center text-gray-600 mb-12">
                 Everything needed to sell your HOME THAT DID NOT SELL fast and at top dollar
               </p>
+              <div className="max-w-4xl mx-auto mb-12">
+                <div className="space-y-6 mb-12">
+                  {faqs.map((faq, index) => (
+                    <div
+                      key={index}
+                      className="bg-gray-50 border-2 border-gray-200 rounded-lg p-6 shadow-lg"
+                    >
+                      <h3 className="text-xl font-black mb-3 text-primary">
+                        {faq.question}
+                      </h3>
+                      <p className="text-gray-700 text-lg leading-relaxed">
+                        {faq.answer}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
               <div className="max-w-4xl mx-auto mb-12 prose prose-lg">
                 <p className="text-lg text-gray-700 mb-6 text-center">
                   I invest $5,000+ in professional marketing per listing - 50x more than the average agent. This comprehensive service package includes professional photography, staging, complete MLS reset, aggressive marketing, and strategic negotiation. See <Link href="/process" className="text-primary font-semibold hover:underline">my 30-day selling process</Link>, learn about <Link href="/marketing-strategy" className="text-primary font-semibold hover:underline">my 97-point marketing system</Link>, and check out my <Link href="/guides/sellers-guide" className="text-primary font-semibold hover:underline">complete seller's guide</Link> for comprehensive guidance on evaluating agents and preparing to relist.
