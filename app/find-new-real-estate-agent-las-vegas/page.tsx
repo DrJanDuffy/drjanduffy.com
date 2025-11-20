@@ -252,9 +252,9 @@ export default function FindNewAgentPage() {
                   <div>
                     <h3 className="text-xl font-black mb-3">Results</h3>
                     <ul className="space-y-2 text-gray-700">
-                      <li>• 500+ families served</li>
-                      <li>• $127M+ in total sales</li>
-                      <li>• 47 homes that DID NOT sell - now sold</li>
+                      <li>• 7 homes that DID NOT sell - now sold</li>
+                      <li>• 19 day average</li>
+                      <li>• 98.7% of asking price</li>
                       <li>• 19 day average to contract</li>
                       <li>• 98.7% of asking price average</li>
                     </ul>
