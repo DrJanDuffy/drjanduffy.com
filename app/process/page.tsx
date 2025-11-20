@@ -50,7 +50,7 @@ export default function ProcessPage() {
     <>
       <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Selling Process', url: '/process' }]} />
       <ServiceSchema
-        serviceName="Failed Listing Specialist Services"
+        serviceName="Homes That Did Not Sell Specialist Services"
         description="Complete real estate services for homes that did not sell in Las Vegas, Summerlin, and Henderson. Professional photography, staging, marketing, negotiation, and closing management."
         areaServed={['Las Vegas', 'Summerlin', 'Henderson', 'The Ridges']}
       />

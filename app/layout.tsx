@@ -125,7 +125,7 @@ export default function RootLayout({
               email: 'info@drjanduffy.com',
               url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
               image: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}/og-image.png`,
-              specialty: ['Homes That DID NOT Sell', 'Failed Listing Specialist', 'Unsold Home Expert', 'Luxury Real Estate', 'Summerlin Real Estate'],
+              specialty: ['Homes That DID NOT Sell', 'Failed Listing Specialist', 'Homes That Did Not Sell Specialist', 'Unsold Home Expert', 'Luxury Real Estate', 'Summerlin Real Estate'],
               areaServed: [
                 {
                   '@type': 'City',

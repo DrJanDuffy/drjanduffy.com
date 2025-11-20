@@ -57,7 +57,7 @@ export default function AboutPage() {
 
               <div className="prose prose-lg max-w-none mb-12">
                 <div className="bg-primary/10 p-8 rounded-lg mb-8">
-                  <h2 className="text-3xl font-black mb-4">The failed listing specialist</h2>
+                  <h2 className="text-3xl font-black mb-4">The Failed Listing Specialist</h2>
                   <p className="text-xl mb-4">
                     Dr. Janet Duffy has sold <strong>7 Summerlin sellers who could not sell</strong> with an average of <strong>19 days</strong> to contract and <strong>98.7% of asking price</strong>.
                   </p>
@@ -161,9 +161,9 @@ export default function AboutPage() {
                 </div>
 
                 <div className="bg-gray-100 p-8 rounded-lg mb-12">
-                  <h2 className="text-3xl font-black mb-4">My Journey to failed listing specialistise</h2>
+                  <h2 className="text-3xl font-black mb-4">My Journey to Failed Listing Specialist</h2>
                   <p className="text-lg mb-4">
-                    I DID NOT start as an failed listing specialist. I started like most agents - taking any listing I could get, hoping for the best. But I quickly learned that most agents fail because they do not have a system. They do not invest in marketing. They do not follow up. They do not deliver results. I decided to be different.
+                    I DID NOT start as a Failed Listing Specialist. I started like most agents - taking any listing I could get, hoping for the best. But I quickly learned that most agents fail because they do not have a system. They do not invest in marketing. They do not follow up. They do not deliver results. I decided to be different.
                   </p>
                   <h3 className="text-2xl font-bold mb-4">The Turning Point</h3>
                   <p className="text-lg mb-4">

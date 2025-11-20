@@ -81,7 +81,7 @@ export default function Header() {
                   Dr. Jan Duffy
                 </span>
                 <span className="text-xs text-gray-600 font-semibold">
-                  failed listing specialist
+                  Failed Listing Specialist
                 </span>
               </div>
             </Link>
