@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
+import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 export const metadata = {
   title: 'One Queensridge Place Condos | failed listing specialist | Dr. Jan Duffy',
   description:
@@ -32,6 +33,11 @@ export default function OneQueensridgeCondosPage() {
 
   return (
     <>
+      <BreadcrumbSchema items={[
+        { name: 'Home', url: '/' },
+        { name: 'Condos', url: '/condos' },
+        { name: 'One Queensridge Place Condos', url: '/condos/one-queensridge' },
+      ]} />
       <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">

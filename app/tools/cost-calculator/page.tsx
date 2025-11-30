@@ -1,6 +1,7 @@
 import CostCalculator from '@/app/components/cost-calculator'
 import Header from '@/app/components/header'
 import FAQSchema from '@/app/components/faq-schema'
+import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 export const metadata = {
   title: 'cost when your home will not sell Calculator | Dr. Jan Duffy',
   description:
@@ -32,6 +33,11 @@ export default function CostCalculatorPage() {
 
   return (
     <>
+      <BreadcrumbSchema items={[
+        { name: 'Home', url: '/' },
+        { name: 'Tools', url: '/tools' },
+        { name: 'Cost Calculator', url: '/tools/cost-calculator' },
+      ]} />
       <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50 py-20">

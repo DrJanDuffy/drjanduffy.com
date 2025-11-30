@@ -7,6 +7,7 @@ import { Button } from '@/components/ui/button'
 import LeadForm from '@/app/components/lead-form'
 import Header from '@/app/components/header'
 import FAQSchema from '@/app/components/faq-schema'
+import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 
 const faqs = [
   {
@@ -113,6 +114,11 @@ export default function ValueCheckPage() {
   }
   return (
     <>
+      <BreadcrumbSchema items={[
+        { name: 'Home', url: '/' },
+        { name: 'Tools', url: '/tools' },
+        { name: 'Value Check', url: '/tools/value-check' },
+      ]} />
       <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50 py-20">

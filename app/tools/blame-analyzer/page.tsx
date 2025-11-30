@@ -1,6 +1,7 @@
 import BlameAnalyzer from '@/app/components/blame-analyzer'
 import Header from '@/app/components/header'
 import FAQSchema from '@/app/components/faq-schema'
+import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 export const metadata = {
   title: 'Blame Analyzer Quiz | Dr. Jan Duffy',
   description:
@@ -32,6 +33,11 @@ export default function BlameAnalyzerPage() {
 
   return (
     <>
+      <BreadcrumbSchema items={[
+        { name: 'Home', url: '/' },
+        { name: 'Tools', url: '/tools' },
+        { name: 'Blame Analyzer', url: '/tools/blame-analyzer' },
+      ]} />
       <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50 py-20">

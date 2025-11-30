@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
+import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 export const metadata = {
   title: 'Vdara Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
   description:
@@ -35,6 +36,11 @@ export default function VdaraCondosPage() {
 
   return (
     <>
+      <BreadcrumbSchema items={[
+        { name: 'Home', url: '/' },
+        { name: 'Condos', url: '/condos' },
+        { name: 'Vdara Condos', url: '/condos/vdara' },
+      ]} />
       <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
