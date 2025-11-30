@@ -52,20 +52,15 @@ export default function GoogleReviews({ reviews, showSchema = true }: GoogleRevi
           type="application/ld+json"
           strategy="afterInteractive"
         >
-          {JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'LocalBusiness',
-            '@id': `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}#business`,
-            name: 'Dr. Janet Duffy Real Estate',
-            aggregateRating: {
-              '@type': 'AggregateRating',
-              ratingValue: aggregateRating.ratingValue,
-              reviewCount: aggregateRating.reviewCount,
-              bestRating: aggregateRating.bestRating,
-              worstRating: aggregateRating.worstRating,
-            },
-            review: defaultReviews.map((review) => ({
+          {JSON.stringify(
+            defaultReviews.map((review) => ({
+              '@context': 'https://schema.org',
               '@type': 'Review',
+              itemReviewed: {
+                '@type': 'LocalBusiness',
+                '@id': `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}#business`,
+                name: 'Dr. Janet Duffy Real Estate',
+              },
               author: {
                 '@type': 'Person',
                 name: review.author,
@@ -78,8 +73,8 @@ export default function GoogleReviews({ reviews, showSchema = true }: GoogleRevi
                 bestRating: '5',
                 worstRating: '1',
               },
-            })),
-          })}
+            }))
+          )}
         </Script>
       )}
 

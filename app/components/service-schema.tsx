@@ -46,13 +46,6 @@ export default function ServiceSchema({
           '@type': 'City',
           name: 'Las Vegas',
         },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '5',
-      reviewCount: '47',
-      bestRating: '5',
-      worstRating: '1',
-    },
   }
 
   return (

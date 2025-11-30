@@ -144,13 +144,6 @@ export default function RootLayout({
                   name: 'Henderson',
                 },
               ],
-              aggregateRating: {
-                '@type': 'AggregateRating',
-                ratingValue: '5',
-                reviewCount: '47',
-                bestRating: '5',
-                worstRating: '1',
-              },
               priceRange: '$400K-$10M+',
               award: ['Failed Listing Specialist 2026', 'Good Neighbor Award'],
               knowsAbout: ['Real Estate', 'Homes That DID NOT Sell', 'Failed Listings', 'Unsold Homes', 'Re-listing Service', 'Luxury Properties', 'Property Marketing', 'Real Estate Negotiation'],
