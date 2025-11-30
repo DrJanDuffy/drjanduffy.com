@@ -5,9 +5,9 @@ import FAQSchema from '@/app/components/faq-schema'
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Sell Your House Fast Las Vegas | 19 Day Average | Free Consultation',
+  title: 'Sell Your House Fast Las Vegas | Cash Offer Alternative | 19 Days | 98.7% of Asking',
   description:
-    'Need to sell your house fast in Las Vegas? Specialized service for homes that will not sell. 7 homes that did not sell - now sold. Summerlin expert. Free consultation: 702-500-1064',
+    'Sell your house fast in Las Vegas without losing money to cash buyers. Get 98.7% of asking price vs 70-85% from Opendoor/Offerpad. 19-day average. No fees upfront. Free consultation: 702-500-1064',
   alternates: {
     canonical: 'https://www.drjanduffy.com/sell-house-fast-las-vegas',
   },
@@ -38,6 +38,21 @@ export default function SellHouseFastPage() {
       question: 'What is the quickest way to sell your house?',
       answer:
         'The quickest way to sell your house is a complete reset with professional marketing and strategic pricing. This means: fresh professional photography ($3,700 investment), strategic pricing based on market analysis, fresh MLS listing with optimized description, aggressive marketing across multiple channels, and relentless follow-up on all showings. I have sold 7 homes that did not sell using this approach, averaging 19 days to contract and 98.7% of asking price. The key is not waiting - every day costs you $116 in holding costs. See my 30-day selling process for the complete strategy.',
+    },
+    {
+      question: 'Should I sell my house to Opendoor, Offerpad, or a cash buyer?',
+      answer:
+        'Cash buyers like Opendoor and Offerpad typically offer 70-85% of market value, meaning you lose $30,000-$60,000 on a $400,000 home. They also charge service fees (5-12%) and make deductions for repairs. My approach gets you 98.7% of asking price on average - that\'s $15,000-$40,000 more than cash buyers, and I close in 19 days. You get top dollar AND fast closing. The only time cash buyers make sense is if you need to close in 7 days or less. Otherwise, my proven system gets you more money in similar timeframes.',
+    },
+    {
+      question: 'How do I sell my house fast for cash in Las Vegas?',
+      answer:
+        'If you need cash fast, you have two options: 1) Sell to a cash buyer (Opendoor, Offerpad, "we buy houses" companies) and accept 70-85% of market value, or 2) Use my proven system to get 98.7% of asking price and close in 19 days. Most sellers choose option 2 because they get $15,000-$40,000 more while still closing fast. I work with cash buyers and traditional buyers, ensuring you get the best offer. Call 702-500-1064 to compare your options.',
+    },
+    {
+      question: 'Can I sell my house fast without repairs in Las Vegas?',
+      answer:
+        'Yes! I sell homes "as-is" all the time. Unlike cash buyers who deduct heavily for repairs, I market your home strategically to buyers who want as-is properties. My professional photography and staging make even homes needing work look appealing. I\'ve sold 7 homes that did not sell with other agents, many needing repairs. The key is proper pricing and marketing, not expensive renovations. Get a free consultation to see how we can sell your home as-is fast.',
     },
   ]
 
@@ -76,6 +91,41 @@ export default function SellHouseFastPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
+                Sell Fast vs Cash Buyers: Get More Money in Similar Time
+              </h2>
+              <div className="bg-yellow-50 border-2 border-yellow-200 rounded-lg p-6 mb-8">
+                <h3 className="text-2xl font-black mb-4">The Cash Buyer Trap</h3>
+                <p className="text-lg text-gray-700 mb-4">
+                  Companies like Opendoor, Offerpad, and "we buy houses" cash buyers offer speed, but at a huge cost. They typically pay 70-85% of market value, meaning on a $400,000 home, you lose $60,000-$120,000. They also charge 5-12% service fees and make heavy deductions for repairs.
+                </p>
+                <p className="text-lg text-gray-700 mb-4">
+                  <strong>My approach:</strong> I get you 98.7% of asking price (average) and close in 19 days. That's $15,000-$40,000 MORE than cash buyers, in similar timeframes. You get top dollar AND fast closing. The only time cash buyers make sense is if you need to close in 7 days or less.
+                </p>
+                <div className="grid md:grid-cols-2 gap-4 mt-6">
+                  <div className="bg-white p-4 rounded border-2 border-red-200">
+                    <h4 className="font-black text-lg mb-2">Cash Buyers (Opendoor/Offerpad)</h4>
+                    <ul className="text-gray-700 space-y-1">
+                      <li>• 70-85% of market value</li>
+                      <li>• 5-12% service fees</li>
+                      <li>• Heavy repair deductions</li>
+                      <li>• Close in 7-14 days</li>
+                      <li>• You lose $30K-$60K+</li>
+                    </ul>
+                  </div>
+                  <div className="bg-white p-4 rounded border-2 border-green-200">
+                    <h4 className="font-black text-lg mb-2">Dr. Jan Duffy's Approach</h4>
+                    <ul className="text-gray-700 space-y-1">
+                      <li>• 98.7% of asking price</li>
+                      <li>• No upfront fees</li>
+                      <li>• Strategic marketing</li>
+                      <li>• Close in 19 days average</li>
+                      <li>• You get $15K-$40K MORE</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <h2 className="text-4xl md:text-5xl font-black text-center mb-6 mt-12">
                 Why Las Vegas Houses do not Sell Fast (And How to Fix It)
               </h2>
               <div className="prose prose-lg max-w-none">
