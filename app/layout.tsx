@@ -43,6 +43,20 @@ export const metadata: Metadata = {
       'Your house DID NOT sell? Sell your home that did not sell in 30 days or less with proven results.',
     images: ['/og-image.png'],
   },
+  verification: {
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || undefined,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 }
 
 export default function RootLayout({
