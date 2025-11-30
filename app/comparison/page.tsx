@@ -4,9 +4,9 @@ import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import FAQSchema from '@/app/components/faq-schema'
 import { Check, X } from 'lucide-react'
 export const metadata = {
-  title: 'Your Agent vs Me | Dr. Jan Duffy',
+  title: 'Your Agent vs Me vs Opendoor | Dr. Jan Duffy | 98.7% vs 70-85%',
   description:
-    'Side-by-side comparison of what your previous agent did vs. what Dr. Jan Duffy does to sell homes that DID NOT sell.',
+    'Compare your agent, Opendoor/HomeLight cash buyers, and Dr. Jan Duffy. Get 98.7% of asking vs 70-85% from cash buyers. 19-day average. Free consultation.',
   alternates: {
     canonical: '/comparison',
   },
@@ -69,6 +69,16 @@ export default function ComparisonPage() {
       question: 'What results can I expect with Dr. Jan Duffy vs. other Las Vegas agents?',
       answer:
         'Dr. Jan Duffy averages 19 days to contract and 98.7% of asking price for Las Vegas homes that did not sell. Most agents average 63+ days with expired listings. She has sold 7 homes in Summerlin, Henderson, and surrounding areas that did not sell with previous agents.',
+    },
+    {
+      question: 'Should I sell to Opendoor, HomeLight, or use Dr. Jan Duffy?',
+      answer:
+        'Opendoor and HomeLight typically pay 70-85% of market value (you lose $30K-$60K+ on a $400K home) plus 5-12% service fees. Dr. Jan Duffy gets you 98.7% of asking price and closes in 19 days average. That\'s $15K-$40K MORE than cash buyers in similar timeframes. The only time cash buyers make sense is if you need to close in 7 days or less.',
+    },
+    {
+      question: 'How does Dr. Jan Duffy compare to cash buyers like Opendoor?',
+      answer:
+        'Cash buyers like Opendoor offer speed but cost you significantly. They pay 70-85% of market value, charge 5-12% service fees, and make heavy repair deductions. Dr. Jan Duffy gets you 98.7% of asking price (average) and closes in 19 days. You get $15K-$40K MORE than cash buyers while still closing fast. She serves Las Vegas, Summerlin, and Henderson.',
     },
   ]
 
@@ -203,6 +213,69 @@ export default function ComparisonPage() {
                 <p className="text-lg text-gray-700">
                   Your previous agent's business model was volume-based. They took as many listings as possible, invested minimal marketing in each, and hoped something would stick. This model works for them - they collect commissions on the few that sell. But it does not work for you. You got minimal marketing, minimal attention, and a HOME THAT DID NOT SELL. That's the cost of working with a volume-based agent. That's why your home DID NOT sell.
                 </p>
+              </div>
+
+              <div className="bg-yellow-50 border-2 border-yellow-300 rounded-lg p-8 mb-12">
+                <h2 className="text-3xl font-black mb-4 text-center">Dr. Jan Duffy vs Opendoor, HomeLight & Cash Buyers</h2>
+                <p className="text-center text-lg text-gray-700 mb-6">
+                  Many sellers consider cash buyers like Opendoor, HomeLight, Offerpad, or "we buy houses" companies. Here's the real comparison:
+                </p>
+                <div className="grid md:grid-cols-3 gap-6 mb-6">
+                  <div className="bg-white p-6 rounded-lg border-2 border-red-200">
+                    <h3 className="text-xl font-black mb-3 text-red-800">Cash Buyers (Opendoor/HomeLight)</h3>
+                    <ul className="space-y-2 text-gray-700 text-sm">
+                      <li>• 70-85% of market value</li>
+                      <li>• 5-12% service fees</li>
+                      <li>• Heavy repair deductions</li>
+                      <li>• Close in 7-14 days</li>
+                      <li>• No marketing investment</li>
+                      <li>• You lose $30K-$60K+</li>
+                    </ul>
+                    <p className="mt-4 text-sm font-bold text-red-700">
+                      On $400K home: ~$280K-$320K
+                    </p>
+                  </div>
+                  <div className="bg-white p-6 rounded-lg border-2 border-green-200">
+                    <h3 className="text-xl font-black mb-3 text-green-800">Dr. Jan Duffy</h3>
+                    <ul className="space-y-2 text-gray-700 text-sm">
+                      <li>• 98.7% of asking price</li>
+                      <li>• No upfront fees</li>
+                      <li>• Strategic marketing</li>
+                      <li>• Close in 19 days average</li>
+                      <li>• $5,000+ marketing investment</li>
+                      <li>• You get $15K-$40K MORE</li>
+                    </ul>
+                    <p className="mt-4 text-sm font-bold text-green-700">
+                      On $400K home: ~$395K
+                    </p>
+                  </div>
+                  <div className="bg-white p-6 rounded-lg border-2 border-gray-200">
+                    <h3 className="text-xl font-black mb-3 text-gray-800">Your Previous Agent</h3>
+                    <ul className="space-y-2 text-gray-700 text-sm">
+                      <li>• Variable pricing</li>
+                      <li>• Standard commission</li>
+                      <li>• Minimal marketing</li>
+                      <li>• 63+ days (expired)</li>
+                      <li>• $100 marketing budget</li>
+                      <li>• Home did not sell</li>
+                    </ul>
+                    <p className="mt-4 text-sm font-bold text-gray-700">
+                      Result: Expired listing
+                    </p>
+                  </div>
+                </div>
+                <div className="bg-white p-6 rounded-lg border-2 border-primary">
+                  <h3 className="text-2xl font-black mb-4">The Bottom Line</h3>
+                  <p className="text-lg text-gray-700 mb-4">
+                    <strong>Cash buyers like Opendoor and HomeLight</strong> offer speed but cost you $30,000-$60,000+ on a $400,000 home. They pay 70-85% of market value, charge 5-12% service fees, and make heavy deductions for repairs.
+                  </p>
+                  <p className="text-lg text-gray-700 mb-4">
+                    <strong>Dr. Jan Duffy's approach</strong> gets you 98.7% of asking price (average) and closes in 19 days. That's $15,000-$40,000 MORE than cash buyers, in similar timeframes. You get top dollar AND fast closing.
+                  </p>
+                  <p className="text-lg text-gray-700 font-bold">
+                    The only time cash buyers make sense: if you need to close in 7 days or less. Otherwise, my proven system gets you more money in similar timeframes.
+                  </p>
+                </div>
               </div>
 
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">

@@ -77,6 +77,11 @@ export default function HomePage() {
       answer:
         'Yes, I specialize in Summerlin West luxury homes including The Ridges, Red Rock Country Club, The Summit, and newer villages. I have sold 7 homes that did not sell in these areas with an average of 19 days to contract and 98.7% of asking price.',
     },
+    {
+      question: 'Should I sell to Opendoor, HomeLight, or use Dr. Jan Duffy?',
+      answer:
+        'Opendoor and HomeLight typically pay 70-85% of market value (you lose $30K-$60K+ on a $400K home) plus 5-12% service fees. Dr. Jan Duffy gets you 98.7% of asking price and closes in 19 days average. That\'s $15K-$40K MORE than cash buyers in similar timeframes. The only time cash buyers make sense is if you need to close in 7 days or less. Call 702-500-1064 to compare your options.',
+    },
   ]
 
   return (
