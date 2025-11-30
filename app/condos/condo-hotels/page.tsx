@@ -1,13 +1,38 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
+import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
   title: 'Condo Hotels Las Vegas | Dr. Jan Duffy',
   description:
     'Expert help selling expired condo hotels in Las Vegas. Investment properties with rental programs. Proven results and professional marketing.',
 }
 export default function CondoHotelsPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for condo hotels in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for Las Vegas condo hotels that did not sell, including investment-focused marketing, professional photography ($3,700 investment) highlighting hotel amenities, premium staging, 97-point marketing system, strategic pricing for condo hotels, specialized marketing emphasizing rental income potential and resort access, and attracting investors and second-home buyers. She serves MGM Signature, Palms Place, and other condo hotels on the Las Vegas Strip.',
+    },
+    {
+      question: 'How long does it take to sell a condo hotel in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Las Vegas condo hotels that did not sell. She specializes in luxury condo hotels with rental programs and uses investment-focused marketing strategies to attract buyers seeking rental income and resort access, achieving fast sales at top dollar.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my Las Vegas condo hotel?',
+      answer:
+        'Dr. Jan Duffy specializes in Las Vegas condo hotels and understands investment property marketing, the importance of explaining rental programs, resort access, and hotel management. She invests $5,000+ per listing in professional marketing and has proven results selling condo hotels that did not sell with previous agents.',
+    },
+    {
+      question: 'What makes condo hotels unique in Las Vegas?',
+      answer:
+        'Condo hotels in Las Vegas offer investment properties with rental programs, resort access, and hotel management. Dr. Jan Duffy specializes in marketing these investment properties and has proven results selling condo hotels on the Las Vegas Strip that did not sell with other agents.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

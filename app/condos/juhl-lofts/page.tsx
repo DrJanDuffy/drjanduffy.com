@@ -1,13 +1,38 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
+import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
   title: 'Juhl Lofts Las Vegas | failed listing specialist | Dr. Jan Duffy',
   description:
     'Expert help selling expired Juhl Lofts in Las Vegas. Urban lofts with modern design. Proven results and professional marketing.',
 }
 export default function JuhlLoftsPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for Juhl Lofts in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for Juhl Lofts that did not sell, including urban loft marketing, professional photography ($3,700 investment) highlighting modern design, premium staging, 97-point marketing system, strategic pricing for urban lofts, specialized marketing emphasizing modern design and urban lifestyle, and attracting modern design enthusiasts. She specializes in Juhl Lofts in downtown Las Vegas.',
+    },
+    {
+      question: 'How long does it take to sell a Juhl Loft in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Juhl Lofts that did not sell. She specializes in urban lofts with modern design in downtown Las Vegas and uses strategic marketing to attract buyers seeking contemporary urban living, achieving fast sales at top dollar.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my Juhl Loft?',
+      answer:
+        'Dr. Jan Duffy specializes in Juhl Lofts and understands urban loft marketing, the importance of highlighting modern design, downtown urban lifestyle, and contemporary living. She invests $5,000+ per listing in professional marketing and has proven results selling Juhl Lofts that did not sell with previous agents.',
+    },
+    {
+      question: 'What makes Juhl Lofts unique in Las Vegas?',
+      answer:
+        'Juhl Lofts are urban lofts in downtown Las Vegas offering modern design and contemporary urban living. Dr. Jan Duffy specializes in marketing these downtown urban lofts and has proven results selling Juhl Lofts that did not sell with other agents.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

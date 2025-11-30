@@ -1,13 +1,38 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
+import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
   title: 'Wimbledon Tennis Club Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
   description:
     'Expert help selling expired Wimbledon Tennis Club condos in Las Vegas. Mid-rise condos with tennis amenities. Proven results and professional marketing.',
 }
 export default function WimbledonCondosPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for Wimbledon Tennis Club condos in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for Wimbledon Tennis Club condos that did not sell, including professional photography ($3,700 investment), staging, 97-point marketing system, strategic pricing for mid-rise condos, specialized marketing highlighting tennis amenities and community features, and attracting tennis enthusiasts and active lifestyle buyers. She specializes in Wimbledon Tennis Club in Las Vegas.',
+    },
+    {
+      question: 'How long does it take to sell a Wimbledon Tennis Club condo in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Wimbledon Tennis Club condos that did not sell. She specializes in mid-rise condos with tennis amenities in Las Vegas and uses strategic marketing to attract buyers seeking active lifestyle and tennis access, achieving fast sales at top dollar.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my Wimbledon Tennis Club condo?',
+      answer:
+        'Dr. Jan Duffy specializes in Wimbledon Tennis Club condos and understands mid-rise condo marketing, the importance of highlighting tennis amenities, community features, and active lifestyle appeal. She invests $5,000+ per listing in professional marketing and has proven results selling Wimbledon condos that did not sell with previous agents.',
+    },
+    {
+      question: 'What makes Wimbledon Tennis Club condos unique in Las Vegas?',
+      answer:
+        'Wimbledon Tennis Club is a mid-rise condominium building in Las Vegas offering condos with tennis amenities and community features. Dr. Jan Duffy specializes in marketing these condos and has proven results selling Wimbledon condos that did not sell with other agents.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

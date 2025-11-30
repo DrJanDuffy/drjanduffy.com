@@ -6,6 +6,31 @@ import { trackValueCheck } from '@/lib/config/analytics'
 import { Button } from '@/components/ui/button'
 import LeadForm from '@/app/components/lead-form'
 import Header from '@/app/components/header'
+import FAQSchema from '@/app/components/faq-schema'
+
+const faqs = [
+  {
+    question: 'How accurate is the home value check tool for Las Vegas homes?',
+    answer:
+      'The home value check tool uses market data and pricing algorithms to estimate your Las Vegas home value based on original list price, days on market, and price drops. For an accurate valuation, Dr. Jan Duffy provides free home valuations using her 97-point system and local market expertise for homes in Las Vegas, Summerlin, and Henderson.',
+  },
+  {
+    question: 'What should I do if my Las Vegas home value has decreased?',
+    answer:
+      'If your Las Vegas home value has decreased, Dr. Jan Duffy can help with strategic pricing, professional marketing ($5,000+ investment), and her proven 97-point system. She specializes in selling homes that did not sell and has achieved 19-day average time to contract, 98.7% of asking price for homes in Las Vegas, Summerlin, and Henderson.',
+  },
+  {
+    question: 'Why is my Las Vegas home worth less than I thought?',
+    answer:
+      'Las Vegas home values can decrease due to overpricing, poor marketing, lack of professional photography, or market conditions. Dr. Jan Duffy provides free home valuations and uses her 97-point marketing system to maximize your home value. She serves Las Vegas, Summerlin, and Henderson.',
+  },
+  {
+    question: 'How can Dr. Jan Duffy help increase my Las Vegas home value?',
+    answer:
+      'Dr. Jan Duffy increases Las Vegas home value through strategic pricing, professional photography ($3,700 investment), premium staging, 97-point marketing system, and specialized marketing. She has achieved 98.7% of asking price on average and serves Las Vegas, Summerlin, and Henderson.',
+  },
+]
+
 export default function ValueCheckPage() {
   const [address, setAddress] = useState('')
   const [originalListPrice, setOriginalListPrice] = useState('')
@@ -88,6 +113,7 @@ export default function ValueCheckPage() {
   }
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50 py-20">
         <div className="container mx-auto px-4">

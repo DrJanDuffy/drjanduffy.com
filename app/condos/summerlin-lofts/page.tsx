@@ -1,13 +1,38 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
+import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
   title: 'Summerlin Lofts / C2 Lofts Las Vegas | failed listing specialist | Dr. Jan Duffy',
   description:
     'Expert help selling expired Summerlin Lofts in Las Vegas. Urban lofts with modern design. Proven results and professional marketing.',
 }
 export default function SummerlinLoftsPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for Summerlin Lofts in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for Summerlin Lofts that did not sell, including urban loft marketing, professional photography ($3,700 investment) highlighting modern design, premium staging, 97-point marketing system, strategic pricing for urban lofts, specialized marketing emphasizing modern design and urban lifestyle, and attracting modern design enthusiasts. She specializes in Summerlin Lofts in Las Vegas.',
+    },
+    {
+      question: 'How long does it take to sell a Summerlin Loft in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Summerlin Lofts that did not sell. She specializes in urban lofts with modern design in Las Vegas and uses strategic marketing to attract buyers seeking contemporary urban living, achieving fast sales at top dollar.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my Summerlin Loft?',
+      answer:
+        'Dr. Jan Duffy specializes in Summerlin Lofts and understands urban loft marketing, the importance of highlighting modern design, urban lifestyle, and contemporary living. She invests $5,000+ per listing in professional marketing and has proven results selling Summerlin Lofts that did not sell with previous agents.',
+    },
+    {
+      question: 'What makes Summerlin Lofts unique in Las Vegas?',
+      answer:
+        'Summerlin Lofts (C2 Lofts) are urban lofts in Las Vegas offering modern design and contemporary urban living. Dr. Jan Duffy specializes in marketing these urban lofts and has proven results selling Summerlin Lofts that did not sell with other agents.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

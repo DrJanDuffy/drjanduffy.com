@@ -1,13 +1,38 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
+import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
   title: 'The Martin Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
   description:
     'Expert help selling expired Martin condos in Las Vegas. Luxury high-rise condos with modern design. Proven results and professional marketing.',
 }
 export default function TheMartinCondosPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for The Martin condos in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for The Martin condos that did not sell, including luxury marketing strategies, professional photography ($3,700 investment) highlighting modern design, premium staging, 97-point marketing system, strategic pricing for luxury high-rise condos, specialized marketing emphasizing modern design and exclusive amenities, and attracting modern design enthusiasts. She specializes in The Martin in Las Vegas.',
+    },
+    {
+      question: 'How long does it take to sell a condo at The Martin in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for The Martin condos that did not sell. She specializes in luxury high-rise condos with modern design at The Martin and uses sophisticated marketing strategies to attract buyers seeking contemporary luxury living, achieving fast sales at top dollar.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my Martin condo?',
+      answer:
+        'Dr. Jan Duffy specializes in The Martin condos and understands luxury high-rise marketing, the importance of highlighting modern design, exclusive amenities, and contemporary living. She invests $5,000+ per listing in professional marketing and has proven results selling Martin condos that did not sell with previous agents.',
+    },
+    {
+      question: 'What makes The Martin condos unique in Las Vegas?',
+      answer:
+        'The Martin is a luxury high-rise condominium building in Las Vegas offering sophisticated living with modern design, exclusive amenities, and contemporary style. Dr. Jan Duffy specializes in marketing these luxury condos and has proven results selling Martin condos that did not sell with other agents.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

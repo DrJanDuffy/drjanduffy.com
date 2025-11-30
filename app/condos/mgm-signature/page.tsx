@@ -1,13 +1,38 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
+import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
   title: 'MGM Signature Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
   description:
     'Expert help selling expired MGM Signature condos in Las Vegas. Luxury condo hotel with resort access. Proven results and professional marketing.',
 }
 export default function MGMSignatureCondosPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for MGM Signature condos in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for MGM Signature condos that did not sell, including investment-focused marketing, professional photography ($3,700 investment) highlighting hotel amenities, premium staging, 97-point marketing system, strategic pricing for condo hotels, specialized marketing emphasizing rental income potential and MGM Grand access, and attracting investors and second-home buyers. She specializes in MGM Signature on the Las Vegas Strip.',
+    },
+    {
+      question: 'How long does it take to sell an MGM Signature condo in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for MGM Signature condos that did not sell. She specializes in luxury condo hotels with rental programs at MGM Signature and uses investment-focused marketing strategies to attract buyers seeking rental income and resort access, achieving fast sales at top dollar.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my MGM Signature condo?',
+      answer:
+        'Dr. Jan Duffy specializes in MGM Signature condos and understands condo hotel marketing, the importance of explaining rental programs, MGM Grand access, and hotel management. She invests $5,000+ per listing in professional marketing and has proven results selling MGM Signature condos that did not sell with previous agents.',
+    },
+    {
+      question: 'What makes MGM Signature condos unique in Las Vegas?',
+      answer:
+        'MGM Signature is a luxury condo hotel on the Las Vegas Strip offering sophisticated living with MGM Grand access, rental programs, and world-class amenities. Dr. Jan Duffy specializes in marketing these condo hotels and has proven results selling MGM Signature condos that did not sell with other agents.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

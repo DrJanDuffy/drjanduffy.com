@@ -1,13 +1,38 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
+import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
   title: 'New Listings for Las Vegas Condos | Dr. Jan Duffy',
   description:
     'New Las Vegas condo listings. Expert help selling your condo fast and at top dollar. Proven results and professional marketing.',
 }
 export default function NewListingsCondosPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for new Las Vegas condo listings?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for new Las Vegas condo listings, including professional photography ($3,700 investment), premium staging, 97-point marketing system, strategic pricing, specialized marketing for luxury high-rise, mid-rise, and urban lofts, and attracting qualified buyers. She serves all Las Vegas condo markets including Summerlin, Henderson, and the Strip.',
+    },
+    {
+      question: 'How long does it take to sell a new Las Vegas condo listing?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for new Las Vegas condo listings. She uses her proven 97-point marketing system and invests $5,000+ per listing in professional marketing to achieve fast sales at top dollar for condos in Summerlin, Henderson, and throughout Las Vegas.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy for my new Las Vegas condo listing?',
+      answer:
+        'Dr. Jan Duffy specializes in Las Vegas condos and understands the unique marketing needs of luxury high-rise, mid-rise, and urban loft condos. She invests $5,000+ per listing in professional marketing and has proven results selling condos that did not sell with previous agents, achieving 98.7% of asking price on average.',
+    },
+    {
+      question: 'What makes Dr. Jan Duffy\'s marketing different for new Las Vegas condo listings?',
+      answer:
+        'Dr. Jan Duffy uses a 97-point marketing system including $3,700 professional photography, premium staging, strategic pricing, and specialized marketing for each condo type. She serves all Las Vegas condo markets and has proven results selling condos that did not sell with other agents, achieving 19-day average time to contract.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

@@ -1,5 +1,6 @@
 import Header from '@/app/components/header'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import FAQSchema from '@/app/components/faq-schema'
 import Link from 'next/link'
 
 export const metadata = {
@@ -51,12 +52,36 @@ const blogPosts = [
 ]
 
 export default function BlogPage() {
+  const faqs = [
+    {
+      question: 'What real estate topics does Dr. Jan Duffy cover in her Las Vegas blog?',
+      answer:
+        'Dr. Jan Duffy\'s Las Vegas real estate blog covers market trends, selling tips, neighborhood guides, market reports for Summerlin and Henderson, why homes do not sell, how to sell fast, and expert insights on Las Vegas real estate. She provides data-driven analysis and actionable advice for sellers in Las Vegas, Summerlin, and Henderson.',
+    },
+    {
+      question: 'How can I stay updated on Las Vegas real estate market trends?',
+      answer:
+        'Stay updated by reading Dr. Jan Duffy\'s Las Vegas real estate blog, which covers market trends, Summerlin and Henderson market reports, selling tips, and neighborhood guides. Subscribe for market updates and expert insights on Las Vegas real estate.',
+    },
+    {
+      question: 'What selling tips does Dr. Jan Duffy share in her blog?',
+      answer:
+        'Dr. Jan Duffy shares selling tips including why homes do not sell, how to sell fast, strategic pricing, professional marketing, her 97-point system, and proven strategies for Las Vegas, Summerlin, and Henderson. Her blog provides actionable advice based on her proven results: 19-day average time to contract and 98.7% of asking price.',
+    },
+    {
+      question: 'Where can I find neighborhood guides for Las Vegas?',
+      answer:
+        'Dr. Jan Duffy provides neighborhood guides for Las Vegas, Summerlin, Henderson, and other areas in her blog. These guides cover market trends, amenities, lifestyle, and real estate insights for each neighborhood to help sellers understand their local market.',
+    },
+  ]
+
   return (
     <>
       <BreadcrumbSchema items={[
         { name: 'Home', url: '/' },
         { name: 'Blog', url: '/blog' }
       ]} />
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

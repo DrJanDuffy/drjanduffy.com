@@ -1,13 +1,38 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
+import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
   title: 'The District at Green Valley Condos | failed listing specialist | Dr. Jan Duffy',
   description:
     'Expert help selling expired District at Green Valley condos in Henderson. Mid-rise condos with community amenities. Proven results and professional marketing.',
 }
 export default function TheDistrictCondosPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for The District at Green Valley condos in Henderson?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for The District at Green Valley condos that did not sell, including professional photography ($3,700 investment), staging, 97-point marketing system, strategic pricing for mid-rise condos, specialized marketing highlighting community amenities and Henderson location, and attracting value-conscious buyers. She specializes in The District at Green Valley in Henderson.',
+    },
+    {
+      question: 'How long does it take to sell a District at Green Valley condo in Henderson?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for The District at Green Valley condos that did not sell. She specializes in mid-rise condos with community amenities in Henderson and uses strategic marketing to attract buyers seeking value and community living, achieving fast sales at top dollar.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my District at Green Valley condo?',
+      answer:
+        'Dr. Jan Duffy specializes in The District at Green Valley condos and understands Henderson mid-rise condo marketing, the importance of highlighting community amenities, and value positioning. She invests $5,000+ per listing in professional marketing and has proven results selling District condos that did not sell with previous agents.',
+    },
+    {
+      question: 'What makes The District at Green Valley condos unique in Henderson?',
+      answer:
+        'The District at Green Valley is a mid-rise condominium building in Henderson offering community living with amenities and value. Dr. Jan Duffy specializes in marketing these Henderson condos and has proven results selling District condos that did not sell with other agents.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

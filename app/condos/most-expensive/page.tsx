@@ -1,13 +1,38 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
+import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
   title: 'Most Expensive Condos in Las Vegas | Dr. Jan Duffy',
   description:
     'Expert help selling the most expensive condos in Las Vegas. Luxury high-rise condos require sophisticated marketing. Proven results and professional marketing.',
 }
 export default function MostExpensiveCondosPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for the most expensive condos in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for the most expensive Las Vegas condos, including luxury marketing strategies, professional photography ($3,700 investment) highlighting exclusive amenities, premium staging, 97-point marketing system, strategic pricing for luxury high-rise condos, specialized marketing emphasizing luxury lifestyle, and attracting high-end buyers. She serves luxury buildings including Turnberry Towers, Panorama Towers, and Trump International.',
+    },
+    {
+      question: 'How long does it take to sell the most expensive condos in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for the most expensive Las Vegas condos that did not sell. She specializes in luxury high-rise condos and uses sophisticated marketing strategies to attract high-end buyers, achieving fast sales at top dollar for luxury condos in Las Vegas.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my most expensive Las Vegas condo?',
+      answer:
+        'Dr. Jan Duffy specializes in the most expensive Las Vegas condos and understands luxury high-rise marketing, the importance of highlighting exclusive amenities, prime location, and luxury lifestyle. She invests $5,000+ per listing in professional marketing and has proven results selling luxury condos that did not sell with previous agents.',
+    },
+    {
+      question: 'What makes the most expensive Las Vegas condos unique?',
+      answer:
+        'The most expensive Las Vegas condos are luxury high-rise buildings offering sophisticated living with exclusive amenities, prime location, and world-class features. Dr. Jan Duffy specializes in marketing these luxury condos and has proven results selling the most expensive condos that did not sell with other agents.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

@@ -1,13 +1,38 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
+import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
   title: 'One Las Vegas Condos | failed listing specialist | Dr. Jan Duffy',
   description:
     'Expert help selling expired One Las Vegas condos. Luxury high-rise condos with Strip views. Proven results and professional marketing.',
 }
 export default function OneLasVegasCondosPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for One Las Vegas condos?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for One Las Vegas condos that did not sell, including luxury marketing strategies, professional photography ($3,700 investment) highlighting Strip views, premium staging, 97-point marketing system, strategic pricing for luxury high-rise condos, specialized marketing emphasizing Strip views and exclusive amenities, and attracting luxury lifestyle seekers. She specializes in One Las Vegas.',
+    },
+    {
+      question: 'How long does it take to sell a One Las Vegas condo?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for One Las Vegas condos that did not sell. She specializes in luxury high-rise condos with Strip views at One Las Vegas and uses sophisticated marketing strategies to attract buyers seeking luxury living with Strip views, achieving fast sales at top dollar.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my One Las Vegas condo?',
+      answer:
+        'Dr. Jan Duffy specializes in One Las Vegas condos and understands luxury high-rise marketing, the importance of highlighting Strip views, exclusive amenities, and prime location. She invests $5,000+ per listing in professional marketing and has proven results selling One Las Vegas condos that did not sell with previous agents.',
+    },
+    {
+      question: 'What makes One Las Vegas condos unique?',
+      answer:
+        'One Las Vegas is a luxury high-rise condominium building offering sophisticated living with Strip views, exclusive amenities, and prime location. Dr. Jan Duffy specializes in marketing these luxury condos with Strip views and has proven results selling One Las Vegas condos that did not sell with other agents.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

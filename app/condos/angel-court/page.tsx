@@ -1,13 +1,38 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
+import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
   title: 'Angel Court Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
   description:
     'Expert help selling expired Angel Court condos in Las Vegas. Mid-rise condos with community amenities. Proven results and professional marketing.',
 }
 export default function AngelCourtCondosPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for Angel Court condos in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for Angel Court condos that did not sell, including professional photography ($3,700 investment), staging, 97-point marketing system, strategic pricing for mid-rise condos, specialized marketing highlighting community amenities, and attracting value-conscious buyers. She specializes in Angel Court in Las Vegas.',
+    },
+    {
+      question: 'How long does it take to sell an Angel Court condo in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Angel Court condos that did not sell. She specializes in mid-rise condos with community amenities in Las Vegas and uses strategic marketing to attract buyers seeking value and community living, achieving fast sales at top dollar.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my Angel Court condo?',
+      answer:
+        'Dr. Jan Duffy specializes in Angel Court condos and understands mid-rise condo marketing, the importance of highlighting community amenities, and value positioning. She invests $5,000+ per listing in professional marketing and has proven results selling Angel Court condos that did not sell with previous agents.',
+    },
+    {
+      question: 'What makes Angel Court condos unique in Las Vegas?',
+      answer:
+        'Angel Court is a mid-rise condominium building in Las Vegas offering community living with amenities and value. Dr. Jan Duffy specializes in marketing these condos and has proven results selling Angel Court condos that did not sell with other agents.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

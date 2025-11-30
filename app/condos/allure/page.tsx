@@ -1,13 +1,38 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
+import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
   title: 'Allure Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
   description:
     'Expert help selling expired Allure condos in Las Vegas. Luxury high-rise condos at Allure. Proven results and professional marketing.',
 }
 export default function AllureCondosPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for Allure condos in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for Allure condos that did not sell, including luxury marketing strategies, professional photography ($3,700 investment), premium staging, 97-point marketing system, strategic pricing for luxury high-rise condos, specialized marketing highlighting exclusive amenities, and attracting high-end buyers. She specializes in Allure in Las Vegas.',
+    },
+    {
+      question: 'How long does it take to sell an Allure condo in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Allure condos that did not sell. She specializes in luxury high-rise condos at Allure and uses sophisticated marketing strategies to attract high-end buyers, achieving fast sales at top dollar.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my Allure condo?',
+      answer:
+        'Dr. Jan Duffy specializes in Allure condos and understands luxury high-rise marketing, strict building restrictions, and competition from newer luxury buildings. She invests $5,000+ per listing in professional marketing and has proven results selling Allure condos that did not sell with previous agents.',
+    },
+    {
+      question: 'What makes Allure condos unique in Las Vegas?',
+      answer:
+        'Allure is a luxury high-rise condominium building in Las Vegas offering sophisticated living with world-class amenities. Dr. Jan Duffy specializes in marketing these luxury condos and has proven results selling Allure condos that did not sell with other agents.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

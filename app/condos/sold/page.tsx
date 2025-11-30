@@ -1,13 +1,38 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
+import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
   title: 'Condos Sold in Las Vegas | Dr. Jan Duffy',
   description:
     'See condos sold by Dr. Jan Duffy. homes that DID NOT sell - now sold fast and at top dollar. Proven results.',
 }
 export default function CondosSoldPage() {
+  const faqs = [
+    {
+      question: 'What results has Dr. Jan Duffy achieved selling Las Vegas condos that did not sell?',
+      answer:
+        'Dr. Jan Duffy has sold 7 Las Vegas condos that did not sell with previous agents, achieving 19-day average time to contract, 98.7% of asking price, and 100% success rate. She uses her 97-point marketing system and invests $5,000+ per listing in professional marketing for condos in Summerlin, Henderson, and throughout Las Vegas.',
+    },
+    {
+      question: 'How does Dr. Jan Duffy sell condos that did not sell in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy uses a proven 97-point marketing system including $3,700 professional photography, premium staging, strategic pricing, specialized marketing for each condo type, and aggressive follow-up. She specializes in luxury high-rise, mid-rise, and urban loft condos in Las Vegas, Summerlin, and Henderson.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my Las Vegas condo that did not sell?',
+      answer:
+        'Dr. Jan Duffy specializes in selling Las Vegas condos that did not sell with previous agents. She invests $5,000+ per listing in professional marketing and has proven results: 19-day average time to contract, 98.7% of asking price, and 100% success rate for condos in Summerlin, Henderson, and throughout Las Vegas.',
+    },
+    {
+      question: 'What types of Las Vegas condos has Dr. Jan Duffy sold?',
+      answer:
+        'Dr. Jan Duffy has sold luxury high-rise condos, mid-rise condos, urban lofts, and condo hotels in Las Vegas, Summerlin, and Henderson. She specializes in condos that did not sell with previous agents and uses her proven 97-point marketing system to achieve fast sales at top dollar.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
