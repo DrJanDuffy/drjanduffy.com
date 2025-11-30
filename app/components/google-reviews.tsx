@@ -56,11 +56,7 @@ export default function GoogleReviews({ reviews, showSchema = true }: GoogleRevi
             defaultReviews.map((review) => ({
               '@context': 'https://schema.org',
               '@type': 'Review',
-              itemReviewed: {
-                '@type': 'LocalBusiness',
-                '@id': `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}#business`,
-                name: 'Dr. Janet Duffy Real Estate',
-              },
+              itemReviewed: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}#business`,
               author: {
                 '@type': 'Person',
                 name: review.author,
