@@ -80,7 +80,7 @@ export default function Header() {
                 <span className="text-2xl font-black text-gray-900 leading-tight">
                   Dr. Jan Duffy
                 </span>
-                <span className="text-xs text-gray-600 font-semibold">
+                <span className="text-xs text-gray-700 font-semibold">
                   Failed Listing Specialist
                 </span>
               </div>
@@ -230,7 +230,7 @@ export default function Header() {
 
               {/* Mobile Services Section */}
               <div className="pt-2">
-                <div className="px-4 py-2 text-sm font-bold text-gray-500 uppercase">Services</div>
+                <div className="px-4 py-2 text-sm font-bold text-gray-700 uppercase">Services</div>
                 {servicesItems.map((item) => (
                   <Link
                     key={item.href}
@@ -249,7 +249,7 @@ export default function Header() {
 
               {/* Mobile Condos Section */}
               <div className="pt-2">
-                <div className="px-4 py-2 text-sm font-bold text-gray-500 uppercase">Condos</div>
+                <div className="px-4 py-2 text-sm font-bold text-gray-700 uppercase">Condos</div>
                 {condosItems.map((item) => (
                   <Link
                     key={item.href}
@@ -268,7 +268,7 @@ export default function Header() {
 
               {/* Mobile Resources Section */}
               <div className="pt-2">
-                <div className="px-4 py-2 text-sm font-bold text-gray-500 uppercase">Resources</div>
+                <div className="px-4 py-2 text-sm font-bold text-gray-700 uppercase">Resources</div>
                 {resourcesItems.map((item) => (
                   <Link
                     key={item.href}
