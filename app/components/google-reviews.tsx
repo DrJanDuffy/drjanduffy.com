@@ -53,23 +53,35 @@ export default function GoogleReviews({ reviews, showSchema = true }: GoogleRevi
           strategy="afterInteractive"
         >
           {JSON.stringify(
-            defaultReviews.map((review) => ({
-              '@context': 'https://schema.org',
-              '@type': 'Review',
-              itemReviewed: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}#business`,
-              author: {
-                '@type': 'Person',
-                name: review.author,
-              },
-              datePublished: review.date || new Date().toISOString().split('T')[0],
-              reviewBody: review.text,
-              reviewRating: {
-                '@type': 'Rating',
-                ratingValue: review.rating.toString(),
-                bestRating: '5',
-                worstRating: '1',
-              },
-            }))
+            defaultReviews.map((review, index) => {
+              const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'
+              const reviewId = `review-${review.date?.replace(/-/g, '') || Date.now()}-${index}`
+              
+              return {
+                '@context': 'https://schema.org',
+                '@type': 'Review',
+                '@id': `${baseUrl}#${reviewId}`,
+                itemReviewed: {
+                  '@id': `${baseUrl}#business`,
+                },
+                author: {
+                  '@type': 'Person',
+                  name: review.author,
+                },
+                datePublished: review.date || new Date().toISOString().split('T')[0],
+                reviewBody: review.text,
+                reviewRating: {
+                  '@type': 'Rating',
+                  ratingValue: review.rating.toString(),
+                  bestRating: '5',
+                  worstRating: '1',
+                },
+                publisher: {
+                  '@type': 'Organization',
+                  name: 'Google',
+                },
+              }
+            })
           )}
         </Script>
       )}
