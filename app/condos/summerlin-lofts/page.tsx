@@ -3,9 +3,19 @@ import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 export const metadata = {
-  title: 'Summerlin Lofts / C2 Lofts Las Vegas | failed listing specialist | Dr. Jan Duffy',
+  title: 'C2 Lofts Las Vegas | C2 Lofts Summerlin | Dr. Jan Duffy',
   description:
-    'Expert help selling expired Summerlin Lofts in Las Vegas. Urban lofts with modern design. Proven results and professional marketing.',
+    'C2 Lofts Las Vegas for sale. C2 Lofts Summerlin. Expert help selling expired C2 Lofts (Summerlin Lofts). Urban lofts with modern design. 19 days average to contract. Call (702) 500-1064.',
+  keywords: [
+    'c2 lofts las vegas',
+    'c2 lofts',
+    'c2 lofts summerlin',
+    'summerlin lofts',
+    'c2 lofts for sale',
+  ],
+  alternates: {
+    canonical: '/condos/summerlin-lofts',
+  },
 }
 export default function SummerlinLoftsPage() {
   const faqs = [

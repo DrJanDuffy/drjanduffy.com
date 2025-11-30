@@ -3,9 +3,19 @@ import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 export const metadata = {
-  title: 'The District at Green Valley Condos | failed listing specialist | Dr. Jan Duffy',
+  title: 'Condos at The District | Condominiums at The District | Dr. Jan Duffy',
   description:
-    'Expert help selling expired District at Green Valley condos in Henderson. Mid-rise condos with community amenities. Proven results and professional marketing.',
+    'Condos at The District at Green Valley for sale. Condominiums at The District Henderson. Expert help selling expired District condos. 19 days average to contract. Call (702) 500-1064.',
+  keywords: [
+    'condos at the district',
+    'condominiums at the district',
+    'district condos henderson',
+    'district at green valley condos',
+    'condos at the district henderson',
+  ],
+  alternates: {
+    canonical: '/condos/the-district',
+  },
 }
 export default function TheDistrictCondosPage() {
   const faqs = [

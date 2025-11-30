@@ -3,9 +3,16 @@ import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 export const metadata = {
-  title: 'Vdara Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
+  title: 'Vdara Condos for Sale Las Vegas | Vdara Condos | Dr. Jan Duffy',
   description:
-    'Expert help selling expired Vdara condos in Las Vegas. Luxury non-gaming condos with Aria access. Proven results and professional marketing.',
+    'Vdara condos for sale in Las Vegas. Expert help selling expired Vdara condos. Luxury non-gaming condos with Aria access. 19 days average to contract. Call (702) 500-1064.',
+  keywords: [
+    'vdara condos',
+    'vdara condos for sale',
+    'vdara condos las vegas',
+    'vdara condos for sale las vegas',
+    'vdara las vegas condos',
+  ],
   alternates: {
     canonical: '/condos/vdara',
   },

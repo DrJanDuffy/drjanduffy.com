@@ -4,9 +4,16 @@ import RelatedCondoLinks from '@/app/components/related-condo-links'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
-  title: 'Cosmopolitan Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
+  title: 'Cosmopolitan Las Vegas Condos for Sale | Cosmopolitan Condos | Dr. Jan Duffy',
   description:
-    'Expert help selling expired Cosmopolitan condos in Las Vegas. Luxury Strip condos at The Cosmopolitan. Proven results and professional marketing.',
+    'Cosmopolitan Las Vegas condos for sale. Expert help selling expired Cosmopolitan condos. Luxury Strip condos at The Cosmopolitan. 19 days average to contract. Call (702) 500-1064.',
+  keywords: [
+    'cosmopolitan las vegas condos for sale',
+    'cosmopolitan condos',
+    'cosmopolitan condos las vegas',
+    'cosmopolitan condos for sale',
+    'the cosmopolitan condos',
+  ],
   alternates: {
     canonical: '/condos/cosmopolitan',
   },

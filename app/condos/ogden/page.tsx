@@ -3,9 +3,19 @@ import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 export const metadata = {
-  title: 'The Ogden Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
+  title: 'Ogden Condos for Sale Las Vegas | The Ogden Condos | Dr. Jan Duffy',
   description:
-    'Expert help selling expired Ogden condos in Las Vegas. Luxury downtown high-rise condos with urban lifestyle. Proven results and professional marketing.',
+    'Ogden condos for sale in Las Vegas. Expert help selling expired Ogden condos. Luxury downtown high-rise condos with urban lifestyle. 19 days average to contract. Call (702) 500-1064.',
+  keywords: [
+    'ogden condos for sale las vegas',
+    'ogden condos',
+    'ogden condos las vegas',
+    'the ogden condos',
+    'ogden downtown las vegas condos',
+  ],
+  alternates: {
+    canonical: '/condos/ogden',
+  },
 }
 export default function OgdenCondosPage() {
   const faqs = [

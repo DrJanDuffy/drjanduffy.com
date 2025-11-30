@@ -3,9 +3,18 @@ import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 export const metadata = {
-  title: 'Condos on The Strip | Las Vegas Strip Condos | Dr. Jan Duffy',
+  title: 'Las Vegas Strip Condos for Sale | Luxury Strip Condos | Dr. Jan Duffy',
   description:
-    'Expert help selling expired Las Vegas Strip condos. Luxury high-rise condos on The Strip. Proven results and professional marketing.',
+    'Las Vegas Strip condos for sale. Expert help selling expired luxury high-rise condos on The Strip. Vdara, Cosmopolitan, Veer Towers. 19 days average to contract. Call (702) 500-1064.',
+  keywords: [
+    'las vegas strip condos for sale',
+    'strip condos las vegas',
+    'condos on the strip las vegas',
+    'condos las vegas strip',
+    'condos for sale las vegas strip',
+    'luxury strip condos',
+    'high-rise condos las vegas strip',
+  ],
   alternates: {
     canonical: '/condos/strip',
   },

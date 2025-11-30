@@ -3,9 +3,19 @@ import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 export const metadata = {
-  title: 'Allure Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
+  title: 'Allure Condo Las Vegas | Allure Condos for Sale | Dr. Jan Duffy',
   description:
-    'Expert help selling expired Allure condos in Las Vegas. Luxury high-rise condos at Allure. Proven results and professional marketing.',
+    'Allure condo Las Vegas for sale. Expert help selling expired Allure condos. Luxury high-rise condos at Allure. 19 days average to contract. Call (702) 500-1064.',
+  keywords: [
+    'allure condo las vegas',
+    'allure condos',
+    'allure condos las vegas',
+    'allure condos for sale',
+    'allure las vegas condos',
+  ],
+  alternates: {
+    canonical: '/condos/allure',
+  },
 }
 export default function AllureCondosPage() {
   const faqs = [

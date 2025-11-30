@@ -3,9 +3,19 @@ import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 export const metadata = {
-  title: 'MGM Signature Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
+  title: 'MGM Condos for Sale Las Vegas | MGM Signature Condos | Dr. Jan Duffy',
   description:
-    'Expert help selling expired MGM Signature condos in Las Vegas. Luxury condo hotel with resort access. Proven results and professional marketing.',
+    'MGM condos for sale in Las Vegas. Expert help selling expired MGM Signature condos. Luxury condo hotel with MGM Grand access. 19 days average to contract. Call (702) 500-1064.',
+  keywords: [
+    'mgm condos for sale',
+    'mgm signature condos',
+    'mgm condos las vegas',
+    'mgm signature condos for sale',
+    'mgm grand condos',
+  ],
+  alternates: {
+    canonical: '/condos/mgm-signature',
+  },
 }
 export default function MGMSignatureCondosPage() {
   const faqs = [

@@ -3,9 +3,16 @@ import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
-  title: 'Luxury Condos Las Vegas | Dr. Jan Duffy',
+  title: 'Luxury Condos in Las Vegas | Las Vegas Luxury Condos for Sale | Dr. Jan Duffy',
   description:
-    'Expert help selling expired luxury condos in Las Vegas. High-end luxury condos require sophisticated marketing. Proven results and professional marketing.',
+    'Luxury condos in Las Vegas for sale. Expert help selling expired luxury condos. High-end luxury condos require sophisticated marketing. 19 days average to contract. Call (702) 500-1064.',
+  keywords: [
+    'luxury condos in las vegas',
+    'las vegas luxury condos for sale',
+    'luxury condos las vegas',
+    'high-end condos las vegas',
+    'luxury condos for sale las vegas',
+  ],
   alternates: {
     canonical: '/condos/luxury',
   },

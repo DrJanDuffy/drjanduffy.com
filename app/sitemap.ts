@@ -479,6 +479,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/sell-my-home-no-commission`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/home-wont-sell-las-vegas`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
