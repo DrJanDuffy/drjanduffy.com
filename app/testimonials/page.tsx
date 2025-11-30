@@ -2,6 +2,7 @@ import Header from '@/app/components/header'
 import { successStories } from '@/lib/data/success-stories'
 import { formatCurrency } from '@/lib/utils'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import FAQSchema from '@/app/components/faq-schema'
 import NAPSection from '@/app/components/nap-section'
 import GoogleBusinessLink from '@/app/components/google-business-link'
 import GoogleReviews from '@/app/components/google-reviews'
@@ -12,6 +13,29 @@ export const metadata = {
     'Read real testimonials from clients who sold their HOMES THAT DID NOT SELL with Dr. Jan Duffy. See why sellers choose Dr. Jan after their previous agents failed.',
 }
 export default function TestimonialsPage() {
+  const faqs = [
+    {
+      question: 'What do clients say about Dr. Jan Duffy\'s real estate services in Las Vegas?',
+      answer:
+        'Clients praise Dr. Jan Duffy for selling their Las Vegas homes that did not sell in 14-31 days at 97-99% of asking price. Testimonials highlight her professional photography, aggressive marketing, weekly updates, and results in Summerlin, Henderson, and surrounding areas.',
+    },
+    {
+      question: 'What Las Vegas neighborhoods have clients given testimonials from?',
+      answer:
+        'Clients have provided testimonials from The Ridges, Red Rock Country Club, The Summit, Summerlin West, and other Las Vegas neighborhoods. All testimonials highlight Dr. Jan Duffy\'s success selling homes that did not sell with previous agents.',
+    },
+    {
+      question: 'How long did it take clients to sell their homes with Dr. Jan Duffy?',
+      answer:
+        'Client testimonials show homes sold in 14-31 days with Dr. Jan Duffy, with an average of 19 days to contract. Clients in Summerlin, Henderson, and surrounding Las Vegas areas achieved 97-99% of asking price after previous agents failed.',
+    },
+    {
+      question: 'What real estate services do clients mention in testimonials?',
+      answer:
+        'Clients mention Dr. Jan Duffy\'s professional photography, aggressive marketing, weekly communication, strategic pricing, and complete marketing reset. Testimonials highlight her $5,000+ marketing investment and specialized services for Las Vegas homes that did not sell.',
+    },
+  ]
+
   const additionalTestimonials = [
     {
       name: 'Sarah M.',
@@ -47,6 +71,7 @@ export default function TestimonialsPage() {
   return (
     <>
       <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Testimonials', url: '/testimonials' }]} />
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

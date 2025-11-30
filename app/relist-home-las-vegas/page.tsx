@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import FAQSchema from '@/app/components/faq-schema'
 import Link from 'next/link'
 
 export const metadata = {
@@ -27,8 +28,32 @@ export const metadata = {
 }
 
 export default function RelistHomePage() {
+  const faqs = [
+    {
+      question: 'How do I relist my home in Las Vegas after it did not sell?',
+      answer:
+        'Dr. Jan Duffy provides complete relisting services for Las Vegas homes that did not sell, including fresh MLS listing, professional photography ($3,700 investment), staging, strategic pricing analysis, 97-point marketing system, and aggressive follow-up. She serves Summerlin, Henderson, and surrounding Las Vegas areas.',
+    },
+    {
+      question: 'What real estate services are included when relisting a home in Las Vegas?',
+      answer:
+        'When relisting your Las Vegas home, Dr. Jan Duffy provides complete marketing reset: new professional photos, fresh MLS listing, strategic pricing for Las Vegas market, 97-point marketing system, aggressive follow-up, and weekly updates. She specializes in homes that did not sell in Summerlin, Henderson, and surrounding areas.',
+    },
+    {
+      question: 'How long does it take to sell a relisted home in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from relisting to contract for Las Vegas homes that did not sell. She has sold 7 homes in Summerlin, Henderson, and surrounding areas that did not sell with previous agents, achieving 98.7% of asking price on average.',
+    },
+    {
+      question: 'Why should I choose Dr. Jan Duffy to relist my Las Vegas home?',
+      answer:
+        'Dr. Jan Duffy specializes in relisting Las Vegas homes that did not sell. She invests $5,000+ per listing in marketing, takes maximum 6 listings for 100% focus, and has proven results: 7 homes sold that did not sell with previous agents. She serves Summerlin, Henderson, and surrounding Las Vegas areas.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <BreadcrumbSchema items={[
         { name: 'Home', url: '/' },
         { name: 'Relist Your Home Las Vegas', url: '/relist-home-las-vegas' }

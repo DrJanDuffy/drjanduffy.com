@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
   title: 'Summerlin Condos | Dr. Jan Duffy',
   description:
@@ -10,8 +11,32 @@ export const metadata = {
   },
 }
 export default function SummerlinCondosPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for Summerlin condos?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for Summerlin condos that did not sell, including professional photography ($3,700 investment), staging, 97-point marketing system, strategic pricing for mid-rise condos and townhomes, specialized marketing for Summerlin market, and overcoming HOA restrictions. She serves Summerlin West, The Ridges, and throughout Summerlin.',
+    },
+    {
+      question: 'How long does it take to sell a condo in Summerlin?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Summerlin condos that did not sell. She specializes in mid-rise condos and townhomes in Summerlin and uses targeted strategies to attract community-conscious buyers, achieving fast sales at top dollar.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my Summerlin condo?',
+      answer:
+        'Dr. Jan Duffy specializes in Summerlin condos and understands the unique challenges including competition with new construction, HOA restrictions, and community-conscious buyers. She invests $5,000+ per listing in professional marketing and has proven results selling Summerlin condos in Summerlin West, The Ridges, and throughout Summerlin that did not sell with previous agents.',
+    },
+    {
+      question: 'What areas of Summerlin does Dr. Jan Duffy serve for condos?',
+      answer:
+        'Dr. Jan Duffy serves condos throughout Summerlin including Summerlin West, The Ridges, Red Rock Country Club, The Summit, and newer Summerlin villages. She specializes in expired condos and has proven results selling mid-rise condos and townhomes that did not sell with previous agents.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: '/' },

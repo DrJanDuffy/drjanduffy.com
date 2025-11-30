@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import FAQSchema from '@/app/components/faq-schema'
 
 export const metadata = {
   title: 'Las Vegas Neighborhoods | failed listing specialist | Dr. Jan Duffy',
@@ -21,8 +22,32 @@ export const metadata = {
 }
 
 export default function NeighborhoodsPage() {
+  const faqs = [
+    {
+      question: 'What Las Vegas neighborhoods does Dr. Jan Duffy serve?',
+      answer:
+        'Dr. Jan Duffy specializes in Summerlin West luxury neighborhoods including The Ridges, Red Rock Country Club, The Summit, and newer villages. She also serves Henderson, Southern Highlands, Mountains Edge, and surrounding Las Vegas areas. She has sold 7 homes in these neighborhoods that did not sell with previous agents.',
+    },
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for Las Vegas neighborhoods?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for Las Vegas neighborhoods, including professional photography ($3,700 investment), staging, 97-point marketing system, strategic pricing for each neighborhood market, aggressive follow-up, and specialized marketing for luxury homes in Summerlin, Henderson, and surrounding areas.',
+    },
+    {
+      question: 'How long does it take to sell homes in Las Vegas neighborhoods?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Las Vegas neighborhood homes that did not sell. She has sold 7 homes in Summerlin West (The Ridges, Red Rock Country Club, The Summit), Henderson, and surrounding areas that did not sell with previous agents, achieving 98.7% of asking price on average.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy for neighborhood-specific real estate services in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy specializes in Las Vegas neighborhoods and understands each market\'s unique characteristics. She invests $5,000+ per listing in marketing, takes maximum 6 listings for 100% focus, and has proven results selling homes in The Ridges, Red Rock Country Club, The Summit, Summerlin West, and Henderson that did not sell with other agents.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: '/' },

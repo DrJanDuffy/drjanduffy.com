@@ -3,6 +3,7 @@ import { formatCurrency } from '@/lib/utils'
 import Header from '@/app/components/header'
 import SuccessStoriesCarousel from '@/app/components/success-stories-carousel'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import FAQSchema from '@/app/components/faq-schema'
 import NAPSection from '@/app/components/nap-section'
 import GoogleBusinessLink from '@/app/components/google-business-link'
 export const metadata = {
@@ -11,9 +12,33 @@ export const metadata = {
     'Real results from homes that did not sell - now sold by Dr. Jan Duffy. See how we turned failed listings into successful sales in 14-31 days.',
 }
 export default function SuccessStoriesPage() {
+  const faqs = [
+    {
+      question: 'What results has Dr. Jan Duffy achieved selling Las Vegas homes that did not sell?',
+      answer:
+        'Dr. Jan Duffy has sold 7 homes in Summerlin, Henderson, and surrounding Las Vegas areas that did not sell with previous agents. Her average is 19 days to contract and 98.7% of asking price. All homes sold within 14-31 days at 97-99% of asking price.',
+    },
+    {
+      question: 'What neighborhoods in Las Vegas has Dr. Jan Duffy had success with?',
+      answer:
+        'Dr. Jan Duffy has sold homes that did not sell in The Ridges, Red Rock Country Club, The Summit, Summerlin West, and other Las Vegas neighborhoods. She specializes in luxury homes in Summerlin and has proven results throughout the Las Vegas Valley.',
+    },
+    {
+      question: 'How long did it take to sell homes that did not sell in Summerlin?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Summerlin homes that did not sell. She has sold 7 Summerlin homes that did not sell with previous agents, all within 14-31 days at 97-99% of asking price in The Ridges, Red Rock Country Club, and The Summit.',
+    },
+    {
+      question: 'What real estate services led to these success stories in Las Vegas?',
+      answer:
+        'The success stories resulted from Dr. Jan Duffy\'s complete marketing reset, professional photography ($3,700 investment), 97-point marketing system, strategic pricing for Las Vegas market, aggressive follow-up, and specialized marketing for Summerlin, Henderson, and surrounding areas.',
+    },
+  ]
+
   return (
     <>
       <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Success Stories', url: '/success-stories' }]} />
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

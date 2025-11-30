@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import FAQSchema from '@/app/components/faq-schema'
 import { Check, X } from 'lucide-react'
 export const metadata = {
   title: 'Your Agent vs Me | Dr. Jan Duffy',
@@ -48,9 +49,33 @@ export default function ComparisonPage() {
       drJan: '19 day average, 98.7% of asking, SOLD',
     },
   ]
+  const faqs = [
+    {
+      question: 'How is Dr. Jan Duffy different from other Las Vegas real estate agents?',
+      answer:
+        'Dr. Jan Duffy invests $5,000+ per listing in marketing (vs. $100 average), takes maximum 6 listings for 100% focus (vs. 47+ listings with 2.1% focus), uses a 97-point marketing system (vs. "post to MLS"), and provides weekly updates with real accountability. She specializes exclusively in Las Vegas homes that did not sell.',
+    },
+    {
+      question: 'What marketing investment does Dr. Jan Duffy make for Las Vegas homes?',
+      answer:
+        'Dr. Jan Duffy invests $5,000+ per listing including $3,700 in professional media (twilight drone shots, 3D tours, staging) vs. the $37 average most Las Vegas agents spend. She serves Summerlin, Henderson, and surrounding areas with aggressive marketing that sells homes in 19 days average.',
+    },
+    {
+      question: 'How many listings does Dr. Jan Duffy take in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy takes maximum 6 listings at a time, ensuring 100% focus on each Las Vegas home. Most agents juggle 47+ listings, giving you only 2.1% of their attention. With Dr. Jan Duffy, you get dedicated service for your Summerlin, Henderson, or Las Vegas home.',
+    },
+    {
+      question: 'What results can I expect with Dr. Jan Duffy vs. other Las Vegas agents?',
+      answer:
+        'Dr. Jan Duffy averages 19 days to contract and 98.7% of asking price for Las Vegas homes that did not sell. Most agents average 63+ days with expired listings. She has sold 7 homes in Summerlin, Henderson, and surrounding areas that did not sell with previous agents.',
+    },
+  ]
+
   return (
     <>
       <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Agent Comparison', url: '/comparison' }]} />
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

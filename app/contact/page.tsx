@@ -1,5 +1,6 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
+import FAQSchema from '@/app/components/faq-schema'
 import GoogleBusinessLink from '@/app/components/google-business-link'
 import GoogleMapEmbed from '@/app/components/google-map-embed'
 import Image from 'next/image'
@@ -10,8 +11,32 @@ export const metadata = {
     'Contact Dr. Janet Duffy to discuss your HOME THAT DID NOT SELL. Call (702) 500-1064 or fill out the form for immediate response.',
 }
 export default function ContactPage() {
+  const faqs = [
+    {
+      question: 'How do I contact Dr. Jan Duffy for real estate services in Las Vegas?',
+      answer:
+        'You can contact Dr. Jan Duffy by calling (702) 500-1064, emailing info@drjanduffy.com, visiting her office at 1180 N Town Center Dr, Las Vegas, NV 89144, or filling out the contact form on this page. She serves Summerlin, The Ridges, Henderson, and surrounding Las Vegas areas.',
+    },
+    {
+      question: 'What are Dr. Jan Duffy\'s office hours in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy\'s office is open Monday through Sunday from 8:00 AM to 8:00 PM. She provides real estate services for homes that did not sell throughout Las Vegas, Summerlin, and Henderson. Call (702) 500-1064 for immediate assistance.',
+    },
+    {
+      question: 'Does Dr. Jan Duffy offer free consultations for Las Vegas homes that did not sell?',
+      answer:
+        'Yes, Dr. Jan Duffy offers free consultations to analyze why your Las Vegas home did not sell and what needs to change. She provides honest assessment of pricing, marketing, and strategy for homes in Summerlin, The Ridges, Henderson, and surrounding areas. Call (702) 500-1064 to schedule.',
+    },
+    {
+      question: 'What areas of Las Vegas does Dr. Jan Duffy serve?',
+      answer:
+        'Dr. Jan Duffy specializes in Summerlin West luxury homes (The Ridges, Red Rock Country Club, The Summit), Henderson, and surrounding Las Vegas areas. Her office is located at 1180 N Town Center Dr, Las Vegas, NV 89144. She provides real estate services throughout the Las Vegas Valley.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
   title: 'Luxury Condos Las Vegas | Dr. Jan Duffy',
   description:
@@ -10,8 +11,32 @@ export const metadata = {
   },
 }
 export default function LuxuryCondosPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for luxury condos in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for luxury condos that did not sell, including sophisticated luxury marketing, professional photography ($3,700 investment), premium staging, 97-point marketing system, strategic pricing for high-end properties, specialized marketing for discerning buyers, and highlighting exclusive amenities. She serves Turnberry Place, Panorama Towers, The Ogden, Trump International, and other premium Las Vegas buildings.',
+    },
+    {
+      question: 'How long does it take to sell a luxury condo in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Las Vegas luxury condos that did not sell. She specializes in high-end luxury condos and uses sophisticated marketing strategies to attract discerning buyers, achieving fast sales at top dollar for properties in premium Las Vegas buildings.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my luxury condo in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy specializes in luxury condos and understands high-end property marketing, competition from world-class resorts, exclusive access requirements, and premium positioning. She invests $5,000+ per listing in professional marketing and has proven results selling luxury condos in Turnberry Place, Panorama Towers, The Ogden, and Trump International that did not sell with previous agents.',
+    },
+    {
+      question: 'What luxury condo buildings in Las Vegas does Dr. Jan Duffy serve?',
+      answer:
+        'Dr. Jan Duffy serves luxury condos in premium Las Vegas buildings including Turnberry Place, Panorama Towers, The Ogden, Trump International, The Cosmopolitan, Vdara, Veer Towers, and other high-end properties. She specializes in expired luxury condos and has proven results selling these properties that did not sell with previous agents.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: '/' },

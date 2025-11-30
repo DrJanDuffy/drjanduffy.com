@@ -1,5 +1,6 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
+import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
   title: 'Condos on The Strip | Las Vegas Strip Condos | Dr. Jan Duffy',
   description:
@@ -9,8 +10,32 @@ export const metadata = {
   },
 }
 export default function StripCondosPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for Las Vegas Strip condos?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for Las Vegas Strip condos that did not sell, including luxury marketing strategies, professional photography ($3,700 investment), staging, 97-point marketing system, strategic pricing for high-rise luxury condos, specialized marketing for luxury buyers, and highlighting exclusive amenities. She serves The Cosmopolitan, Vdara, Veer Towers, Turnberry Place, and other luxury Strip properties.',
+    },
+    {
+      question: 'How long does it take to sell a condo on The Strip in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Las Vegas Strip condos that did not sell. She specializes in luxury high-rise condos on The Strip and uses sophisticated marketing strategies to attract high-end buyers, achieving fast sales at top dollar.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my Las Vegas Strip condo?',
+      answer:
+        'Dr. Jan Duffy specializes in Las Vegas Strip condos and understands luxury high-rise marketing, competition from resorts, high HOA fees, and strict building restrictions. She invests $5,000+ per listing in professional marketing and has proven results selling Strip condos in The Cosmopolitan, Vdara, Veer Towers, and Turnberry Place that did not sell with previous agents.',
+    },
+    {
+      question: 'What Las Vegas Strip condo buildings does Dr. Jan Duffy serve?',
+      answer:
+        'Dr. Jan Duffy serves luxury high-rise condos on The Las Vegas Strip including The Cosmopolitan, Vdara, Veer Towers, Turnberry Place, Panorama Towers, The Ogden, Trump International, and other premium Strip properties. She specializes in expired luxury condos and has proven results selling these properties that did not sell with previous agents.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

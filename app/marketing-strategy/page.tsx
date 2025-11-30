@@ -1,11 +1,35 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
+import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
   title: 'Marketing Strategy | 97-Point System | Dr. Jan Duffy',
   description:
     'Learn about Dr. Jan Duffy\'s 97-point marketing system that sells homes that DID NOT sell in 19 days average.',
 }
 export default function MarketingStrategyPage() {
+  const faqs = [
+    {
+      question: 'What is Dr. Jan Duffy\'s 97-point marketing system for Las Vegas homes?',
+      answer:
+        'Dr. Jan Duffy\'s 97-point marketing system includes professional photography ($3,700 investment), staging, 3D virtual tours, social media blitzes, targeted ads, network activation with 500+ agents, strategic open houses, and aggressive follow-up. This system sells Las Vegas homes that did not sell in 19 days average.',
+    },
+    {
+      question: 'How much does Dr. Jan Duffy invest in marketing Las Vegas homes?',
+      answer:
+        'Dr. Jan Duffy invests $5,000+ per listing in marketing for Las Vegas homes, including $3,700 in professional media (twilight drone shots, 3D tours, staging), social media campaigns, targeted ads, and network activation. This is far beyond the $100 average most agents spend.',
+    },
+    {
+      question: 'What marketing services are included for Summerlin and Henderson homes?',
+      answer:
+        'For Summerlin and Henderson homes, Dr. Jan Duffy provides professional photography, staging, 3D virtual tours, social media marketing, targeted ads, network activation, strategic open houses, and aggressive follow-up. She specializes in luxury homes in The Ridges, Red Rock Country Club, and The Summit.',
+    },
+    {
+      question: 'How does the 97-point marketing system help sell Las Vegas homes that did not sell?',
+      answer:
+        'The 97-point marketing system eliminates the stigma of unsold homes through complete reset: new professional photos, fresh MLS listing, strategic pricing, aggressive marketing, and buyer psychology tactics. This system has sold 7 Las Vegas homes that did not sell in 19 days average at 98.7% of asking price.',
+    },
+  ]
+
   const strategies = [
     {
       category: 'Professional Media',
@@ -76,6 +100,7 @@ export default function MarketingStrategyPage() {
   ]
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

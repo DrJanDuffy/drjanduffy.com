@@ -6,6 +6,7 @@ import Header from './components/header'
 import ExitIntentPopup from './components/exit-intent-popup'
 import ChatWidget from './components/chat-widget'
 import BreadcrumbSchema from './components/breadcrumb-schema'
+import FAQSchema from './components/faq-schema'
 import NAPSection from './components/nap-section'
 import GoogleReviews from './components/google-reviews'
 import GBPPostsWidget from './components/gbp-posts-widget'
@@ -50,9 +51,38 @@ export const metadata = {
 }
 
 export default function HomePage() {
+  const faqs = [
+    {
+      question: 'Why did my home not sell with my previous agent?',
+      answer:
+        'Most homes fail to sell due to poor marketing, overpricing, or lack of follow-up. Your previous agent likely used minimal marketing (just MLS posting), did not invest in professional photography, and failed to aggressively follow up on showings. I fix all of these issues with a complete marketing reset, strategic pricing, and aggressive follow-up system.',
+    },
+    {
+      question: 'How long will it take to sell my home that did not sell?',
+      answer:
+        'My average is 19 days from listing to contract. Most homes that did not sell sell within 2-4 weeks when properly marketed and priced. I continue working until your home sells, with weekly updates and real accountability.',
+    },
+    {
+      question: 'What percentage of asking price can I expect?',
+      answer:
+        'I average 98.7% of asking price on homes that did not sell. This is significantly higher than the market average because of my aggressive marketing and negotiation strategies. I use data-driven pricing to maximize your sale price.',
+    },
+    {
+      question: 'What makes you different from my previous agent?',
+      answer:
+        'I invest $5,000+ in marketing per listing (vs. $100 average), take maximum 6 listings at a time (vs. 47+), use a 97-point marketing system (vs. "post to MLS"), and provide weekly updates with real accountability. I specialize exclusively in homes that did not sell.',
+    },
+    {
+      question: 'Do you work with luxury homes in Summerlin?',
+      answer:
+        'Yes, I specialize in Summerlin West luxury homes including The Ridges, Red Rock Country Club, The Summit, and newer villages. I have sold 7 homes that did not sell in these areas with an average of 19 days to contract and 98.7% of asking price.',
+    },
+  ]
+
   return (
     <>
       <BreadcrumbSchema items={[{ name: 'Home', url: '/' }]} />
+      <FAQSchema faqs={faqs} />
       <Header />
       <HeroSection />
       

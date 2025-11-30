@@ -1,13 +1,38 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
+import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
   title: 'Trump International Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
   description:
     'Expert help selling expired Trump International condos in Las Vegas. Luxury high-rise condos with brand recognition. Proven results and professional marketing.',
 }
 export default function TrumpInternationalCondosPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for Trump International condos in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for Trump International condos that did not sell, including luxury marketing strategies, professional photography ($3,700 investment) highlighting brand recognition, premium staging, 97-point marketing system, strategic pricing for luxury brand condos, specialized marketing emphasizing brand recognition and exclusive amenities, and attracting brand-conscious buyers. She specializes in Trump International on the Las Vegas Strip.',
+    },
+    {
+      question: 'How long does it take to sell a Trump International condo in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Trump International condos that did not sell. She specializes in luxury high-rise condos with brand recognition at Trump International and uses sophisticated marketing strategies to attract brand-conscious buyers, achieving fast sales at top dollar.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my Trump International condo?',
+      answer:
+        'Dr. Jan Duffy specializes in Trump International condos and understands luxury brand marketing, the importance of highlighting brand recognition, exclusive amenities, and prime Strip location. She invests $5,000+ per listing in professional marketing and has proven results selling Trump International condos that did not sell with previous agents.',
+    },
+    {
+      question: 'What makes Trump International condos unique in Las Vegas?',
+      answer:
+        'Trump International is a luxury high-rise condominium and hotel building on the Las Vegas Strip offering sophisticated living with brand recognition, exclusive amenities, and prime location. Dr. Jan Duffy specializes in marketing these luxury brand condos and has proven results selling Trump International condos that did not sell with other agents.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

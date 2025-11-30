@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import FAQSchema from '@/app/components/faq-schema'
 import Link from 'next/link'
 
 export const metadata = {
@@ -27,8 +28,32 @@ export const metadata = {
 }
 
 export default function SellFastSummerlinPage() {
+  const faqs = [
+    {
+      question: 'How fast can I sell my house in Summerlin?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Summerlin homes. She has sold 7 homes in Summerlin West (The Ridges, Red Rock Country Club, The Summit) that did not sell with previous agents, achieving 98.7% of asking price on average.',
+    },
+    {
+      question: 'What real estate services are available for selling homes fast in Summerlin?',
+      answer:
+        'Dr. Jan Duffy provides complete services for selling Summerlin homes fast, including professional photography ($3,700 investment), staging, 97-point marketing system, strategic pricing for Summerlin luxury market, aggressive follow-up, and specialized marketing for The Ridges, Red Rock Country Club, and The Summit neighborhoods.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my Summerlin home?',
+      answer:
+        'Dr. Jan Duffy specializes in Summerlin West luxury homes and has proven results: 7 homes sold that did not sell with previous agents, 19 day average, 98.7% of asking price. She knows The Ridges, Red Rock Country Club, and The Summit markets intimately and invests $5,000+ per listing in marketing.',
+    },
+    {
+      question: 'What Summerlin neighborhoods does Dr. Jan Duffy serve?',
+      answer:
+        'Dr. Jan Duffy specializes in Summerlin West luxury homes including The Ridges, Red Rock Country Club, The Summit, and newer villages. She has sold 7 homes in these areas that did not sell with previous agents, with an average of 19 days to contract.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <BreadcrumbSchema items={[
         { name: 'Home', url: '/' },
         { name: 'Sell My House Fast Summerlin', url: '/sell-my-house-fast-summerlin' }

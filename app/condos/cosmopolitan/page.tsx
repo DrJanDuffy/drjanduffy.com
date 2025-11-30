@@ -2,6 +2,7 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import RelatedCondoLinks from '@/app/components/related-condo-links'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
   title: 'Cosmopolitan Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
   description:
@@ -11,8 +12,32 @@ export const metadata = {
   },
 }
 export default function CosmopolitanCondosPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for Cosmopolitan condos in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for Cosmopolitan condos that did not sell, including luxury marketing strategies, professional photography ($3,700 investment), premium staging, 97-point marketing system, strategic pricing for luxury Strip condos, specialized marketing highlighting resort access and world-class amenities, and overcoming strict building restrictions. She specializes in The Cosmopolitan on the Las Vegas Strip.',
+    },
+    {
+      question: 'How long does it take to sell a Cosmopolitan condo in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Cosmopolitan condos that did not sell. She specializes in luxury Strip condos at The Cosmopolitan and uses sophisticated marketing strategies to attract high-end buyers seeking resort access and world-class amenities, achieving fast sales at top dollar.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my Cosmopolitan condo?',
+      answer:
+        'Dr. Jan Duffy specializes in Cosmopolitan condos and understands luxury Strip condo marketing, competition from luxury resorts, strict building restrictions, and the importance of highlighting resort access and exclusive amenities. She invests $5,000+ per listing in professional marketing and has proven results selling Cosmopolitan condos that did not sell with previous agents.',
+    },
+    {
+      question: 'What makes The Cosmopolitan condos unique in Las Vegas?',
+      answer:
+        'The Cosmopolitan is a luxury resort and condominium building on the Las Vegas Strip offering sophisticated living with world-class amenities, resort access, and prime Strip location. Dr. Jan Duffy specializes in marketing these luxury condos and has proven results selling Cosmopolitan condos that did not sell with other agents.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: '/' },

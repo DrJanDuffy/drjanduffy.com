@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import FAQSchema from '@/app/components/faq-schema'
 import ServiceSchema from '@/app/components/service-schema'
 import NAPSection from '@/app/components/nap-section'
 import GoogleBusinessLink from '@/app/components/google-business-link'
@@ -46,9 +47,38 @@ export default function ProcessPage() {
       duration: 'Week 3-4',
     },
   ]
+  const faqs = [
+    {
+      question: 'How long does your 30-day selling process take?',
+      answer:
+        'My average is 19 days from listing to contract. Week 1 focuses on aggressive reset with professional photography and staging. Week 2 is maximum exposure with 97-point marketing system. Week 3 is active negotiation. Week 4 is closing. Most homes that did not sell sell within 2-4 weeks.',
+    },
+    {
+      question: 'What happens during the initial consultation?',
+      answer:
+        'I provide a free analysis of why your home did not sell and what needs to change. This includes honest assessment of pricing, marketing, and strategy. No BS, just real data and actionable recommendations.',
+    },
+    {
+      question: 'What is included in your strategic reset?',
+      answer:
+        'Complete marketing reset includes professional photography worth $3,700 (twilight drone shots, 3D virtual tours, magazine-quality staging), fresh MLS listing, optimized descriptions, and complete removal of previous listing stigma.',
+    },
+    {
+      question: 'What is your 97-point marketing system?',
+      answer:
+        'My comprehensive marketing system includes social media blitzes, network activation, targeted ads, strategic open houses, professional media, MLS optimization, and aggressive follow-up on every showing. This is far beyond the "post to MLS and pray" strategy most agents use.',
+    },
+    {
+      question: 'How do you handle negotiations and offers?',
+      answer:
+        'I aggressively follow up on all showings, use buyer psychology tactics, create competitive situations, and strategically negotiate every offer. I do not accept lowball offers - I negotiate them up to maximize your sale price, averaging 98.7% of asking price.',
+    },
+  ]
+
   return (
     <>
       <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Selling Process', url: '/process' }]} />
+      <FAQSchema faqs={faqs} />
       <ServiceSchema
         serviceName="Homes That Did Not Sell Specialist Services"
         description="Complete real estate services for homes that did not sell in Las Vegas, Summerlin, and Henderson. Professional photography, staging, marketing, negotiation, and closing management."

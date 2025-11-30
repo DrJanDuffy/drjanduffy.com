@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
   title: 'Mid-Rise Condos & Lofts Las Vegas | Dr. Jan Duffy',
   description:
@@ -10,8 +11,32 @@ export const metadata = {
   },
 }
 export default function MidRiseCondosPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for mid-rise condos and lofts in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for Las Vegas mid-rise condos and lofts that did not sell, including professional photography ($3,700 investment), staging, 97-point marketing system, strategic pricing for urban living properties, specialized marketing for modern design appeal, and highlighting urban lifestyle amenities. She serves Summerlin, Henderson, and throughout Las Vegas.',
+    },
+    {
+      question: 'How long does it take to sell a mid-rise condo or loft in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Las Vegas mid-rise condos and lofts that did not sell. She specializes in urban living properties and uses strategic marketing to attract buyers seeking modern design and urban lifestyle, achieving fast sales at top dollar.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my mid-rise condo or loft in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy specializes in mid-rise condos and lofts and understands urban living marketing, modern design appeal, and urban lifestyle positioning. She invests $5,000+ per listing in professional marketing and has proven results selling mid-rise condos and lofts in Summerlin, Henderson, and throughout Las Vegas that did not sell with previous agents.',
+    },
+    {
+      question: 'What areas of Las Vegas does Dr. Jan Duffy serve for mid-rise condos and lofts?',
+      answer:
+        'Dr. Jan Duffy serves mid-rise condos and lofts throughout Las Vegas including Summerlin, Henderson, and urban Las Vegas areas. She specializes in expired mid-rise properties and has proven results selling these urban living properties that did not sell with previous agents.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: '/' },

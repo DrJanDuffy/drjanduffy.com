@@ -1,5 +1,6 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
+import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
   title: 'Vdara Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
   description:
@@ -9,8 +10,32 @@ export const metadata = {
   },
 }
 export default function VdaraCondosPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for Vdara condos in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for Vdara condos that did not sell, including luxury marketing strategies, professional photography ($3,700 investment) highlighting non-gaming appeal, premium staging, 97-point marketing system, strategic pricing for luxury non-gaming condos, specialized marketing emphasizing Aria access and sophisticated design, and attracting sophisticated buyers. She specializes in Vdara in CityCenter on the Las Vegas Strip.',
+    },
+    {
+      question: 'How long does it take to sell a Vdara condo in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Vdara condos that did not sell. She specializes in luxury non-gaming condos with Aria access at Vdara and uses sophisticated marketing strategies to attract buyers seeking sophisticated design without gaming, achieving fast sales at top dollar.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my Vdara condo?',
+      answer:
+        'Dr. Jan Duffy specializes in Vdara condos and understands luxury non-gaming condo marketing, the importance of highlighting Aria access, sophisticated design, and exclusive amenities. She invests $5,000+ per listing in professional marketing and has proven results selling Vdara condos that did not sell with previous agents.',
+    },
+    {
+      question: 'What makes Vdara condos unique in Las Vegas?',
+      answer:
+        'Vdara is a luxury non-gaming condominium and hotel building in CityCenter on the Las Vegas Strip offering sophisticated living with Aria access, world-class amenities, and sophisticated design. Dr. Jan Duffy specializes in marketing these luxury non-gaming condos and has proven results selling Vdara condos that did not sell with other agents.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import FAQSchema from '@/app/components/faq-schema'
 
 export const metadata = {
   title: 'MacDonald Ranch HOMES THAT DID NOT SELL | Dr. Jan Duffy - Henderson Real Estate Expert',
@@ -12,8 +13,32 @@ export const metadata = {
 }
 
 export default function MacDonaldRanchPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for MacDonald Ranch homes?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for MacDonald Ranch homes that did not sell, including professional photography ($3,700 investment), staging, 97-point marketing system, strategic pricing for established Henderson communities, and specialized marketing for established neighborhood properties.',
+    },
+    {
+      question: 'How long does it take to sell a home in MacDonald Ranch, Henderson?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for MacDonald Ranch homes that did not sell. She specializes in established Henderson community properties and uses strategic marketing to attract buyers for homes in MacDonald Ranch.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my MacDonald Ranch home?',
+      answer:
+        'Dr. Jan Duffy specializes in MacDonald Ranch and understands established Henderson community marketing. She invests $5,000+ per listing in professional marketing, highlights established neighborhood features and amenities, and attracts buyers looking for quality Henderson communities. She has sold homes in MacDonald Ranch that did not sell with previous agents.',
+    },
+    {
+      question: 'What makes MacDonald Ranch real estate market unique in Henderson?',
+      answer:
+        'MacDonald Ranch is an established community in Henderson offering quality properties with mature neighborhoods, established amenities, and proven value. Dr. Jan Duffy specializes in marketing these established properties and has proven results selling MacDonald Ranch homes that did not sell with other agents.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: '/' },

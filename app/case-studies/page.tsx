@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import { successStories } from '@/lib/data/success-stories'
 import { formatCurrency } from '@/lib/utils'
+import FAQSchema from '@/app/components/faq-schema'
 import Link from 'next/link'
 export const metadata = {
   title: 'Case Studies | HOME THAT DID NOT SELL Case Studies | Dr. Jan Duffy',
@@ -8,8 +9,32 @@ export const metadata = {
     'Detailed case studies of homes that DID NOT sell - now sold by Dr. Jan Duffy. See how failed listings became successful sales.',
 }
 export default function CaseStudiesPage() {
+  const faqs = [
+    {
+      question: 'What case studies does Dr. Jan Duffy have for Las Vegas homes that did not sell?',
+      answer:
+        'Dr. Jan Duffy has detailed case studies of 7 homes in Las Vegas that did not sell with previous agents, now sold. Case studies include homes in Summerlin (The Ridges, Red Rock Country Club, The Summit), Henderson, and surrounding areas, showing how failed listings became successful sales in 14-31 days.',
+    },
+    {
+      question: 'How do the case studies demonstrate Dr. Jan Duffy\'s services in Las Vegas?',
+      answer:
+        'Case studies demonstrate Dr. Jan Duffy\'s complete marketing reset, professional photography ($3,700 investment), 97-point marketing system, strategic pricing, and aggressive follow-up for Las Vegas homes. All case studies show homes in Summerlin, Henderson, and surrounding areas sold in 19 days average at 98.7% of asking price.',
+    },
+    {
+      question: 'What neighborhoods are featured in Dr. Jan Duffy\'s case studies?',
+      answer:
+        'Case studies feature homes in The Ridges, Red Rock Country Club, The Summit, Summerlin West, Henderson, and surrounding Las Vegas areas. All case studies show homes that did not sell with previous agents, now sold by Dr. Jan Duffy in 14-31 days at 97-99% of asking price.',
+    },
+    {
+      question: 'How can case studies help me sell my Las Vegas home that did not sell?',
+      answer:
+        'Case studies show real examples of how Dr. Jan Duffy sold Las Vegas homes that did not sell, demonstrating the marketing strategies, pricing approaches, and services that led to successful sales in Summerlin, Henderson, and surrounding areas. They provide proof of results: 19 day average and 98.7% of asking price.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

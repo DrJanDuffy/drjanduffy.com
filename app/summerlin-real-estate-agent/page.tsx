@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import FAQSchema from '@/app/components/faq-schema'
 import Link from 'next/link'
 
 export const metadata = {
@@ -27,8 +28,32 @@ export const metadata = {
 }
 
 export default function SummerlinAgentPage() {
+  const faqs = [
+    {
+      question: 'What Summerlin neighborhoods does Dr. Jan Duffy specialize in?',
+      answer:
+        'Dr. Jan Duffy specializes in Summerlin West luxury homes including The Ridges, Red Rock Country Club, The Summit, and newer villages. She has sold 7 homes in these areas that did not sell with previous agents, with an average of 19 days to contract and 98.7% of asking price.',
+    },
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide in Summerlin?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for Summerlin homes that did not sell, including professional photography ($3,700 investment), staging, 97-point marketing system, strategic pricing for Summerlin market, aggressive follow-up, and luxury home marketing expertise. She specializes in The Ridges, Red Rock Country Club, and The Summit.',
+    },
+    {
+      question: 'How long does it take to sell a home in Summerlin with Dr. Jan Duffy?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Summerlin homes that did not sell. She has sold 7 homes in Summerlin West (The Ridges, Red Rock Country Club, The Summit) that other agents failed to sell, achieving 98.7% of asking price on average.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy as your Summerlin real estate agent?',
+      answer:
+        'Dr. Jan Duffy specializes exclusively in Summerlin West luxury homes and homes that did not sell. She invests $5,000+ per listing in marketing, takes maximum 6 listings for 100% focus, and has proven results: 7 Summerlin homes sold that did not sell with previous agents. She knows The Ridges, Red Rock Country Club, and The Summit markets intimately.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <BreadcrumbSchema items={[
         { name: 'Home', url: '/' },
         { name: 'Summerlin Real Estate Agent', url: '/summerlin-real-estate-agent' }

@@ -1,5 +1,6 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
+import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
   title: 'Turnberry Place Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
   description:
@@ -9,8 +10,32 @@ export const metadata = {
   },
 }
 export default function TurnberryPlaceCondosPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for Turnberry Place condos in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for Turnberry Place condos that did not sell, including luxury marketing strategies, professional photography ($3,700 investment) highlighting resort access, premium staging, 97-point marketing system, strategic pricing for luxury high-rise condos, specialized marketing emphasizing resort access and exclusive amenities, and attracting luxury lifestyle seekers. She specializes in Turnberry Place in Las Vegas.',
+    },
+    {
+      question: 'How long does it take to sell a Turnberry Place condo in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Turnberry Place condos that did not sell. She specializes in luxury high-rise condos with resort access at Turnberry Place and uses sophisticated marketing strategies to attract buyers seeking luxury living with resort benefits, achieving fast sales at top dollar.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my Turnberry Place condo?',
+      answer:
+        'Dr. Jan Duffy specializes in Turnberry Place condos and understands luxury high-rise marketing, the importance of highlighting resort access, exclusive amenities, and prime location. She invests $5,000+ per listing in professional marketing and has proven results selling Turnberry Place condos that did not sell with previous agents.',
+    },
+    {
+      question: 'What makes Turnberry Place condos unique in Las Vegas?',
+      answer:
+        'Turnberry Place is a luxury high-rise condominium building in Las Vegas offering sophisticated living with resort access, exclusive amenities, and prime location. Dr. Jan Duffy specializes in marketing these luxury condos with resort access and has proven results selling Turnberry Place condos that did not sell with other agents.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

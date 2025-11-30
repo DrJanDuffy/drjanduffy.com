@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
   title: 'Las Vegas Condos | Dr. Jan Duffy - failed listing specialist',
   description:
@@ -10,8 +11,32 @@ export const metadata = {
   },
 }
 export default function LasVegasCondosPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for Las Vegas condos?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for Las Vegas condos that did not sell, including professional photography ($3,700 investment), staging, 97-point marketing system, strategic pricing for condo market, specialized marketing for high-rise, mid-rise, and condo hotels, and overcoming HOA restrictions. She serves The Strip, Summerlin, Henderson, and throughout Las Vegas.',
+    },
+    {
+      question: 'How long does it take to sell a condo in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Las Vegas condos that did not sell. She specializes in condos on The Strip, Summerlin, Henderson, and throughout Las Vegas, using targeted strategies for high-rise, mid-rise, and condo hotels to achieve fast sales at top dollar.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my Las Vegas condo?',
+      answer:
+        'Dr. Jan Duffy specializes in Las Vegas condos and understands the unique challenges condos face, including HOA restrictions, seasonal demand, and competition from new construction. She invests $5,000+ per listing in professional marketing and has proven results selling condos on The Strip, Summerlin, and Henderson that did not sell with previous agents.',
+    },
+    {
+      question: 'What areas of Las Vegas does Dr. Jan Duffy serve for condos?',
+      answer:
+        'Dr. Jan Duffy serves condos throughout Las Vegas including The Strip (high-rise condos), Summerlin (mid-rise and luxury condos), Henderson, and surrounding areas. She specializes in expired condos and has proven results selling condos that did not sell with previous agents in all these areas.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: '/' },

@@ -1,13 +1,38 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
+import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
   title: 'Veer Towers Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
   description:
     'Expert help selling expired Veer Towers condos in Las Vegas. Luxury CityCenter condos with modern design. Proven results and professional marketing.',
 }
 export default function VeerTowersCondosPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for Veer Towers condos in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for Veer Towers condos that did not sell, including luxury marketing strategies, professional photography ($3,700 investment) highlighting modern design, premium staging, 97-point marketing system, strategic pricing for CityCenter condos, specialized marketing emphasizing CityCenter access and contemporary living, and attracting modern design enthusiasts. She specializes in Veer Towers in CityCenter on the Las Vegas Strip.',
+    },
+    {
+      question: 'How long does it take to sell a Veer Towers condo in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Veer Towers condos that did not sell. She specializes in luxury CityCenter condos with modern design at Veer Towers and uses sophisticated marketing strategies to attract buyers seeking contemporary living with CityCenter access, achieving fast sales at top dollar.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my Veer Towers condo?',
+      answer:
+        'Dr. Jan Duffy specializes in Veer Towers condos and understands luxury CityCenter marketing, the importance of highlighting modern design, CityCenter access, and contemporary living. She invests $5,000+ per listing in professional marketing and has proven results selling Veer Towers condos that did not sell with previous agents.',
+    },
+    {
+      question: 'What makes Veer Towers condos unique in Las Vegas?',
+      answer:
+        'Veer Towers is a luxury condominium building in CityCenter on the Las Vegas Strip offering sophisticated living with modern design, CityCenter access, and world-class amenities. Dr. Jan Duffy specializes in marketing these luxury CityCenter condos and has proven results selling Veer Towers condos that did not sell with other agents.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

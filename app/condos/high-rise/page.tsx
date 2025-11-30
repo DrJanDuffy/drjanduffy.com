@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
   title: 'High Rise Condos Las Vegas | Dr. Jan Duffy',
   description:
@@ -10,8 +11,32 @@ export const metadata = {
   },
 }
 export default function HighRiseCondosPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for high-rise condos in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for Las Vegas high-rise condos that did not sell, including luxury marketing strategies, professional photography ($3,700 investment), premium staging, 97-point marketing system, strategic pricing for high-rise properties, specialized marketing for luxury buyers, and highlighting exclusive high-rise amenities. She serves The Strip, Summerlin, and throughout Las Vegas.',
+    },
+    {
+      question: 'How long does it take to sell a high-rise condo in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Las Vegas high-rise condos that did not sell. She specializes in luxury high-rise condos and uses sophisticated marketing strategies to attract high-end buyers, achieving fast sales at top dollar for properties in premium Las Vegas buildings.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my high-rise condo in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy specializes in high-rise condos and understands luxury high-rise marketing, competition from resorts, high HOA fees, strict building restrictions, and premium positioning. She invests $5,000+ per listing in professional marketing and has proven results selling high-rise condos on The Strip, Summerlin, and throughout Las Vegas that did not sell with previous agents.',
+    },
+    {
+      question: 'What areas of Las Vegas does Dr. Jan Duffy serve for high-rise condos?',
+      answer:
+        'Dr. Jan Duffy serves high-rise condos throughout Las Vegas including The Strip (The Cosmopolitan, Vdara, Veer Towers), Summerlin (The Summit), and other premium Las Vegas locations. She specializes in expired luxury high-rise condos and has proven results selling these properties that did not sell with previous agents.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: '/' },

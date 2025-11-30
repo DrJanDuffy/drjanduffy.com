@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
   title: 'Henderson Condos | Dr. Jan Duffy',
   description:
@@ -10,8 +11,32 @@ export const metadata = {
   },
 }
 export default function HendersonCondosPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for Henderson condos?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for Henderson condos that did not sell, including professional photography ($3,700 investment), staging, 97-point marketing system, strategic pricing for mid-rise condos and townhomes, specialized marketing for value-conscious buyers, and highlighting family-friendly amenities. She serves Green Valley, Anthem, and throughout Henderson.',
+    },
+    {
+      question: 'How long does it take to sell a condo in Henderson?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Henderson condos that did not sell. She specializes in mid-rise condos and townhomes in Henderson and uses strategic marketing to attract value-conscious and family buyers, achieving fast sales at top dollar.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my Henderson condo?',
+      answer:
+        'Dr. Jan Duffy specializes in Henderson condos and understands the unique challenges including competition with new construction, value-conscious buyers, and emphasis on family-friendly amenities. She invests $5,000+ per listing in professional marketing and has proven results selling Henderson condos in Green Valley, Anthem, and throughout Henderson that did not sell with previous agents.',
+    },
+    {
+      question: 'What areas of Henderson does Dr. Jan Duffy serve for condos?',
+      answer:
+        'Dr. Jan Duffy serves condos throughout Henderson including Green Valley, Anthem, MacDonald Ranch, and surrounding Henderson areas. She specializes in expired condos and has proven results selling mid-rise condos and townhomes that did not sell with previous agents in these Henderson neighborhoods.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: '/' },

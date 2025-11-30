@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import FAQSchema from '@/app/components/faq-schema'
 import NAPSection from '@/app/components/nap-section'
 import GoogleReviews from '@/app/components/google-reviews'
 import GoogleBusinessLink from '@/app/components/google-business-link'
@@ -30,9 +31,33 @@ export const metadata = {
 }
 
 export default function AboutPage() {
+  const faqs = [
+    {
+      question: 'What areas of Las Vegas does Dr. Jan Duffy serve?',
+      answer:
+        'Dr. Jan Duffy specializes in Summerlin West luxury homes including The Ridges, Red Rock Country Club, The Summit, and newer villages. She also serves Henderson, The Ridges, and surrounding Las Vegas areas. Her office is located at 1180 N Town Center Dr, Las Vegas, NV 89144.',
+    },
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for homes that did not sell, including professional photography ($3,700 investment), staging, 97-point marketing system, strategic pricing analysis, aggressive follow-up, negotiation, and closing management. She specializes in luxury homes in Summerlin and failed listings throughout Las Vegas.',
+    },
+    {
+      question: 'How many homes has Dr. Jan Duffy sold in Summerlin?',
+      answer:
+        'Dr. Jan Duffy has sold 7 homes in Summerlin that did not sell with previous agents. Her average is 19 days to contract and 98.7% of asking price. She specializes in The Ridges, Red Rock Country Club, The Summit, and newer Summerlin West villages.',
+    },
+    {
+      question: 'What makes Dr. Jan Duffy different from other Las Vegas real estate agents?',
+      answer:
+        'Dr. Jan Duffy invests $5,000+ per listing in marketing (vs. $100 average), takes maximum 6 listings at a time for 100% focus, uses a proven 97-point marketing system, and provides weekly updates with real accountability. She specializes exclusively in homes that did not sell.',
+    },
+  ]
+
   return (
     <>
       <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'About', url: '/about' }]} />
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

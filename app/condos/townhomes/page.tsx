@@ -1,13 +1,38 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
+import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
   title: 'Las Vegas Townhomes | Dr. Jan Duffy',
   description:
     'Expert help selling expired Las Vegas townhomes. Townhomes offer space and value. Proven results and professional marketing.',
 }
 export default function TownhomesPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for Las Vegas townhomes?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for Las Vegas townhomes that did not sell, including space-focused marketing, professional photography ($3,700 investment), staging, 97-point marketing system, strategic pricing emphasizing value, specialized marketing for space and affordability, and highlighting community living benefits. She serves Summerlin, Henderson, and throughout Las Vegas.',
+    },
+    {
+      question: 'How long does it take to sell a townhome in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Las Vegas townhomes that did not sell. She specializes in townhomes and uses space-focused marketing to attract buyers seeking single-family home alternatives, achieving fast sales at top dollar.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my Las Vegas townhome?',
+      answer:
+        'Dr. Jan Duffy specializes in Las Vegas townhomes and understands space-focused marketing, value positioning compared to single-family homes, and community living appeal. She invests $5,000+ per listing in professional marketing and has proven results selling townhomes in Summerlin, Henderson, and throughout Las Vegas that did not sell with previous agents.',
+    },
+    {
+      question: 'What areas of Las Vegas does Dr. Jan Duffy serve for townhomes?',
+      answer:
+        'Dr. Jan Duffy serves townhomes throughout Las Vegas including Summerlin, Henderson, and surrounding Las Vegas areas. She specializes in expired townhomes and has proven results selling these properties that offer space, value, and community living that did not sell with previous agents.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

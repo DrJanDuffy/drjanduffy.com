@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import FAQSchema from '@/app/components/faq-schema'
 
 export const metadata = {
   title: 'The Summit HOMES THAT DID NOT SELL | Dr. Jan Duffy - Luxury Real Estate Expert',
@@ -12,8 +13,32 @@ export const metadata = {
 }
 
 export default function TheSummitPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for The Summit homes?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for The Summit homes that did not sell, including gated community marketing, professional photography ($3,700 investment), staging, 97-point marketing system, strategic pricing for gated communities, and specialized marketing to attract security-conscious buyers in this premier Las Vegas community.',
+    },
+    {
+      question: 'How long does it take to sell a home in The Summit, Las Vegas?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for The Summit homes that did not sell. She specializes in gated community properties in this premier Las Vegas community and uses specialized marketing to attract buyers for properties ranging from $900K to $8M+.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my Summit home?',
+      answer:
+        'Dr. Jan Duffy specializes in The Summit and understands gated community marketing for this premier Las Vegas community. She invests $5,000+ per listing in professional marketing, highlights security features and gated community benefits, and attracts security-conscious buyers. She has sold homes in The Summit that did not sell with previous agents.',
+    },
+    {
+      question: 'What makes The Summit real estate market unique in Las Vegas?',
+      answer:
+        'The Summit is Las Vegas\'s premier gated luxury community with properties ranging from $900K to $8M+, offering luxury estates with gated security, exclusive amenities, and sophisticated living. Dr. Jan Duffy specializes in marketing these gated community properties and has proven results selling Summit homes that did not sell with other agents.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: '/' },

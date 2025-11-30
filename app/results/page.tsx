@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import { successStories } from '@/lib/data/success-stories'
 import { formatCurrency } from '@/lib/utils'
+import FAQSchema from '@/app/components/faq-schema'
 import { TrendingUp, Clock, DollarSign, Home } from 'lucide-react'
 export const metadata = {
   title: 'Results & Statistics | Dr. Jan Duffy',
@@ -37,8 +38,32 @@ export default function ResultsPage() {
     successStories.reduce((sum, story) => sum + story.soldPercentage, 0) /
     successStories.length
   ).toFixed(1)
+  const faqs = [
+    {
+      question: 'What are Dr. Jan Duffy\'s real estate results in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy has sold 7 homes in Las Vegas that did not sell with previous agents, with an average of 19 days to contract and 98.7% of asking price. Results include homes in Summerlin (The Ridges, Red Rock Country Club, The Summit), Henderson, and surrounding Las Vegas areas.',
+    },
+    {
+      question: 'How long does it take to sell homes with Dr. Jan Duffy in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Las Vegas homes that did not sell. She has sold homes in Summerlin, Henderson, and surrounding areas within 14-31 days, achieving 97-99% of asking price on average.',
+    },
+    {
+      question: 'What percentage of asking price does Dr. Jan Duffy achieve in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy averages 98.7% of asking price for Las Vegas homes that did not sell. She has achieved 97-99% of asking price on all 7 homes sold in Summerlin, Henderson, and surrounding areas, significantly higher than market averages.',
+    },
+    {
+      question: 'What Las Vegas neighborhoods has Dr. Jan Duffy had success in?',
+      answer:
+        'Dr. Jan Duffy has sold homes that did not sell in The Ridges, Red Rock Country Club, The Summit, Summerlin West, Henderson, and surrounding Las Vegas areas. She specializes in luxury homes in Summerlin and has proven results throughout the Las Vegas Valley.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

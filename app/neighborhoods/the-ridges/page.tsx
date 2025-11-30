@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import FAQSchema from '@/app/components/faq-schema'
 
 export const metadata = {
   title: 'The Ridges HOMES THAT DID NOT SELL | Dr. Jan Duffy - Luxury Real Estate Expert',
@@ -12,8 +13,32 @@ export const metadata = {
 }
 
 export default function TheRidgesPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for The Ridges homes?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for The Ridges homes that did not sell, including luxury marketing strategies, professional photography ($3,700 investment), staging, 97-point marketing system, strategic pricing for The Ridges market, and specialized marketing to attract high-end buyers for this exclusive Summerlin community.',
+    },
+    {
+      question: 'How long does it take to sell a home in The Ridges, Summerlin?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for The Ridges homes that did not sell. She specializes in this exclusive Summerlin community and uses luxury marketing strategies to attract sophisticated buyers for properties ranging from $1M to $10M+.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my home in The Ridges?',
+      answer:
+        'Dr. Jan Duffy specializes in The Ridges and understands luxury marketing for this exclusive Summerlin community. She invests $5,000+ per listing in professional marketing, highlights exclusive amenities, and attracts sophisticated buyers. She has sold homes in The Ridges that did not sell with previous agents.',
+    },
+    {
+      question: 'What makes The Ridges real estate market unique in Summerlin?',
+      answer:
+        'The Ridges is Summerlin\'s most exclusive luxury community with properties ranging from $1M to $10M+, offering golf course access, mountain views, and world-class amenities. Dr. Jan Duffy specializes in marketing these luxury estates and has proven results selling The Ridges homes that did not sell with other agents.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: '/' },

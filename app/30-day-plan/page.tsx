@@ -1,11 +1,35 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
+import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
   title: 'The 30-Day Plan | Dr. Jan Duffy',
   description:
     'Week-by-week breakdown of how Dr. Jan Duffy sells homes that DID NOT sell in 30 days or less.',
 }
 export default function ThirtyDayPlanPage() {
+  const faqs = [
+    {
+      question: 'How does Dr. Jan Duffy\'s 30-day plan work for Las Vegas homes?',
+      answer:
+        'Dr. Jan Duffy\'s 30-day plan includes Week 1: Aggressive reset with professional photography and staging, Week 2: Maximum exposure with 97-point marketing system, Week 3: Active negotiation, Week 4: Closing. This system sells Las Vegas homes that did not sell in 19 days average at 98.7% of asking price.',
+    },
+    {
+      question: 'What services are included in the 30-day plan for Summerlin and Henderson homes?',
+      answer:
+        'The 30-day plan includes professional photography ($3,700 investment), staging, 3D virtual tours, fresh MLS listing, social media blitzes, network activation with 500+ agents, strategic open houses, aggressive follow-up, and negotiation. This plan works for Summerlin, Henderson, and surrounding Las Vegas areas.',
+    },
+    {
+      question: 'How long does it actually take to sell a home with the 30-day plan?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract, well within the 30-day plan timeframe. She has sold 7 homes in Summerlin, Henderson, and surrounding areas that did not sell with previous agents, all within 14-31 days at 97-99% of asking price.',
+    },
+    {
+      question: 'What makes the 30-day plan different for Las Vegas homes that did not sell?',
+      answer:
+        'The 30-day plan provides complete marketing reset, strategic pricing for Las Vegas market, aggressive marketing with $5,000+ investment per listing, and weekly accountability. This eliminates the stigma of unsold homes and sells them fast at top dollar in Summerlin, Henderson, and surrounding areas.',
+    },
+  ]
+
   const weeks = [
     {
       week: 1,
@@ -54,6 +78,7 @@ export default function ThirtyDayPlanPage() {
   ]
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

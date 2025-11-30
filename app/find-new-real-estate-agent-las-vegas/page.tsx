@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import FAQSchema from '@/app/components/faq-schema'
 import Link from 'next/link'
 
 export const metadata = {
@@ -27,8 +28,37 @@ export const metadata = {
 }
 
 export default function FindNewAgentPage() {
+  const faqs = [
+    {
+      question: 'When should I find a new real estate agent?',
+      answer:
+        'You should find a new agent if your listing expired, you received zero offers after 60+ days, your agent disappeared or stopped communicating, you had multiple price drops with no results, or your agent suggested another price drop without a new marketing strategy.',
+    },
+    {
+      question: 'What should I look for in a new real estate agent?',
+      answer:
+        'Look for an agent who specializes in homes that did not sell, invests significantly in marketing ($5,000+ vs. $100), takes limited listings for focused attention, has proven results with expired listings, and provides weekly updates with real accountability.',
+    },
+    {
+      question: 'How do I know if an agent can actually sell my home?',
+      answer:
+        'Ask for specific results: How many homes that did not sell have they sold? What is their average days to contract? What percentage of asking price do they achieve? Ask for references from sellers whose homes did not sell with previous agents.',
+    },
+    {
+      question: 'What questions should I ask a potential new agent?',
+      answer:
+        'Ask: How many listings do you take at once? How much do you invest in marketing per listing? What is your system for selling homes that did not sell? How often will I receive updates? What are your specific results with expired listings? Can you provide references?',
+    },
+    {
+      question: 'Will switching agents hurt my chances of selling?',
+      answer:
+        'No. Switching to the right agent actually improves your chances. Homes that did not sell need a complete reset: new photos, new pricing strategy, fresh MLS listing, and aggressive marketing. The right agent can eliminate the stigma and sell your home fast at top dollar.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <BreadcrumbSchema items={[
         { name: 'Home', url: '/' },
         { name: 'Find New Real Estate Agent Las Vegas', url: '/find-new-real-estate-agent-las-vegas' }

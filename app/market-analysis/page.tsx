@@ -1,13 +1,38 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
+import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
   title: 'Market Analysis | Las Vegas Real Estate Market | Dr. Jan Duffy',
   description:
     'Current Las Vegas real estate market analysis: inventory, pricing trends, and what it means for HOMES THAT DID NOT SELL.',
 }
 export default function MarketAnalysisPage() {
+  const faqs = [
+    {
+      question: 'What is the current Las Vegas real estate market like for homes that did not sell?',
+      answer:
+        'Las Vegas has 7,500+ active listings, with 20-30% expected to fail to sell (1,500-2,250 homes). Days on market are increasing, creating opportunities for homes that did not sell. Dr. Jan Duffy specializes in these homes in Summerlin, Henderson, and surrounding areas, achieving 19 day average and 98.7% of asking price.',
+    },
+    {
+      question: 'How does the Las Vegas market affect homes that did not sell?',
+      answer:
+        'The Las Vegas market has growing inventory and increasing days on market, which creates more opportunities for homes that did not sell. Dr. Jan Duffy uses market analysis to strategically price and market these homes in Summerlin, Henderson, and surrounding areas, achieving faster sales at top dollar.',
+    },
+    {
+      question: 'What market analysis services does Dr. Jan Duffy provide for Las Vegas homes?',
+      answer:
+        'Dr. Jan Duffy provides comprehensive market analysis including inventory trends, pricing analysis, buyer behavior, and competitive positioning for Las Vegas homes that did not sell. She uses this analysis to strategically price and market homes in Summerlin, Henderson, and surrounding areas.',
+    },
+    {
+      question: 'How does market analysis help sell Las Vegas homes that did not sell?',
+      answer:
+        'Market analysis helps identify the right pricing strategy, buyer trends, and competitive positioning for Las Vegas homes that did not sell. Dr. Jan Duffy uses this analysis to strategically market homes in Summerlin, Henderson, and surrounding areas, achieving 19 day average and 98.7% of asking price.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

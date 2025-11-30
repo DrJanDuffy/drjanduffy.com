@@ -1,5 +1,6 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
+import FAQSchema from '@/app/components/faq-schema'
 import { FileText, Download, BookOpen, Video, HelpCircle } from 'lucide-react'
 export const metadata = {
   title: 'Resources | HOME THAT DID NOT SELL Resources | Dr. Jan Duffy',
@@ -63,8 +64,32 @@ export default function ResourcesPage() {
       link: '/guides/sellers-guide',
     },
   ]
+  const faqs = [
+    {
+      question: 'What free resources does Dr. Jan Duffy offer for Las Vegas home sellers?',
+      answer:
+        'Dr. Jan Duffy offers free resources including "7 Reasons Your Home Did Not Sell" report, cost calculator for unsold homes, 30-day sale plan guide, agent performance quiz, and educational content. All resources are designed to help Las Vegas, Summerlin, and Henderson sellers understand why their homes did not sell.',
+    },
+    {
+      question: 'How can I calculate the cost of my unsold home in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy provides a free cost calculator tool that calculates exactly how much money you\'re losing every day your Las Vegas home sits unsold. The calculator factors in mortgage payments, HOA fees, insurance, utilities, and property taxes for Summerlin, Henderson, and surrounding areas.',
+    },
+    {
+      question: 'What educational resources are available for Las Vegas home sellers?',
+      answer:
+        'Dr. Jan Duffy provides comprehensive resources including guides on why homes fail to sell, the 30-day sale plan, agent comparison tools, and market analysis for Las Vegas, Summerlin, and Henderson. All resources are free and designed to help sellers make informed decisions.',
+    },
+    {
+      question: 'How do I access Dr. Jan Duffy\'s free resources for Las Vegas homes?',
+      answer:
+        'All free resources are available on the resources page, including downloadable reports, interactive calculators, guides, and educational content. Resources are specifically designed for Las Vegas, Summerlin, Henderson, and surrounding area home sellers whose homes did not sell.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

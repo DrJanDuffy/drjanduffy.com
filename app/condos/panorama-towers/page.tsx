@@ -1,5 +1,6 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
+import FAQSchema from '@/app/components/faq-schema'
 export const metadata = {
   title: 'Panorama Towers Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
   description:
@@ -9,8 +10,32 @@ export const metadata = {
   },
 }
 export default function PanoramaTowersCondosPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for Panorama Towers condos in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for Panorama Towers condos that did not sell, including luxury marketing strategies, professional photography ($3,700 investment) highlighting Strip views, premium staging, 97-point marketing system, strategic pricing for luxury high-rise condos, specialized marketing emphasizing Strip views and world-class amenities, and attracting luxury lifestyle seekers. She specializes in Panorama Towers in Las Vegas.',
+    },
+    {
+      question: 'How long does it take to sell a Panorama Towers condo in Las Vegas?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Panorama Towers condos that did not sell. She specializes in luxury high-rise condos with Strip views at Panorama Towers and uses sophisticated marketing strategies to attract buyers seeking luxury living with Strip views, achieving fast sales at top dollar.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my Panorama Towers condo?',
+      answer:
+        'Dr. Jan Duffy specializes in Panorama Towers condos and understands luxury high-rise marketing, the importance of highlighting Strip views, world-class amenities, and prime location. She invests $5,000+ per listing in professional marketing and has proven results selling Panorama Towers condos that did not sell with previous agents.',
+    },
+    {
+      question: 'What makes Panorama Towers condos unique in Las Vegas?',
+      answer:
+        'Panorama Towers is a luxury high-rise condominium building in Las Vegas offering sophisticated living with Strip views, world-class amenities, and prime location. Dr. Jan Duffy specializes in marketing these luxury condos with Strip views and has proven results selling Panorama Towers condos that did not sell with other agents.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

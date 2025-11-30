@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import FAQSchema from '@/app/components/faq-schema'
 
 export const metadata = {
   title: 'Red Rock Country Club HOMES THAT DID NOT SELL | Dr. Jan Duffy - Golf Course Real Estate Expert',
@@ -12,8 +13,32 @@ export const metadata = {
 }
 
 export default function RedRockCountryClubPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for Red Rock Country Club homes?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for Red Rock Country Club homes that did not sell, including golf course property marketing, professional photography ($3,700 investment), staging, 97-point marketing system, strategic pricing for golf course properties, and specialized marketing to attract golf-conscious buyers in this premier Summerlin community.',
+    },
+    {
+      question: 'How long does it take to sell a home in Red Rock Country Club, Summerlin?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Red Rock Country Club homes that did not sell. She specializes in golf course properties in this premier Summerlin community and uses specialized marketing to attract buyers for properties ranging from $800K to $5M+.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my Red Rock Country Club home?',
+      answer:
+        'Dr. Jan Duffy specializes in Red Rock Country Club and understands golf course property marketing for this premier Summerlin community. She invests $5,000+ per listing in professional marketing, highlights golf course access and features, and attracts golf-conscious buyers. She has sold homes in Red Rock Country Club that did not sell with previous agents.',
+    },
+    {
+      question: 'What makes Red Rock Country Club real estate market unique in Summerlin?',
+      answer:
+        'Red Rock Country Club is Summerlin\'s premier golf course community with properties ranging from $800K to $5M+, offering luxury properties with golf course access, mountain views, and world-class amenities. Dr. Jan Duffy specializes in marketing these golf course properties and has proven results selling Red Rock Country Club homes that did not sell with other agents.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: '/' },

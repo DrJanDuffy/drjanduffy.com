@@ -1,4 +1,5 @@
 import Header from '@/app/components/header'
+import FAQSchema from '@/app/components/faq-schema'
 import LeadForm from '@/app/components/lead-form'
 import { Check, X } from 'lucide-react'
 export const metadata = {
@@ -71,8 +72,32 @@ export default function WhyChooseMePage() {
       drJan: 'Proven results with real consequences',
     },
   ]
+  const faqs = [
+    {
+      question: 'Why should I choose Dr. Jan Duffy over other agents?',
+      answer:
+        'I specialize exclusively in homes that did not sell, invest $5,000+ per listing in marketing (vs. $100 average), take maximum 6 listings at a time for 100% focus, and have proven results: 7 homes that did not sell - now sold with 19 day average and 98.7% of asking price.',
+    },
+    {
+      question: 'How is your approach different from my previous agent?',
+      answer:
+        'I use a 97-point marketing system with professional photography worth $3,700, aggressive follow-up on every showing, weekly updates with real accountability, and strategic negotiation. Your previous agent likely posted to MLS and disappeared.',
+    },
+    {
+      question: 'What results can I expect with Dr. Jan Duffy?',
+      answer:
+        'My average is 19 days from listing to contract and 98.7% of asking price on homes that did not sell. I have sold 7 homes that other agents failed to sell, all in Summerlin West luxury areas.',
+    },
+    {
+      question: 'Do you take on too many listings like other agents?',
+      answer:
+        'No. I take maximum 6 listings at a time, ensuring you get 100% focus. Most agents juggle 47+ listings, giving you only 2.1% of their attention. With me, you get dedicated service and results.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

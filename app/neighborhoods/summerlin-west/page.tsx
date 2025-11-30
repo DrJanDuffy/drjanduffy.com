@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import FAQSchema from '@/app/components/faq-schema'
 
 export const metadata = {
   title: 'Summerlin West HOMES THAT DID NOT SELL | Dr. Jan Duffy - Expert Real Estate Agent',
@@ -12,8 +13,32 @@ export const metadata = {
 }
 
 export default function SummerlinWestPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for Summerlin West homes?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for Summerlin West homes that did not sell, including luxury marketing strategies, professional photography ($3,700 investment), staging, 97-point marketing system, strategic pricing for Summerlin West market, and specialized marketing for luxury estates, golf course properties, and gated communities.',
+    },
+    {
+      question: 'How long does it take to sell a home in Summerlin West?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Summerlin West homes that did not sell. She has sold 7 homes in Summerlin West that did not sell with previous agents, achieving 98.7% of asking price on average for properties ranging from $675K to $10M+.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my Summerlin West home?',
+      answer:
+        'Dr. Jan Duffy specializes in Summerlin West luxury homes and has proven results: 7 homes sold that did not sell with previous agents, 19 day average, 98.7% of asking price. She invests $5,000+ per listing in professional marketing and understands the Summerlin West luxury market.',
+    },
+    {
+      question: 'What makes Summerlin West real estate market unique?',
+      answer:
+        'Summerlin West is Las Vegas\'s premier luxury community with properties ranging from $675K to $10M+, offering luxury estates, golf course properties, gated communities, and sophisticated living. Dr. Jan Duffy specializes in marketing these luxury properties and has proven results in The Ridges, Red Rock Country Club, and The Summit.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: '/' },

@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import FAQSchema from '@/app/components/faq-schema'
 
 export const metadata = {
   title: 'Mountains Edge HOMES THAT DID NOT SELL | Dr. Jan Duffy - Las Vegas Real Estate Expert',
@@ -12,8 +13,32 @@ export const metadata = {
 }
 
 export default function MountainsEdgePage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for Mountains Edge homes?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for Mountains Edge homes that did not sell, including professional photography ($3,700 investment), staging, 97-point marketing system, strategic pricing for master-planned communities, and specialized marketing for family-friendly properties in this Las Vegas neighborhood.',
+    },
+    {
+      question: 'How long does it take to sell a home in Mountains Edge, Las Vegas?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Mountains Edge homes that did not sell. She specializes in master-planned community properties in Las Vegas and uses strategic marketing to attract buyers for family-friendly homes in Mountains Edge.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my Mountains Edge home?',
+      answer:
+        'Dr. Jan Duffy specializes in Mountains Edge and understands master-planned community marketing for this Las Vegas neighborhood. She invests $5,000+ per listing in professional marketing, highlights community amenities and family-friendly features, and attracts buyers looking for quality Las Vegas communities. She has sold homes in Mountains Edge that did not sell with previous agents.',
+    },
+    {
+      question: 'What makes Mountains Edge real estate market unique in Las Vegas?',
+      answer:
+        'Mountains Edge is a master-planned community in Las Vegas offering family-friendly properties with community amenities, parks, trails, and quality schools. Dr. Jan Duffy specializes in marketing these properties and has proven results selling Mountains Edge homes that did not sell with other agents.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: '/' },

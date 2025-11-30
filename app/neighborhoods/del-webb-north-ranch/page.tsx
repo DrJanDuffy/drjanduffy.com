@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import FAQSchema from '@/app/components/faq-schema'
 
 export const metadata = {
   title: 'Del Webb North Ranch HOMES THAT DID NOT SELL | Dr. Jan Duffy - Expert Real Estate Agent',
@@ -12,8 +13,32 @@ export const metadata = {
 }
 
 export default function DelWebbNorthRanchPage() {
+  const faqs = [
+    {
+      question: 'What real estate services does Dr. Jan Duffy provide for Del Webb North Ranch homes?',
+      answer:
+        'Dr. Jan Duffy provides complete real estate services for Del Webb North Ranch homes that did not sell, including professional photography ($3,700 investment), staging, 97-point marketing system, strategic pricing for 55+ active adult communities, and specialized marketing to attract active adult buyers in this Las Vegas neighborhood.',
+    },
+    {
+      question: 'How long does it take to sell a home in Del Webb North Ranch, Las Vegas?',
+      answer:
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Del Webb North Ranch homes that did not sell. She specializes in 55+ active adult community properties in Las Vegas and uses strategic marketing to attract active adult buyers for homes in Del Webb North Ranch.',
+    },
+    {
+      question: 'Why choose Dr. Jan Duffy to sell my Del Webb North Ranch home?',
+      answer:
+        'Dr. Jan Duffy specializes in Del Webb North Ranch and understands 55+ active adult community marketing for this Las Vegas neighborhood. She invests $5,000+ per listing in professional marketing, highlights active adult amenities and lifestyle, and attracts buyers looking for 55+ communities. She has sold homes in Del Webb North Ranch that did not sell with previous agents.',
+    },
+    {
+      question: 'What makes Del Webb North Ranch real estate market unique in Las Vegas?',
+      answer:
+        'Del Webb North Ranch is a 55+ active adult community in Las Vegas offering properties designed for active adults with community amenities, clubs, and lifestyle features. Dr. Jan Duffy specializes in marketing these properties and has proven results selling Del Webb North Ranch homes that did not sell with other agents.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: '/' },
