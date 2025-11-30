@@ -197,14 +197,14 @@ export default function ComparisonPage() {
               <div className="mt-12 bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4 text-center">The Investment Difference</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  The difference in investment is dramatic: $100 vs. $5,000+. But the difference in results is even more dramatic: expired vs. sold, $0 commission vs. full commission, $4,964/month loss vs. top dollar sale.
+                  The difference in investment is dramatic: $100 vs. $5,000+. But the difference in results is even more dramatic: expired vs. sold, no buyers vs. qualified buyers, $4,964/month loss vs. top dollar sale.
                 </p>
-                <h3 className="text-2xl font-bold mb-3">Why I Invest More</h3>
+                <h3 className="text-2xl font-bold mb-3">Why I Invest More to Bring Buyers</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  I invest more because I know it works. Professional photography increases showing requests by 300% and sale price by 5-10%. Strategic marketing brings qualified buyers. Aggressive follow-up creates urgency. The $5,000+ investment pays for itself through faster sales and higher prices.
+                  I invest more because I bring buyers. Professional photography increases showing requests by 300% and sale price by 5-10%. Strategic marketing brings qualified buyers who are ready to make offers. Aggressive follow-up converts interest into offers. The $5,000+ investment pays for itself by bringing buyers who pay top dollar and close fast.
                 </p>
                 <p className="text-lg text-gray-700 mb-4">
-                  The $5,000+ investment is not a cost - it's an investment in your success. Professional photography showcases your home at its best, attracting more buyers and commanding higher prices. Strategic marketing reaches qualified buyers who are ready to purchase. Aggressive follow-up ensures every showing leads to an offer. The investment pays for itself through faster sales and higher prices. Your previous agent saw it as a cost and minimized it. I see it as an investment and maximize it.
+                  The $5,000+ investment is not a cost - it's an investment in bringing buyers. Professional photography showcases your home at its best, attracting more buyers and commanding higher prices. Strategic marketing reaches qualified buyers who are ready to purchase. Aggressive follow-up ensures every showing leads to an offer. The investment pays for itself by bringing buyers who pay top dollar. Your previous agent saw it as a cost and minimized it. I see it as an investment in bringing buyers and maximize it.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Why Your Agent Invested Less</h3>
                 <p className="text-lg text-gray-700 mb-4">

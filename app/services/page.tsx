@@ -78,8 +78,8 @@ export default function ServicesPage() {
     },
     {
       icon: Users,
-      title: 'Aggressive Follow-Up',
-      description: 'Relentless follow-up on all showings with buyer psychology tactics and strategic negotiation.',
+      title: 'Aggressive Follow-Up That Brings Buyers',
+      description: 'Relentless follow-up on all showings that brings buyers and converts interest into offers with buyer psychology tactics and strategic negotiation.',
       features: [
         'Immediate showing follow-up',
         'Buyer psychology tactics',
@@ -131,7 +131,7 @@ export default function ServicesPage() {
                 COMPLETE SERVICES
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Everything needed to sell your HOME THAT DID NOT SELL fast and at top dollar
+                Everything needed to bring buyers and sell your HOME THAT DID NOT SELL fast and at top dollar
               </p>
               <div className="max-w-4xl mx-auto mb-12">
                 <div className="space-y-6 mb-12">
@@ -155,10 +155,10 @@ export default function ServicesPage() {
                   I invest $5,000+ in professional marketing per listing - 50x more than the average agent. This comprehensive service package includes professional photography, staging, complete MLS reset, aggressive marketing, and strategic negotiation. See <Link href="/process" className="text-primary font-semibold hover:underline">my 30-day selling process</Link>, learn about <Link href="/marketing-strategy" className="text-primary font-semibold hover:underline">my 97-point marketing system</Link>, and check out my <Link href="/guides/sellers-guide" className="text-primary font-semibold hover:underline">complete seller's guide</Link> for comprehensive guidance on evaluating agents and preparing to relist.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Your previous agent failed you because they DID NOT provide complete services. They took iPhone photos, posted to MLS, held maybe one open house, and disappeared. That's not service. That's negligence. I provide complete services that transform HOMES THAT DID NOT SELL into successful sales. Every service is designed to overcome stigma of unsold homes, maximize exposure, and attract qualified buyers.
+                  Your previous agent failed you because they DID NOT bring buyers. They took iPhone photos, posted to MLS, held maybe one open house, and disappeared. They listed and waited. That's not service. That's negligence. I bring buyers through complete services that transform HOMES THAT DID NOT SELL into successful sales. Every service is designed to bring qualified buyers: aggressive marketing, strategic pricing, and relentless follow-up.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  The difference between my services and your previous agent's services is dramatic. They spent $100. I spend $5,000+. They used minimal marketing. I use a 97-point marketing system. They had zero follow-up. I have aggressive follow-up. They made promises. I deliver proven results. The result? They got you expired. I get you sold. Fast. At top dollar. With zero excuses.
+                  The difference between my services and your previous agent's services is dramatic. They spent $100. I spend $5,000+. They used minimal marketing. I use a 97-point marketing system that brings buyers. They had zero follow-up. I have aggressive follow-up that converts interest into offers. They listed and waited. I bring buyers. They made promises. I deliver proven results. The result? They got you expired. I bring buyers and get you sold. Fast. At top dollar. With zero excuses.
                 </p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
